@@ -228,6 +228,7 @@ repo. Dùng `.env.local.example` làm danh sách biến cần nhập vào Vercel
 - `GEMINI_API_KEY`
 - `GEMINI_MODEL`
 - `GROQ_API_KEY`
+- `GOOGLE_SITE_VERIFICATION` (chỉ cần nếu xác minh Search Console bằng HTML tag)
 
 Nên thêm các biến cho cả **Production**, **Preview** và **Development** nếu bạn
 muốn các branch/preview của Vercel có đầy đủ chức năng.
@@ -246,6 +247,31 @@ Vercel (`ten-du-an.vercel.app`). Không làm bước này thì nút đăng nhậ
 lỗi `auth/unauthorized-domain`.
 
 Mỗi lần `git push` sau đó Vercel sẽ tự deploy lại.
+
+### SEO và Google Search Console
+
+Các route SEO đã có sẵn:
+
+- `https://english.khanhportfolio.info/robots.txt`
+- `https://english.khanhportfolio.info/sitemap.xml`
+- `https://english.khanhportfolio.info/og-image.png`
+
+Sau khi deploy:
+
+1. Vào https://search.google.com/search-console
+2. Chọn **URL-prefix** và nhập `https://english.khanhportfolio.info/`
+3. Chọn xác minh bằng **HTML tag**
+4. Copy giá trị `content` trong thẻ `google-site-verification`
+5. Thêm giá trị đó vào biến `GOOGLE_SITE_VERIFICATION` trên Vercel
+6. Redeploy rồi bấm **Verify** trong Search Console
+7. Trong Search Console, mở **Sitemaps** và gửi `sitemap.xml`
+
+Nếu chọn xác minh bằng DNS, không cần biến `GOOGLE_SITE_VERIFICATION`; chỉ cần
+thêm bản ghi TXT mà Google cung cấp vào nơi quản lý DNS của domain.
+
+Preview khi gửi link dùng Open Graph title, description và ảnh thương hiệu. Các
+ứng dụng chat có thể lưu cache link cũ; sau khi deploy hãy gửi lại link hoặc dùng
+trình debug chia sẻ của nền tảng đó để yêu cầu đọc lại metadata.
 
 ---
 

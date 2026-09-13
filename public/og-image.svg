@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#080717"/>
+      <stop offset="0.52" stop-color="#11102A"/>
+      <stop offset="1" stop-color="#06243B"/>
+    </linearGradient>
+    <radialGradient id="violet" cx="0" cy="0" r="1" gradientTransform="translate(150 40) rotate(35) scale(520 440)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C3AED" stop-opacity=".48"/>
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="aqua" cx="0" cy="0" r="1" gradientTransform="translate(1130 520) rotate(205) scale(530 420)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0EA5E9" stop-opacity=".4"/>
+      <stop offset="1" stop-color="#0EA5E9" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="mark" x1="36" y1="28" x2="156" y2="148" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#fff" stroke-opacity=".045"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#background)"/>
+  <rect width="1200" height="630" fill="url(#violet)"/>
+  <rect width="1200" height="630" fill="url(#aqua)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <rect x="64" y="66" width="124" height="124" rx="32" fill="url(#mark)"/>
+  <path d="m126 88 9 34 34 9-34 9-9 34-9-34-34-9 34-9 9-34Z" fill="#fff"/>
+  <path d="m157 91 4 19 19 4-19 4-4 19-4-19-19-4 19-4 4-19Z" fill="#fff" fill-opacity=".72"/>
+  <text x="224" y="132" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700">IELTS Lab</text>
+  <text x="72" y="310" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="66" font-weight="700">Luyện IELTS đủ 4 kỹ năng</text>
+  <text x="72" y="384" fill="#C4B5FD" font-family="Arial, Helvetica, sans-serif" font-size="66" font-weight="700">chấm điểm bằng AI</text>
+  <text x="76" y="458" fill="#CBD5E1" font-family="Arial, Helvetica, sans-serif" font-size="27">10 đề full · lưu tiến độ · band score · phân tích cá nhân</text>
+  <rect x="72" y="522" width="248" height="4" rx="2" fill="#A78BFA"/>
+  <rect x="332" y="522" width="116" height="4" rx="2" fill="#38BDF8"/>
+</svg>

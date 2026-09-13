@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import {
   ArrowRight,
@@ -18,6 +19,46 @@ import { ButtonLink } from "@/components/ui/Button";
 import { Badge } from "@/components/ui/Badge";
 import { SKILLS } from "@/lib/skills";
 import { HomeWorkspace } from "@/components/HomeWorkspace";
+import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/site";
+
+export const metadata: Metadata = {
+  title: "Luyện IELTS 4 kỹ năng với AI",
+  description: SITE_DESCRIPTION,
+  alternates: { canonical: "/" },
+};
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": `${SITE_URL}/#website`,
+      url: SITE_URL,
+      name: SITE_NAME,
+      description: SITE_DESCRIPTION,
+      inLanguage: "vi-VN",
+    },
+    {
+      "@type": "EducationalOrganization",
+      "@id": `${SITE_URL}/#organization`,
+      name: SITE_NAME,
+      url: SITE_URL,
+      description: SITE_DESCRIPTION,
+      areaServed: "VN",
+      knowsAbout: ["IELTS Listening", "IELTS Reading", "IELTS Writing", "IELTS Speaking"],
+    },
+    {
+      "@type": "WebApplication",
+      "@id": `${SITE_URL}/#app`,
+      name: SITE_NAME,
+      url: SITE_URL,
+      applicationCategory: "EducationalApplication",
+      operatingSystem: "Web",
+      isAccessibleForFree: true,
+      description: SITE_DESCRIPTION,
+    },
+  ],
+};
 
 const ICONS = {
   listening: Headphones,
@@ -72,6 +113,10 @@ const FEATURES = [
 export default function HomePage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
       <HomeWorkspace />
 
       {/* ---------------- Hero ---------------- */}
