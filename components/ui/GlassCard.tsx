@@ -22,7 +22,7 @@ export function GlassCard({
   return (
     <Tag
       className={cn(
-        "relative rounded-2xl",
+        "relative rounded-3xl",
         strong ? "glass-strong" : "glass",
         hover && "glass-hover",
         className
@@ -32,7 +32,7 @@ export function GlassCard({
       {glowColor && (
         <div
           aria-hidden
-          className="pointer-events-none absolute -inset-px rounded-2xl opacity-0 transition-opacity duration-500 group-hover:opacity-100"
+          className="pointer-events-none absolute -inset-px rounded-3xl opacity-0 transition-opacity duration-500 group-hover:opacity-100"
           style={{
             background: `radial-gradient(420px circle at 50% 0%, ${glowColor}22, transparent 70%)`,
           }}

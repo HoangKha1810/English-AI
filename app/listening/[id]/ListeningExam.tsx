@@ -110,7 +110,7 @@ export function ListeningExam({ test }: { test: ListeningTest }) {
       <div className="mx-auto max-w-3xl px-4 py-14 sm:px-6">
         <Link
           href="/listening"
-          className="mb-6 inline-flex items-center gap-1.5 text-sm text-slate-400 hover:text-white"
+          className="mb-6 inline-flex items-center gap-1.5 text-sm text-ink-500 hover:text-ink-900"
         >
           <ArrowLeft className="size-4" />
           Tất cả đề Listening
@@ -128,18 +128,18 @@ export function ListeningExam({ test }: { test: ListeningTest }) {
               { k: "Số câu", v: `${questionIds.length} câu` },
               { k: "Section", v: `${test.sections.length}` },
             ].map((x) => (
-              <div key={x.k} className="rounded-xl border border-white/8 bg-white/4 p-3.5">
-                <dt className="text-[0.7rem] text-slate-400">{x.k}</dt>
-                <dd className="font-display mt-1 text-lg font-semibold text-white">
+              <div key={x.k} className="rounded-2xl border border-rose-200/70 bg-white/60 p-3.5">
+                <dt className="text-[0.7rem] text-ink-500">{x.k}</dt>
+                <dd className="font-display mt-1 text-lg font-semibold text-ink-900">
                   {x.v}
                 </dd>
               </div>
             ))}
           </dl>
 
-          <div className="mt-7 space-y-2.5 text-[0.9rem] leading-relaxed text-slate-300">
-            <p className="font-medium text-white">Cách làm</p>
-            <ul className="space-y-1.5 text-slate-400">
+          <div className="mt-7 space-y-2.5 text-[0.9rem] leading-relaxed text-ink-700">
+            <p className="font-medium text-ink-900">Cách làm</p>
+            <ul className="space-y-1.5 text-ink-500">
               <li>• Mỗi section có một đoạn audio riêng, bấm nút phát để bắt đầu nghe.</li>
               <li>• Bạn được nghe lại nếu cần — trong phòng thi thật thì không, hãy tự giới hạn.</li>
               <li>• Transcript chỉ hiện sau khi nộp bài.</li>
@@ -188,11 +188,11 @@ export function ListeningExam({ test }: { test: ListeningTest }) {
 
   return (
     <div className="mx-auto max-w-6xl px-4 pb-12 sm:px-6">
-      <div className="sticky top-16 z-30 -mx-4 mb-5 border-b border-white/8 bg-ink-950/80 px-4 py-3 backdrop-blur-xl sm:-mx-6 sm:px-6">
+      <div className="sticky top-16 z-30 -mx-4 mb-5 border-b border-rose-200/70 bg-white/82 px-4 py-3 backdrop-blur-xl sm:-mx-6 sm:px-6">
         <div className="flex flex-wrap items-center gap-3">
           <div className="min-w-0">
-            <p className="truncate text-sm font-medium text-white">{test.title}</p>
-            <p className="text-[0.7rem] text-slate-400">
+            <p className="truncate text-sm font-medium text-ink-900">{test.title}</p>
+            <p className="text-[0.7rem] text-ink-500">
               {reviewing
                 ? "Chế độ xem lại"
                 : `Đã trả lời ${answeredCount}/${questionIds.length}`}
@@ -237,14 +237,14 @@ export function ListeningExam({ test }: { test: ListeningTest }) {
                   window.scrollTo({ top: 0, behavior: "smooth" });
                 }}
                 className={cn(
-                  "shrink-0 rounded-lg border px-3.5 py-1.5 text-xs font-medium transition-colors",
+                  "shrink-0 rounded-xl border px-3.5 py-1.5 text-xs font-medium transition-colors",
                   i === sectionIdx
-                    ? "border-violet-400/50 bg-violet-500/18 text-white"
-                    : "border-white/10 bg-white/4 text-slate-400 hover:bg-white/8"
+                    ? "border-violet-400/50 bg-violet-500/18 text-ink-900"
+                    : "border-rose-200/80 bg-white/60 text-ink-500 hover:bg-white/75"
                 )}
               >
                 Section {s.number}
-                <span className="ml-2 text-[0.68rem] text-slate-500 tabular-nums">
+                <span className="ml-2 text-[0.68rem] text-ink-450 tabular-nums">
                   {done}/{ids.length}
                 </span>
               </button>
@@ -257,13 +257,13 @@ export function ListeningExam({ test }: { test: ListeningTest }) {
         <div className="space-y-6">
           <GlassCard className="p-5">
             <div className="mb-4">
-              <p className="text-xs font-semibold tracking-wider text-violet-300 uppercase">
+              <p className="text-xs font-semibold tracking-wider text-violet-600 uppercase">
                 Section {section.number}
               </p>
-              <h2 className="font-display mt-1 text-xl font-semibold text-white">
+              <h2 className="font-display mt-1 text-xl font-semibold text-ink-900">
                 {section.title}
               </h2>
-              <p className="mt-1 text-sm text-slate-400">{section.context}</p>
+              <p className="mt-1 text-sm text-ink-500">{section.context}</p>
             </div>
 
             <ListeningPlayer
@@ -293,20 +293,20 @@ export function ListeningExam({ test }: { test: ListeningTest }) {
                 onClick={() => setShowTranscript((v) => !v)}
                 className="flex w-full items-center gap-2 text-left"
               >
-                <FileText className="size-4 text-violet-300" />
-                <span className="font-display font-semibold text-white">
+                <FileText className="size-4 text-violet-600" />
+                <span className="font-display font-semibold text-ink-900">
                   Transcript Section {section.number}
                 </span>
-                <span className="ml-auto text-xs text-slate-400">
+                <span className="ml-auto text-xs text-ink-500">
                   {showTranscript ? "Ẩn" : "Hiện"}
                 </span>
               </button>
               {showTranscript && (
-                <div className="mt-4 space-y-2.5 border-t border-white/8 pt-4">
+                <div className="mt-4 space-y-2.5 border-t border-rose-200/70 pt-4">
                   {section.transcript.map((l, i) => (
-                    <p key={i} className="text-[0.9rem] leading-relaxed text-slate-300">
+                    <p key={i} className="text-[0.9rem] leading-relaxed text-ink-700">
                       {l.speaker && (
-                        <span className="font-medium text-violet-300">{l.speaker}: </span>
+                        <span className="font-medium text-violet-600">{l.speaker}: </span>
                       )}
                       {l.text}
                     </p>

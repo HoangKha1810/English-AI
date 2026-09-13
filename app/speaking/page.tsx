@@ -44,7 +44,7 @@ export default function SpeakingListPage() {
               accent={skill.color}
               footer={
                 cue ? (
-                  <p className="mt-4 line-clamp-2 text-[0.8rem] leading-relaxed text-slate-400 italic">
+                  <p className="mt-4 line-clamp-2 text-[0.8rem] leading-relaxed text-ink-500 italic">
                     “{cue.topic}”
                   </p>
                 ) : null

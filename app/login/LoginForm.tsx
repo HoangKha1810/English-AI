@@ -98,7 +98,7 @@ export function LoginForm() {
     <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 py-14 sm:px-6 lg:grid-cols-[1fr_1.05fr] lg:py-20">
       {/* Brand panel */}
       <div className="animate-fade-up hidden lg:block">
-        <span className="inline-flex items-center gap-2 rounded-full border border-violet-400/25 bg-violet-500/12 px-3 py-1.5 text-xs font-medium text-violet-200">
+        <span className="inline-flex items-center gap-2 rounded-full border border-violet-400/25 bg-violet-500/12 px-3 py-1.5 text-xs font-medium text-violet-700">
           <Sparkles className="size-3.5" />
           Miễn phí toàn bộ
         </span>
@@ -109,16 +109,16 @@ export function LoginForm() {
         </h1>
         <ul className="mt-8 space-y-3.5">
           {PERKS.map((p) => (
-            <li key={p} className="flex items-start gap-3 text-slate-300">
-              <BadgeCheck className="mt-0.5 size-5 shrink-0 text-emerald-400" />
+            <li key={p} className="flex items-start gap-3 text-ink-700">
+              <BadgeCheck className="mt-0.5 size-5 shrink-0 text-emerald-600" />
               <span className="text-[0.95rem]">{p}</span>
             </li>
           ))}
         </ul>
-        <div className="glass mt-10 rounded-xl p-4">
-          <p className="text-sm leading-relaxed text-slate-400">
+        <div className="glass mt-10 rounded-2xl p-4">
+          <p className="text-sm leading-relaxed text-ink-500">
             Chưa muốn đăng ký? Bạn vẫn có thể{" "}
-            <Link href="/reading" className="text-violet-300 hover:underline">
+            <Link href="/reading" className="text-violet-600 hover:underline">
               làm thử một đề
             </Link>{" "}
             — kết quả sẽ được lưu tạm trong trình duyệt.
@@ -128,19 +128,19 @@ export function LoginForm() {
 
       {/* Form */}
       <GlassCard strong className="animate-fade-up p-7 sm:p-9">
-        <h2 className="font-display text-2xl font-semibold text-white">
+        <h2 className="font-display text-2xl font-semibold text-ink-900">
           {mode === "signup" ? "Tạo tài khoản" : "Chào mừng trở lại"}
         </h2>
-        <p className="mt-1.5 text-sm text-slate-400">
+        <p className="mt-1.5 text-sm text-ink-500">
           {mode === "signup"
             ? "Chỉ mất 10 giây, không cần thẻ tín dụng."
             : "Đăng nhập để xem tiến độ của bạn."}
         </p>
 
         {!configured && (
-          <div className="mt-5 flex gap-3 rounded-xl border border-amber-400/25 bg-amber-500/10 p-3.5">
-            <Info className="mt-0.5 size-4.5 shrink-0 text-amber-300" />
-            <p className="text-[0.82rem] leading-relaxed text-amber-100/90">
+          <div className="mt-5 flex gap-3 rounded-2xl border border-amber-400/25 bg-amber-500/10 p-3.5">
+            <Info className="mt-0.5 size-4.5 shrink-0 text-amber-700" />
+            <p className="text-[0.82rem] leading-relaxed text-amber-800">
               Chưa cấu hình Firebase. Sao chép <code>.env.local.example</code> thành{" "}
               <code>.env.local</code>, điền khoá từ Firebase Console rồi chạy lại
               <code> npm run dev</code>. Trong lúc đó bạn vẫn làm bài được, kết quả lưu tạm
@@ -152,7 +152,7 @@ export function LoginForm() {
         <button
           onClick={handleGoogle}
           disabled={busy !== null}
-          className="mt-6 flex h-12 w-full items-center justify-center gap-3 rounded-xl border border-white/12 bg-white/6 font-medium text-white transition-all hover:bg-white/12 active:scale-[0.98] disabled:opacity-50"
+          className="mt-6 flex h-12 w-full items-center justify-center gap-3 rounded-2xl border border-rose-300/60 bg-white/70 font-medium text-ink-900 transition-all hover:bg-white/90 active:scale-[0.98] disabled:opacity-50"
         >
           <svg viewBox="0 0 24 24" className="size-5" aria-hidden>
             <path
@@ -176,9 +176,9 @@ export function LoginForm() {
         </button>
 
         <div className="my-6 flex items-center gap-4">
-          <span className="h-px flex-1 bg-white/10" />
-          <span className="text-xs text-slate-500">hoặc dùng email</span>
-          <span className="h-px flex-1 bg-white/10" />
+          <span className="h-px flex-1 bg-white/85" />
+          <span className="text-xs text-ink-450">hoặc dùng email</span>
+          <span className="h-px flex-1 bg-white/85" />
         </div>
 
         <form onSubmit={handleEmail} className="space-y-4">
@@ -221,13 +221,13 @@ export function LoginForm() {
           </Field>
 
           {error && (
-            <div className="flex items-start gap-2.5 rounded-xl border border-rose-400/25 bg-rose-500/10 p-3">
-              <AlertTriangle className="mt-0.5 size-4 shrink-0 text-rose-300" />
-              <p className="text-[0.82rem] text-rose-100">{error}</p>
+            <div className="flex items-start gap-2.5 rounded-2xl border border-rose-400/25 bg-rose-500/10 p-3">
+              <AlertTriangle className="mt-0.5 size-4 shrink-0 text-rose-700" />
+              <p className="text-[0.82rem] text-rose-800">{error}</p>
             </div>
           )}
           {notice && (
-            <div className="rounded-xl border border-emerald-400/25 bg-emerald-500/10 p-3 text-[0.82rem] text-emerald-100">
+            <div className="rounded-2xl border border-emerald-400/25 bg-emerald-500/10 p-3 text-[0.82rem] text-emerald-800">
               {notice}
             </div>
           )}
@@ -250,7 +250,7 @@ export function LoginForm() {
               setError("");
               setNotice("");
             }}
-            className="text-slate-400 transition-colors hover:text-violet-300"
+            className="text-ink-500 transition-colors hover:text-violet-600"
           >
             {mode === "login" ? "Chưa có tài khoản? Đăng ký" : "Đã có tài khoản? Đăng nhập"}
           </button>
@@ -258,7 +258,7 @@ export function LoginForm() {
             <button
               onClick={handleReset}
               disabled={busy !== null}
-              className="text-slate-500 transition-colors hover:text-violet-300"
+              className="text-ink-450 transition-colors hover:text-violet-600"
             >
               Quên mật khẩu?
             </button>
@@ -280,9 +280,9 @@ function Field({
 }) {
   return (
     <label className="block">
-      <span className="mb-1.5 block text-xs font-medium text-slate-400">{label}</span>
+      <span className="mb-1.5 block text-xs font-medium text-ink-500">{label}</span>
       <span className="relative block">
-        <Icon className="pointer-events-none absolute top-1/2 left-4 size-4.5 -translate-y-1/2 text-slate-500" />
+        <Icon className="pointer-events-none absolute top-1/2 left-4 size-4.5 -translate-y-1/2 text-ink-450" />
         {children}
       </span>
     </label>

@@ -45,8 +45,8 @@ export function ResultPanel({
               "radial-gradient(520px circle at 50% -10%, rgba(124,58,237,0.22), transparent 65%)",
           }}
         >
-          <p className="text-sm text-slate-400">{testTitle}</p>
-          <h1 className="font-display mt-1 text-2xl font-semibold text-white">
+          <p className="text-sm text-ink-500">{testTitle}</p>
+          <h1 className="font-display mt-1 text-2xl font-semibold text-ink-900">
             Kết quả của bạn
           </h1>
 
@@ -61,12 +61,12 @@ export function ResultPanel({
               />
               <Row label="Thời gian làm" value={formatDuration(durationSeconds)} />
               {gap !== null && (
-                <div className="rounded-xl border border-white/10 bg-white/4 p-3.5">
-                  <p className="flex items-center gap-1.5 text-xs text-slate-400">
+                <div className="rounded-2xl border border-rose-200/80 bg-white/60 p-3.5">
+                  <p className="flex items-center gap-1.5 text-xs text-ink-500">
                     <Target className="size-3.5" />
                     Mục tiêu {targetBand?.toFixed(1)}
                   </p>
-                  <p className="mt-1 text-sm font-medium text-white">
+                  <p className="mt-1 text-sm font-medium text-ink-900">
                     {gap <= 0
                       ? "Bạn đã đạt mục tiêu ở kỹ năng này!"
                       : `Còn cách mục tiêu ${gap.toFixed(1)} band`}
@@ -77,27 +77,27 @@ export function ResultPanel({
           </div>
 
           {saving && (
-            <p className="mt-6 text-xs text-slate-500">Đang lưu kết quả...</p>
+            <p className="mt-6 text-xs text-ink-450">Đang lưu kết quả...</p>
           )}
         </div>
 
         {weakTypes.length > 0 && (
-          <div className="border-t border-white/8 px-6 py-7 sm:px-10">
-            <h2 className="font-display text-base font-semibold text-white">
+          <div className="border-t border-rose-200/70 px-6 py-7 sm:px-10">
+            <h2 className="font-display text-base font-semibold text-ink-900">
               Dạng câu hỏi cần luyện thêm
             </h2>
             <div className="mt-4 space-y-3.5">
               {weakTypes.slice(0, 4).map((w) => {
                 const pct = Math.round((w.correct / w.total) * 100);
                 const color =
-                  pct >= 80 ? "#34d399" : pct >= 55 ? "#fbbf24" : "#fb7185";
+                  pct >= 80 ? "#047857" : pct >= 55 ? "#b45309" : "#e11d48";
                 return (
                   <div key={w.type}>
                     <div className="mb-1.5 flex justify-between text-[0.82rem]">
-                      <span className="text-slate-300">
+                      <span className="text-ink-700">
                         {TYPE_LABELS[w.type] ?? w.type}
                       </span>
-                      <span className="text-slate-400 tabular-nums">
+                      <span className="text-ink-500 tabular-nums">
                         {w.correct}/{w.total}
                       </span>
                     </div>
@@ -109,7 +109,7 @@ export function ResultPanel({
           </div>
         )}
 
-        <div className="flex flex-wrap gap-3 border-t border-white/8 px-6 py-6 sm:px-10">
+        <div className="flex flex-wrap gap-3 border-t border-rose-200/70 px-6 py-6 sm:px-10">
           <Button onClick={onReview} variant="primary">
             <Eye className="size-4.5" />
             Xem lại từng câu
@@ -131,9 +131,9 @@ export function ResultPanel({
 
 function Row({ label, value }: { label: string; value: string }) {
   return (
-    <div className="flex items-center justify-between border-b border-white/6 pb-2.5">
-      <span className="text-sm text-slate-400">{label}</span>
-      <span className="font-display text-base font-semibold text-white tabular-nums">
+    <div className="flex items-center justify-between border-b border-rose-200/60 pb-2.5">
+      <span className="text-sm text-ink-500">{label}</span>
+      <span className="font-display text-base font-semibold text-ink-900 tabular-nums">
         {value}
       </span>
     </div>

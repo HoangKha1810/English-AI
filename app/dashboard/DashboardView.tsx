@@ -87,7 +87,7 @@ export function DashboardView() {
       {/* Header */}
       <div className="mb-8 flex flex-wrap items-end justify-between gap-4">
         <div>
-          <p className="text-sm text-slate-400">
+          <p className="text-sm text-ink-500">
             {user ? `Xin chào, ${profile?.displayName ?? user.email}` : "Chế độ khách"}
           </p>
           <h1 className="font-display mt-1 text-3xl font-semibold tracking-tight sm:text-4xl">
@@ -103,9 +103,9 @@ export function DashboardView() {
       </div>
 
       {!user && (
-        <div className="mb-6 flex flex-wrap items-center gap-3 rounded-xl border border-violet-400/25 bg-violet-500/10 p-4">
-          <Info className="size-5 shrink-0 text-violet-300" />
-          <p className="min-w-0 flex-1 text-[0.88rem] leading-relaxed text-violet-100/90">
+        <div className="mb-6 flex flex-wrap items-center gap-3 rounded-2xl border border-violet-400/25 bg-violet-500/10 p-4">
+          <Info className="size-5 shrink-0 text-violet-600" />
+          <p className="min-w-0 flex-1 text-[0.88rem] leading-relaxed text-violet-800">
             {configured
               ? "Bạn đang xem tiến độ lưu tạm trong trình duyệt này. Đăng nhập để đồng bộ giữa các thiết bị và không bị mất dữ liệu."
               : "Chưa cấu hình Firebase nên tiến độ chỉ lưu trong trình duyệt này."}
@@ -120,11 +120,11 @@ export function DashboardView() {
 
       {total === 0 ? (
         <GlassCard strong className="p-10 text-center">
-          <Sparkles className="mx-auto size-9 text-violet-300" />
-          <h2 className="font-display mt-4 text-xl font-semibold text-white">
+          <Sparkles className="mx-auto size-9 text-violet-600" />
+          <h2 className="font-display mt-4 text-xl font-semibold text-ink-900">
             Bạn chưa làm bài nào
           </h2>
-          <p className="mx-auto mt-2 max-w-md text-sm leading-relaxed text-slate-400">
+          <p className="mx-auto mt-2 max-w-md text-sm leading-relaxed text-ink-500">
             Làm thử một đề bất kỳ, kết quả sẽ hiện ở đây kèm biểu đồ tiến bộ theo thời gian.
           </p>
           <div className="mt-7 flex flex-wrap justify-center gap-3">
@@ -140,20 +140,20 @@ export function DashboardView() {
           {/* Tong quan */}
           <div className="grid gap-5 lg:grid-cols-[auto_1fr]">
             <GlassCard strong className="flex flex-col items-center p-7">
-              <p className="text-xs tracking-wide text-slate-400 uppercase">Band tổng</p>
+              <p className="text-xs tracking-wide text-ink-500 uppercase">Band tổng</p>
               <div className="mt-4">
                 {overall !== null ? (
                   <BandRing band={overall} size={164} caption={bandLabel(overall)} />
                 ) : (
-                  <p className="text-slate-500">Chưa đủ dữ liệu</p>
+                  <p className="text-ink-450">Chưa đủ dữ liệu</p>
                 )}
               </div>
-              <p className="mt-4 max-w-[15rem] text-center text-[0.75rem] leading-relaxed text-slate-500">
+              <p className="mt-4 max-w-[15rem] text-center text-[0.75rem] leading-relaxed text-ink-450">
                 Tính từ kết quả gần nhất của mỗi kỹ năng, làm tròn theo quy tắc IELTS.
               </p>
 
-              <div className="mt-6 w-full border-t border-white/8 pt-5">
-                <p className="flex items-center gap-1.5 text-xs text-slate-400">
+              <div className="mt-6 w-full border-t border-rose-200/70 pt-5">
+                <p className="flex items-center gap-1.5 text-xs text-ink-500">
                   <Target className="size-3.5" />
                   Mục tiêu của bạn
                 </p>
@@ -163,10 +163,10 @@ export function DashboardView() {
                       key={t}
                       onClick={() => void setTargetBand(t)}
                       className={cn(
-                        "rounded-lg border px-2.5 py-1.5 text-xs font-medium tabular-nums transition-colors",
+                        "rounded-xl border px-2.5 py-1.5 text-xs font-medium tabular-nums transition-colors",
                         profile?.targetBand === t
-                          ? "border-violet-400/55 bg-violet-500/20 text-white"
-                          : "border-white/10 bg-white/4 text-slate-400 hover:bg-white/8"
+                          ? "border-violet-400/55 bg-violet-500/20 text-ink-900"
+                          : "border-rose-200/80 bg-white/60 text-ink-500 hover:bg-white/75"
                       )}
                     >
                       {t.toFixed(1)}
@@ -192,20 +192,20 @@ export function DashboardView() {
                     >
                       <div className="flex items-center gap-3">
                         <span
-                          className={`grid size-10 place-items-center rounded-xl bg-linear-to-br ${s.gradient}`}
+                          className={`grid size-10 place-items-center rounded-2xl bg-linear-to-br ${s.gradient}`}
                         >
                           <Icon className="size-5 text-white" />
                         </span>
                         <div className="min-w-0">
-                          <p className="font-display font-semibold text-white">{s.name}</p>
-                          <p className="text-[0.7rem] text-slate-500">
+                          <p className="font-display font-semibold text-ink-900">{s.name}</p>
+                          <p className="text-[0.7rem] text-ink-450">
                             {list.length} lần làm bài
                           </p>
                         </div>
                         <div className="ml-auto text-right">
                           <p
                             className="font-display text-2xl leading-none font-semibold tabular-nums"
-                            style={{ color: band !== undefined ? s.color : "#64748b" }}
+                            style={{ color: band !== undefined ? s.color : "#9b7789" }}
                           >
                             {band !== undefined ? band.toFixed(1) : "--"}
                           </p>
@@ -213,7 +213,7 @@ export function DashboardView() {
                             <p
                               className={cn(
                                 "mt-1 text-[0.68rem] font-medium tabular-nums",
-                                delta > 0 ? "text-emerald-400" : "text-rose-400"
+                                delta > 0 ? "text-emerald-600" : "text-rose-600"
                               )}
                             >
                               {delta > 0 ? "+" : ""}
@@ -229,7 +229,7 @@ export function DashboardView() {
                           color={s.color}
                         />
                       ) : (
-                        <p className="mt-auto pt-5 text-[0.72rem] text-slate-500">
+                        <p className="mt-auto pt-5 text-[0.72rem] text-ink-450">
                           {list.length === 1
                             ? "Làm thêm một đề nữa để thấy đường tiến bộ."
                             : "Chưa làm đề nào ở kỹ năng này."}
@@ -245,7 +245,7 @@ export function DashboardView() {
           {/* Bieu do tien bo */}
           <GlassCard className="mt-5 p-5 sm:p-6">
             <div className="mb-4 flex flex-wrap items-center gap-3">
-              <h2 className="font-display text-lg font-semibold text-white">
+              <h2 className="font-display text-lg font-semibold text-ink-900">
                 Band theo thời gian
               </h2>
               <div className="ml-auto flex flex-wrap gap-1.5">
@@ -254,10 +254,10 @@ export function DashboardView() {
                     key={s.key}
                     onClick={() => setChartSkill(s.key)}
                     className={cn(
-                      "rounded-lg border px-3 py-1.5 text-xs font-medium transition-colors",
+                      "rounded-xl border px-3 py-1.5 text-xs font-medium transition-colors",
                       chartSkill === s.key
-                        ? "border-white/25 bg-white/12 text-white"
-                        : "border-white/8 bg-white/3 text-slate-400 hover:bg-white/7"
+                        ? "border-rose-300/90 bg-white/90 text-ink-900"
+                        : "border-rose-200/70 bg-white/55 text-ink-500 hover:bg-white/72"
                     )}
                   >
                     {s.name}
@@ -286,10 +286,10 @@ export function DashboardView() {
 
           {/* Lich su */}
           <GlassCard className="mt-5 overflow-hidden">
-            <h2 className="font-display border-b border-white/8 px-5 py-4 text-lg font-semibold text-white">
+            <h2 className="font-display border-b border-rose-200/70 px-5 py-4 text-lg font-semibold text-ink-900">
               Lịch sử làm bài
             </h2>
-            <ul className="divide-y divide-white/6">
+            <ul className="divide-y divide-rose-200/60">
               {(attempts ?? [])
                 .slice()
                 .sort((a, b) => b.createdAt - a.createdAt)
@@ -303,16 +303,16 @@ export function DashboardView() {
                       className="flex items-center gap-3.5 px-5 py-3.5"
                     >
                       <span
-                        className="grid size-9 shrink-0 place-items-center rounded-lg"
+                        className="grid size-9 shrink-0 place-items-center rounded-xl"
                         style={{ background: `${meta.color}22` }}
                       >
                         <Icon className="size-4.5" style={{ color: meta.color }} />
                       </span>
                       <div className="min-w-0 flex-1">
-                        <p className="truncate text-[0.9rem] font-medium text-white">
+                        <p className="truncate text-[0.9rem] font-medium text-ink-900">
                           {a.testTitle}
                         </p>
-                        <p className="text-[0.72rem] text-slate-500">
+                        <p className="text-[0.72rem] text-ink-450">
                           {formatDate(a.createdAt)}
                           {a.total ? ` · ${a.correct}/${a.total} câu` : ""}
                         </p>
@@ -345,12 +345,12 @@ function Stat({
 }) {
   return (
     <GlassCard className="flex items-center gap-4 p-5">
-      <span className="grid size-11 place-items-center rounded-xl border border-white/10 bg-white/5">
-        <Icon className="size-5 text-violet-300" />
+      <span className="grid size-11 place-items-center rounded-2xl border border-rose-200/80 bg-white/65">
+        <Icon className="size-5 text-violet-600" />
       </span>
       <div>
-        <p className="text-xs text-slate-400">{label}</p>
-        <p className="font-display mt-0.5 text-xl font-semibold text-white tabular-nums">
+        <p className="text-xs text-ink-500">{label}</p>
+        <p className="font-display mt-0.5 text-xl font-semibold text-ink-900 tabular-nums">
           {value}
         </p>
       </div>

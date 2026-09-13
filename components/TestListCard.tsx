@@ -39,7 +39,7 @@ export function TestListCard({
         style={{ animationDelay: `${index * 70}ms` }}
       >
         <div className="flex items-start justify-between gap-3">
-          <h3 className="font-display text-lg leading-snug font-semibold text-white">
+          <h3 className="font-display text-lg leading-snug font-semibold text-ink-900">
             {title}
           </h3>
           <Badge tone={DIFF_TONE[difficulty]} className="shrink-0">
@@ -47,7 +47,7 @@ export function TestListCard({
           </Badge>
         </div>
 
-        <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1.5 text-xs text-slate-400">
+        <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1.5 text-xs text-ink-500">
           <span className="inline-flex items-center gap-1.5">
             <Clock3 className="size-3.5" />
             {duration}
@@ -64,7 +64,7 @@ export function TestListCard({
           {topics.map((t) => (
             <span
               key={t}
-              className="rounded-md border border-white/8 bg-white/4 px-2 py-0.5 text-[0.7rem] text-slate-400"
+              className="rounded-lg border border-rose-200/70 bg-white/60 px-2 py-0.5 text-[0.7rem] text-ink-500"
             >
               {t}
             </span>

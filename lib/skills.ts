@@ -7,7 +7,7 @@ export interface SkillMeta {
   href: string;
   color: string;
   gradient: string;
-  tone: "sky" | "violet" | "amber" | "emerald";
+  tone: "pink" | "sky" | "violet" | "amber" | "emerald";
   description: string;
   bullets: string[];
   duration: string;
@@ -19,8 +19,8 @@ export const SKILLS: SkillMeta[] = [
     name: "Listening",
     nameVi: "Nghe",
     href: "/listening",
-    color: "#a78bfa",
-    gradient: "from-violet-500 to-fuchsia-500",
+    color: "#7c3aed",
+    gradient: "from-violet-400 to-fuchsia-400",
     tone: "violet",
     description:
       "4 section theo đúng format thi thật, audio giọng Anh - Úc - Mỹ, chấm điểm và xem transcript ngay sau khi nộp.",
@@ -32,9 +32,9 @@ export const SKILLS: SkillMeta[] = [
     name: "Reading",
     nameVi: "Đọc",
     href: "/reading",
-    color: "#38bdf8",
-    gradient: "from-sky-500 to-cyan-400",
-    tone: "sky",
+    color: "#db2777",
+    gradient: "from-pink-400 to-rose-400",
+    tone: "pink",
     description:
       "3 bài đọc học thuật với đủ dạng câu hỏi IELTS. Highlight trực tiếp trên bài, chấm tự động ra band score.",
     bullets: ["3 passage · 40 câu", "Highlight & ghi chú", "Giải thích từng câu"],
@@ -45,8 +45,8 @@ export const SKILLS: SkillMeta[] = [
     name: "Writing",
     nameVi: "Viết",
     href: "/writing",
-    color: "#fbbf24",
-    gradient: "from-amber-400 to-orange-500",
+    color: "#b45309",
+    gradient: "from-amber-300 to-orange-400",
     tone: "amber",
     description:
       "Task 1 + Task 2 được AI chấm theo đúng 4 tiêu chí band descriptors, kèm sửa lỗi ngữ pháp và gợi ý từ vựng hay hơn.",
@@ -58,8 +58,8 @@ export const SKILLS: SkillMeta[] = [
     name: "Speaking",
     nameVi: "Nói",
     href: "/speaking",
-    color: "#34d399",
-    gradient: "from-emerald-400 to-teal-500",
+    color: "#047857",
+    gradient: "from-emerald-300 to-teal-400",
     tone: "emerald",
     description:
       "Ghi âm trực tiếp trong trình duyệt cho cả 3 part. AI chuyển giọng nói thành văn bản rồi chấm fluency, từ vựng và phát âm.",

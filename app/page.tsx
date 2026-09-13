@@ -134,7 +134,7 @@ export default function HomePage() {
               <span className="gradient-text">chấm điểm bằng AI</span>
             </h1>
 
-            <p className="mt-6 max-w-xl text-[1.05rem] leading-relaxed text-slate-400">
+            <p className="mt-6 max-w-xl text-[1.05rem] leading-relaxed text-ink-500">
               Đề mô phỏng đúng format thi thật. Reading và Listening chấm tự động ra band
               score. Writing và Speaking được AI nhận xét theo đúng 4 tiêu chí mà giám khảo
               dùng — chỉ ra bạn đang mất điểm ở đâu và sửa thế nào.
@@ -153,10 +153,10 @@ export default function HomePage() {
             <dl className="mt-12 grid max-w-lg grid-cols-4 gap-4">
               {STATS.map((s) => (
                 <div key={s.label}>
-                  <dt className="font-display text-2xl font-semibold text-white sm:text-[1.7rem]">
+                  <dt className="font-display text-2xl font-semibold text-ink-900 sm:text-[1.7rem]">
                     {s.value}
                   </dt>
-                  <dd className="mt-0.5 text-[0.7rem] leading-tight text-slate-500">
+                  <dd className="mt-0.5 text-[0.7rem] leading-tight text-ink-450">
                     {s.label}
                   </dd>
                 </div>
@@ -170,33 +170,33 @@ export default function HomePage() {
               <GlassCard strong className="p-6">
                 <div className="flex items-center justify-between">
                   <div>
-                    <p className="text-xs text-slate-400">Kết quả gần nhất</p>
-                    <p className="font-display mt-1 text-lg font-semibold text-white">
+                    <p className="text-xs text-ink-500">Kết quả gần nhất</p>
+                    <p className="font-display mt-1 text-lg font-semibold text-ink-900">
                       Academic Reading · Đề 1
                     </p>
                   </div>
-                  <Badge tone="sky">32/40 câu</Badge>
+                  <Badge tone="pink">32/40 câu</Badge>
                 </div>
 
                 <div className="my-6 flex items-end gap-5">
                   <div>
-                    <p className="text-xs text-slate-400">Band</p>
-                    <p className="font-display text-5xl leading-none font-semibold text-sky-300">
+                    <p className="text-xs text-ink-500">Band</p>
+                    <p className="font-display text-5xl leading-none font-semibold text-pink-700">
                       7.5
                     </p>
                   </div>
                   <div className="flex-1 space-y-2.5 pb-1">
                     {[
-                      { label: "True/False/Not Given", v: 86, c: "#38bdf8" },
-                      { label: "Matching headings", v: 71, c: "#a78bfa" },
-                      { label: "Sentence completion", v: 92, c: "#34d399" },
+                      { label: "True/False/Not Given", v: 86, c: "#db2777" },
+                      { label: "Matching headings", v: 71, c: "#7c3aed" },
+                      { label: "Sentence completion", v: 92, c: "#047857" },
                     ].map((r) => (
                       <div key={r.label}>
-                        <div className="mb-1 flex justify-between text-[0.68rem] text-slate-400">
+                        <div className="mb-1 flex justify-between text-[0.68rem] text-ink-500">
                           <span>{r.label}</span>
                           <span className="tabular-nums">{r.v}%</span>
                         </div>
-                        <div className="h-1.5 overflow-hidden rounded-full bg-white/8">
+                        <div className="h-1.5 overflow-hidden rounded-full bg-pink-100">
                           <div
                             className="h-full rounded-full"
                             style={{
@@ -211,12 +211,12 @@ export default function HomePage() {
                   </div>
                 </div>
 
-                <div className="rounded-xl border border-violet-400/20 bg-violet-500/8 p-3.5">
-                  <p className="flex items-center gap-1.5 text-xs font-medium text-violet-200">
+                <div className="rounded-2xl border border-violet-400/20 bg-violet-500/8 p-3.5">
+                  <p className="flex items-center gap-1.5 text-xs font-medium text-violet-700">
                     <BrainCircuit className="size-3.5" />
                     Nhận xét từ AI
                   </p>
-                  <p className="mt-1.5 text-[0.82rem] leading-relaxed text-slate-300">
+                  <p className="mt-1.5 text-[0.82rem] leading-relaxed text-ink-700">
                     Bạn mất nhiều điểm nhất ở dạng Matching headings. Thử đọc câu đầu và câu
                     cuối mỗi đoạn trước khi xét toàn bộ đoạn văn.
                   </p>
@@ -226,12 +226,12 @@ export default function HomePage() {
 
             <div className="animate-float absolute -bottom-10 left-1/2 -translate-x-1/2 [animation-delay:-3s] sm:left-auto sm:-right-6 sm:translate-x-0">
               <GlassCard strong className="flex items-center gap-3 px-4 py-3">
-                <span className="grid size-9 place-items-center rounded-lg bg-linear-to-br from-amber-400 to-orange-500">
+                <span className="grid size-9 place-items-center rounded-xl bg-linear-to-br from-amber-400 to-orange-500">
                   <PenLine className="size-4.5 text-white" />
                 </span>
                 <div>
-                  <p className="text-[0.68rem] text-slate-400">Writing Task 2</p>
-                  <p className="font-display text-sm font-semibold text-amber-200">
+                  <p className="text-[0.68rem] text-ink-500">Writing Task 2</p>
+                  <p className="font-display text-sm font-semibold text-amber-700">
                     Band 6.5 → 7.0
                   </p>
                 </div>
@@ -247,7 +247,7 @@ export default function HomePage() {
           <h2 className="font-display text-3xl font-semibold tracking-tight sm:text-4xl">
             Bốn kỹ năng, một nơi luyện
           </h2>
-          <p className="mt-3 text-slate-400">
+          <p className="mt-3 text-ink-500">
             Mỗi module mô phỏng đúng cấu trúc, thời gian và cách chấm của kỳ thi thật.
           </p>
         </div>
@@ -265,29 +265,29 @@ export default function HomePage() {
                 >
                   <div className="flex items-start gap-4">
                     <span
-                      className={`grid size-12 shrink-0 place-items-center rounded-xl bg-linear-to-br ${s.gradient} shadow-lg`}
+                      className={`grid size-12 shrink-0 place-items-center rounded-2xl bg-linear-to-br ${s.gradient} shadow-lg`}
                       style={{ boxShadow: `0 8px 26px -8px ${s.color}` }}
                     >
                       <Icon className="size-6 text-white" strokeWidth={2} />
                     </span>
                     <div className="min-w-0 flex-1">
                       <div className="flex items-center gap-2">
-                        <h3 className="font-display text-xl font-semibold text-white">
+                        <h3 className="font-display text-xl font-semibold text-ink-900">
                           {s.name}
                         </h3>
-                        <span className="text-sm text-slate-500">· {s.nameVi}</span>
+                        <span className="text-sm text-ink-450">· {s.nameVi}</span>
                         <Badge tone={s.tone} className="ml-auto shrink-0">
                           {s.duration}
                         </Badge>
                       </div>
-                      <p className="mt-2 text-sm leading-relaxed text-slate-400">
+                      <p className="mt-2 text-sm leading-relaxed text-ink-500">
                         {s.description}
                       </p>
                       <ul className="mt-4 flex flex-wrap gap-x-4 gap-y-1.5">
                         {s.bullets.map((b) => (
                           <li
                             key={b}
-                            className="flex items-center gap-1.5 text-xs text-slate-500"
+                            className="flex items-center gap-1.5 text-xs text-ink-450"
                           >
                             <CheckCircle2
                               className="size-3.5"
@@ -322,16 +322,16 @@ export default function HomePage() {
         <div className="grid gap-5 md:grid-cols-3">
           {STEPS.map((s, i) => (
             <GlassCard key={s.title} className="relative p-6">
-              <span className="font-display absolute top-5 right-6 text-5xl font-semibold text-white/6">
+              <span className="font-display absolute top-5 right-6 text-5xl font-semibold text-ink-900/10">
                 {i + 1}
               </span>
-              <span className="grid size-11 place-items-center rounded-xl border border-violet-400/25 bg-violet-500/12">
-                <s.icon className="size-5 text-violet-300" />
+              <span className="grid size-11 place-items-center rounded-2xl border border-violet-400/25 bg-violet-500/12">
+                <s.icon className="size-5 text-violet-600" />
               </span>
-              <h3 className="font-display mt-4 text-lg font-semibold text-white">
+              <h3 className="font-display mt-4 text-lg font-semibold text-ink-900">
                 {s.title}
               </h3>
-              <p className="mt-2 text-sm leading-relaxed text-slate-400">{s.text}</p>
+              <p className="mt-2 text-sm leading-relaxed text-ink-500">{s.text}</p>
             </GlassCard>
           ))}
         </div>
@@ -342,11 +342,11 @@ export default function HomePage() {
         <div className="grid gap-5 md:grid-cols-3">
           {FEATURES.map((f) => (
             <GlassCard key={f.title} hover className="p-6">
-              <f.icon className="size-6 text-sky-300" />
-              <h3 className="font-display mt-4 text-lg font-semibold text-white">
+              <f.icon className="size-6 text-pink-700" />
+              <h3 className="font-display mt-4 text-lg font-semibold text-ink-900">
                 {f.title}
               </h3>
-              <p className="mt-2 text-sm leading-relaxed text-slate-400">{f.text}</p>
+              <p className="mt-2 text-sm leading-relaxed text-ink-500">{f.text}</p>
             </GlassCard>
           ))}
         </div>
@@ -370,7 +370,7 @@ export default function HomePage() {
             <h2 className="font-display text-3xl font-semibold tracking-tight sm:text-4xl">
               Bắt đầu từ hôm nay, <span className="gradient-text">miễn phí</span>
             </h2>
-            <p className="mx-auto mt-4 max-w-xl text-slate-400">
+            <p className="mx-auto mt-4 max-w-xl text-ink-500">
               Tạo tài khoản trong 10 giây để lưu lại tiến độ và xem band score của bạn thay
               đổi qua từng tuần.
             </p>

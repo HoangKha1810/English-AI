@@ -44,7 +44,7 @@ export function BlankInput({
         autoComplete="off"
         spellCheck={false}
         className={cn(
-          "h-9 rounded-lg pt-1 pr-2 pl-4 text-[0.92rem]",
+          "h-9 rounded-xl pt-1 pr-2 pl-4 text-[0.92rem]",
           widths[width],
           state === "correct" && "border-emerald-400/50! bg-emerald-500/12!",
           state === "wrong" && "border-rose-400/50! bg-rose-500/12!",

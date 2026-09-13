@@ -74,10 +74,10 @@ const SECTION_META: Record<
   ExamSection,
   { label: string; minutes: number; color: string; icon: typeof Headphones }
 > = {
-  listening: { label: "Listening", minutes: 30, color: "#a78bfa", icon: Headphones },
-  reading: { label: "Reading", minutes: 60, color: "#38bdf8", icon: BookOpen },
-  writing: { label: "Writing", minutes: 60, color: "#fbbf24", icon: PenLine },
-  speaking: { label: "Speaking", minutes: 14, color: "#34d399", icon: Mic },
+  listening: { label: "Listening", minutes: 30, color: "#7c3aed", icon: Headphones },
+  reading: { label: "Reading", minutes: 60, color: "#db2777", icon: BookOpen },
+  writing: { label: "Writing", minutes: 60, color: "#b45309", icon: PenLine },
+  speaking: { label: "Speaking", minutes: 14, color: "#047857", icon: Mic },
 };
 
 function makeEmptyDraft(): FullDraft {
@@ -462,37 +462,37 @@ export function FullIELTSExam({ bundle }: { bundle: FullIELTSBundle }) {
   if (phase === "intro") {
     return (
       <div className="mx-auto max-w-5xl px-4 py-12 sm:px-6">
-        <Link href="/ielts" className="mb-6 inline-flex items-center gap-1.5 text-sm text-slate-400 hover:text-white">
+        <Link href="/ielts" className="mb-6 inline-flex items-center gap-1.5 text-sm text-ink-500 hover:text-ink-900">
           <ArrowLeft className="size-4" />
           Tất cả đề IELTS
         </Link>
         <GlassCard strong className="animate-fade-up overflow-hidden">
-          <div className="border-b border-white/8 px-6 py-8 sm:px-10">
+          <div className="border-b border-rose-200/70 px-6 py-8 sm:px-10">
             <Badge tone="violet">IELTS Full Test</Badge>
-            <h1 className="font-display mt-4 text-3xl font-semibold tracking-tight text-white">
+            <h1 className="font-display mt-4 text-3xl font-semibold tracking-tight text-ink-900">
               {full.title}
             </h1>
-            <p className="mt-2 max-w-2xl text-sm leading-relaxed text-slate-400">
+            <p className="mt-2 max-w-2xl text-sm leading-relaxed text-ink-500">
               Một lượt thi đủ bốn kỹ năng, ghép từ các đề tương đương và tính band tổng sau khi hoàn tất.
             </p>
             <div className="mt-5 flex flex-wrap gap-2">
               {full.topics.map((topic) => (
-                <span key={topic} className="rounded-lg border border-white/10 bg-white/4 px-2.5 py-1.5 text-xs text-slate-300">
+                <span key={topic} className="rounded-xl border border-rose-200/80 bg-white/60 px-2.5 py-1.5 text-xs text-ink-700">
                   {topic}
                 </span>
               ))}
             </div>
           </div>
 
-          <div className="grid gap-px bg-white/8 sm:grid-cols-4">
+          <div className="grid gap-px bg-white/75 sm:grid-cols-4">
             {SECTION_ORDER.map((section) => {
               const meta = SECTION_META[section];
               const Icon = meta.icon;
               return (
-                <div key={section} className="bg-ink-900/80 p-5">
+                <div key={section} className="bg-white/85 p-5">
                   <Icon className="size-5" style={{ color: meta.color }} />
-                  <p className="mt-3 text-sm font-medium text-white">{meta.label}</p>
-                  <p className="mt-1 text-xs text-slate-500">{meta.minutes} phút</p>
+                  <p className="mt-3 text-sm font-medium text-ink-900">{meta.label}</p>
+                  <p className="mt-1 text-xs text-ink-450">{meta.minutes} phút</p>
                 </div>
               );
             })}
@@ -507,7 +507,7 @@ export function FullIELTSExam({ bundle }: { bundle: FullIELTSBundle }) {
               Chọn đề khác
             </ButtonLink>
             {resumeSection && (
-              <p className="w-full text-xs text-amber-200/80">
+              <p className="w-full text-xs text-amber-700">
                 Đang dở phần {SECTION_META[resumeSection].label}. Câu trả lời và thời gian đã được lưu.
               </p>
             )}
@@ -522,10 +522,10 @@ export function FullIELTSExam({ bundle }: { bundle: FullIELTSBundle }) {
       <div className="grid min-h-[70vh] place-items-center px-4">
         <GlassCard strong className="animate-pop max-w-md p-10 text-center">
           <Spinner />
-          <h2 className="font-display mt-5 text-xl font-semibold text-white">
+          <h2 className="font-display mt-5 text-xl font-semibold text-ink-900">
             Đang chấm đề IELTS
           </h2>
-          <p className="mt-2 text-sm leading-relaxed text-slate-400">
+          <p className="mt-2 text-sm leading-relaxed text-ink-500">
             Listening và Reading đang được quy đổi band. Writing và Speaking đang được AI phân tích theo tiêu chí IELTS.
           </p>
         </GlassCard>
@@ -538,14 +538,14 @@ export function FullIELTSExam({ bundle }: { bundle: FullIELTSBundle }) {
       <div className="mx-auto max-w-5xl px-4 py-12 sm:px-6">
         <GlassCard strong className="animate-pop overflow-hidden">
           <div className="px-6 py-10 text-center sm:px-10">
-            <p className="text-sm text-slate-400">{fullResult.testTitle}</p>
-            <h1 className="font-display mt-1 text-2xl font-semibold text-white">
+            <p className="text-sm text-ink-500">{fullResult.testTitle}</p>
+            <h1 className="font-display mt-1 text-2xl font-semibold text-ink-900">
               Kết quả đề IELTS
             </h1>
             <div className="mt-7 flex flex-col items-center gap-8 sm:flex-row sm:justify-center">
               <BandRing band={fullResult.overallBand} size={172} caption="Overall band" />
               <div className="w-full max-w-sm text-left">
-                <p className="text-sm leading-relaxed text-slate-300">
+                <p className="text-sm leading-relaxed text-ink-700">
                   {savingResult
                     ? "Đang lưu kết quả..."
                     : "Bạn đã hoàn thành đủ Listening, Reading, Writing và Speaking."}
@@ -554,8 +554,8 @@ export function FullIELTSExam({ bundle }: { bundle: FullIELTSBundle }) {
                   {SECTION_ORDER.map((section) => {
                     const meta = SECTION_META[section];
                     return (
-                      <div key={section} className="rounded-xl border border-white/8 bg-white/4 p-3.5">
-                        <p className="text-xs text-slate-500">{meta.label}</p>
+                      <div key={section} className="rounded-2xl border border-rose-200/70 bg-white/60 p-3.5">
+                        <p className="text-xs text-ink-450">{meta.label}</p>
                         <p className="font-display mt-1 text-2xl font-semibold tabular-nums" style={{ color: meta.color }}>
                           {fullResult.bands[section].toFixed(1)}
                         </p>
@@ -566,7 +566,7 @@ export function FullIELTSExam({ bundle }: { bundle: FullIELTSBundle }) {
               </div>
             </div>
           </div>
-          <div className="flex flex-wrap gap-3 border-t border-white/8 px-6 py-6 sm:px-10">
+          <div className="flex flex-wrap gap-3 border-t border-rose-200/70 px-6 py-6 sm:px-10">
             <ButtonLink href="/ielts" variant="secondary">
               Chọn đề full khác
             </ButtonLink>
@@ -586,11 +586,11 @@ export function FullIELTSExam({ bundle }: { bundle: FullIELTSBundle }) {
 
   return (
     <div className="mx-auto max-w-7xl px-3 pb-10 sm:px-5">
-      <div className="sticky top-16 z-30 -mx-3 mb-5 border-b border-white/8 bg-ink-950/90 px-3 py-3 backdrop-blur-xl sm:-mx-5 sm:px-5">
+      <div className="sticky top-16 z-30 -mx-3 mb-5 border-b border-rose-200/70 bg-white/90 px-3 py-3 backdrop-blur-xl sm:-mx-5 sm:px-5">
         <div className="flex flex-wrap items-center gap-3">
           <div className="min-w-0">
-            <p className="truncate text-sm font-medium text-white">{full.title}</p>
-            <p className="text-[0.7rem] text-slate-400">
+            <p className="truncate text-sm font-medium text-ink-900">{full.title}</p>
+            <p className="text-[0.7rem] text-ink-500">
               Phần {sectionIndex + 1}/4 · {meta.label}
             </p>
           </div>
@@ -616,10 +616,10 @@ export function FullIELTSExam({ bundle }: { bundle: FullIELTSBundle }) {
             return (
               <div
                 key={section}
-                className={`flex min-w-0 items-center gap-2 rounded-lg border px-2.5 py-2 text-xs ${
+                className={`flex min-w-0 items-center gap-2 rounded-xl border px-2.5 py-2 text-xs ${
                   index <= sectionIndex
-                    ? "border-white/15 bg-white/8 text-white"
-                    : "border-white/6 bg-white/3 text-slate-500"
+                    ? "border-rose-300/70 bg-white/75 text-ink-900"
+                    : "border-rose-200/60 bg-white/55 text-ink-450"
                 }`}
               >
                 <Icon className="size-3.5 shrink-0" style={{ color: index <= sectionIndex ? item.color : undefined }} />
@@ -707,18 +707,18 @@ function ListeningSection({
     <div className="mx-auto max-w-5xl space-y-6">
       <SectionHeading
         icon={Headphones}
-        color="#a78bfa"
+        color="#7c3aed"
         eyebrow="Listening"
         title="Nghe và trả lời toàn bộ câu hỏi"
         text="Mỗi section có audio riêng. Bạn có thể chuyển tiếp khi hoàn tất phần Listening."
       />
       {test.sections.map((section) => (
         <GlassCard key={section.number} className="p-5 sm:p-6">
-          <p className="text-xs font-semibold tracking-wider text-violet-300 uppercase">
+          <p className="text-xs font-semibold tracking-wider text-violet-600 uppercase">
             Section {section.number}
           </p>
-          <h2 className="font-display mt-1 text-xl font-semibold text-white">{section.title}</h2>
-          <p className="mt-1 text-sm text-slate-400">{section.context}</p>
+          <h2 className="font-display mt-1 text-xl font-semibold text-ink-900">{section.title}</h2>
+          <p className="mt-1 text-sm text-ink-500">{section.context}</p>
           <div className="mt-5">
             <ListeningPlayer
               src={section.audioSrc}
@@ -758,28 +758,28 @@ function ReadingSection({
     <div className="mx-auto max-w-7xl space-y-6">
       <SectionHeading
         icon={BookOpen}
-        color="#38bdf8"
+        color="#db2777"
         eyebrow="Reading"
         title="Đọc các passage và hoàn thành câu hỏi"
         text="Các passage trong đề full được ghép từ bài Reading tương ứng."
       />
       {test.passages.map((passage) => (
         <GlassCard key={passage.number} className="p-5 sm:p-7">
-          <div className="border-b border-white/8 pb-5">
-            <p className="text-xs font-semibold tracking-wider text-sky-300 uppercase">
+          <div className="border-b border-rose-200/70 pb-5">
+            <p className="text-xs font-semibold tracking-wider text-pink-700 uppercase">
               Passage {passage.number}
             </p>
-            <h2 className="font-display mt-1.5 text-2xl font-semibold text-white">
+            <h2 className="font-display mt-1.5 text-2xl font-semibold text-ink-900">
               {passage.title}
             </h2>
-            {passage.subtitle && <p className="mt-1.5 text-sm text-slate-400">{passage.subtitle}</p>}
+            {passage.subtitle && <p className="mt-1.5 text-sm text-ink-500">{passage.subtitle}</p>}
           </div>
           <div className="mt-6 grid gap-6 lg:grid-cols-2">
-            <article className="passage text-[0.97rem] text-slate-300">
+            <article className="passage text-[0.97rem] text-ink-700">
               {passage.paragraphs.map((paragraph, index) => (
                 <p key={index} className="mb-5 leading-[1.9]">
                   {paragraph.label && (
-                    <span className="mr-2 inline-grid size-6 place-items-center rounded-md bg-sky-500/15 align-text-bottom text-xs font-semibold text-sky-300">
+                    <span className="mr-2 inline-grid size-6 place-items-center rounded-lg bg-pink-500/15 align-text-bottom text-xs font-semibold text-pink-700">
                       {paragraph.label}
                     </span>
                   )}
@@ -821,7 +821,7 @@ function WritingSection({
     <div className="mx-auto max-w-6xl space-y-6">
       <SectionHeading
         icon={PenLine}
-        color="#fbbf24"
+        color="#b45309"
         eyebrow="Writing"
         title="Hoàn thành Task 1 và Task 2"
         text="AI sẽ chấm từng task theo tiêu chí IELTS rồi lấy band trung bình cho kỹ năng Writing."
@@ -834,13 +834,13 @@ function WritingSection({
           <GlassCard key={task.taskNumber} className="p-5 sm:p-6">
             <div className="flex flex-wrap items-center gap-3">
               <Badge tone="amber">Task {task.taskNumber}</Badge>
-              <span className="text-xs text-slate-400">{task.type}</span>
-              <span className="ml-auto text-xs tabular-nums text-slate-500">
+              <span className="text-xs text-ink-500">{task.type}</span>
+              <span className="ml-auto text-xs tabular-nums text-ink-450">
                 {words}/{task.minWords} từ
               </span>
             </div>
-            <p className="mt-4 text-sm leading-relaxed text-slate-300">{task.instruction}</p>
-            <p className="mt-3 text-[1rem] font-medium leading-relaxed text-white">{task.prompt}</p>
+            <p className="mt-4 text-sm leading-relaxed text-ink-700">{task.instruction}</p>
+            <p className="mt-3 text-[1rem] font-medium leading-relaxed text-ink-900">{task.prompt}</p>
             {task.chart && <div className="mt-5"><ChartRenderer chart={task.chart} /></div>}
             <textarea
               value={essay}
@@ -884,7 +884,7 @@ function SpeakingSection({
     <div className="mx-auto max-w-4xl space-y-6">
       <SectionHeading
         icon={Mic}
-        color="#34d399"
+        color="#047857"
         eyebrow={`Speaking · Part ${part.part}`}
         title={part.title}
         text="Ghi âm câu trả lời, kiểm tra transcript và chuyển sang part tiếp theo khi sẵn sàng."
@@ -893,12 +893,12 @@ function SpeakingSection({
         {test.parts.map((item, index) => (
           <span
             key={item.part}
-            className={`shrink-0 rounded-lg border px-3 py-1.5 text-xs ${
+            className={`shrink-0 rounded-xl border px-3 py-1.5 text-xs ${
               index === partIndex
-                ? "border-emerald-400/40 bg-emerald-500/14 text-emerald-100"
+                ? "border-emerald-400/40 bg-emerald-500/14 text-emerald-800"
                 : index < partIndex
-                  ? "border-white/12 bg-white/8 text-slate-300"
-                  : "border-white/8 bg-white/3 text-slate-500"
+                  ? "border-rose-300/60 bg-white/75 text-ink-700"
+                  : "border-rose-200/70 bg-white/55 text-ink-450"
             }`}
           >
             Part {item.part}
@@ -906,14 +906,14 @@ function SpeakingSection({
         ))}
       </div>
       <GlassCard className="p-6 sm:p-8">
-        <p className="text-sm leading-relaxed text-slate-300">{part.instruction}</p>
+        <p className="text-sm leading-relaxed text-ink-700">{part.instruction}</p>
         {part.cueCard ? (
-          <div className="mt-5 rounded-xl border border-emerald-400/20 bg-emerald-500/8 p-5">
-            <p className="font-display text-lg font-semibold text-white">{part.cueCard.topic}</p>
+          <div className="mt-5 rounded-2xl border border-emerald-400/20 bg-emerald-500/8 p-5">
+            <p className="font-display text-lg font-semibold text-ink-900">{part.cueCard.topic}</p>
             <ul className="mt-3 space-y-1.5">
               {part.cueCard.bullets.map((bullet) => (
-                <li key={bullet} className="flex gap-2 text-sm text-slate-200">
-                  <span className="text-emerald-400">•</span>
+                <li key={bullet} className="flex gap-2 text-sm text-ink-800">
+                  <span className="text-emerald-600">•</span>
                   {bullet}
                 </li>
               ))}
@@ -922,11 +922,11 @@ function SpeakingSection({
         ) : (
           <ol className="mt-5 space-y-2.5">
             {part.questions.map((question, index) => (
-              <li key={question} className="flex gap-3 rounded-xl border border-white/8 bg-white/3 p-3.5">
-                <span className="grid size-6 shrink-0 place-items-center rounded-lg bg-white/10 text-xs text-slate-300">
+              <li key={question} className="flex gap-3 rounded-2xl border border-rose-200/70 bg-white/55 p-3.5">
+                <span className="grid size-6 shrink-0 place-items-center rounded-xl bg-white/85 text-xs text-ink-700">
                   {index + 1}
                 </span>
-                <span className="text-sm leading-relaxed text-slate-200">{question}</span>
+                <span className="text-sm leading-relaxed text-ink-800">{question}</span>
               </li>
             ))}
           </ol>
@@ -938,12 +938,12 @@ function SpeakingSection({
             onComplete={onRecording}
           />
         </div>
-        {notice && <p className="mt-4 rounded-xl border border-amber-400/25 bg-amber-500/10 p-3 text-sm text-amber-100">{notice}</p>}
+        {notice && <p className="mt-4 rounded-2xl border border-amber-400/25 bg-amber-500/10 p-3 text-sm text-amber-800">{notice}</p>}
         <label className="mt-6 block">
-          <span className="flex items-center gap-2 text-sm font-medium text-white">
-            <FileText className="size-4 text-emerald-300" />
+          <span className="flex items-center gap-2 text-sm font-medium text-ink-900">
+            <FileText className="size-4 text-emerald-700" />
             Transcript
-            <span className="ml-auto text-xs font-normal text-slate-500">{words} từ</span>
+            <span className="ml-auto text-xs font-normal text-ink-450">{words} từ</span>
           </span>
           <textarea
             value={transcript}
@@ -982,13 +982,13 @@ function SectionHeading({
 }) {
   return (
     <div className="flex items-start gap-3 px-1">
-      <span className="grid size-11 shrink-0 place-items-center rounded-xl" style={{ background: `${color}1c` }}>
+      <span className="grid size-11 shrink-0 place-items-center rounded-2xl" style={{ background: `${color}1c` }}>
         <Icon className="size-5" style={{ color }} />
       </span>
       <div>
         <p className="text-xs tracking-[0.16em] uppercase" style={{ color }}>{eyebrow}</p>
-        <h1 className="font-display mt-1 text-2xl font-semibold text-white">{title}</h1>
-        <p className="mt-1.5 text-sm leading-relaxed text-slate-400">{text}</p>
+        <h1 className="font-display mt-1 text-2xl font-semibold text-ink-900">{title}</h1>
+        <p className="mt-1.5 text-sm leading-relaxed text-ink-500">{text}</p>
       </div>
     </div>
   );

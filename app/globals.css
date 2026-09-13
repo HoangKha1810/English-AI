@@ -1,48 +1,61 @@
 @import "tailwindcss";
 
 @theme {
-  --color-ink-950: #06060f;
-  --color-ink-900: #0a0a18;
-  --color-ink-850: #0e0e20;
-  --color-ink-800: #141428;
-  --color-ink-700: #1e1e38;
+  /* ---------- Chu: thang plum hong, da kiem tra tuong phan ---------- */
+  --color-ink-900: #3d2030; /* tieu de        14.5:1 tren nen trang */
+  --color-ink-800: #4b2a3c; /*                12.4:1 */
+  --color-ink-700: #5c3a4b; /* than bai        9.7:1 */
+  --color-ink-600: #6e4a5c; /*                 7.5:1 */
+  --color-ink-500: #815a6d; /* chu phu         5.8:1 */
+  --color-ink-450: #8f6a7d; /* chu mo          4.6:1 */
+  --color-ink-400: #9b7789; /* trang tri       3.9:1 */
+  --color-ink-300: #c0a3b5;
+  --color-ink-200: #dcc4d2;
 
-  --color-brand-300: #c4b5fd;
-  --color-brand-400: #a78bfa;
-  --color-brand-500: #8b5cf6;
-  --color-brand-600: #7c3aed;
+  /* ---------- Nen hong phan ---------- */
+  --color-blush-50: #fff8fb;
+  --color-blush-100: #fff1f7;
+  --color-blush-200: #ffe4f0;
+  --color-blush-300: #ffd2e6;
+  --color-blush-400: #ffbcd8;
 
-  --color-aqua-300: #7dd3fc;
-  --color-aqua-400: #38bdf8;
-  --color-aqua-500: #0ea5e9;
+  --color-cream-100: #fff7f0;
+  --color-cream-200: #ffeede;
 
-  --color-read-400: #38bdf8;
-  --color-listen-400: #a78bfa;
-  --color-write-400: #fbbf24;
-  --color-speak-400: #34d399;
+  /* ---------- Mau thuong hieu ---------- */
+  --color-brand-400: #f472b6;
+  --color-brand-500: #ec4899;
+  --color-brand-600: #db2777;
 
-  --font-sans: "Inter", "Inter Fallback", ui-sans-serif, system-ui, -apple-system,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  --font-display: "Outfit", "Inter", ui-sans-serif, system-ui, -apple-system,
-    "Segoe UI", Roboto, sans-serif;
+  --font-sans: "Nunito", "Quicksand", ui-rounded, ui-sans-serif, system-ui,
+    -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-display: "Quicksand", "Nunito", ui-rounded, ui-sans-serif, system-ui,
+    -apple-system, "Segoe UI", sans-serif;
 
   --animate-float: float 7s ease-in-out infinite;
-  --animate-drift: drift 22s ease-in-out infinite;
-  --animate-shimmer: shimmer 2.4s linear infinite;
+  --animate-drift: drift 26s ease-in-out infinite;
+  --animate-shimmer: shimmer 2.6s linear infinite;
   --animate-fade-up: fade-up 0.6s cubic-bezier(0.22, 1, 0.36, 1) both;
-  --animate-pop: pop 0.45s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+  --animate-pop: pop 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) both;
   --animate-spin-slow: spin 14s linear infinite;
   --animate-pulse-ring: pulse-ring 1.8s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  --animate-wiggle: wiggle 0.6s ease-in-out;
+  --animate-bob: bob 3.4s ease-in-out infinite;
+  --animate-twinkle: twinkle 4s ease-in-out infinite;
 }
 
 @keyframes float {
   0%, 100% { transform: translateY(0px); }
   50% { transform: translateY(-14px); }
 }
+@keyframes bob {
+  0%, 100% { transform: translateY(0) rotate(-3deg); }
+  50% { transform: translateY(-8px) rotate(3deg); }
+}
 @keyframes drift {
   0%, 100% { transform: translate(0, 0) scale(1); }
-  33% { transform: translate(4%, -6%) scale(1.08); }
-  66% { transform: translate(-5%, 4%) scale(0.95); }
+  33% { transform: translate(5%, -7%) scale(1.1); }
+  66% { transform: translate(-6%, 5%) scale(0.94); }
 }
 @keyframes shimmer {
   0% { background-position: -200% 0; }
@@ -53,17 +66,26 @@
   to { opacity: 1; transform: translateY(0); }
 }
 @keyframes pop {
-  from { opacity: 0; transform: scale(0.9); }
+  from { opacity: 0; transform: scale(0.88); }
   to { opacity: 1; transform: scale(1); }
 }
 @keyframes pulse-ring {
-  0% { box-shadow: 0 0 0 0 rgb(52 211 153 / 0.45); }
-  70% { box-shadow: 0 0 0 18px rgb(52 211 153 / 0); }
-  100% { box-shadow: 0 0 0 0 rgb(52 211 153 / 0); }
+  0% { box-shadow: 0 0 0 0 rgb(244 114 182 / 0.5); }
+  70% { box-shadow: 0 0 0 18px rgb(244 114 182 / 0); }
+  100% { box-shadow: 0 0 0 0 rgb(244 114 182 / 0); }
+}
+@keyframes wiggle {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(-7deg); }
+  75% { transform: rotate(7deg); }
+}
+@keyframes twinkle {
+  0%, 100% { opacity: 0.25; transform: scale(0.85); }
+  50% { opacity: 0.9; transform: scale(1.1); }
 }
 
 :root {
-  color-scheme: dark;
+  color-scheme: light;
 }
 
 html {
@@ -71,15 +93,19 @@ html {
 }
 
 body {
-  background-color: var(--color-ink-950);
-  color: rgb(226 232 240);
+  background-color: var(--color-blush-100);
+  background-image:
+    linear-gradient(175deg, #fff9fc 0%, #fff1f7 38%, #ffeaf4 68%, #fdf0fb 100%);
+  background-attachment: fixed;
+  color: var(--color-ink-700);
   font-family: var(--font-sans);
+  font-weight: 500;
   -webkit-font-smoothing: antialiased;
   min-height: 100dvh;
   overflow-x: hidden;
 }
 
-/* ---------- Aurora background ---------- */
+/* ---------- Nen aurora hong phan ---------- */
 .aurora {
   position: fixed;
   inset: 0;
@@ -92,78 +118,100 @@ body {
   content: "";
   position: absolute;
   border-radius: 9999px;
-  filter: blur(110px);
-  opacity: 0.5;
+  filter: blur(100px);
+  opacity: 0.62;
 }
 .aurora::before {
-  width: 46rem;
-  height: 46rem;
-  top: -14rem;
-  left: -10rem;
-  background: radial-gradient(circle at 30% 30%, #7c3aed, transparent 70%);
+  width: 44rem;
+  height: 44rem;
+  top: -13rem;
+  left: -9rem;
+  background: radial-gradient(circle at 35% 35%, #ffb6d5, transparent 70%);
   animation: var(--animate-drift);
 }
 .aurora::after {
-  width: 40rem;
-  height: 40rem;
-  top: 20%;
-  right: -12rem;
-  background: radial-gradient(circle at 70% 40%, #0ea5e9, transparent 70%);
+  width: 38rem;
+  height: 38rem;
+  top: 18%;
+  right: -11rem;
+  background: radial-gradient(circle at 65% 40%, #d8c4ff, transparent 70%);
   animation: var(--animate-drift);
-  animation-delay: -8s;
+  animation-delay: -9s;
 }
 .aurora-grid {
   position: absolute;
   inset: 0;
-  background-image:
-    linear-gradient(rgb(255 255 255 / 0.028) 1px, transparent 1px),
-    linear-gradient(90deg, rgb(255 255 255 / 0.028) 1px, transparent 1px);
-  background-size: 56px 56px;
-  mask-image: radial-gradient(ellipse 90% 60% at 50% 0%, #000 20%, transparent 78%);
+}
+/* dom cam thu ba + hoa tiet cham bi */
+.aurora-grid::before {
+  content: "";
+  position: absolute;
+  width: 32rem;
+  height: 32rem;
+  bottom: -10rem;
+  left: 28%;
+  border-radius: 9999px;
+  filter: blur(100px);
+  opacity: 0.5;
+  background: radial-gradient(circle at 50% 50%, #ffd9b8, transparent 70%);
+  animation: var(--animate-drift);
+  animation-delay: -16s;
+}
+.aurora-grid::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(rgb(236 72 153 / 0.09) 1.4px, transparent 1.4px);
+  background-size: 26px 26px;
+  mask-image: radial-gradient(ellipse 85% 65% at 50% 0%, #000 15%, transparent 80%);
 }
 
-/* ---------- Glass ---------- */
+/* ---------- The kinh trang suong ---------- */
 .glass {
   background: linear-gradient(
-    145deg,
-    rgb(255 255 255 / 0.07) 0%,
-    rgb(255 255 255 / 0.028) 100%
+    150deg,
+    rgb(255 255 255 / 0.86) 0%,
+    rgb(255 250 253 / 0.66) 100%
   );
-  backdrop-filter: blur(20px) saturate(140%);
-  -webkit-backdrop-filter: blur(20px) saturate(140%);
-  border: 1px solid rgb(255 255 255 / 0.09);
+  backdrop-filter: blur(16px) saturate(135%);
+  -webkit-backdrop-filter: blur(16px) saturate(135%);
+  border: 1px solid rgb(244 114 182 / 0.18);
   box-shadow:
-    0 8px 32px rgb(0 0 0 / 0.38),
-    inset 0 1px 0 rgb(255 255 255 / 0.07);
+    0 10px 30px -12px rgb(219 39 119 / 0.22),
+    0 2px 8px -2px rgb(219 39 119 / 0.08),
+    inset 0 1px 0 rgb(255 255 255 / 0.9);
 }
 .glass-strong {
   background: linear-gradient(
-    145deg,
-    rgb(255 255 255 / 0.11) 0%,
-    rgb(255 255 255 / 0.045) 100%
+    150deg,
+    rgb(255 255 255 / 0.95) 0%,
+    rgb(255 246 251 / 0.82) 100%
   );
-  backdrop-filter: blur(26px) saturate(150%);
-  -webkit-backdrop-filter: blur(26px) saturate(150%);
-  border: 1px solid rgb(255 255 255 / 0.13);
+  backdrop-filter: blur(22px) saturate(145%);
+  -webkit-backdrop-filter: blur(22px) saturate(145%);
+  border: 1px solid rgb(244 114 182 / 0.24);
   box-shadow:
-    0 12px 44px rgb(0 0 0 / 0.45),
-    inset 0 1px 0 rgb(255 255 255 / 0.1);
+    0 16px 44px -14px rgb(219 39 119 / 0.28),
+    0 3px 10px -3px rgb(219 39 119 / 0.1),
+    inset 0 1px 0 rgb(255 255 255 / 0.95);
 }
 .glass-hover {
-  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
-    border-color 0.35s ease, box-shadow 0.35s ease;
+  transition:
+    transform 0.35s cubic-bezier(0.34, 1.4, 0.64, 1),
+    border-color 0.35s ease,
+    box-shadow 0.35s ease;
 }
 .glass-hover:hover {
-  transform: translateY(-4px);
-  border-color: rgb(167 139 250 / 0.42);
+  transform: translateY(-5px) scale(1.012);
+  border-color: rgb(236 72 153 / 0.42);
   box-shadow:
-    0 18px 50px rgb(124 58 237 / 0.2),
-    inset 0 1px 0 rgb(255 255 255 / 0.12);
+    0 22px 46px -16px rgb(219 39 119 / 0.34),
+    inset 0 1px 0 rgb(255 255 255 / 0.95);
 }
 
-/* ---------- Text ---------- */
+/* ---------- Chu ---------- */
 .gradient-text {
-  background: linear-gradient(110deg, #c4b5fd 0%, #7dd3fc 45%, #f0abfc 100%);
+  background: linear-gradient(110deg, #f472b6 0%, #c084fc 48%, #fb923c 100%);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -171,10 +219,10 @@ body {
 .shimmer-text {
   background: linear-gradient(
     100deg,
-    #e2e8f0 30%,
-    #ffffff 45%,
-    #c4b5fd 55%,
-    #e2e8f0 70%
+    #815a6d 30%,
+    #ec4899 45%,
+    #c084fc 55%,
+    #815a6d 70%
   );
   background-size: 200% 100%;
   background-clip: text;
@@ -183,49 +231,65 @@ body {
   animation: var(--animate-shimmer);
 }
 
-/* ---------- Scrollbar ---------- */
-::-webkit-scrollbar { width: 10px; height: 10px; }
+/* ---------- Thanh cuon ---------- */
+::-webkit-scrollbar { width: 11px; height: 11px; }
 ::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb {
-  background: rgb(255 255 255 / 0.12);
+  background: rgb(244 114 182 / 0.32);
   border-radius: 9999px;
-  border: 2px solid transparent;
+  border: 3px solid transparent;
   background-clip: content-box;
 }
-::-webkit-scrollbar-thumb:hover { background: rgb(167 139 250 / 0.45); background-clip: content-box; }
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(236 72 153 / 0.55);
+  background-clip: content-box;
+}
 
-::selection { background: rgb(139 92 246 / 0.35); color: #fff; }
+::selection { background: rgb(244 114 182 / 0.32); color: #3d2030; }
 
-/* ---------- Form controls ---------- */
+/* ---------- O nhap ---------- */
 input, textarea, select, button { font: inherit; }
 
 input[type="text"], input[type="email"], input[type="password"], textarea, select {
-  background: rgb(255 255 255 / 0.05);
-  border: 1px solid rgb(255 255 255 / 0.12);
-  border-radius: 0.75rem;
-  color: #e2e8f0;
+  background: rgb(255 255 255 / 0.85);
+  border: 1.5px solid rgb(244 114 182 / 0.26);
+  border-radius: 1rem;
+  color: var(--color-ink-800);
   transition: border-color 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
   outline: none;
 }
 input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus,
 textarea:focus, select:focus {
-  border-color: rgb(167 139 250 / 0.6);
-  background: rgb(255 255 255 / 0.075);
-  box-shadow: 0 0 0 4px rgb(139 92 246 / 0.14);
+  border-color: rgb(236 72 153 / 0.6);
+  background: #ffffff;
+  box-shadow: 0 0 0 4px rgb(244 114 182 / 0.18);
 }
-input::placeholder, textarea::placeholder { color: rgb(148 163 184 / 0.65); }
-select option { background: #141428; color: #e2e8f0; }
+input::placeholder, textarea::placeholder { color: var(--color-ink-300); }
+select option { background: #ffffff; color: var(--color-ink-800); }
 
-/* ---------- Reading passage typography ---------- */
-.passage p { margin-bottom: 1.05rem; line-height: 1.85; }
-.passage h3 { font-weight: 600; margin: 1.5rem 0 0.6rem; color: #e9d5ff; }
+/* ---------- Bai doc ---------- */
+.passage p { margin-bottom: 1.05rem; line-height: 1.9; }
+.passage h3 { font-weight: 700; margin: 1.5rem 0 0.6rem; color: var(--color-ink-800); }
 
-/* ---------- Misc ---------- */
+/* ---------- Nut bam nay nhe ---------- */
+.bouncy { transition: transform 0.18s cubic-bezier(0.34, 1.6, 0.64, 1); }
+.bouncy:hover { transform: translateY(-2px) scale(1.03); }
+.bouncy:active { transform: translateY(0) scale(0.95); }
+
+/* ---------- Vun trang tri ---------- */
+.sprinkle {
+  position: absolute;
+  pointer-events: none;
+  animation: var(--animate-twinkle);
+}
+
+/* ---------- Linh tinh ---------- */
 .no-scrollbar::-webkit-scrollbar { display: none; }
 .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
 
 @media print {
   .aurora, nav { display: none !important; }
+  body { background: #fff; }
 }
 
 @media (prefers-reduced-motion: reduce) {

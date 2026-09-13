@@ -28,7 +28,7 @@ export function BandRing({
         <defs>
           <linearGradient id={gid} x1="0%" y1="0%" x2="100%" y2="100%">
             <stop offset="0%" stopColor={color} stopOpacity="0.95" />
-            <stop offset="100%" stopColor="#a78bfa" stopOpacity="0.9" />
+            <stop offset="100%" stopColor="#f472b6" stopOpacity="0.95" />
           </linearGradient>
         </defs>
         <circle
@@ -36,7 +36,7 @@ export function BandRing({
           cy={size / 2}
           r={radius}
           fill="none"
-          stroke="rgba(255,255,255,0.07)"
+          stroke="rgba(236,72,153,0.14)"
           strokeWidth={stroke}
         />
         <circle
@@ -64,7 +64,7 @@ export function BandRing({
             {band.toFixed(1)}
           </div>
           {showLabel && (
-            <div className="mt-1 text-[0.68rem] tracking-wide text-slate-400">
+            <div className="mt-1 text-[0.68rem] tracking-wide text-ink-500">
               {caption ?? bandLabel(band)}
             </div>
           )}

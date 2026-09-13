@@ -44,7 +44,7 @@ export default function WritingListPage() {
               accent={skill.color}
               footer={
                 t2 ? (
-                  <p className="mt-4 line-clamp-3 text-[0.8rem] leading-relaxed text-slate-400 italic">
+                  <p className="mt-4 line-clamp-3 text-[0.8rem] leading-relaxed text-ink-500 italic">
                     “{t2.prompt}”
                   </p>
                 ) : null

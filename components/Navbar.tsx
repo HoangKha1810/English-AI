@@ -69,17 +69,17 @@ export function Navbar() {
       className={cn(
         "sticky top-0 z-50 transition-all duration-300",
         scrolled
-          ? "border-b border-white/8 bg-ink-950/72 backdrop-blur-xl"
+          ? "border-b border-rose-200/70 bg-white/78 backdrop-blur-xl"
           : "border-b border-transparent"
       )}
     >
       <div className="mx-auto flex h-16 max-w-7xl items-center gap-3 px-4 sm:px-6">
         <Link href="/" className="group flex items-center gap-2.5">
-          <span className="relative grid size-9 place-items-center rounded-xl bg-linear-to-br from-violet-500 to-sky-500 shadow-[0_4px_18px_-4px_rgba(124,58,237,0.8)]">
+          <span className="relative grid size-9 place-items-center rounded-2xl bg-linear-to-br from-pink-400 to-fuchsia-500 shadow-[0_5px_18px_-4px_rgba(219,39,119,0.75)] transition-transform group-hover:scale-110 group-hover:rotate-6">
             <Sparkles className="size-4.5 text-white" strokeWidth={2.4} />
           </span>
           <span className="font-display text-[1.05rem] font-semibold tracking-tight">
-            <span className="text-white">IELTS</span>
+            <span className="text-ink-900">IELTS</span>
             <span className="gradient-text">Lab</span>
           </span>
         </Link>
@@ -92,10 +92,10 @@ export function Navbar() {
                 key={href}
                 href={href}
                 className={cn(
-                  "flex items-center gap-1.5 rounded-lg px-3 py-2 text-sm transition-colors",
+                  "flex items-center gap-1.5 rounded-xl px-3 py-2 text-sm transition-colors",
                   active
-                    ? "bg-white/10 text-white"
-                    : "text-slate-400 hover:bg-white/5 hover:text-slate-100"
+                    ? "bg-white/85 text-ink-900"
+                    : "text-ink-500 hover:bg-white/65 hover:text-ink-900"
                 )}
               >
                 <Icon className="size-4" />
@@ -127,7 +127,7 @@ export function Navbar() {
           {!loading && user && (
             <>
               {(profile?.streak ?? 0) > 0 && (
-                <span className="hidden items-center gap-1 rounded-full border border-amber-400/25 bg-amber-500/12 px-2.5 py-1 text-xs font-medium text-amber-200 sm:inline-flex">
+                <span className="hidden items-center gap-1 rounded-full border border-amber-400/25 bg-amber-500/12 px-2.5 py-1 text-xs font-medium text-amber-700 sm:inline-flex">
                   <Flame className="size-3.5" />
                   {profile?.streak} ngày
                 </span>
@@ -135,7 +135,7 @@ export function Navbar() {
               <div className="relative" ref={menuRef}>
                 <button
                   onClick={() => setMenuOpen((v) => !v)}
-                  className="flex items-center gap-2 rounded-full border border-white/10 bg-white/5 py-1 pr-2 pl-1 transition-colors hover:bg-white/10"
+                  className="flex items-center gap-2 rounded-full border border-rose-200/80 bg-white/65 py-1 pr-2 pl-1 transition-colors hover:bg-white/85"
                 >
                   {profile?.photoURL ? (
                     // eslint-disable-next-line @next/next/no-img-element
@@ -146,31 +146,31 @@ export function Navbar() {
                       referrerPolicy="no-referrer"
                     />
                   ) : (
-                    <span className="grid size-7 place-items-center rounded-full bg-linear-to-br from-violet-500 to-sky-500 text-xs font-semibold text-white">
+                    <span className="grid size-7 place-items-center rounded-full bg-linear-to-br from-pink-400 to-fuchsia-500 text-xs font-semibold text-white">
                       {initial}
                     </span>
                   )}
-                  <ChevronDown className="size-3.5 text-slate-400" />
+                  <ChevronDown className="size-3.5 text-ink-500" />
                 </button>
 
                 {menuOpen && (
-                  <div className="glass-strong animate-pop absolute right-0 mt-2 w-60 overflow-hidden rounded-xl p-1.5">
-                    <div className="border-b border-white/8 px-3 py-2.5">
-                      <p className="truncate text-sm font-medium text-white">
+                  <div className="glass-strong animate-pop absolute right-0 mt-2 w-60 overflow-hidden rounded-2xl p-1.5">
+                    <div className="border-b border-rose-200/70 px-3 py-2.5">
+                      <p className="truncate text-sm font-medium text-ink-900">
                         {profile?.displayName ?? "Học viên"}
                       </p>
-                      <p className="truncate text-xs text-slate-400">{user.email}</p>
+                      <p className="truncate text-xs text-ink-500">{user.email}</p>
                     </div>
                     <Link
                       href="/dashboard"
-                      className="mt-1 flex items-center gap-2.5 rounded-lg px-3 py-2 text-sm text-slate-300 transition-colors hover:bg-white/8 hover:text-white"
+                      className="mt-1 flex items-center gap-2.5 rounded-xl px-3 py-2 text-sm text-ink-700 transition-colors hover:bg-white/75 hover:text-ink-900"
                     >
                       <LayoutDashboard className="size-4" />
                       Tiến độ của tôi
                     </Link>
                     <button
                       onClick={() => void logout()}
-                      className="flex w-full items-center gap-2.5 rounded-lg px-3 py-2 text-sm text-rose-300 transition-colors hover:bg-rose-500/12"
+                      className="flex w-full items-center gap-2.5 rounded-xl px-3 py-2 text-sm text-rose-700 transition-colors hover:bg-rose-500/12"
                     >
                       <LogOut className="size-4" />
                       Đăng xuất
@@ -183,7 +183,7 @@ export function Navbar() {
 
           <button
             onClick={() => setOpen((v) => !v)}
-            className="grid size-9 place-items-center rounded-lg text-slate-300 hover:bg-white/8 md:hidden"
+            className="grid size-9 place-items-center rounded-xl text-ink-700 hover:bg-white/75 md:hidden"
             aria-label="Menu"
           >
             {open ? <X className="size-5" /> : <Menu className="size-5" />}
@@ -197,7 +197,7 @@ export function Navbar() {
             <Link
               key={href}
               href={href}
-              className="flex items-center gap-3 rounded-xl px-3 py-2.5 text-sm text-slate-300 hover:bg-white/8 hover:text-white"
+              className="flex items-center gap-3 rounded-2xl px-3 py-2.5 text-sm text-ink-700 hover:bg-white/75 hover:text-ink-900"
             >
               <Icon className="size-4" />
               {label}
@@ -205,7 +205,7 @@ export function Navbar() {
           ))}
           <Link
             href="/dashboard"
-            className="flex items-center gap-3 rounded-xl px-3 py-2.5 text-sm text-slate-300 hover:bg-white/8 hover:text-white"
+            className="flex items-center gap-3 rounded-2xl px-3 py-2.5 text-sm text-ink-700 hover:bg-white/75 hover:text-ink-900"
           >
             <LayoutDashboard className="size-4" />
             Tiến độ của tôi

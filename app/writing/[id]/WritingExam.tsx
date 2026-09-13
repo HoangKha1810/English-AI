@@ -131,14 +131,14 @@ export function WritingExam({ test }: { test: WritingTest }) {
       <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6">
         <Link
           href="/writing"
-          className="mb-6 inline-flex items-center gap-1.5 text-sm text-slate-400 hover:text-white"
+          className="mb-6 inline-flex items-center gap-1.5 text-sm text-ink-500 hover:text-ink-900"
         >
           <ArrowLeft className="size-4" />
           Tất cả đề Writing
         </Link>
 
         <h1 className="font-display text-3xl font-semibold tracking-tight">{test.title}</h1>
-        <p className="mt-2 text-slate-400">Chọn phần bạn muốn luyện.</p>
+        <p className="mt-2 text-ink-500">Chọn phần bạn muốn luyện.</p>
 
         <div className="mt-8 grid gap-5 md:grid-cols-2">
           {test.tasks.map((t, i) => (
@@ -150,12 +150,12 @@ export function WritingExam({ test }: { test: WritingTest }) {
             >
               <div className="flex items-center gap-2">
                 <Badge tone="amber">Task {t.taskNumber}</Badge>
-                <span className="text-xs text-slate-400">{t.type}</span>
+                <span className="text-xs text-ink-500">{t.type}</span>
               </div>
-              <p className="mt-4 flex-1 text-[0.9rem] leading-relaxed text-slate-300">
+              <p className="mt-4 flex-1 text-[0.9rem] leading-relaxed text-ink-700">
                 {t.prompt}
               </p>
-              <div className="mt-5 flex items-center gap-4 text-xs text-slate-400">
+              <div className="mt-5 flex items-center gap-4 text-xs text-ink-500">
                 <span>{t.durationMinutes} phút</span>
                 <span>tối thiểu {t.minWords} từ</span>
               </div>
@@ -181,10 +181,10 @@ export function WritingExam({ test }: { test: WritingTest }) {
       <div className="grid min-h-[70vh] place-items-center px-4">
         <GlassCard strong className="animate-pop max-w-md p-10 text-center">
           <Spinner />
-          <h2 className="font-display mt-5 text-xl font-semibold text-white">
+          <h2 className="font-display mt-5 text-xl font-semibold text-ink-900">
             AI đang chấm bài của bạn
           </h2>
-          <p className="mt-2 text-sm leading-relaxed text-slate-400">
+          <p className="mt-2 text-sm leading-relaxed text-ink-500">
             Đang đối chiếu bài viết với bộ tiêu chí band descriptors, tìm lỗi ngữ pháp và
             soạn bài mẫu. Việc này thường mất 15-40 giây.
           </p>
@@ -199,10 +199,10 @@ export function WritingExam({ test }: { test: WritingTest }) {
       <div className="mx-auto max-w-5xl px-4 py-12 sm:px-6">
         <div className="mb-6 flex flex-wrap items-center gap-3">
           <div>
-            <p className="text-sm text-slate-400">
+            <p className="text-sm text-ink-500">
               {test.title} · Task {task.taskNumber}
             </p>
-            <h1 className="font-display text-2xl font-semibold text-white">
+            <h1 className="font-display text-2xl font-semibold text-ink-900">
               Nhận xét chi tiết
             </h1>
           </div>
@@ -224,15 +224,15 @@ export function WritingExam({ test }: { test: WritingTest }) {
           </div>
         </div>
 
-        {saving && <p className="mb-4 text-xs text-slate-500">Đang lưu kết quả...</p>}
+        {saving && <p className="mb-4 text-xs text-ink-450">Đang lưu kết quả...</p>}
 
         <AiFeedbackPanel feedback={feedback} mode={mode} />
 
         <GlassCard className="mt-5 p-5">
-          <h3 className="font-display text-[0.95rem] font-semibold text-white">
+          <h3 className="font-display text-[0.95rem] font-semibold text-ink-900">
             Bài viết của bạn ({words} từ)
           </h3>
-          <p className="mt-3 text-[0.9rem] leading-[1.9] whitespace-pre-wrap text-slate-400">
+          <p className="mt-3 text-[0.9rem] leading-[1.9] whitespace-pre-wrap text-ink-500">
             {essay}
           </p>
         </GlassCard>
@@ -243,21 +243,21 @@ export function WritingExam({ test }: { test: WritingTest }) {
   /* ----------------------------- Dang viet ----------------------------- */
   return (
     <div className="mx-auto max-w-[1500px] px-4 pb-10 sm:px-6">
-      <div className="sticky top-16 z-30 -mx-4 mb-5 border-b border-white/8 bg-ink-950/80 px-4 py-3 backdrop-blur-xl sm:-mx-6 sm:px-6">
+      <div className="sticky top-16 z-30 -mx-4 mb-5 border-b border-rose-200/70 bg-white/82 px-4 py-3 backdrop-blur-xl sm:-mx-6 sm:px-6">
         <div className="flex flex-wrap items-center gap-3">
           <div className="min-w-0">
-            <p className="truncate text-sm font-medium text-white">
+            <p className="truncate text-sm font-medium text-ink-900">
               {test.title} · Task {task.taskNumber}
             </p>
-            <p className="text-[0.7rem] text-slate-400">{task.type}</p>
+            <p className="text-[0.7rem] text-ink-500">{task.type}</p>
           </div>
           <div className="ml-auto flex items-center gap-2">
             <span
               className={cn(
-                "rounded-lg border px-3 py-2 text-sm font-medium tabular-nums",
+                "rounded-xl border px-3 py-2 text-sm font-medium tabular-nums",
                 short
-                  ? "border-amber-400/35 bg-amber-500/12 text-amber-200"
-                  : "border-emerald-400/35 bg-emerald-500/12 text-emerald-200"
+                  ? "border-amber-400/35 bg-amber-500/12 text-amber-700"
+                  : "border-emerald-400/35 bg-emerald-500/12 text-emerald-700"
               )}
             >
               {words} / {task.minWords} từ
@@ -277,9 +277,9 @@ export function WritingExam({ test }: { test: WritingTest }) {
       </div>
 
       {error && (
-        <div className="mb-4 flex items-start gap-2.5 rounded-xl border border-rose-400/25 bg-rose-500/10 p-3.5">
-          <AlertTriangle className="mt-0.5 size-4.5 shrink-0 text-rose-300" />
-          <p className="text-[0.85rem] text-rose-100">{error}</p>
+        <div className="mb-4 flex items-start gap-2.5 rounded-2xl border border-rose-400/25 bg-rose-500/10 p-3.5">
+          <AlertTriangle className="mt-0.5 size-4.5 shrink-0 text-rose-700" />
+          <p className="text-[0.85rem] text-rose-800">{error}</p>
         </div>
       )}
 
@@ -288,10 +288,10 @@ export function WritingExam({ test }: { test: WritingTest }) {
         <div className="space-y-4 lg:max-h-[calc(100dvh-13rem)] lg:overflow-y-auto lg:pr-1">
           <GlassCard className="p-5">
             <Badge tone="amber">Task {task.taskNumber}</Badge>
-            <p className="mt-3 text-[0.82rem] leading-relaxed text-slate-400">
+            <p className="mt-3 text-[0.82rem] leading-relaxed text-ink-500">
               {task.instruction}
             </p>
-            <p className="mt-4 text-[1rem] leading-relaxed font-medium text-slate-100">
+            <p className="mt-4 text-[1rem] leading-relaxed font-medium text-ink-900">
               {task.prompt}
             </p>
           </GlassCard>
@@ -304,19 +304,19 @@ export function WritingExam({ test }: { test: WritingTest }) {
                 onClick={() => setShowIdeas((v) => !v)}
                 className="flex w-full items-center gap-2 p-4 text-left"
               >
-                <Lightbulb className="size-4.5 text-amber-300" />
-                <span className="text-[0.9rem] font-medium text-white">
+                <Lightbulb className="size-4.5 text-amber-700" />
+                <span className="text-[0.9rem] font-medium text-ink-900">
                   Gợi ý ý tưởng
                 </span>
-                <span className="ml-auto text-xs text-slate-400">
+                <span className="ml-auto text-xs text-ink-500">
                   {showIdeas ? "Ẩn" : "Xem"}
                 </span>
               </button>
               {showIdeas && (
-                <ul className="space-y-2 border-t border-white/8 px-4 py-4">
+                <ul className="space-y-2 border-t border-rose-200/70 px-4 py-4">
                   {task.ideas.map((idea, i) => (
-                    <li key={i} className="flex gap-2 text-[0.85rem] leading-relaxed text-slate-300">
-                      <span className="text-amber-400">•</span>
+                    <li key={i} className="flex gap-2 text-[0.85rem] leading-relaxed text-ink-700">
+                      <span className="text-amber-600">•</span>
                       {idea}
                     </li>
                   ))}
@@ -327,15 +327,15 @@ export function WritingExam({ test }: { test: WritingTest }) {
 
           {task.usefulLanguage && task.usefulLanguage.length > 0 && (
             <GlassCard className="p-4">
-              <h3 className="flex items-center gap-2 text-[0.9rem] font-medium text-white">
-                <BookOpen className="size-4.5 text-sky-300" />
+              <h3 className="flex items-center gap-2 text-[0.9rem] font-medium text-ink-900">
+                <BookOpen className="size-4.5 text-pink-700" />
                 Cụm từ nên dùng
               </h3>
               <div className="mt-3 flex flex-wrap gap-2">
                 {task.usefulLanguage.map((p) => (
                   <span
                     key={p}
-                    className="rounded-lg border border-sky-400/20 bg-sky-500/8 px-2.5 py-1.5 text-[0.78rem] text-sky-100"
+                    className="rounded-xl border border-pink-400/20 bg-pink-500/8 px-2.5 py-1.5 text-[0.78rem] text-pink-800"
                   >
                     {p}
                   </span>
@@ -347,8 +347,8 @@ export function WritingExam({ test }: { test: WritingTest }) {
 
         {/* O viet */}
         <GlassCard className="flex flex-col p-4 lg:h-[calc(100dvh-13rem)]">
-          <div className="mb-3 flex items-center gap-2 text-xs text-slate-400">
-            <Sparkles className="size-3.5 text-violet-300" />
+          <div className="mb-3 flex items-center gap-2 text-xs text-ink-500">
+            <Sparkles className="size-3.5 text-violet-600" />
             Bài viết tự động lưu khi bạn gõ
           </div>
           <textarea
@@ -358,7 +358,7 @@ export function WritingExam({ test }: { test: WritingTest }) {
             spellCheck={false}
             className="min-h-[52vh] flex-1 resize-none p-4 text-[0.98rem] leading-[1.9]"
           />
-          <div className="mt-3 flex items-center justify-between text-xs text-slate-400">
+          <div className="mt-3 flex items-center justify-between text-xs text-ink-500">
             <span>
               {short
                 ? `Còn thiếu ${task.minWords - words} từ nữa`
@@ -368,7 +368,7 @@ export function WritingExam({ test }: { test: WritingTest }) {
               onClick={() => {
                 if (confirm("Xoá toàn bộ bài viết?")) setEssay("");
               }}
-              className="text-slate-500 transition-colors hover:text-rose-300"
+              className="text-ink-450 transition-colors hover:text-rose-700"
             >
               Xoá hết
             </button>

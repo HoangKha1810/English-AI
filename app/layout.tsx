@@ -3,6 +3,7 @@ import "./globals.css";
 import { AuthProvider } from "@/lib/auth-context";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
+import { Sprinkles } from "@/components/Sprinkles";
 import { SITE_DESCRIPTION, SITE_NAME, SITE_TITLE, SITE_URL } from "@/lib/site";
 
 const googleVerification = process.env.GOOGLE_SITE_VERIFICATION?.trim();
@@ -70,7 +71,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#06060f",
+  themeColor: "#fff1f7",
   width: "device-width",
   initialScale: 1,
 };
@@ -85,13 +86,14 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
         <link
           rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&family=Quicksand:wght@500;600;700&display=swap"
         />
       </head>
       <body className="antialiased">
         <div className="aurora" aria-hidden>
           <div className="aurora-grid" />
         </div>
+        <Sprinkles />
         <AuthProvider>
           <Navbar />
           <main className="min-h-[calc(100dvh-4rem)]">{children}</main>

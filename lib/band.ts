@@ -81,10 +81,10 @@ export function bandLabel(band: number): string {
 }
 
 export function bandColor(band: number): string {
-  if (band >= 7.5) return "#34d399";
-  if (band >= 6.5) return "#38bdf8";
-  if (band >= 5.5) return "#fbbf24";
-  return "#fb7185";
+  if (band >= 7.5) return "#047857";
+  if (band >= 6.5) return "#7c3aed";
+  if (band >= 5.5) return "#b45309";
+  return "#db2777";
 }
 
 export const BAND_DESCRIPTORS_WRITING = [

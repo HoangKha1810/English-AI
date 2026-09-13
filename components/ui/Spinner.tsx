@@ -4,10 +4,10 @@ export function Spinner({ className, label }: { className?: string; label?: stri
   return (
     <div className={cn("flex flex-col items-center justify-center gap-3", className)}>
       <div className="relative size-10">
-        <div className="absolute inset-0 rounded-full border-2 border-white/10" />
-        <div className="absolute inset-0 animate-spin rounded-full border-2 border-transparent border-t-violet-400 border-r-sky-400" />
+        <div className="absolute inset-0 rounded-full border-2 border-rose-200/80" />
+        <div className="absolute inset-0 animate-spin rounded-full border-2 border-transparent border-t-pink-500 border-r-violet-400" />
       </div>
-      {label && <p className="text-sm text-slate-400">{label}</p>}
+      {label && <p className="text-sm text-ink-500">{label}</p>}
     </div>
   );
 }

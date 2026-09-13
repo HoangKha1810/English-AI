@@ -79,7 +79,7 @@ export function HighlightableText({
         key={i}
         onClick={() => removeAt(r.start)}
         title="Nhấp để bỏ bôi vàng"
-        className="cursor-pointer rounded-sm bg-amber-400/30 px-0.5 text-amber-100 transition-colors hover:bg-amber-400/45"
+        className="cursor-pointer rounded-sm bg-amber-400/30 px-0.5 text-amber-800 transition-colors hover:bg-amber-400/45"
       >
         {text.slice(r.start, r.end)}
       </mark>

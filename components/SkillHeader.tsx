@@ -34,7 +34,7 @@ export function SkillHeader({
           <h1 className="font-display mt-1 text-3xl font-semibold tracking-tight sm:text-4xl">
             {title}
           </h1>
-          <p className="mt-2.5 max-w-2xl text-[0.95rem] leading-relaxed text-slate-400">
+          <p className="mt-2.5 max-w-2xl text-[0.95rem] leading-relaxed text-ink-500">
             {description}
           </p>
         </div>
@@ -42,12 +42,12 @@ export function SkillHeader({
 
       {tips && tips.length > 0 && (
         <GlassCard className="mt-6 p-4">
-          <p className="text-xs font-semibold tracking-wide text-slate-400 uppercase">
+          <p className="text-xs font-semibold tracking-wide text-ink-500 uppercase">
             Mẹo làm bài
           </p>
           <ul className="mt-2.5 grid gap-2 sm:grid-cols-2">
             {tips.map((t) => (
-              <li key={t} className="flex gap-2 text-[0.85rem] leading-relaxed text-slate-300">
+              <li key={t} className="flex gap-2 text-[0.85rem] leading-relaxed text-ink-700">
                 <span style={{ color: accent }}>•</span>
                 {t}
               </li>

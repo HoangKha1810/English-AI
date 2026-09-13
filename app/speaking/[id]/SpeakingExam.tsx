@@ -160,14 +160,14 @@ export function SpeakingExam({ test }: { test: SpeakingTest }) {
       <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6">
         <Link
           href="/speaking"
-          className="mb-6 inline-flex items-center gap-1.5 text-sm text-slate-400 hover:text-white"
+          className="mb-6 inline-flex items-center gap-1.5 text-sm text-ink-500 hover:text-ink-900"
         >
           <ArrowLeft className="size-4" />
           Tất cả đề Speaking
         </Link>
 
         <h1 className="font-display text-3xl font-semibold tracking-tight">{test.title}</h1>
-        <p className="mt-2 text-slate-400">
+        <p className="mt-2 text-ink-500">
           Chủ đề: {test.topic}. Chọn part bạn muốn luyện.
         </p>
 
@@ -182,18 +182,18 @@ export function SpeakingExam({ test }: { test: SpeakingTest }) {
               <div className="flex flex-wrap items-start gap-4">
                 <div className="min-w-0 flex-1">
                   <Badge tone="emerald">Part {p.part}</Badge>
-                  <h2 className="font-display mt-3 text-lg font-semibold text-white">
+                  <h2 className="font-display mt-3 text-lg font-semibold text-ink-900">
                     {p.title}
                   </h2>
-                  <p className="mt-1.5 text-[0.88rem] leading-relaxed text-slate-400">
+                  <p className="mt-1.5 text-[0.88rem] leading-relaxed text-ink-500">
                     {p.instruction}
                   </p>
                   {p.cueCard ? (
-                    <p className="mt-3 text-[0.9rem] font-medium text-emerald-200 italic">
+                    <p className="mt-3 text-[0.9rem] font-medium text-emerald-700 italic">
                       “{p.cueCard.topic}”
                     </p>
                   ) : (
-                    <p className="mt-3 line-clamp-2 text-[0.85rem] text-slate-500">
+                    <p className="mt-3 line-clamp-2 text-[0.85rem] text-ink-450">
                       {p.questions.slice(0, 2).join("  ·  ")}
                     </p>
                   )}
@@ -214,22 +214,22 @@ export function SpeakingExam({ test }: { test: SpeakingTest }) {
     return (
       <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6">
         <GlassCard strong className="animate-pop p-8 text-center sm:p-10">
-          <Hourglass className="mx-auto size-8 animate-pulse text-emerald-300" />
-          <p className="mt-4 text-sm text-slate-400">Thời gian chuẩn bị</p>
-          <p className="font-display mt-1 text-6xl font-semibold text-white tabular-nums">
+          <Hourglass className="mx-auto size-8 animate-pulse text-emerald-700" />
+          <p className="mt-4 text-sm text-ink-500">Thời gian chuẩn bị</p>
+          <p className="font-display mt-1 text-6xl font-semibold text-ink-900 tabular-nums">
             {formatClock(prepLeft)}
           </p>
 
           {part.cueCard && (
             <div className="mt-8 rounded-2xl border border-emerald-400/25 bg-emerald-500/8 p-6 text-left">
-              <p className="font-display text-lg font-semibold text-white">
+              <p className="font-display text-lg font-semibold text-ink-900">
                 {part.cueCard.topic}
               </p>
-              <p className="mt-3 text-[0.82rem] text-slate-400">You should say:</p>
+              <p className="mt-3 text-[0.82rem] text-ink-500">You should say:</p>
               <ul className="mt-2 space-y-1.5">
                 {part.cueCard.bullets.map((b) => (
-                  <li key={b} className="flex gap-2 text-[0.92rem] text-slate-200">
-                    <span className="text-emerald-400">•</span>
+                  <li key={b} className="flex gap-2 text-[0.92rem] text-ink-800">
+                    <span className="text-emerald-600">•</span>
                     {b}
                   </li>
                 ))}
@@ -237,7 +237,7 @@ export function SpeakingExam({ test }: { test: SpeakingTest }) {
             </div>
           )}
 
-          <p className="mt-6 text-[0.82rem] text-slate-400">
+          <p className="mt-6 text-[0.82rem] text-ink-500">
             Ghi nhanh vài ý ra giấy. Khi hết giờ bạn sẽ có {formatDuration(part.speakSeconds)} để nói.
           </p>
 
@@ -260,12 +260,12 @@ export function SpeakingExam({ test }: { test: SpeakingTest }) {
       <div className="grid min-h-[70vh] place-items-center px-4">
         <GlassCard strong className="animate-pop max-w-md p-10 text-center">
           <Spinner />
-          <h2 className="font-display mt-5 text-xl font-semibold text-white">
+          <h2 className="font-display mt-5 text-xl font-semibold text-ink-900">
             {phase === "transcribing"
               ? "Đang chuyển giọng nói thành văn bản"
               : "AI đang chấm phần nói của bạn"}
           </h2>
-          <p className="mt-2 text-sm leading-relaxed text-slate-400">
+          <p className="mt-2 text-sm leading-relaxed text-ink-500">
             {phase === "transcribing"
               ? "Whisper đang nghe lại bản ghi của bạn, mất khoảng 5-15 giây."
               : "Đang đối chiếu với band descriptors của IELTS Speaking, mất khoảng 15-40 giây."}
@@ -281,10 +281,10 @@ export function SpeakingExam({ test }: { test: SpeakingTest }) {
       <div className="mx-auto max-w-5xl px-4 py-12 sm:px-6">
         <div className="mb-6 flex flex-wrap items-center gap-3">
           <div>
-            <p className="text-sm text-slate-400">
+            <p className="text-sm text-ink-500">
               {test.title} · Part {part.part}
             </p>
-            <h1 className="font-display text-2xl font-semibold text-white">
+            <h1 className="font-display text-2xl font-semibold text-ink-900">
               Nhận xét chi tiết
             </h1>
           </div>
@@ -304,13 +304,13 @@ export function SpeakingExam({ test }: { test: SpeakingTest }) {
           </div>
         </div>
 
-        {saving && <p className="mb-4 text-xs text-slate-500">Đang lưu kết quả...</p>}
+        {saving && <p className="mb-4 text-xs text-ink-450">Đang lưu kết quả...</p>}
 
         <AiFeedbackPanel feedback={feedback} mode={mode} />
 
         {audioUrlRef.current && (
           <GlassCard className="mt-5 p-5">
-            <h3 className="font-display text-[0.95rem] font-semibold text-white">
+            <h3 className="font-display text-[0.95rem] font-semibold text-ink-900">
               Nghe lại bản ghi của bạn
             </h3>
             <audio src={audioUrlRef.current} controls className="mt-3 w-full" />
@@ -327,7 +327,7 @@ export function SpeakingExam({ test }: { test: SpeakingTest }) {
     <div className="mx-auto max-w-4xl px-4 py-10 sm:px-6">
       <button
         onClick={() => setPhase("pick")}
-        className="mb-5 inline-flex items-center gap-1.5 text-sm text-slate-400 hover:text-white"
+        className="mb-5 inline-flex items-center gap-1.5 text-sm text-ink-500 hover:text-ink-900"
       >
         <ArrowLeft className="size-4" />
         Chọn part khác
@@ -336,25 +336,25 @@ export function SpeakingExam({ test }: { test: SpeakingTest }) {
       <GlassCard strong className="p-6 sm:p-8">
         <div className="flex flex-wrap items-center gap-3">
           <Badge tone="emerald">Part {part.part}</Badge>
-          <span className="text-sm text-slate-400">{test.topic}</span>
+          <span className="text-sm text-ink-500">{test.topic}</span>
         </div>
-        <h1 className="font-display mt-3 text-2xl font-semibold text-white">
+        <h1 className="font-display mt-3 text-2xl font-semibold text-ink-900">
           {part.title}
         </h1>
-        <p className="mt-1.5 text-[0.9rem] leading-relaxed text-slate-400">
+        <p className="mt-1.5 text-[0.9rem] leading-relaxed text-ink-500">
           {part.instruction}
         </p>
 
         {part.cueCard ? (
           <div className="mt-6 rounded-2xl border border-emerald-400/25 bg-emerald-500/8 p-5">
-            <p className="font-display text-lg font-semibold text-white">
+            <p className="font-display text-lg font-semibold text-ink-900">
               {part.cueCard.topic}
             </p>
-            <p className="mt-3 text-[0.8rem] text-slate-400">You should say:</p>
+            <p className="mt-3 text-[0.8rem] text-ink-500">You should say:</p>
             <ul className="mt-2 space-y-1.5">
               {part.cueCard.bullets.map((b) => (
-                <li key={b} className="flex gap-2 text-[0.92rem] text-slate-200">
-                  <span className="text-emerald-400">•</span>
+                <li key={b} className="flex gap-2 text-[0.92rem] text-ink-800">
+                  <span className="text-emerald-600">•</span>
                   {b}
                 </li>
               ))}
@@ -365,12 +365,12 @@ export function SpeakingExam({ test }: { test: SpeakingTest }) {
             {part.questions.map((q, i) => (
               <li
                 key={q}
-                className="flex gap-3 rounded-xl border border-white/8 bg-white/3 p-3.5"
+                className="flex gap-3 rounded-2xl border border-rose-200/70 bg-white/55 p-3.5"
               >
-                <span className="grid size-6 shrink-0 place-items-center rounded-lg bg-white/10 text-xs font-semibold text-slate-300">
+                <span className="grid size-6 shrink-0 place-items-center rounded-xl bg-white/85 text-xs font-semibold text-ink-700">
                   {i + 1}
                 </span>
-                <span className="text-[0.92rem] leading-relaxed text-slate-200">{q}</span>
+                <span className="text-[0.92rem] leading-relaxed text-ink-800">{q}</span>
               </li>
             ))}
           </ol>
@@ -385,18 +385,18 @@ export function SpeakingExam({ test }: { test: SpeakingTest }) {
         </div>
 
         {notice && (
-          <div className="mt-4 flex gap-2.5 rounded-xl border border-amber-400/25 bg-amber-500/10 p-3.5">
-            <AlertTriangle className="mt-0.5 size-4.5 shrink-0 text-amber-300" />
-            <p className="text-[0.84rem] leading-relaxed text-amber-100/90">{notice}</p>
+          <div className="mt-4 flex gap-2.5 rounded-2xl border border-amber-400/25 bg-amber-500/10 p-3.5">
+            <AlertTriangle className="mt-0.5 size-4.5 shrink-0 text-amber-700" />
+            <p className="text-[0.84rem] leading-relaxed text-amber-800">{notice}</p>
           </div>
         )}
 
         {phase === "check" && (
           <div className="mt-6">
-            <label className="mb-2 flex items-center gap-2 text-sm font-medium text-white">
-              <FileText className="size-4 text-emerald-300" />
+            <label className="mb-2 flex items-center gap-2 text-sm font-medium text-ink-900">
+              <FileText className="size-4 text-emerald-700" />
               Nội dung bạn đã nói
-              <span className="ml-auto text-xs font-normal text-slate-400">
+              <span className="ml-auto text-xs font-normal text-ink-500">
                 {words} từ · {formatClock(spokenSeconds)}
               </span>
             </label>
@@ -406,15 +406,15 @@ export function SpeakingExam({ test }: { test: SpeakingTest }) {
               placeholder="Nếu nhận diện chưa chính xác, bạn có thể sửa lại ở đây trước khi chấm."
               className="min-h-40 w-full p-4 text-[0.95rem] leading-relaxed"
             />
-            <p className="mt-1.5 text-[0.75rem] text-slate-500">
+            <p className="mt-1.5 text-[0.75rem] text-ink-450">
               AI chấm dựa trên văn bản này, nên hãy sửa cho đúng với những gì bạn thực sự
               nói.
             </p>
 
             {error && (
-              <div className="mt-4 flex gap-2.5 rounded-xl border border-rose-400/25 bg-rose-500/10 p-3.5">
-                <AlertTriangle className="mt-0.5 size-4.5 shrink-0 text-rose-300" />
-                <p className="text-[0.85rem] text-rose-100">{error}</p>
+              <div className="mt-4 flex gap-2.5 rounded-2xl border border-rose-400/25 bg-rose-500/10 p-3.5">
+                <AlertTriangle className="mt-0.5 size-4.5 shrink-0 text-rose-700" />
+                <p className="text-[0.85rem] text-rose-800">{error}</p>
               </div>
             )}
 

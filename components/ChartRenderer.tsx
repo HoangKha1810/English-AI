@@ -10,17 +10,17 @@ import { cn } from "@/lib/utils";
  * tren nen toi (OKLCH L 0.48-0.67, CVD Delta E >= 8, contrast >= 3:1).
  */
 const SERIES = [
-  "#3987e5",
-  "#d95926",
-  "#199e70",
-  "#c98500",
-  "#d55181",
-  "#9085e9",
+  "#d64584",
+  "#7c5cd6",
+  "#1f9e8c",
+  "#e07a2f",
+  "#3b82c4",
+  "#b0952a",
 ];
 
-const INK = "#e2e8f0";
-const INK_MUTED = "#94a3b8";
-const GRID = "rgba(255,255,255,0.09)";
+const INK = "#4b2a3c";
+const INK_MUTED = "#8f6a7d";
+const GRID = "rgba(219,39,119,0.13)";
 
 const W = 640;
 const H = 320;
@@ -63,20 +63,20 @@ export function ChartRenderer({ chart }: { chart: ChartSpec }) {
   const multi = chart.series.length > 1;
 
   return (
-    <figure className="rounded-2xl border border-white/10 bg-ink-850/70 p-4 sm:p-5">
+    <figure className="rounded-2xl border border-rose-200/80 bg-blush-50/80 p-4 sm:p-5">
       <figcaption className="mb-1">
-        <h3 className="font-display text-[0.98rem] leading-snug font-semibold text-slate-100">
+        <h3 className="font-display text-[0.98rem] leading-snug font-semibold text-ink-900">
           {chart.title}
         </h3>
         {chart.unit && (
-          <p className="mt-0.5 text-[0.72rem] text-slate-400">Đơn vị: {chart.unit}</p>
+          <p className="mt-0.5 text-[0.72rem] text-ink-500">Đơn vị: {chart.unit}</p>
         )}
       </figcaption>
 
       {multi && (
         <ul className="my-3 flex flex-wrap gap-x-4 gap-y-1.5">
           {chart.series.map((s, i) => (
-            <li key={s.name} className="flex items-center gap-1.5 text-[0.76rem] text-slate-300">
+            <li key={s.name} className="flex items-center gap-1.5 text-[0.76rem] text-ink-700">
               <span
                 className="size-2.5 shrink-0 rounded-[3px]"
                 style={{ background: colors[i] }}
@@ -96,13 +96,13 @@ export function ChartRenderer({ chart }: { chart: ChartSpec }) {
       )}
 
       {chart.note && (
-        <p className="mt-3 text-[0.74rem] leading-relaxed text-slate-400">{chart.note}</p>
+        <p className="mt-3 text-[0.74rem] leading-relaxed text-ink-500">{chart.note}</p>
       )}
 
       {chart.kind !== "table" && (
         <button
           onClick={() => setShowTable((v) => !v)}
-          className="mt-3 inline-flex items-center gap-1.5 text-[0.74rem] text-slate-400 transition-colors hover:text-slate-200"
+          className="mt-3 inline-flex items-center gap-1.5 text-[0.74rem] text-ink-500 transition-colors hover:text-ink-800"
         >
           <Table2 className="size-3.5" />
           {showTable ? "Ẩn bảng số liệu" : "Xem bảng số liệu"}
@@ -189,7 +189,7 @@ function LineChart({ chart, colors }: { chart: ChartSpec; colors: string[] }) {
                   cy={y(v)}
                   r={hover === i ? 5.5 : 4}
                   fill={colors[si]}
-                  stroke="#12122a"
+                  stroke="#ffffff"
                   strokeWidth="2"
                 />
               ))}
@@ -359,7 +359,7 @@ function PieChart({ chart }: { chart: ChartSpec }) {
   return (
     <svg viewBox="0 0 640 320" className="w-full min-w-[520px]" role="img" aria-label={chart.title}>
       {slices.map((s) => (
-        <path key={s.name} d={s.d} fill={s.color} stroke="#12122a" strokeWidth="2" />
+        <path key={s.name} d={s.d} fill={s.color} stroke="#ffffff" strokeWidth="2" />
       ))}
       {slices.map((s) => (
         <text
@@ -394,10 +394,10 @@ function DataTable({ chart, colors }: { chart: ChartSpec; colors: string[] }) {
     <div className="mt-3 overflow-x-auto">
       <table className="w-full border-collapse text-[0.8rem]">
         <thead>
-          <tr className="border-b border-white/12">
-            <th className="py-2 pr-3 text-left font-medium text-slate-400"> </th>
+          <tr className="border-b border-rose-300/60">
+            <th className="py-2 pr-3 text-left font-medium text-ink-500"> </th>
             {chart.categories.map((c) => (
-              <th key={c} className="px-3 py-2 text-right font-medium whitespace-nowrap text-slate-300">
+              <th key={c} className="px-3 py-2 text-right font-medium whitespace-nowrap text-ink-700">
                 {c}
               </th>
             ))}
@@ -405,8 +405,8 @@ function DataTable({ chart, colors }: { chart: ChartSpec; colors: string[] }) {
         </thead>
         <tbody>
           {chart.series.map((s, i) => (
-            <tr key={s.name} className="border-b border-white/6">
-              <td className="py-2 pr-3 text-slate-300">
+            <tr key={s.name} className="border-b border-rose-200/60">
+              <td className="py-2 pr-3 text-ink-700">
                 <span className="flex items-center gap-2">
                   <span
                     className="size-2.5 shrink-0 rounded-[3px]"
@@ -416,7 +416,7 @@ function DataTable({ chart, colors }: { chart: ChartSpec; colors: string[] }) {
                 </span>
               </td>
               {s.values.map((v, j) => (
-                <td key={j} className="px-3 py-2 text-right text-slate-200 tabular-nums">
+                <td key={j} className="px-3 py-2 text-right text-ink-800 tabular-nums">
                   {v}
                 </td>
               ))}
@@ -445,22 +445,22 @@ function Tooltip({
   return (
     <div
       className={cn(
-        "pointer-events-none absolute top-2 z-10 rounded-lg border border-white/12 bg-ink-900/95 px-3 py-2 shadow-xl backdrop-blur-sm"
+        "pointer-events-none absolute top-2 z-10 rounded-xl border border-rose-300/60 bg-white/95 px-3 py-2 shadow-xl backdrop-blur-sm"
       )}
       style={{
         left: `${leftPct}%`,
         transform: flip ? "translateX(-104%)" : "translateX(4%)",
       }}
     >
-      <p className="mb-1 text-[0.7rem] font-medium whitespace-nowrap text-slate-200">{label}</p>
+      <p className="mb-1 text-[0.7rem] font-medium whitespace-nowrap text-ink-800">{label}</p>
       {rows.map((r) => (
-        <p key={r.name} className="flex items-center gap-2 text-[0.7rem] whitespace-nowrap text-slate-300">
+        <p key={r.name} className="flex items-center gap-2 text-[0.7rem] whitespace-nowrap text-ink-700">
           <span className="size-2 rounded-[2px]" style={{ background: r.color }} />
           {r.name}
-          <span className="ml-auto pl-3 font-medium text-white tabular-nums">{r.value}</span>
+          <span className="ml-auto pl-3 font-medium text-ink-900 tabular-nums">{r.value}</span>
         </p>
       ))}
-      {unit && <p className="mt-1 text-[0.62rem] text-slate-500">{unit}</p>}
+      {unit && <p className="mt-1 text-[0.62rem] text-ink-450">{unit}</p>}
     </div>
   );
 }

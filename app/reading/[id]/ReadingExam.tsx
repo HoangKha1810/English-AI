@@ -124,14 +124,14 @@ export function ReadingExam({ test }: { test: ReadingTest }) {
       <div className="mx-auto max-w-3xl px-4 py-14 sm:px-6">
         <Link
           href="/reading"
-          className="mb-6 inline-flex items-center gap-1.5 text-sm text-slate-400 hover:text-white"
+          className="mb-6 inline-flex items-center gap-1.5 text-sm text-ink-500 hover:text-ink-900"
         >
           <ArrowLeft className="size-4" />
           Tất cả đề Reading
         </Link>
 
         <GlassCard strong className="animate-fade-up p-7 sm:p-10">
-          <Badge tone="sky">{test.module}</Badge>
+          <Badge tone="pink">{test.module}</Badge>
           <h1 className="font-display mt-4 text-3xl font-semibold tracking-tight">
             {test.title}
           </h1>
@@ -142,18 +142,18 @@ export function ReadingExam({ test }: { test: ReadingTest }) {
               { k: "Số câu", v: `${questionIds.length} câu` },
               { k: "Bài đọc", v: `${test.passages.length} bài` },
             ].map((x) => (
-              <div key={x.k} className="rounded-xl border border-white/8 bg-white/4 p-3.5">
-                <dt className="text-[0.7rem] text-slate-400">{x.k}</dt>
-                <dd className="font-display mt-1 text-lg font-semibold text-white">
+              <div key={x.k} className="rounded-2xl border border-rose-200/70 bg-white/60 p-3.5">
+                <dt className="text-[0.7rem] text-ink-500">{x.k}</dt>
+                <dd className="font-display mt-1 text-lg font-semibold text-ink-900">
                   {x.v}
                 </dd>
               </div>
             ))}
           </dl>
 
-          <div className="mt-7 space-y-2.5 text-[0.9rem] leading-relaxed text-slate-300">
-            <p className="font-medium text-white">Trước khi bắt đầu</p>
-            <ul className="space-y-1.5 text-slate-400">
+          <div className="mt-7 space-y-2.5 text-[0.9rem] leading-relaxed text-ink-700">
+            <p className="font-medium text-ink-900">Trước khi bắt đầu</p>
+            <ul className="space-y-1.5 text-ink-500">
               <li>• Đồng hồ bắt đầu chạy ngay khi bạn nhấn Bắt đầu, có thể tạm dừng.</li>
               <li>• Bài làm được lưu tự động, tải lại trang không mất dữ liệu.</li>
               <li>• Bôi đen chữ trong bài đọc để highlight, nhấp vào chỗ vàng để bỏ.</li>
@@ -162,7 +162,7 @@ export function ReadingExam({ test }: { test: ReadingTest }) {
           </div>
 
           {Object.keys(answers).length > 0 && (
-            <p className="mt-5 rounded-xl border border-amber-400/25 bg-amber-500/10 p-3 text-[0.85rem] text-amber-100">
+            <p className="mt-5 rounded-2xl border border-amber-400/25 bg-amber-500/10 p-3 text-[0.85rem] text-amber-800">
               Bạn có một bài làm dở với {Object.keys(answers).length} câu đã trả lời. Nhấn
               Bắt đầu để làm tiếp.
             </p>
@@ -210,11 +210,11 @@ export function ReadingExam({ test }: { test: ReadingTest }) {
   return (
     <div className="mx-auto max-w-[1600px] px-3 pb-6 sm:px-5">
       {/* Thanh dieu khien */}
-      <div className="sticky top-16 z-30 -mx-3 mb-4 border-b border-white/8 bg-ink-950/80 px-3 py-3 backdrop-blur-xl sm:-mx-5 sm:px-5">
+      <div className="sticky top-16 z-30 -mx-3 mb-4 border-b border-rose-200/70 bg-white/82 px-3 py-3 backdrop-blur-xl sm:-mx-5 sm:px-5">
         <div className="flex flex-wrap items-center gap-3">
           <div className="min-w-0">
-            <p className="truncate text-sm font-medium text-white">{test.title}</p>
-            <p className="text-[0.7rem] text-slate-400">
+            <p className="truncate text-sm font-medium text-ink-900">{test.title}</p>
+            <p className="text-[0.7rem] text-ink-500">
               {reviewing ? "Chế độ xem lại" : `Đã trả lời ${answeredCount}/${questionIds.length}`}
             </p>
           </div>
@@ -245,7 +245,7 @@ export function ReadingExam({ test }: { test: ReadingTest }) {
             )}
             <button
               onClick={() => setPaletteOpen((v) => !v)}
-              className="hidden size-9 place-items-center rounded-lg border border-white/10 bg-white/5 text-slate-300 hover:bg-white/10 xl:grid"
+              className="hidden size-9 place-items-center rounded-xl border border-rose-200/80 bg-white/65 text-ink-700 hover:bg-white/85 xl:grid"
               title={paletteOpen ? "Ẩn bảng câu hỏi" : "Hiện bảng câu hỏi"}
             >
               {paletteOpen ? (
@@ -271,14 +271,14 @@ export function ReadingExam({ test }: { test: ReadingTest }) {
                   window.scrollTo({ top: 0, behavior: "smooth" });
                 }}
                 className={cn(
-                  "shrink-0 rounded-lg border px-3.5 py-1.5 text-xs font-medium transition-colors",
+                  "shrink-0 rounded-xl border px-3.5 py-1.5 text-xs font-medium transition-colors",
                   i === passageIdx
-                    ? "border-sky-400/50 bg-sky-500/18 text-white"
-                    : "border-white/10 bg-white/4 text-slate-400 hover:bg-white/8"
+                    ? "border-pink-400/50 bg-pink-500/18 text-ink-900"
+                    : "border-rose-200/80 bg-white/60 text-ink-500 hover:bg-white/75"
                 )}
               >
                 Passage {p.number}
-                <span className="ml-2 text-[0.68rem] text-slate-500 tabular-nums">
+                <span className="ml-2 text-[0.68rem] text-ink-450 tabular-nums">
                   {done}/{ids.length}
                 </span>
               </button>
@@ -287,14 +287,14 @@ export function ReadingExam({ test }: { test: ReadingTest }) {
           </div>
 
           {/* Tab mobile */}
-          <div className="flex shrink-0 gap-1 rounded-lg border border-white/10 bg-white/4 p-0.5 lg:hidden">
+          <div className="flex shrink-0 gap-1 rounded-xl border border-rose-200/80 bg-white/60 p-0.5 lg:hidden">
             {(["passage", "questions"] as const).map((t) => (
               <button
                 key={t}
                 onClick={() => setTab(t)}
                 className={cn(
-                  "flex items-center gap-1.5 rounded-md px-2.5 py-1.5 text-xs font-medium transition-colors",
-                  tab === t ? "bg-white/12 text-white" : "text-slate-400"
+                  "flex items-center gap-1.5 rounded-lg px-2.5 py-1.5 text-xs font-medium transition-colors",
+                  tab === t ? "bg-white/90 text-ink-900" : "text-ink-500"
                 )}
               >
                 {t === "passage" ? (
@@ -325,29 +325,29 @@ export function ReadingExam({ test }: { test: ReadingTest }) {
             tab === "questions" && "hidden lg:block"
           )}
         >
-          <div className="mb-4 border-b border-white/8 pb-4">
-            <p className="text-xs font-semibold tracking-wider text-sky-300 uppercase">
+          <div className="mb-4 border-b border-rose-200/70 pb-4">
+            <p className="text-xs font-semibold tracking-wider text-pink-700 uppercase">
               Reading Passage {passage.number}
             </p>
-            <h2 className="font-display mt-1.5 text-2xl font-semibold text-white">
+            <h2 className="font-display mt-1.5 text-2xl font-semibold text-ink-900">
               {passage.title}
             </h2>
             {passage.subtitle && (
-              <p className="mt-1.5 text-sm text-slate-400">{passage.subtitle}</p>
+              <p className="mt-1.5 text-sm text-ink-500">{passage.subtitle}</p>
             )}
-            <p className="mt-3 inline-flex items-center gap-1.5 text-[0.7rem] text-slate-500">
+            <p className="mt-3 inline-flex items-center gap-1.5 text-[0.7rem] text-ink-450">
               <Highlighter className="size-3.5" />
               Bôi đen đoạn văn để highlight
             </p>
           </div>
 
-          <div className="passage text-[0.97rem] text-slate-300">
+          <div className="passage text-[0.97rem] text-ink-700">
             {passage.paragraphs.map((para, i) => {
               const key = `${passage.number}-${i}`;
               return (
                 <p key={key} className="mb-5 leading-[1.9]">
                   {para.label && (
-                    <span className="mr-2 inline-grid size-6 place-items-center rounded-md bg-sky-500/15 align-text-bottom text-xs font-semibold text-sky-300">
+                    <span className="mr-2 inline-grid size-6 place-items-center rounded-lg bg-pink-500/15 align-text-bottom text-xs font-semibold text-pink-700">
                       {para.label}
                     </span>
                   )}

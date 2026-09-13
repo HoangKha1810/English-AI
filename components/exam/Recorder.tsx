@@ -119,9 +119,9 @@ export function Recorder({
 
   if (state === "unsupported" || state === "denied") {
     return (
-      <div className="flex gap-3 rounded-xl border border-amber-400/25 bg-amber-500/10 p-4">
-        <AlertTriangle className="mt-0.5 size-5 shrink-0 text-amber-300" />
-        <p className="text-[0.85rem] leading-relaxed text-amber-100/90">
+      <div className="flex gap-3 rounded-2xl border border-amber-400/25 bg-amber-500/10 p-4">
+        <AlertTriangle className="mt-0.5 size-5 shrink-0 text-amber-700" />
+        <p className="text-[0.85rem] leading-relaxed text-amber-800">
           {state === "unsupported"
             ? "Trình duyệt của bạn không hỗ trợ ghi âm. Hãy dùng Chrome, Edge hoặc Safari bản mới."
             : "Chưa được cấp quyền micro. Hãy cho phép truy cập micro trong thanh địa chỉ rồi tải lại trang."}{" "}
@@ -141,7 +141,7 @@ export function Recorder({
             key={i}
             className={cn(
               "w-1.5 rounded-full transition-[height] duration-75",
-              state === "recording" ? "bg-emerald-400" : "bg-white/12"
+              state === "recording" ? "bg-emerald-400" : "bg-pink-200"
             )}
             style={{ height: `${l * 100}%` }}
           />
@@ -158,7 +158,7 @@ export function Recorder({
 
         {state === "recording" && (
           <>
-            <span className="font-display animate-pulse-ring rounded-full bg-rose-500/20 px-4 py-2 text-lg font-semibold text-rose-200 tabular-nums">
+            <span className="font-display animate-pulse-ring rounded-full bg-rose-500/20 px-4 py-2 text-lg font-semibold text-rose-700 tabular-nums">
               {formatClock(seconds)}
             </span>
             <Button variant="danger" size="lg" onClick={stop}>
@@ -172,7 +172,7 @@ export function Recorder({
           <div className="flex w-full flex-col items-center gap-3">
             <audio src={url} controls className="w-full max-w-md" />
             <div className="flex items-center gap-3">
-              <span className="text-xs text-slate-400">
+              <span className="text-xs text-ink-500">
                 Đã ghi {formatClock(seconds)}
               </span>
               <Button
@@ -193,7 +193,7 @@ export function Recorder({
       </div>
 
       {state === "recording" && (
-        <div className="mt-4 h-1 w-full overflow-hidden rounded-full bg-white/10">
+        <div className="mt-4 h-1 w-full overflow-hidden rounded-full bg-pink-100">
           <div
             className="h-full rounded-full bg-linear-to-r from-emerald-400 to-teal-400 transition-[width] duration-300"
             style={{ width: `${pct * 100}%` }}
@@ -202,7 +202,7 @@ export function Recorder({
       )}
 
       {state === "idle" && (
-        <p className="mt-3 flex items-center justify-center gap-1.5 text-[0.75rem] text-slate-400">
+        <p className="mt-3 flex items-center justify-center gap-1.5 text-[0.75rem] text-ink-500">
           <Play className="size-3" />
           Tối đa {formatClock(maxSeconds)}, sẽ tự dừng khi hết giờ
         </p>

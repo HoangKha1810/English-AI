@@ -31,14 +31,14 @@ export function AiFeedbackPanel({
   return (
     <div className="space-y-5">
       {mode === "heuristic" && (
-        <div className="flex gap-3 rounded-xl border border-amber-400/25 bg-amber-500/10 p-4">
-          <Info className="mt-0.5 size-5 shrink-0 text-amber-300" />
-          <div className="text-[0.85rem] leading-relaxed text-amber-100/90">
-            <p className="font-medium text-amber-100">Đây là ước lượng, chưa phải điểm AI</p>
+        <div className="flex gap-3 rounded-2xl border border-amber-400/25 bg-amber-500/10 p-4">
+          <Info className="mt-0.5 size-5 shrink-0 text-amber-700" />
+          <div className="text-[0.85rem] leading-relaxed text-amber-800">
+            <p className="font-medium text-amber-800">Đây là ước lượng, chưa phải điểm AI</p>
             <p className="mt-1">
-              Chưa có <code className="rounded bg-black/25 px-1">GEMINI_API_KEY</code> nên hệ
+              Chưa có <code className="rounded bg-rose-100 px-1">GEMINI_API_KEY</code> nên hệ
               thống chỉ đo được các chỉ số bề mặt như độ dài, độ đa dạng từ vựng và độ dài câu.
-              Thêm khoá Gemini miễn phí vào <code className="rounded bg-black/25 px-1">.env.local</code>{" "}
+              Thêm khoá Gemini miễn phí vào <code className="rounded bg-rose-100 px-1">.env.local</code>{" "}
               để được chấm theo đúng band descriptors.
             </p>
           </div>
@@ -59,7 +59,7 @@ export function AiFeedbackPanel({
             {feedback.criteria.map((c) => (
               <div key={c.key}>
                 <div className="mb-1.5 flex items-baseline justify-between gap-3">
-                  <span className="text-[0.85rem] text-slate-300">{c.label}</span>
+                  <span className="text-[0.85rem] text-ink-700">{c.label}</span>
                   <span
                     className="font-display text-base font-semibold tabular-nums"
                     style={{ color: bandColor(c.band) }}
@@ -79,7 +79,7 @@ export function AiFeedbackPanel({
         {feedback.criteria.map((c) => (
           <GlassCard key={c.key} className="p-5">
             <div className="flex items-baseline justify-between">
-              <h3 className="font-display text-[0.95rem] font-semibold text-white">
+              <h3 className="font-display text-[0.95rem] font-semibold text-ink-900">
                 {c.label}
               </h3>
               <span
@@ -89,11 +89,11 @@ export function AiFeedbackPanel({
                 {c.band.toFixed(1)}
               </span>
             </div>
-            <p className="mt-2 text-[0.85rem] leading-relaxed text-slate-400">{c.comment}</p>
+            <p className="mt-2 text-[0.85rem] leading-relaxed text-ink-500">{c.comment}</p>
             {c.evidence && c.evidence.length > 0 && (
               <ul className="mt-3 space-y-1.5 border-l-2 border-violet-400/30 pl-3">
                 {c.evidence.map((e, i) => (
-                  <li key={i} className="flex gap-1.5 text-[0.78rem] text-slate-500 italic">
+                  <li key={i} className="flex gap-1.5 text-[0.78rem] text-ink-450 italic">
                     <Quote className="mt-0.5 size-3 shrink-0" />
                     {e}
                   </li>
@@ -107,14 +107,14 @@ export function AiFeedbackPanel({
       {/* Diem manh / can cai thien */}
       <div className="grid gap-4 md:grid-cols-2">
         <GlassCard className="p-5">
-          <h3 className="flex items-center gap-2 font-display text-[0.95rem] font-semibold text-emerald-300">
+          <h3 className="flex items-center gap-2 font-display text-[0.95rem] font-semibold text-emerald-700">
             <CheckCircle2 className="size-4.5" />
             Bạn đang làm tốt
           </h3>
           <ul className="mt-3 space-y-2">
             {feedback.strengths.map((s, i) => (
-              <li key={i} className="flex gap-2 text-[0.85rem] leading-relaxed text-slate-300">
-                <span className="text-emerald-400">•</span>
+              <li key={i} className="flex gap-2 text-[0.85rem] leading-relaxed text-ink-700">
+                <span className="text-emerald-600">•</span>
                 {s}
               </li>
             ))}
@@ -122,14 +122,14 @@ export function AiFeedbackPanel({
         </GlassCard>
 
         <GlassCard className="p-5">
-          <h3 className="flex items-center gap-2 font-display text-[0.95rem] font-semibold text-amber-300">
+          <h3 className="flex items-center gap-2 font-display text-[0.95rem] font-semibold text-amber-700">
             <TrendingUp className="size-4.5" />
             Cần cải thiện
           </h3>
           <ul className="mt-3 space-y-2">
             {feedback.improvements.map((s, i) => (
-              <li key={i} className="flex gap-2 text-[0.85rem] leading-relaxed text-slate-300">
-                <span className="text-amber-400">•</span>
+              <li key={i} className="flex gap-2 text-[0.85rem] leading-relaxed text-ink-700">
+                <span className="text-amber-600">•</span>
                 {s}
               </li>
             ))}
@@ -140,21 +140,21 @@ export function AiFeedbackPanel({
       {/* Sua loi */}
       {feedback.corrections && feedback.corrections.length > 0 && (
         <GlassCard className="p-5">
-          <h3 className="flex items-center gap-2 font-display text-[0.95rem] font-semibold text-white">
-            <SpellCheck2 className="size-4.5 text-rose-300" />
+          <h3 className="flex items-center gap-2 font-display text-[0.95rem] font-semibold text-ink-900">
+            <SpellCheck2 className="size-4.5 text-rose-700" />
             Sửa lỗi cụ thể
           </h3>
           <ul className="mt-4 space-y-4">
             {feedback.corrections.map((c, i) => (
-              <li key={i} className="rounded-xl border border-white/8 bg-white/3 p-3.5">
-                <p className="text-[0.85rem] leading-relaxed text-rose-200/85 line-through decoration-rose-400/50">
+              <li key={i} className="rounded-2xl border border-rose-200/70 bg-white/55 p-3.5">
+                <p className="text-[0.85rem] leading-relaxed text-rose-700 line-through decoration-rose-400/50">
                   {c.original}
                 </p>
-                <p className="mt-1.5 flex gap-2 text-[0.85rem] leading-relaxed text-emerald-200">
+                <p className="mt-1.5 flex gap-2 text-[0.85rem] leading-relaxed text-emerald-700">
                   <ArrowRight className="mt-1 size-3.5 shrink-0" />
                   {c.corrected}
                 </p>
-                <p className="mt-1.5 text-[0.78rem] text-slate-400">{c.reason}</p>
+                <p className="mt-1.5 text-[0.78rem] text-ink-500">{c.reason}</p>
               </li>
             ))}
           </ul>
@@ -164,19 +164,19 @@ export function AiFeedbackPanel({
       {/* Nang cap tu vung */}
       {feedback.upgradedVocabulary && feedback.upgradedVocabulary.length > 0 && (
         <GlassCard className="p-5">
-          <h3 className="flex items-center gap-2 font-display text-[0.95rem] font-semibold text-white">
-            <Lightbulb className="size-4.5 text-amber-300" />
+          <h3 className="flex items-center gap-2 font-display text-[0.95rem] font-semibold text-ink-900">
+            <Lightbulb className="size-4.5 text-amber-700" />
             Nâng cấp từ vựng lên band 7-8
           </h3>
           <div className="mt-4 grid gap-2.5 sm:grid-cols-2">
             {feedback.upgradedVocabulary.map((v, i) => (
               <div
                 key={i}
-                className="flex items-center gap-2.5 rounded-lg border border-white/8 bg-white/3 px-3.5 py-2.5"
+                className="flex items-center gap-2.5 rounded-xl border border-rose-200/70 bg-white/55 px-3.5 py-2.5"
               >
-                <span className="text-[0.82rem] text-slate-500 line-through">{v.basic}</span>
+                <span className="text-[0.82rem] text-ink-450 line-through">{v.basic}</span>
                 <ArrowRight className="size-3.5 shrink-0 text-violet-400" />
-                <span className="text-[0.86rem] font-medium text-violet-200">{v.better}</span>
+                <span className="text-[0.86rem] font-medium text-violet-700">{v.better}</span>
               </div>
             ))}
           </div>
@@ -190,20 +190,20 @@ export function AiFeedbackPanel({
             onClick={() => setOpenModel((v) => !v)}
             className="flex w-full items-center gap-2.5 p-5 text-left"
           >
-            <BookMarked className="size-4.5 text-sky-300" />
-            <span className="font-display text-[0.95rem] font-semibold text-white">
+            <BookMarked className="size-4.5 text-pink-700" />
+            <span className="font-display text-[0.95rem] font-semibold text-ink-900">
               Bài mẫu band 8
             </span>
             <ChevronDown
               className={cn(
-                "ml-auto size-4.5 text-slate-400 transition-transform",
+                "ml-auto size-4.5 text-ink-500 transition-transform",
                 openModel && "rotate-180"
               )}
             />
           </button>
           {openModel && (
-            <div className="border-t border-white/8 px-5 py-5">
-              <p className="text-[0.92rem] leading-[1.9] whitespace-pre-wrap text-slate-300">
+            <div className="border-t border-rose-200/70 px-5 py-5">
+              <p className="text-[0.92rem] leading-[1.9] whitespace-pre-wrap text-ink-700">
                 {feedback.modelAnswer}
               </p>
             </div>

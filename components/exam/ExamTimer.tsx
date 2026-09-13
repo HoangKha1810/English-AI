@@ -59,30 +59,30 @@ export function ExamTimer({
   return (
     <div
       className={cn(
-        "flex items-center gap-2.5 rounded-xl border px-3 py-2 transition-colors",
+        "flex items-center gap-2.5 rounded-2xl border px-3 py-2 transition-colors",
         critical
           ? "animate-pulse border-rose-400/50 bg-rose-500/14"
           : danger
             ? "border-amber-400/40 bg-amber-500/12"
-            : "border-white/10 bg-white/5"
+            : "border-rose-200/80 bg-white/65"
       )}
     >
       <Clock3
         className={cn(
           "size-4",
-          critical ? "text-rose-300" : danger ? "text-amber-300" : "text-slate-400"
+          critical ? "text-rose-700" : danger ? "text-amber-700" : "text-ink-500"
         )}
       />
       <div className="min-w-[4.2rem]">
         <span
           className={cn(
             "font-display text-[1.05rem] font-semibold tabular-nums",
-            critical ? "text-rose-200" : danger ? "text-amber-200" : "text-white"
+            critical ? "text-rose-700" : danger ? "text-amber-700" : "text-ink-900"
           )}
         >
           {formatClock(left)}
         </span>
-        <div className="mt-1 h-1 w-full overflow-hidden rounded-full bg-white/10">
+        <div className="mt-1 h-1 w-full overflow-hidden rounded-full bg-pink-100">
           <div
             className={cn(
               "h-full rounded-full transition-[width] duration-1000 ease-linear",
@@ -95,7 +95,7 @@ export function ExamTimer({
       {allowPause && running && (
         <button
           onClick={() => setPaused((v) => !v)}
-          className="grid size-7 place-items-center rounded-lg text-slate-400 transition-colors hover:bg-white/10 hover:text-white"
+          className="grid size-7 place-items-center rounded-xl text-ink-500 transition-colors hover:bg-white/85 hover:text-ink-900"
           aria-label={paused ? "Tiếp tục" : "Tạm dừng"}
           title={paused ? "Tiếp tục" : "Tạm dừng"}
         >

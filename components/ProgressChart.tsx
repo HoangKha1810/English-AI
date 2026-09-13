@@ -24,7 +24,7 @@ export function ProgressChart({
 
   if (points.length === 0) {
     return (
-      <div className="grid h-56 place-items-center rounded-xl border border-dashed border-white/12 text-sm text-slate-500">
+      <div className="grid h-56 place-items-center rounded-2xl border border-dashed border-rose-300/60 text-sm text-ink-450">
         Chưa có dữ liệu cho {label}
       </div>
     );
@@ -68,9 +68,9 @@ export function ProgressChart({
               x2={PAD.left + PW}
               y1={y(t)}
               y2={y(t)}
-              stroke="rgba(255,255,255,0.08)"
+              stroke="rgba(219,39,119,0.13)"
             />
-            <text x={PAD.left - 9} y={y(t) + 4} textAnchor="end" fontSize="11" fill="#94a3b8">
+            <text x={PAD.left - 9} y={y(t) + 4} textAnchor="end" fontSize="11" fill="#8f6a7d">
               {t}
             </text>
           </g>
@@ -83,11 +83,11 @@ export function ProgressChart({
               x2={PAD.left + PW}
               y1={y(targetBand)}
               y2={y(targetBand)}
-              stroke="#c98500"
+              stroke="#b45309"
               strokeWidth="1.5"
               strokeDasharray="5 4"
             />
-            <text x={PAD.left + PW} y={y(targetBand) - 7} textAnchor="end" fontSize="10.5" fill="#c98500">
+            <text x={PAD.left + PW} y={y(targetBand) - 7} textAnchor="end" fontSize="10.5" fill="#b45309">
               Mục tiêu {targetBand.toFixed(1)}
             </text>
           </g>
@@ -103,7 +103,7 @@ export function ProgressChart({
             cy={y(p.band)}
             r={hover === i ? 6 : 4.5}
             fill={color}
-            stroke="#12122a"
+            stroke="#ffffff"
             strokeWidth="2"
           />
         ))}
@@ -114,16 +114,16 @@ export function ProgressChart({
             x2={x(hover)}
             y1={PAD.top}
             y2={PAD.top + PH}
-            stroke="rgba(255,255,255,0.25)"
+            stroke="rgba(219,39,119,0.35)"
             strokeDasharray="3 3"
           />
         )}
 
-        <text x={PAD.left} y={H - 12} fontSize="10.5" fill="#94a3b8">
+        <text x={PAD.left} y={H - 12} fontSize="10.5" fill="#8f6a7d">
           {new Date(points[0].t).toLocaleDateString("vi-VN")}
         </text>
         {n > 1 && (
-          <text x={PAD.left + PW} y={H - 12} textAnchor="end" fontSize="10.5" fill="#94a3b8">
+          <text x={PAD.left + PW} y={H - 12} textAnchor="end" fontSize="10.5" fill="#8f6a7d">
             {new Date(points[n - 1].t).toLocaleDateString("vi-VN")}
           </text>
         )}
@@ -131,14 +131,14 @@ export function ProgressChart({
 
       {hover !== null && (
         <div
-          className="pointer-events-none absolute top-2 z-10 rounded-lg border border-white/12 bg-ink-900/95 px-3 py-2 shadow-xl"
+          className="pointer-events-none absolute top-2 z-10 rounded-xl border border-rose-300/60 bg-white/95 px-3 py-2 shadow-xl"
           style={{
             left: `${(x(hover) / W) * 100}%`,
             transform: (x(hover) / W) * 100 > 62 ? "translateX(-104%)" : "translateX(4%)",
           }}
         >
-          <p className="text-[0.7rem] text-slate-400">{formatDate(points[hover].t)}</p>
-          <p className="mt-0.5 max-w-52 truncate text-[0.75rem] text-slate-300">
+          <p className="text-[0.7rem] text-ink-500">{formatDate(points[hover].t)}</p>
+          <p className="mt-0.5 max-w-52 truncate text-[0.75rem] text-ink-700">
             {points[hover].title}
           </p>
           <p className="font-display mt-1 text-lg font-semibold tabular-nums" style={{ color }}>

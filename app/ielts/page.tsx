@@ -16,7 +16,7 @@ export default function IELTSListPage() {
         eyebrow="IELTS Full Test"
         title="Đề IELTS hoàn chỉnh"
         description="Một lượt thi gồm đủ bốn kỹ năng, có thời gian riêng cho từng phần và band tổng sau khi hoàn tất."
-        accent="#c4b5fd"
+        accent="#c026d3"
         icon={<ClipboardCheck className="size-7 text-white" />}
         tips={[
           "Listening, Reading và Writing chạy theo đồng hồ riêng của từng phần.",
@@ -37,7 +37,7 @@ export default function IELTSListPage() {
             duration={`${test.durationMinutes} phút`}
             questions="Đủ 4 kỹ năng · 1 band tổng"
             topics={test.topics}
-            accent="#c4b5fd"
+            accent="#c026d3"
           />
         ))}
       </div>

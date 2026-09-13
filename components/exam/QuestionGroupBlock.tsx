@@ -44,15 +44,15 @@ export function QuestionGroupBlock({
 
   return (
     <section className="scroll-mt-24" id={`group-${group.id}`}>
-      <div className="mb-4 rounded-xl border border-white/10 bg-white/4 p-4">
-        <p className="font-display text-sm font-semibold text-violet-300">
+      <div className="mb-4 rounded-2xl border border-rose-200/80 bg-white/60 p-4">
+        <p className="font-display text-sm font-semibold text-violet-600">
           {group.range}
         </p>
-        <p className="mt-1.5 text-[0.88rem] leading-relaxed text-slate-300">
+        <p className="mt-1.5 text-[0.88rem] leading-relaxed text-ink-700">
           {group.instruction}
         </p>
         {group.wordLimit && (
-          <p className="mt-2 inline-block rounded-md bg-amber-500/12 px-2 py-1 text-[0.72rem] font-medium text-amber-200">
+          <p className="mt-2 inline-block rounded-lg bg-amber-500/12 px-2 py-1 text-[0.72rem] font-medium text-amber-700">
             Giới hạn: {group.wordLimit}
           </p>
         )}
@@ -60,13 +60,13 @@ export function QuestionGroupBlock({
 
       {/* Option bank dung chung */}
       {group.options && group.options.length > 0 && !chips && (
-        <div className="mb-5 rounded-xl border border-sky-400/18 bg-sky-500/6 p-4">
-          <p className="mb-2 text-xs font-semibold tracking-wide text-sky-300 uppercase">
+        <div className="mb-5 rounded-2xl border border-pink-400/18 bg-pink-500/6 p-4">
+          <p className="mb-2 text-xs font-semibold tracking-wide text-pink-700 uppercase">
             Danh sách lựa chọn
           </p>
           <ul className="grid gap-1.5 sm:grid-cols-2">
             {group.options.map((o) => (
-              <li key={o} className="text-[0.86rem] leading-snug text-slate-300">
+              <li key={o} className="text-[0.86rem] leading-snug text-ink-700">
                 {o}
               </li>
             ))}
@@ -76,8 +76,8 @@ export function QuestionGroupBlock({
 
       {/* Bang bieu / tom tat co o trong */}
       {group.intro && inlineIntro && (
-        <div className="mb-5 rounded-xl border border-white/10 bg-ink-850/60 p-5">
-          <p className="text-[0.95rem] leading-[2.6] whitespace-pre-wrap text-slate-200">
+        <div className="mb-5 rounded-2xl border border-rose-200/80 bg-blush-50/75 p-5">
+          <p className="text-[0.95rem] leading-[2.6] whitespace-pre-wrap text-ink-800">
             {parseIntro(group.intro, ids).map((tok, i) =>
               tok.kind === "text" ? (
                 <span key={i}>{tok.value}</span>
@@ -100,7 +100,7 @@ export function QuestionGroupBlock({
       )}
 
       {group.intro && !inlineIntro && (
-        <div className="mb-5 rounded-xl border border-white/10 bg-ink-850/60 p-5 text-[0.95rem] leading-relaxed whitespace-pre-wrap text-slate-200">
+        <div className="mb-5 rounded-2xl border border-rose-200/80 bg-blush-50/75 p-5 text-[0.95rem] leading-relaxed whitespace-pre-wrap text-ink-800">
           {group.intro}
         </div>
       )}
@@ -166,23 +166,23 @@ function QuestionRow({
     <li
       id={`q-row-${q.id}`}
       className={cn(
-        "scroll-mt-24 rounded-xl border p-4 transition-colors",
+        "scroll-mt-24 rounded-2xl border p-4 transition-colors",
         state === "correct"
           ? "border-emerald-400/30 bg-emerald-500/6"
           : state === "wrong"
             ? "border-rose-400/30 bg-rose-500/6"
-            : "border-white/8 bg-white/3"
+            : "border-rose-200/70 bg-white/55"
       )}
     >
       <div className="flex gap-3">
         <span
           className={cn(
-            "mt-0.5 grid size-6 shrink-0 place-items-center rounded-lg text-xs font-semibold tabular-nums",
+            "mt-0.5 grid size-6 shrink-0 place-items-center rounded-xl text-xs font-semibold tabular-nums",
             state === "correct"
               ? "bg-emerald-500 text-white"
               : state === "wrong"
                 ? "bg-rose-500 text-white"
-                : "bg-white/10 text-slate-300"
+                : "bg-white/85 text-ink-700"
           )}
         >
           {q.id}
@@ -191,7 +191,7 @@ function QuestionRow({
         <div className="min-w-0 flex-1">
           {/* Cau hoi dang dien tu vao cho trong */}
           {parts ? (
-            <p className="text-[0.95rem] leading-[2.4] text-slate-200">
+            <p className="text-[0.95rem] leading-[2.4] text-ink-800">
               {parts[0]}
               <BlankInput
                 id={q.id}
@@ -204,10 +204,10 @@ function QuestionRow({
               {parts[1]}
             </p>
           ) : (
-            <p className="text-[0.95rem] leading-relaxed text-slate-200">
+            <p className="text-[0.95rem] leading-relaxed text-ink-800">
               {q.prompt}
               {q.type === "multiple_select" && q.selectCount && (
-                <span className="ml-2 rounded-md bg-violet-500/15 px-1.5 py-0.5 text-[0.7rem] font-medium text-violet-200">
+                <span className="ml-2 rounded-lg bg-violet-500/15 px-1.5 py-0.5 text-[0.7rem] font-medium text-violet-700">
                   chọn {q.selectCount}
                 </span>
               )}
@@ -231,10 +231,10 @@ function QuestionRow({
                       else onAnswer(q.id, [...multi.slice(1), o]);
                     }}
                     className={cn(
-                      "flex w-full items-start gap-3 rounded-lg border px-3.5 py-2.5 text-left text-[0.9rem] transition-colors",
+                      "flex w-full items-start gap-3 rounded-xl border px-3.5 py-2.5 text-left text-[0.9rem] transition-colors",
                       checked
-                        ? "border-violet-400/50 bg-violet-500/14 text-white"
-                        : "border-white/10 bg-white/3 text-slate-300 hover:border-white/20 hover:bg-white/6"
+                        ? "border-violet-400/50 bg-violet-500/14 text-ink-900"
+                        : "border-rose-200/80 bg-white/55 text-ink-700 hover:border-rose-300/75 hover:bg-white/70"
                     )}
                   >
                     <span
@@ -242,7 +242,7 @@ function QuestionRow({
                         "mt-0.5 grid size-4.5 shrink-0 place-items-center rounded border",
                         checked
                           ? "border-violet-400 bg-violet-500"
-                          : "border-white/25"
+                          : "border-rose-300/90"
                       )}
                     >
                       {checked && <Check className="size-3 text-white" />}
@@ -265,10 +265,10 @@ function QuestionRow({
                     disabled={disabled}
                     onClick={() => onAnswer(q.id, active ? "" : o)}
                     className={cn(
-                      "rounded-lg border px-3.5 py-2 text-[0.85rem] font-medium transition-colors",
+                      "rounded-xl border px-3.5 py-2 text-[0.85rem] font-medium transition-colors",
                       active
-                        ? "border-violet-400/55 bg-violet-500/18 text-white"
-                        : "border-white/10 bg-white/3 text-slate-300 hover:border-white/22 hover:bg-white/7"
+                        ? "border-violet-400/55 bg-violet-500/18 text-ink-900"
+                        : "border-rose-200/80 bg-white/55 text-ink-700 hover:border-rose-300/80 hover:bg-white/72"
                     )}
                   >
                     {o}
@@ -291,10 +291,10 @@ function QuestionRow({
                         disabled={disabled}
                         onClick={() => onAnswer(q.id, active ? "" : o)}
                         className={cn(
-                          "flex w-full items-start gap-3 rounded-lg border px-3.5 py-2.5 text-left text-[0.9rem] transition-colors",
+                          "flex w-full items-start gap-3 rounded-xl border px-3.5 py-2.5 text-left text-[0.9rem] transition-colors",
                           active
-                            ? "border-violet-400/50 bg-violet-500/14 text-white"
-                            : "border-white/10 bg-white/3 text-slate-300 hover:border-white/20 hover:bg-white/6"
+                            ? "border-violet-400/50 bg-violet-500/14 text-ink-900"
+                            : "border-rose-200/80 bg-white/55 text-ink-700 hover:border-rose-300/75 hover:bg-white/70"
                         )}
                       >
                         <span
@@ -302,7 +302,7 @@ function QuestionRow({
                             "grid size-5 shrink-0 place-items-center rounded-full border text-[0.7rem] font-semibold",
                             active
                               ? "border-violet-400 bg-violet-500 text-white"
-                              : "border-white/25 text-slate-400"
+                              : "border-rose-300/90 text-ink-500"
                           )}
                         >
                           {String.fromCharCode(65 + idx)}
@@ -346,20 +346,20 @@ function QuestionRow({
 
           {/* Xem lai: dap an dung + giai thich */}
           {state && (
-            <div className="mt-3 rounded-lg border border-white/8 bg-ink-900/60 p-3">
+            <div className="mt-3 rounded-xl border border-rose-200/70 bg-white/72 p-3">
               <p className="flex flex-wrap items-center gap-2 text-[0.82rem]">
                 {state === "correct" ? (
-                  <Check className="size-4 text-emerald-400" />
+                  <Check className="size-4 text-emerald-600" />
                 ) : (
-                  <X className="size-4 text-rose-400" />
+                  <X className="size-4 text-rose-600" />
                 )}
-                <span className="text-slate-400">Đáp án:</span>
-                <span className="font-medium text-emerald-300">
+                <span className="text-ink-500">Đáp án:</span>
+                <span className="font-medium text-emerald-700">
                   {(Array.isArray(q.answer) ? q.answer : [q.answer]).join("  /  ")}
                 </span>
               </p>
               {q.explanation && (
-                <p className="mt-1.5 text-[0.82rem] leading-relaxed text-slate-400">
+                <p className="mt-1.5 text-[0.82rem] leading-relaxed text-ink-500">
                   {q.explanation}
                 </p>
               )}
@@ -385,39 +385,39 @@ function ReviewRow({
   return (
     <li
       className={cn(
-        "rounded-xl border p-3.5",
+        "rounded-2xl border p-3.5",
         ok ? "border-emerald-400/25 bg-emerald-500/5" : "border-rose-400/25 bg-rose-500/5"
       )}
     >
       <div className="flex gap-3">
         <span
           className={cn(
-            "mt-0.5 grid size-6 shrink-0 place-items-center rounded-lg text-xs font-semibold tabular-nums",
+            "mt-0.5 grid size-6 shrink-0 place-items-center rounded-xl text-xs font-semibold tabular-nums",
             ok ? "bg-emerald-500 text-white" : "bg-rose-500 text-white"
           )}
         >
           {q.id}
         </span>
         <div className="min-w-0 flex-1">
-          <p className="text-[0.88rem] leading-relaxed text-slate-300">{q.prompt}</p>
+          <p className="text-[0.88rem] leading-relaxed text-ink-700">{q.prompt}</p>
           <p className="mt-1.5 flex flex-wrap items-center gap-x-3 gap-y-1 text-[0.8rem]">
-            <span className="text-slate-500">
+            <span className="text-ink-450">
               Bạn trả lời:{" "}
-              <span className={ok ? "text-emerald-300" : "text-rose-300"}>
+              <span className={ok ? "text-emerald-700" : "text-rose-700"}>
                 {shown || "(bỏ trống)"}
               </span>
             </span>
             {!ok && (
-              <span className="text-slate-500">
+              <span className="text-ink-450">
                 Đáp án:{" "}
-                <span className="font-medium text-emerald-300">
+                <span className="font-medium text-emerald-700">
                   {(Array.isArray(q.answer) ? q.answer : [q.answer]).join("  /  ")}
                 </span>
               </span>
             )}
           </p>
           {q.explanation && (
-            <p className="mt-1.5 text-[0.8rem] leading-relaxed text-slate-400">
+            <p className="mt-1.5 text-[0.8rem] leading-relaxed text-ink-500">
               {q.explanation}
             </p>
           )}

@@ -3,7 +3,7 @@ import { cn } from "@/lib/utils";
 export function ProgressBar({
   value,
   max = 100,
-  color = "#a78bfa",
+  color = "#7c3aed",
   className,
   height = 8,
 }: {
@@ -16,7 +16,7 @@ export function ProgressBar({
   const pct = max > 0 ? Math.max(0, Math.min(100, (value / max) * 100)) : 0;
   return (
     <div
-      className={cn("w-full overflow-hidden rounded-full bg-white/8", className)}
+      className={cn("w-full overflow-hidden rounded-full bg-pink-100", className)}
       style={{ height }}
     >
       <div

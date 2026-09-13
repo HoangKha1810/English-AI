@@ -35,11 +35,11 @@ export function AnswerPalette({
     <div>
       {!compact && (
         <div className="mb-3 flex items-center justify-between">
-          <p className="text-xs font-semibold tracking-wide text-slate-400 uppercase">
+          <p className="text-xs font-semibold tracking-wide text-ink-500 uppercase">
             Bảng câu hỏi
           </p>
-          <p className="text-xs text-slate-400 tabular-nums">
-            <span className="font-semibold text-white">{done}</span>/{questionIds.length}
+          <p className="text-xs text-ink-500 tabular-nums">
+            <span className="font-semibold text-ink-900">{done}</span>/{questionIds.length}
           </p>
         </div>
       )}
@@ -62,26 +62,26 @@ export function AnswerPalette({
               }}
               title={isFlag ? "Đã đánh dấu (chuột phải để bỏ)" : "Chuột phải để đánh dấu"}
               className={cn(
-                "relative grid h-8 place-items-center rounded-lg border text-xs font-medium tabular-nums transition-colors",
+                "relative grid h-8 place-items-center rounded-xl border text-xs font-medium tabular-nums transition-colors",
                 review
                   ? ok
-                    ? "border-emerald-400/40 bg-emerald-500/18 text-emerald-200"
-                    : "border-rose-400/40 bg-rose-500/18 text-rose-200"
+                    ? "border-emerald-400/40 bg-emerald-500/18 text-emerald-700"
+                    : "border-rose-400/40 bg-rose-500/18 text-rose-700"
                   : answered
-                    ? "border-violet-400/45 bg-violet-500/20 text-white"
-                    : "border-white/10 bg-white/4 text-slate-500 hover:border-white/25 hover:text-slate-300"
+                    ? "border-violet-400/45 bg-violet-500/20 text-ink-900"
+                    : "border-rose-200/80 bg-white/60 text-ink-450 hover:border-rose-300/90 hover:text-ink-700"
               )}
             >
               {id}
               {isFlag && (
-                <Flag className="absolute -top-1 -right-1 size-3 fill-amber-400 text-amber-400" />
+                <Flag className="absolute -top-1 -right-1 size-3 fill-amber-400 text-amber-600" />
               )}
             </button>
           );
         })}
       </div>
       {!compact && !review && (
-        <p className="mt-3 text-[0.68rem] leading-relaxed text-slate-500">
+        <p className="mt-3 text-[0.68rem] leading-relaxed text-ink-450">
           Nhấp để nhảy tới câu. Chuột phải để đánh dấu câu cần xem lại.
         </p>
       )}

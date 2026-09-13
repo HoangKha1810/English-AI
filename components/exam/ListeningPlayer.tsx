@@ -208,7 +208,7 @@ export function ListeningPlayer({
             "grid size-12 shrink-0 place-items-center rounded-full text-white transition-all active:scale-95",
             playing
               ? "bg-linear-to-br from-violet-500 to-fuchsia-500 shadow-[0_0_24px_-4px_rgba(167,139,250,0.8)]"
-              : "bg-linear-to-br from-violet-600 to-sky-500"
+              : "bg-linear-to-br from-violet-600 to-pink-500"
           )}
           aria-label={playing ? "Tạm dừng" : "Phát"}
         >
@@ -220,10 +220,10 @@ export function ListeningPlayer({
         </button>
 
         <div className="min-w-0 flex-1">
-          <div className="flex items-center justify-between text-xs text-slate-400">
+          <div className="flex items-center justify-between text-xs text-ink-500">
             <span className="inline-flex items-center gap-1.5">
               <AudioLines
-                className={cn("size-3.5", playing && "animate-pulse text-violet-300")}
+                className={cn("size-3.5", playing && "animate-pulse text-violet-600")}
               />
               {mode === "audio"
                 ? "Audio bài nghe"
@@ -237,9 +237,9 @@ export function ListeningPlayer({
                 : `${Math.min(lineIdx + 1, transcript.length)}/${transcript.length} câu`}
             </span>
           </div>
-          <div className="mt-2 h-1.5 overflow-hidden rounded-full bg-white/10">
+          <div className="mt-2 h-1.5 overflow-hidden rounded-full bg-pink-100">
             <div
-              className="h-full rounded-full bg-linear-to-r from-violet-400 to-sky-400 transition-[width] duration-300"
+              className="h-full rounded-full bg-linear-to-r from-violet-400 to-pink-400 transition-[width] duration-300"
               style={{ width: `${progress * 100}%` }}
             />
           </div>
@@ -247,7 +247,7 @@ export function ListeningPlayer({
 
         <button
           onClick={restart}
-          className="grid size-9 shrink-0 place-items-center rounded-lg border border-white/10 bg-white/5 text-slate-300 transition-colors hover:bg-white/10"
+          className="grid size-9 shrink-0 place-items-center rounded-xl border border-rose-200/80 bg-white/65 text-ink-700 transition-colors hover:bg-white/85"
           title="Nghe lại từ đầu"
         >
           <RotateCcw className="size-4" />
@@ -290,11 +290,11 @@ export function ListeningPlayer({
       )}
 
       {mode === "speech" && (
-        <div className="mt-3 flex gap-2 rounded-lg border border-amber-400/20 bg-amber-500/8 p-2.5">
-          <Info className="mt-0.5 size-3.5 shrink-0 text-amber-200" />
-          <p className="text-[0.72rem] leading-relaxed text-amber-100/90">
+        <div className="mt-3 flex gap-2 rounded-xl border border-amber-400/20 bg-amber-500/8 p-2.5">
+          <Info className="mt-0.5 size-3.5 shrink-0 text-amber-700" />
+          <p className="text-[0.72rem] leading-relaxed text-amber-800">
             Chưa có file MP3 nên bài nghe đang được đọc bằng giọng của trình duyệt. Chạy{" "}
-            <code className="rounded bg-black/30 px-1 whitespace-nowrap">
+            <code className="rounded bg-rose-100 px-1 whitespace-nowrap">
               npm run gen:audio
             </code>{" "}
             để tạo audio thật với giọng bản xứ.
@@ -303,11 +303,11 @@ export function ListeningPlayer({
       )}
 
       {mode === "speech" && playing && transcript[lineIdx] && (
-        <p className="mt-3 flex items-start gap-2 text-[0.78rem] leading-relaxed text-slate-400">
-          <Volume2 className="mt-0.5 size-3.5 shrink-0 text-violet-300" />
+        <p className="mt-3 flex items-start gap-2 text-[0.78rem] leading-relaxed text-ink-500">
+          <Volume2 className="mt-0.5 size-3.5 shrink-0 text-violet-600" />
           <span>
             {transcript[lineIdx].speaker && (
-              <span className="font-medium text-violet-300">
+              <span className="font-medium text-violet-600">
                 {transcript[lineIdx].speaker}:{" "}
               </span>
             )}
