@@ -1,0 +1,209 @@
+{
+  "id": "lt-08",
+  "title": "Riverside Farmers' Market Stall Application",
+  "difficulty": "Trung bình",
+  "durationMinutes": 8,
+  "topics": [
+    "Agriculture",
+    "Business",
+    "Community"
+  ],
+  "sections": [
+    {
+      "number": 1,
+      "title": "Stallholder Application",
+      "context": "A man named Tom is inquiring about renting a stall at the local farmers' market from the market organizer, Mrs. Higgins.",
+      "audioSrc": "/audio/lt-08-s1.mp3",
+      "voices": {
+        "Mrs. Higgins": "en-GB-SoniaNeural",
+        "Tom": "en-AU-WilliamNeural"
+      },
+      "transcript": [
+        {
+          "speaker": "Mrs. Higgins",
+          "text": "Good morning, Riverside Farmers' Market office. Sarah Higgins speaking. How can I help you?"
+        },
+        {
+          "speaker": "Tom",
+          "text": "Hello, Sarah. My name is Tom and I’m calling to inquire about getting a stall at your market. I’ve heard it’s quite popular."
+        },
+        {
+          "speaker": "Mrs. Higgins",
+          "text": "It certainly is! We have a long waiting list for some categories, but we're always looking for high-quality local produce. What is your full name, please?"
+        },
+        {
+          "speaker": "Tom",
+          "text": "It’s Tom Weston. That’s W-E-S-T-O-N."
+        },
+        {
+          "speaker": "Mrs. Higgins",
+          "text": "Thank you, Tom. And what exactly is it that you produce on your farm?"
+        },
+        {
+          "speaker": "Tom",
+          "text": "I specialize in organic honey. I’ve got about fifty hives now. I also make a few beeswax candles, but the main thing is the honey."
+        },
+        {
+          "speaker": "Mrs. Higgins",
+          "text": "Organic honey, that’s wonderful. We actually don't have a dedicated honey stall at the moment. Now, what size stall would you require? Our standard units are three meters or two meters."
+        },
+        {
+          "speaker": "Tom",
+          "text": "Well, I originally thought I’d need the three-meter one to fit all my display jars, but looking at my transport van, I think a 2 meters space will be enough for me. Yes, let's go with the smaller one."
+        },
+        {
+          "speaker": "Mrs. Higgins",
+          "text": "Right, a two-meter stall. And which market days are you interested in? We run on Wednesdays and Saturdays."
+        },
+        {
+          "speaker": "Tom",
+          "text": "Wednesday is difficult because I have deliveries to local shops then. So Saturday is definitely the best option for me."
+        },
+        {
+          "speaker": "Mrs. Higgins",
+          "text": "Perfect. Now, do you have any specific requirements for your setup? Some vendors need water access or refrigeration."
+        },
+        {
+          "speaker": "Tom",
+          "text": "I don't need water, but I will need electricity. I have some digital scales and a small display light that I'd like to use if it's a cloudy day."
+        },
+        {
+          "speaker": "Mrs. Higgins",
+          "text": "That can be arranged. Now, let's go over some of the formal requirements and costs. First, all our stallholders must hold valid public liability insurance. Do you have that?"
+        },
+        {
+          "speaker": "Tom",
+          "text": "Yes, I've got a policy that covers up to five million dollars."
+        },
+        {
+          "speaker": "Mrs. Higgins",
+          "text": "Excellent. Regarding the costs, the weekly fee for a two-meter stall on a Saturday is 45 pounds. It’s slightly cheaper on Wednesdays, but as you said, Saturdays are busier."
+        },
+        {
+          "speaker": "Tom",
+          "text": "Forty-five pounds sounds reasonable. When would I need to arrive to set up?"
+        },
+        {
+          "speaker": "Mrs. Higgins",
+          "text": "The market opens to the public at 8:00 AM, so we require all vendors to arrive by 6:30 AM at the latest. If you're not there by then, we might give your spot to someone on the casual list."
+        },
+        {
+          "speaker": "Tom",
+          "text": "I see. I'll make sure to set my alarm early! Where should I park my van?"
+        },
+        {
+          "speaker": "Mrs. Higgins",
+          "text": "You should enter through the South Gate. There’s a designated area for stallholders' vehicles right behind the main square."
+        },
+        {
+          "speaker": "Tom",
+          "text": "South Gate, got it. Any other rules I should know about?"
+        },
+        {
+          "speaker": "Mrs. Higgins",
+          "text": "Just one major one regarding the environment. We are a plastic-free market. You must ensure you take home all packaging that you bring. We don't allow any cardboard or plastic to be left in the site bins."
+        },
+        {
+          "speaker": "Tom",
+          "text": "That's no problem at all. I use glass jars and paper bags anyway. Thanks for the information, Sarah."
+        },
+        {
+          "speaker": "Mrs. Higgins",
+          "text": "You're welcome, Tom. I'll email you the application form now."
+        }
+      ],
+      "groups": [
+        {
+          "id": "g1",
+          "type": "form_completion",
+          "range": "Questions 1-5",
+          "instruction": "Complete the form below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+          "wordLimit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "intro": "Riverside Farmers' Market Stall Application",
+          "questions": [
+            {
+              "id": 1,
+              "type": "form_completion",
+              "prompt": "Full Name: Tom ________",
+              "answer": "Weston",
+              "explanation": "Tom đánh vần tên mình là W-E-S-T-O-N."
+            },
+            {
+              "id": 2,
+              "type": "form_completion",
+              "prompt": "Main product: organic ________",
+              "answer": "honey",
+              "explanation": "Tom nói anh ấy chuyên về 'organic honey'."
+            },
+            {
+              "id": 3,
+              "type": "form_completion",
+              "prompt": "Stall size requested: ________ meters",
+              "answer": "2",
+              "explanation": "Ban đầu Tom nghĩ là 3 mét, nhưng sau đó quyết định chọn loại 2 mét (2 meters)."
+            },
+            {
+              "id": 4,
+              "type": "form_completion",
+              "prompt": "Preferred day: ________",
+              "answer": "Saturday",
+              "explanation": "Tom không thể đi thứ Tư nên chọn thứ Bảy (Saturday)."
+            },
+            {
+              "id": 5,
+              "type": "form_completion",
+              "prompt": "Requirement: access to ________",
+              "answer": "electricity",
+              "explanation": "Tom nói anh ấy cần điện (electricity) cho cân điện tử và đèn."
+            }
+          ]
+        },
+        {
+          "id": "g2",
+          "type": "note_completion",
+          "range": "Questions 6-10",
+          "instruction": "Complete the notes below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+          "wordLimit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "intro": "Market Rules and Logistics",
+          "questions": [
+            {
+              "id": 6,
+              "type": "note_completion",
+              "prompt": "Must have public ________ insurance.",
+              "answer": "liability",
+              "explanation": "Mrs. Higgins nhắc đến 'public liability insurance'."
+            },
+            {
+              "id": 7,
+              "type": "note_completion",
+              "prompt": "Weekly fee for Saturday stall: ________ pounds.",
+              "answer": "45",
+              "explanation": "Phí hàng tuần cho gian hàng thứ Bảy là 45 bảng."
+            },
+            {
+              "id": 8,
+              "type": "note_completion",
+              "prompt": "Latest arrival time for setup: ________ AM.",
+              "answer": "6:30",
+              "explanation": "Người bán phải đến muộn nhất là 6:30 sáng."
+            },
+            {
+              "id": 9,
+              "type": "note_completion",
+              "prompt": "Van parking location: ________.",
+              "answer": "South Gate",
+              "explanation": "Tom được hướng dẫn vào qua cổng phía Nam (South Gate)."
+            },
+            {
+              "id": 10,
+              "type": "note_completion",
+              "prompt": "Stallholders must take home all ________.",
+              "answer": "packaging",
+              "explanation": "Mrs. Higgins yêu cầu mang tất cả bao bì (packaging) về nhà, không để lại tại chợ."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

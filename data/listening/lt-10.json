@@ -1,0 +1,217 @@
+{
+  "id": "lt-10",
+  "title": "Student Accommodation Services",
+  "difficulty": "Trung bình",
+  "durationMinutes": 8,
+  "topics": [
+    "Housing",
+    "Student Life",
+    "University Services"
+  ],
+  "sections": [
+    {
+      "number": 1,
+      "title": "Accommodation Inquiry",
+      "context": "A student is inquiring about housing options at the university accommodation office.",
+      "audioSrc": "/audio/lt-10-s1.mp3",
+      "voices": {
+        "Mrs. Gable": "en-GB-SoniaNeural",
+        "Alex": "en-AU-WilliamNeural"
+      },
+      "transcript": [
+        {
+          "speaker": "Mrs. Gable",
+          "text": "Good morning! University Accommodation Office, Mrs. Gable speaking. How can I help you today?"
+        },
+        {
+          "speaker": "Alex",
+          "text": "Hi, good morning. My name is Alex Thorne, and I'm a second-year student. I’m looking for a place to stay for the upcoming autumn semester."
+        },
+        {
+          "speaker": "Mrs. Gable",
+          "text": "Hello, Alex. Let me just open the registration form here. Could you spell your last name for me?"
+        },
+        {
+          "speaker": "Alex",
+          "text": "Yes, it’s Thorne. T-H-O-R-N-E."
+        },
+        {
+          "speaker": "Mrs. Gable",
+          "text": "Got it. And I’ll need your student identification number to access your records."
+        },
+        {
+          "speaker": "Alex",
+          "text": "Sure. It is 8-8-4-1... oh, wait, sorry. I’m looking at my old library card by mistake. My actual student ID is 8-8-5-1."
+        },
+        {
+          "speaker": "Mrs. Gable",
+          "text": "8-8-5-1. Thank you. Now, do you have a preference for which part of the city you'd like to live in?"
+        },
+        {
+          "speaker": "Alex",
+          "text": "Well, most of my classes are on the South Campus, so I initially thought about North Hill, but a friend told me it’s way too noisy there at night. I think I’d prefer the West Village area. It’s a bit quieter."
+        },
+        {
+          "speaker": "Mrs. Gable",
+          "text": "West Village is a very popular choice. Now, regarding your budget, what is the maximum monthly rent you are willing to pay?"
+        },
+        {
+          "speaker": "Alex",
+          "text": "I was hoping for something around four hundred pounds, but I know prices have gone up. I can go up to five hundred, but absolutely no more than five hundred and fifty pounds per month, including utilities."
+        },
+        {
+          "speaker": "Mrs. Gable",
+          "text": "I'll put down five hundred and fifty as the upper limit. And what type of room are you looking for? We have shared rooms, singles, and studios."
+        },
+        {
+          "speaker": "Alex",
+          "text": "I really need my own space to study, so a single is what I'm after. Preferably an ensuite if possible, so I don't have to share a bathroom."
+        },
+        {
+          "speaker": "Mrs. Gable",
+          "text": "Understood. A single ensuite. And when were you planning to move in?"
+        },
+        {
+          "speaker": "Alex",
+          "text": "The semester starts on the 18th, so I was hoping to get settled on the 12th of September."
+        },
+        {
+          "speaker": "Mrs. Gable",
+          "text": "Let me check the maintenance schedule... unfortunately, the cleaning crews won't be finished with the West Village blocks until the 14th. The earliest move-in date we can offer is the 15th of September."
+        },
+        {
+          "speaker": "Alex",
+          "text": "The 15th? That’s only three days before classes start, but I guess it will have to do. Please mark that down."
+        },
+        {
+          "speaker": "Mrs. Gable",
+          "text": "Done. Now, let me tell you a bit about the facilities in that area. It’s very convenient. The main library is only about a 10 minutes walk away, which is great for late-night study sessions."
+        },
+        {
+          "speaker": "Alex",
+          "text": "That sounds perfect. What about laundry? I heard some blocks don't have machines."
+        },
+        {
+          "speaker": "Mrs. Gable",
+          "text": "All our West Village buildings have a dedicated laundry room on the ground floor. You just use a mobile app to pay for the cycles. Also, there's a small gym on-site, though you have to pay a separate membership fee for that."
+        },
+        {
+          "speaker": "Alex",
+          "text": "I'm not much of a gym person, so that's fine. Are there any extra fees I should know about before I sign?"
+        },
+        {
+          "speaker": "Mrs. Gable",
+          "text": "There is a standard security deposit, and we also require a key deposit of thirty pounds. You get that back when you return the keys at the end of the year."
+        },
+        {
+          "speaker": "Alex",
+          "text": "Thirty pounds is reasonable. And is the internet connection included in the rent?"
+        },
+        {
+          "speaker": "Mrs. Gable",
+          "text": "Yes, high-speed internet is included in the price. You won't have to pay anything extra for Wi-Fi in your room or the common areas."
+        },
+        {
+          "speaker": "Alex",
+          "text": "That’s great news. Thank you so much for your help, Mrs. Gable."
+        },
+        {
+          "speaker": "Mrs. Gable",
+          "text": "You're very welcome, Alex. I'll send you the official offer via email by this afternoon."
+        }
+      ],
+      "groups": [
+        {
+          "id": "g1",
+          "type": "form_completion",
+          "range": "1-6",
+          "instruction": "Complete the form below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+          "wordLimit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "intro": "Accommodation Request Form",
+          "questions": [
+            {
+              "id": 1,
+              "type": "form_completion",
+              "prompt": "Last Name: ",
+              "answer": "Thorne",
+              "explanation": "Alex đánh vần họ của mình là T-H-O-R-N-E."
+            },
+            {
+              "id": 2,
+              "type": "form_completion",
+              "prompt": "Student ID: ",
+              "answer": "8851",
+              "explanation": "Alex nhầm với thẻ thư viện (8841) nhưng sau đó đã đính chính số ID đúng là 8851."
+            },
+            {
+              "id": 3,
+              "type": "form_completion",
+              "prompt": "Preferred Area: ",
+              "answer": "West Village",
+              "explanation": "Mặc dù anh ấy từng nghĩ đến North Hill, nhưng cuối cùng anh ấy chọn West Village vì nó yên tĩnh hơn."
+            },
+            {
+              "id": 4,
+              "type": "form_completion",
+              "prompt": "Maximum Rent: £",
+              "answer": "550",
+              "explanation": "Alex nói giới hạn tối đa tuyệt đối là 550 pounds mỗi tháng."
+            },
+            {
+              "id": 5,
+              "type": "form_completion",
+              "prompt": "Room Type: Single ",
+              "answer": "ensuite",
+              "explanation": "Alex muốn một phòng đơn có phòng tắm riêng (ensuite)."
+            },
+            {
+              "id": 6,
+              "type": "form_completion",
+              "prompt": "Move-in Date: ",
+              "answer": "15th September",
+              "explanation": "Alex ban đầu muốn ngày 12, nhưng do lịch dọn dẹp, ngày sớm nhất có thể là ngày 15 tháng 9."
+            }
+          ]
+        },
+        {
+          "id": "g2",
+          "type": "note_completion",
+          "range": "7-10",
+          "instruction": "Complete the notes below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+          "wordLimit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "intro": "Facilities and Fees",
+          "questions": [
+            {
+              "id": 7,
+              "type": "note_completion",
+              "prompt": "The library is a ____________ walk from the accommodation.",
+              "answer": "10 minutes",
+              "explanation": "Mrs. Gable nói thư viện chỉ cách đó khoảng 10 phút đi bộ."
+            },
+            {
+              "id": 8,
+              "type": "note_completion",
+              "prompt": "A ____________ is located on the ground floor of each building.",
+              "answer": "laundry room",
+              "explanation": "Mỗi tòa nhà đều có một phòng giặt đồ ở tầng trệt."
+            },
+            {
+              "id": 9,
+              "type": "note_completion",
+              "prompt": "Students must pay a £ ____________ key deposit.",
+              "answer": "30",
+              "explanation": "Khoản tiền đặt cọc chìa khóa là 30 pounds."
+            },
+            {
+              "id": 10,
+              "type": "note_completion",
+              "prompt": "The cost of ____________ is already included in the rent.",
+              "answer": "internet",
+              "explanation": "Internet tốc độ cao đã được bao gồm trong giá thuê phòng."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

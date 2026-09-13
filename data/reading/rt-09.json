@@ -1,0 +1,202 @@
+{
+  "id": "rt-09",
+  "title": "The Architecture of Sleep: How the Brain Consolidates Memory",
+  "module": "Academic",
+  "difficulty": "Trung bình",
+  "durationMinutes": 20,
+  "topics": [
+    "Neuroscience",
+    "Psychology",
+    "Health"
+  ],
+  "passages": [
+    {
+      "number": 1,
+      "title": "The Architecture of Sleep: How the Brain Consolidates Memory",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "For decades, sleep was viewed as a biological 'off-switch,' a period of inactivity where the body simply recharged its physical batteries. However, contemporary neuroscience has overturned this passive model, revealing that the sleeping brain is a hub of complex activity. Far from being a state of dormancy, sleep is now understood as a critical period for cognitive maintenance, particularly the consolidation of memory. This process transforms fragile, newly acquired information into stable, long-term representations, ensuring that the lessons of the day are etched into the neural fabric for future use."
+        },
+        {
+          "label": "B",
+          "text": "Sleep is not a uniform state but is composed of distinct cycles, primarily divided into Non-Rapid Eye Movement (NREM) and Rapid Eye Movement (REM) sleep. NREM is further subdivided into light sleep and deep, slow-wave sleep (SWS). Throughout a typical night, the brain oscillates between these stages multiple times. Emerging evidence suggests that these stages are not redundant; rather, they perform complementary functions in the memory-making process, with each stage specializing in the preservation of different types of information."
+        },
+        {
+          "label": "C",
+          "text": "Declarative memory, which encompasses facts, names, and events, appears to be heavily dependent on slow-wave sleep. During SWS, the hippocampus—a small, seahorse-shaped structure in the temporal lobe—acts as a temporary storehouse for new data. Research indicates that during this deep sleep, the hippocampus 'replays' the neural firing patterns recorded during the day, effectively transferring information to the neocortex for permanent storage. This 'dialogue' between the hippocampus and the cortex is essential for building a robust library of factual knowledge."
+        },
+        {
+          "label": "D",
+          "text": "In contrast, procedural memory—the 'how-to' knowledge required for skills like playing a musical instrument or riding a bike—is more closely linked to REM sleep and light NREM stages. REM sleep is also famously associated with dreaming and the processing of emotional experiences. During this stage, the brain appears to strip away the intense emotional 'charge' from memories, allowing individuals to retain the information while neutralizing the associated stress. This regulatory function is vital for psychological resilience and the refinement of motor skills."
+        },
+        {
+          "label": "E",
+          "text": "A prominent framework in this field is the 'Synaptic Homeostasis Hypothesis' (SHY), proposed by Giulio Tononi and Chiara Cirelli. According to SHY, our brains become 'over-connected' during waking hours as we learn and interact with our environment. This proliferation of synaptic connections is energetically expensive and consumes valuable neural space. Sleep, according to this theory, provides a necessary period to 'scale down' or prune these synapses, weakening the insignificant connections while preserving the most important ones, thereby restoring the brain's efficiency for the next day."
+        },
+        {
+          "label": "F",
+          "text": "The consequences of sleep deprivation extend beyond simple fatigue, significantly impacting memory accuracy. A landmark study revealed that individuals deprived of sleep were significantly more likely to develop false memories—recalling events that never occurred or misremembering details of a witnessed event. This suggests that without sufficient rest, the brain’s ability to distinguish between internal associations and external realities becomes compromised, leading to a distortion of the past."
+        },
+        {
+          "label": "G",
+          "text": "The relationship between sleep and memory has profound implications for specific demographics, notably students and the elderly. In academic settings, 'cramming' all night for exams is often counterproductive, as the lack of sleep prevents the consolidation of the very facts being studied. Conversely, in the aging population, the natural decline in slow-wave sleep quality is often a precursor to cognitive decline. Many researchers now believe that improving sleep hygiene in older adults could be a key strategy in mitigating the onset of memory-related disorders like Alzheimer's."
+        },
+        {
+          "label": "H",
+          "text": "Looking ahead, scientists are exploring innovative methods to enhance memory through sleep. One such technique is Targeted Memory Reactivation (TMR), where specific sounds or odors associated with a learning task are re-presented to a subject during sleep. Initial results suggest that TMR can trigger the brain to prioritize and strengthen those specific memories. While still in its experimental stages, the prospect of 'optimizing' the sleeping brain offers a fascinating glimpse into the future of human cognitive enhancement."
+        }
+      ],
+      "groups": [
+        {
+          "id": "g1",
+          "type": "matching_headings",
+          "range": "Questions 1-7",
+          "instruction": "Choose the correct heading for paragraphs A-G from the list of headings below.",
+          "options": [
+            "i. The mechanics of skill acquisition",
+            "ii. A shift in scientific perception",
+            "iii. The cost of insufficient rest",
+            "iv. Strengthening factual knowledge",
+            "v. The cyclical nature of sleep stages",
+            "vi. The pruning of neural connections",
+            "vii. Cognitive consequences for specific age groups",
+            "viii. Theoretical future technologies"
+          ],
+          "questions": [
+            {
+              "id": 1,
+              "type": "matching_headings",
+              "prompt": "Paragraph A",
+              "answer": "ii",
+              "explanation": "Đoạn A nói về sự thay đổi từ quan niệm cũ (off-switch) sang quan niệm mới (critical period) của khoa học về giấc ngủ."
+            },
+            {
+              "id": 2,
+              "type": "matching_headings",
+              "prompt": "Paragraph B",
+              "answer": "v",
+              "explanation": "Đoạn B mô tả các chu kỳ của giấc ngủ như NREM và REM."
+            },
+            {
+              "id": 3,
+              "type": "matching_headings",
+              "prompt": "Paragraph C",
+              "answer": "iv",
+              "explanation": "Đoạn C tập trung vào 'declarative memory' (facts, names) và cách chúng được củng cố trong giấc ngủ sâu."
+            },
+            {
+              "id": 4,
+              "type": "matching_headings",
+              "prompt": "Paragraph D",
+              "answer": "i",
+              "explanation": "Đoạn D nói về 'procedural memory' - kiến thức về kỹ năng (how-to)."
+            },
+            {
+              "id": 5,
+              "type": "matching_headings",
+              "prompt": "Paragraph E",
+              "answer": "vi",
+              "explanation": "Đoạn E giải thích giả thuyết SHY về việc cắt tỉa (prune/scale down) các kết nối thần kinh."
+            },
+            {
+              "id": 6,
+              "type": "matching_headings",
+              "prompt": "Paragraph F",
+              "answer": "iii",
+              "explanation": "Đoạn F nói về hậu quả của việc thiếu ngủ (sleep deprivation) đối với trí nhớ."
+            },
+            {
+              "id": 7,
+              "type": "matching_headings",
+              "prompt": "Paragraph G",
+              "answer": "vii",
+              "explanation": "Đoạn G thảo luận về tác động của giấc ngủ đối với sinh viên và người già."
+            }
+          ]
+        },
+        {
+          "id": "g2",
+          "type": "matching_information",
+          "range": "Questions 8-9",
+          "instruction": "Which paragraph contains the following information? Write the correct letter, A-H, in boxes 8-9.",
+          "questions": [
+            {
+              "id": 8,
+              "type": "matching_information",
+              "prompt": "a reference to a technique for enhancing specific memories during sleep",
+              "answer": "H",
+              "explanation": "Đoạn H nhắc đến kỹ thuật Targeted Memory Reactivation (TMR)."
+            },
+            {
+              "id": 9,
+              "type": "matching_information",
+              "prompt": "the mention of a brain structure involved in moving data to long-term storage",
+              "answer": "C",
+              "explanation": "Đoạn C nhắc đến 'hippocampus' đóng vai trò chuyển dữ liệu sang neocortex."
+            }
+          ]
+        },
+        {
+          "id": "g3",
+          "type": "sentence_completion",
+          "range": "Questions 10-11",
+          "instruction": "Complete the sentences below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+          "wordLimit": "NO MORE THAN TWO WORDS",
+          "questions": [
+            {
+              "id": 10,
+              "type": "sentence_completion",
+              "prompt": "According to the SHY theory, sleep helps to __________ synapses to preserve brain efficiency.",
+              "answer": "scale down",
+              "explanation": "Trong đoạn E, giả thuyết SHY nói rằng giấc ngủ giúp 'scale down' các synapses."
+            },
+            {
+              "id": 11,
+              "type": "sentence_completion",
+              "prompt": "Sleep-deprived individuals are more susceptible to the creation of __________.",
+              "answer": "false memories",
+              "explanation": "Trong đoạn F, nghiên cứu chỉ ra người thiếu ngủ dễ tạo ra 'false memories'."
+            }
+          ]
+        },
+        {
+          "id": "g4",
+          "type": "multiple_choice",
+          "range": "Question 12",
+          "instruction": "Choose the correct letter, A, B, C, or D.",
+          "questions": [
+            {
+              "id": 12,
+              "type": "multiple_choice",
+              "prompt": "What does the author suggest about REM sleep in Paragraph D?",
+              "options": [
+                "A. It is the only stage where dreaming occurs.",
+                "B. It helps reduce the emotional intensity of memories.",
+                "C. It is primarily responsible for storing factual names.",
+                "D. It is less important than slow-wave sleep for learning."
+              ],
+              "answer": "B",
+              "explanation": "Đoạn D nói rằng REM giúp 'strip away the intense emotional charge from memories'."
+            }
+          ]
+        },
+        {
+          "id": "g5",
+          "type": "true_false_notgiven",
+          "range": "Question 13",
+          "instruction": "Do the following statements agree with the information given in the Reading Passage?",
+          "questions": [
+            {
+              "id": 13,
+              "type": "true_false_notgiven",
+              "prompt": "Modern research suggests that sleep quality improves as people reach old age.",
+              "answer": "FALSE",
+              "explanation": "Đoạn G nói ngược lại: 'natural decline in slow-wave sleep quality' ở người già."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

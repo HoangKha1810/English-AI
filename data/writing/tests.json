@@ -1,0 +1,945 @@
+[
+  {
+    "id": "wt-01",
+    "title": "Writing · Đề 1",
+    "module": "Academic",
+    "difficulty": "Trung bình",
+    "topics": [
+      "Giao thông đô thị"
+    ],
+    "tasks": [
+      {
+        "taskNumber": 1,
+        "type": "Biểu đồ đường",
+        "durationMinutes": 20,
+        "minWords": 150,
+        "instruction": "You should spend about 20 minutes on this task. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.",
+        "prompt": "The line graph below shows how people in a large European city travelled to work between 2010 and 2024.",
+        "chart": {
+          "kind": "line",
+          "title": "Share of daily commuting trips by mode of transport, 2010-2024",
+          "unit": "% of daily trips",
+          "categories": [
+            "2010",
+            "2013",
+            "2016",
+            "2019",
+            "2022",
+            "2024"
+          ],
+          "series": [
+            {
+              "name": "Private car",
+              "values": [
+                58,
+                54,
+                49,
+                43,
+                38,
+                34
+              ],
+              "color": "#38bdf8"
+            },
+            {
+              "name": "Metro and bus",
+              "values": [
+                24,
+                27,
+                30,
+                33,
+                36,
+                38
+              ],
+              "color": "#a78bfa"
+            },
+            {
+              "name": "Cycling",
+              "values": [
+                6,
+                8,
+                11,
+                15,
+                18,
+                21
+              ],
+              "color": "#fbbf24"
+            },
+            {
+              "name": "Walking",
+              "values": [
+                12,
+                11,
+                10,
+                9,
+                8,
+                7
+              ],
+              "color": "#34d399"
+            }
+          ],
+          "note": "Figures for each year add up to 100%."
+        },
+        "usefulLanguage": [
+          "fell steadily from 58% to just 34%",
+          "overtook private cars as the most popular option in 2024",
+          "more than tripled over the fourteen-year period",
+          "the gap between the two modes narrowed sharply",
+          "by contrast, walking showed a slight downward trend",
+          "rose by fourteen percentage points overall",
+          "remained the least common means of transport throughout"
+        ]
+      },
+      {
+        "taskNumber": 2,
+        "type": "Dạng Opinion (Agree/Disagree)",
+        "durationMinutes": 40,
+        "minWords": 250,
+        "instruction": "You should spend about 40 minutes on this task. Give reasons for your answer and include any relevant examples from your own knowledge or experience. Write at least 250 words.",
+        "prompt": "Some people believe that governments should spend money on improving public transport rather than on building new roads. To what extent do you agree or disagree?",
+        "ideas": [
+          "Đường mới thường bị lấp đầy ngay bởi xe cá nhân, nên xây thêm đường hiếm khi giải quyết được ùn tắc lâu dài.",
+          "Một tuyến tàu điện hoặc xe buýt nhanh chở được nhiều người hơn nhiều lần so với cùng diện tích đường dành cho ô tô.",
+          "Giao thông công cộng làm giảm khí thải và ô nhiễm không khí ở khu vực trung tâm, tốt cho sức khoẻ cộng đồng.",
+          "Người thu nhập thấp, người già và học sinh phụ thuộc vào xe buýt, nên khoản đầu tư này công bằng hơn về mặt xã hội.",
+          "Mặt khác, vùng nông thôn dân cư thưa vẫn cần đường tốt để vận chuyển hàng hoá và tiếp cận bệnh viện.",
+          "Giải pháp cân bằng: ưu tiên ngân sách cho giao thông công cộng ở đô thị, đồng thời bảo trì đường hiện có thay vì xây tuyến mới."
+        ],
+        "usefulLanguage": [
+          "ease traffic congestion in the city centre",
+          "curb urban air pollution",
+          "a reliable and affordable metro network",
+          "reduce reliance on private vehicles",
+          "road-building merely generates additional traffic",
+          "allocate public funds more efficiently",
+          "improve mobility for low-income commuters"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wt-02",
+    "title": "Writing · Đề 2",
+    "module": "Academic",
+    "difficulty": "Trung bình",
+    "topics": [
+      "Giáo dục đại học"
+    ],
+    "tasks": [
+      {
+        "taskNumber": 1,
+        "type": "Biểu đồ cột",
+        "durationMinutes": 20,
+        "minWords": 150,
+        "instruction": "You should spend about 20 minutes on this task. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.",
+        "prompt": "The bar chart below compares the number of students enrolled in postgraduate courses in five subject areas in one country in 2015 and 2024.",
+        "chart": {
+          "kind": "bar",
+          "title": "Postgraduate enrolments by subject area, 2015 and 2024",
+          "unit": "thousand students",
+          "categories": [
+            "Engineering",
+            "Business",
+            "Health sciences",
+            "Arts and humanities",
+            "Computer science"
+          ],
+          "series": [
+            {
+              "name": "2015",
+              "values": [
+                42,
+                58,
+                35,
+                40,
+                28
+              ],
+              "color": "#38bdf8"
+            },
+            {
+              "name": "2024",
+              "values": [
+                55,
+                61,
+                52,
+                27,
+                74
+              ],
+              "color": "#fb7185"
+            }
+          ]
+        },
+        "usefulLanguage": [
+          "enrolment surged from 28,000 to 74,000",
+          "computer science overtook business to become the most popular field",
+          "the only subject area to record a decline",
+          "grew by roughly half over the period",
+          "remained relatively stable at around 60,000",
+          "attracted almost twice as many students as",
+          "the figures for engineering and health sciences rose moderately"
+        ]
+      },
+      {
+        "taskNumber": 2,
+        "type": "Dạng Discussion (Thảo luận hai quan điểm)",
+        "durationMinutes": 40,
+        "minWords": 250,
+        "instruction": "You should spend about 40 minutes on this task. Give reasons for your answer and include any relevant examples from your own knowledge or experience. Write at least 250 words.",
+        "prompt": "Some people think that university education should be free for every student, while others argue that students themselves should pay the full cost of their studies. Discuss both views and give your own opinion.",
+        "ideas": [
+          "Ủng hộ miễn phí: học sinh gia đình khó khăn có cơ hội học lên, giúp tăng dịch chuyển xã hội và giảm bất bình đẳng.",
+          "Ủng hộ miễn phí: cả xã hội hưởng lợi từ đội ngũ bác sĩ, giáo viên, kỹ sư có trình độ nên nhà nước nên chi trả.",
+          "Ủng hộ thu học phí: ngân sách công có hạn, tiền thuế có thể cần thiết hơn cho y tế hoặc giáo dục phổ thông.",
+          "Ủng hộ thu học phí: người có bằng đại học thường thu nhập cao hơn về sau, nên đóng góp một phần là hợp lý.",
+          "Ủng hộ thu học phí: khi phải trả tiền, sinh viên có xu hướng chọn ngành nghiêm túc hơn và học chăm hơn.",
+          "Quan điểm cá nhân: mô hình kết hợp — học phí thấp, cộng học bổng cho sinh viên nghèo và khoản vay trả theo thu nhập sau khi ra trường."
+        ],
+        "usefulLanguage": [
+          "widen access to higher education",
+          "place a heavy burden on taxpayers",
+          "graduates tend to command higher salaries",
+          "income-contingent student loans",
+          "a highly skilled and productive workforce",
+          "tuition fees deter applicants from poorer backgrounds",
+          "strike a balance between fairness and affordability"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wt-03",
+    "title": "Writing · Đề 3",
+    "module": "Academic",
+    "difficulty": "Dễ",
+    "topics": [
+      "Môi trường và rác thải"
+    ],
+    "tasks": [
+      {
+        "taskNumber": 1,
+        "type": "Biểu đồ tròn",
+        "durationMinutes": 20,
+        "minWords": 150,
+        "instruction": "You should spend about 20 minutes on this task. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.",
+        "prompt": "The pie chart below shows the composition of household waste collected in a mid-sized city in 2024.",
+        "chart": {
+          "kind": "pie",
+          "title": "Composition of household waste in a mid-sized city, 2024",
+          "unit": "% of total waste by weight",
+          "categories": [
+            "Food waste",
+            "Paper and card",
+            "Plastics",
+            "Glass and metal",
+            "Garden waste",
+            "Other"
+          ],
+          "series": [
+            {
+              "name": "Share of household waste",
+              "values": [
+                34,
+                21,
+                17,
+                12,
+                9,
+                7
+              ],
+              "color": "#34d399"
+            }
+          ],
+          "note": "Slices add up to 100%."
+        },
+        "usefulLanguage": [
+          "accounted for just over a third of the total",
+          "made up roughly a fifth of all household waste",
+          "by far the largest single category",
+          "the smallest proportion, at only 7%",
+          "taken together, paper and plastics represented almost 40%",
+          "nearly three times as large as the figure for garden waste",
+          "a comparatively minor share of the total"
+        ]
+      },
+      {
+        "taskNumber": 2,
+        "type": "Dạng Problem & Solution (Nguyên nhân – Giải pháp)",
+        "durationMinutes": 40,
+        "minWords": 250,
+        "instruction": "You should spend about 40 minutes on this task. Give reasons for your answer and include any relevant examples from your own knowledge or experience. Write at least 250 words.",
+        "prompt": "In many cities the amount of waste produced by ordinary households is increasing every year. What are the causes of this problem, and what measures could be taken to solve it?",
+        "ideas": [
+          "Nguyên nhân: văn hoá tiêu dùng nhanh và mua sắm trực tuyến kéo theo lượng bao bì khổng lồ cho từng đơn hàng nhỏ.",
+          "Nguyên nhân: thực phẩm rẻ, hạn sử dụng ngắn và thói quen mua thừa khiến các hộ gia đình vứt bỏ rất nhiều đồ ăn.",
+          "Nguyên nhân: nhiều khu dân cư thiếu hệ thống phân loại rác tại nguồn và điểm thu gom tái chế thuận tiện.",
+          "Giải pháp: đánh thuế lên bao bì nhựa dùng một lần và buộc siêu thị chuyển sang vật liệu tái chế được.",
+          "Giải pháp: thu phí rác theo khối lượng để hộ gia đình có động lực tài chính trong việc giảm rác thải.",
+          "Giải pháp: xây dựng điểm ủ phân hữu cơ trong khu dân cư và đưa giáo dục về tái chế vào trường học."
+        ],
+        "usefulLanguage": [
+          "single-use packaging",
+          "a throwaway culture",
+          "divert waste from landfill",
+          "kerbside recycling schemes",
+          "impose a levy on plastic bags",
+          "compost organic food waste",
+          "raise public awareness of overconsumption"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wt-04",
+    "title": "Writing · Đề 4",
+    "module": "Academic",
+    "difficulty": "Khó",
+    "topics": [
+      "Công nghệ và trí tuệ nhân tạo"
+    ],
+    "tasks": [
+      {
+        "taskNumber": 1,
+        "type": "Bảng số liệu",
+        "durationMinutes": 20,
+        "minWords": 150,
+        "instruction": "You should spend about 20 minutes on this task. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.",
+        "prompt": "The table below shows the percentage of businesses in four sectors that used four different types of artificial intelligence tool in 2024.",
+        "chart": {
+          "kind": "table",
+          "title": "Businesses using selected artificial intelligence tools, by sector, 2024",
+          "unit": "% of firms",
+          "categories": [
+            "Retail",
+            "Banking",
+            "Healthcare",
+            "Manufacturing"
+          ],
+          "series": [
+            {
+              "name": "Customer-service chatbots",
+              "values": [
+                68,
+                74,
+                31,
+                22
+              ],
+              "color": "#38bdf8"
+            },
+            {
+              "name": "Data analysis and forecasting",
+              "values": [
+                55,
+                81,
+                49,
+                63
+              ],
+              "color": "#a78bfa"
+            },
+            {
+              "name": "Automated translation",
+              "values": [
+                29,
+                34,
+                18,
+                41
+              ],
+              "color": "#fbbf24"
+            },
+            {
+              "name": "Image or video generation",
+              "values": [
+                37,
+                12,
+                6,
+                9
+              ],
+              "color": "#fb7185"
+            }
+          ],
+          "note": "Firms could report using more than one type of tool."
+        },
+        "usefulLanguage": [
+          "the figure for banking was the highest, at 81%",
+          "fewer than one in five firms used this tool",
+          "healthcare lagged behind the other three sectors",
+          "a similar pattern can be seen in manufacturing",
+          "the most widely adopted tool overall",
+          "only a small minority of manufacturers did so",
+          "compared with just 6% in healthcare"
+        ]
+      },
+      {
+        "taskNumber": 2,
+        "type": "Dạng Advantages & Disadvantages",
+        "durationMinutes": 40,
+        "minWords": 250,
+        "instruction": "You should spend about 40 minutes on this task. Give reasons for your answer and include any relevant examples from your own knowledge or experience. Write at least 250 words.",
+        "prompt": "An increasing number of companies are using artificial intelligence to carry out tasks that were once done by people. Do the advantages of this development outweigh the disadvantages?",
+        "ideas": [
+          "Lợi ích: tự động hoá các công việc lặp đi lặp lại giúp giảm chi phí vận hành và tăng năng suất rõ rệt.",
+          "Lợi ích: AI xử lý khối lượng dữ liệu lớn nhanh hơn con người, hỗ trợ chẩn đoán y khoa và dự báo nhu cầu.",
+          "Lợi ích: nhân viên được giải phóng khỏi việc nhàm chán để tập trung vào sáng tạo và chăm sóc khách hàng.",
+          "Bất lợi: lao động kỹ năng thấp có nguy cơ mất việc, làm gia tăng bất bình đẳng thu nhập.",
+          "Bất lợi: thuật toán có thể thiên lệch và thiếu minh bạch khi ra quyết định tuyển dụng hay cho vay.",
+          "Bất lợi: doanh nghiệp phụ thuộc quá mức vào công nghệ sẽ gặp rủi ro lớn khi hệ thống lỗi hoặc bị tấn công mạng."
+        ],
+        "usefulLanguage": [
+          "automate routine and repetitive tasks",
+          "boost productivity and cut operating costs",
+          "displace low-skilled workers",
+          "retrain and upskill the existing workforce",
+          "algorithmic bias in decision-making",
+          "human oversight remains essential",
+          "the drawbacks are largely manageable"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wt-05",
+    "title": "Writing · Đề 5",
+    "module": "Academic",
+    "difficulty": "Khó",
+    "topics": [
+      "Sức khoẻ và lối sống"
+    ],
+    "tasks": [
+      {
+        "taskNumber": 1,
+        "type": "Biểu đồ đường",
+        "durationMinutes": 20,
+        "minWords": 150,
+        "instruction": "You should spend about 20 minutes on this task. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.",
+        "prompt": "The line graph below shows the percentage of adults in four age groups who met recommended weekly physical activity levels between 2014 and 2024.",
+        "chart": {
+          "kind": "line",
+          "title": "Adults meeting recommended weekly physical activity levels, by age group",
+          "unit": "% of adults",
+          "categories": [
+            "2014",
+            "2016",
+            "2018",
+            "2020",
+            "2022",
+            "2024"
+          ],
+          "series": [
+            {
+              "name": "18-29",
+              "values": [
+                62,
+                60,
+                57,
+                48,
+                52,
+                55
+              ],
+              "color": "#38bdf8"
+            },
+            {
+              "name": "30-49",
+              "values": [
+                54,
+                53,
+                51,
+                43,
+                47,
+                50
+              ],
+              "color": "#a78bfa"
+            },
+            {
+              "name": "50-64",
+              "values": [
+                41,
+                43,
+                45,
+                40,
+                46,
+                51
+              ],
+              "color": "#fbbf24"
+            },
+            {
+              "name": "65 and over",
+              "values": [
+                28,
+                30,
+                33,
+                26,
+                34,
+                40
+              ],
+              "color": "#34d399"
+            }
+          ],
+          "note": "All four groups dipped in 2020 before recovering."
+        },
+        "usefulLanguage": [
+          "dipped sharply in 2020 before recovering",
+          "reached a low of just 26%",
+          "climbed steadily throughout the period",
+          "the gap between the two groups narrowed to five percentage points",
+          "the only group to finish the period below its starting figure",
+          "rose by twelve percentage points overall",
+          "the three older groups followed a broadly similar pattern"
+        ]
+      },
+      {
+        "taskNumber": 2,
+        "type": "Dạng Two-part Question (Câu hỏi hai phần)",
+        "durationMinutes": 40,
+        "minWords": 250,
+        "instruction": "You should spend about 40 minutes on this task. Give reasons for your answer and include any relevant examples from your own knowledge or experience. Write at least 250 words.",
+        "prompt": "In many countries people are far less physically active than they were in the past. Why is this happening, and what effects does it have on individuals and on society as a whole?",
+        "ideas": [
+          "Nguyên nhân: công việc văn phòng, học trực tuyến và họp qua màn hình khiến nhiều người ngồi liên tục hơn tám tiếng mỗi ngày.",
+          "Nguyên nhân: giải trí kỹ thuật số như điện thoại, streaming và trò chơi điện tử dần thay thế các hoạt động ngoài trời.",
+          "Nguyên nhân: đô thị thiếu vỉa hè và công viên an toàn, người dân phụ thuộc vào xe máy và ô tô cho cả quãng đường ngắn.",
+          "Hệ quả cá nhân: tỷ lệ béo phì, tiểu đường tuýp 2 và bệnh tim mạch tăng, kèm theo căng thẳng và mất ngủ.",
+          "Hệ quả xã hội: chi phí y tế công tăng mạnh và năng suất lao động giảm vì nhân viên nghỉ ốm nhiều hơn.",
+          "Hệ quả lâu dài: trẻ em hình thành thói quen ít vận động từ nhỏ và duy trì thói quen đó đến tuổi trưởng thành."
+        ],
+        "usefulLanguage": [
+          "lead an increasingly sedentary lifestyle",
+          "screen time has soared in recent years",
+          "a sharp rise in obesity and type 2 diabetes",
+          "place a strain on public healthcare systems",
+          "take a toll on mental well-being",
+          "encourage active commuting such as cycling",
+          "serious long-term public health consequences"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wt-06",
+    "title": "Remote Work and Global Employment Trends",
+    "module": "Academic",
+    "difficulty": "Trung bình",
+    "topics": [
+      "Technology",
+      "Employment",
+      "Society"
+    ],
+    "tasks": [
+      {
+        "taskNumber": 1,
+        "type": "Bar Chart",
+        "durationMinutes": 20,
+        "minWords": 150,
+        "instruction": "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+        "prompt": "The bar chart below shows the percentage of employees who worked remotely in three different sectors in the country of Arctica between 2019 and 2023.",
+        "chart": {
+          "kind": "bar",
+          "title": "Percentage of Remote Workers by Industry (2019-2023)",
+          "unit": "%",
+          "categories": [
+            "2019",
+            "2020",
+            "2021",
+            "2022",
+            "2023"
+          ],
+          "series": [
+            {
+              "name": "IT & Software",
+              "values": [
+                15,
+                65,
+                70,
+                75,
+                82
+              ],
+              "color": "#2563eb"
+            },
+            {
+              "name": "Education",
+              "values": [
+                5,
+                45,
+                60,
+                40,
+                35
+              ],
+              "color": "#10b981"
+            },
+            {
+              "name": "Manufacturing",
+              "values": [
+                2,
+                12,
+                10,
+                8,
+                7
+              ],
+              "color": "#f59e0b"
+            }
+          ],
+          "note": "Data represents employees working at least 3 days per week from home."
+        }
+      },
+      {
+        "taskNumber": 2,
+        "type": "Opinion Essay",
+        "durationMinutes": 40,
+        "minWords": 250,
+        "instruction": "Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+        "prompt": "In many parts of the world, an increasing number of people are choosing to work from home rather than in a traditional office environment. Do the advantages of this trend outweigh the disadvantages?",
+        "ideas": [
+          "Improved work-life balance due to the elimination of daily commuting time and costs.",
+          "Significant reduction in overhead expenses for corporations, such as office rent and utilities.",
+          "Access to a global talent pool for employers, as geographical location is no longer a barrier.",
+          "Potential for social isolation and the erosion of team cohesion due to lack of face-to-face interaction.",
+          "The blurring of boundaries between professional and personal life, leading to potential burnout.",
+          "Difficulties in monitoring employee performance and maintaining data security in remote settings."
+        ],
+        "usefulLanguage": [
+          "telecommuting / remote working",
+          "digital infrastructure",
+          "to strike a balance between",
+          "geographical constraints",
+          "face-to-face collaboration",
+          "overhead costs",
+          "work-life integration"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wt-07",
+    "title": "Writing Test on Climate Change and Individual Responsibility",
+    "module": "Academic",
+    "difficulty": "Trung bình",
+    "topics": [
+      "Climate Change",
+      "Environmental Science",
+      "Individual Responsibility",
+      "Sustainability"
+    ],
+    "tasks": [
+      {
+        "taskNumber": 1,
+        "type": "Academic Task 1",
+        "durationMinutes": 20,
+        "minWords": 150,
+        "instruction": "The chart below shows the main sources of greenhouse gas emissions in 2022. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+        "prompt": "The provided chart illustrates the primary origins of greenhouse gas emissions globally in the year 2022. Your task is to summarise this data by identifying and describing the most significant trends and making relevant comparisons between the different sources.",
+        "chart": {
+          "kind": "bar",
+          "title": "Main Sources of Greenhouse Gas Emissions Worldwide (2022)",
+          "unit": "%",
+          "categories": [
+            "Energy Production",
+            "Agriculture",
+            "Industrial Processes",
+            "Transportation",
+            "Buildings",
+            "Waste Management"
+          ],
+          "series": [
+            {
+              "name": "Percentage Share",
+              "values": [
+                35,
+                20,
+                15,
+                12,
+                8,
+                10
+              ],
+              "color": "#1f77b4"
+            }
+          ],
+          "note": "Data represents estimated global contributions to greenhouse gas emissions."
+        }
+      },
+      {
+        "taskNumber": 2,
+        "type": "Academic Task 2",
+        "durationMinutes": 40,
+        "minWords": 250,
+        "instruction": "It is argued that individuals have a significant role to play in mitigating climate change. To what extent do you agree or disagree?",
+        "prompt": "Climate change is a pressing global issue. While governments and corporations are often seen as the primary actors in addressing it, the impact of individual actions is also widely discussed. Discuss the extent to which you agree or disagree that individuals hold significant responsibility in the fight against climate change, providing reasons for your viewpoint and relevant examples.",
+        "ideas": [
+          "Consumer choices and their environmental impact (e.g., diet, purchasing habits).",
+          "Energy consumption at home and its contribution to emissions.",
+          "Transportation choices (e.g., public transport, cycling, electric vehicles).",
+          "Waste reduction and recycling efforts.",
+          "Advocacy and raising awareness within communities.",
+          "The limitations of individual action compared to systemic change."
+        ],
+        "usefulLanguage": [
+          "While it is undeniable that...",
+          "On the one hand... on the other hand...",
+          "Furthermore, it is crucial to consider...",
+          "Consequently, individual actions can collectively...",
+          "However, it is important to acknowledge the limitations...",
+          "In conclusion, while systemic changes are paramount..."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wt-08",
+    "title": "IELTS Writing Practice Test: The Role of Museums in Modern Society",
+    "module": "Academic",
+    "difficulty": "Khó",
+    "topics": [
+      "Museums",
+      "Culture",
+      "Education",
+      "Technology"
+    ],
+    "tasks": [
+      {
+        "taskNumber": 1,
+        "type": "Bar Chart",
+        "durationMinutes": 20,
+        "minWords": 150,
+        "instruction": "Summarize the information by selecting and reporting the main features, and make comparisons where relevant.",
+        "prompt": "The chart below shows the percentage of visitors to four different types of museums in a European city between 2010 and 2020.",
+        "chart": {
+          "kind": "bar",
+          "title": "Museum Visitor Percentage by Category (2010 vs 2020)",
+          "unit": "%",
+          "categories": [
+            "History Museums",
+            "Science & Technology Museums",
+            "Art Galleries",
+            "Natural History Museums"
+          ],
+          "series": [
+            {
+              "name": "2010",
+              "values": [
+                35,
+                20,
+                40,
+                25
+              ],
+              "color": "#3b82f6"
+            },
+            {
+              "name": "2020",
+              "values": [
+                30,
+                45,
+                35,
+                20
+              ],
+              "color": "#ef4444"
+            }
+          ],
+          "note": "Figures are given as a percentage of total annual museum attendees."
+        }
+      },
+      {
+        "taskNumber": 2,
+        "type": "Essay",
+        "durationMinutes": 40,
+        "minWords": 250,
+        "instruction": "Write about the following topic. Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+        "prompt": "Some people think that museums should be entertaining and engaging places for visitors, while others believe that their primary purpose should be educational and scholarly. Discuss both views and give your opinion.",
+        "ideas": [
+          "Entertainment perspective: Interactive exhibits, virtual reality, and multimedia displays attract wider audiences and younger generations.",
+          "Educational perspective: Preservation of artifacts, academic research, and deep historical context foster genuine intellectual growth.",
+          "Balancing both: Modern institutions can successfully merge immersive experiences with rigorous academic curation to serve dual functions."
+        ],
+        "usefulLanguage": [
+          "to strike a balance between",
+          "immersive technological exhibits",
+          "scholarly research and preservation",
+          "to cater to a broader demographic",
+          "intellectual enrichment",
+          "to bridge the gap between education and entertainment"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wt-09",
+    "title": "Technology in the Workplace",
+    "module": "Academic",
+    "difficulty": "Trung bình",
+    "topics": [
+      "Technology",
+      "Workplace",
+      "Employment"
+    ],
+    "tasks": [
+      {
+        "taskNumber": 1,
+        "type": "Bar Chart Analysis",
+        "durationMinutes": 20,
+        "minWords": 150,
+        "instruction": "Summarize the information by selecting and reporting the main features, and make comparisons where relevant.",
+        "prompt": "The bar chart below shows the percentage of employees using three different types of workplace technology in four different sectors in 2023.",
+        "chart": {
+          "kind": "bar",
+          "title": "Employee Usage of Workplace Technology by Sector (2023)",
+          "unit": "Percentage (%)",
+          "categories": [
+            "Finance",
+            "Healthcare",
+            "Manufacturing",
+            "Education"
+          ],
+          "series": [
+            {
+              "name": "Cloud Computing",
+              "values": [
+                85,
+                45,
+                30,
+                60
+              ],
+              "color": "#3b82f6"
+            },
+            {
+              "name": "Artificial Intelligence Tools",
+              "values": [
+                65,
+                20,
+                15,
+                40
+              ],
+              "color": "#10b981"
+            },
+            {
+              "name": "Automated Robotics",
+              "values": [
+                10,
+                35,
+                75,
+                5
+              ],
+              "color": "#f59e0b"
+            }
+          ],
+          "note": "Data collected from a global workplace survey of 5,000 businesses."
+        }
+      },
+      {
+        "taskNumber": 2,
+        "type": "Essay",
+        "durationMinutes": 40,
+        "minWords": 250,
+        "instruction": "Write about the following topic. Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+        "prompt": "As artificial intelligence and automation become more prevalent in the workplace, many traditional jobs are being replaced. What are the advantages and disadvantages of this development? Do you think the benefits outweigh the drawbacks?",
+        "ideas": [
+          "Increased productivity and efficiency through automation of repetitive tasks.",
+          "Reduction in human error and enhanced precision in complex processes.",
+          "Job displacement and high unemployment rates for specific sectors.",
+          "The necessity for large-scale retraining and upskilling programs.",
+          "Creation of new job roles focused on technology management and development."
+        ],
+        "usefulLanguage": [
+          "A double-edged sword",
+          "Streamline operations",
+          "Displace traditional workforce",
+          "Lifelong learning and upskilling",
+          "Seamless integration",
+          "Economic disparity"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wt-10",
+    "title": "The Impact of International Tourism",
+    "module": "Academic",
+    "difficulty": "Khó",
+    "topics": [
+      "Tourism",
+      "Economy",
+      "Environment",
+      "Culture"
+    ],
+    "tasks": [
+      {
+        "taskNumber": 1,
+        "type": "Bar Chart Analysis",
+        "durationMinutes": 20,
+        "minWords": 150,
+        "instruction": "Summarize the information by selecting and reporting the main features, and make comparisons where relevant.",
+        "prompt": "The chart below shows the percentage of international tourist arrivals by region between 2000 and 2020. Summarize the information by selecting and reporting the main features, and make comparisons where relevant.",
+        "chart": {
+          "kind": "bar",
+          "title": "International Tourist Arrivals by Region (2000 - 2020)",
+          "unit": "Percentage (%)",
+          "categories": [
+            "Europe",
+            "Asia-Pacific",
+            "Americas",
+            "Middle East",
+            "Africa"
+          ],
+          "series": [
+            {
+              "name": "Year 2000",
+              "values": [
+                58,
+                18,
+                19,
+                3,
+                2
+              ],
+              "color": "#3b82f6"
+            },
+            {
+              "name": "Year 2010",
+              "values": [
+                51,
+                22,
+                16,
+                6,
+                5
+              ],
+              "color": "#10b981"
+            },
+            {
+              "name": "Year 2020",
+              "values": [
+                42,
+                29,
+                15,
+                8,
+                6
+              ],
+              "color": "#f59e0b"
+            }
+          ],
+          "note": "Figures are rounded to the nearest whole percentage."
+        },
+        "usefulLanguage": [
+          "account for the majority of",
+          "experience a steady upward trend",
+          "witness a noticeable decline",
+          "remain the dominant destination",
+          "grow at a comparable rate"
+        ]
+      },
+      {
+        "taskNumber": 2,
+        "type": "Essay",
+        "durationMinutes": 40,
+        "minWords": 250,
+        "instruction": "Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+        "prompt": "International tourism has become a massive industry, bringing both economic benefits and negative impacts to local communities. To what extent do the disadvantages of international tourism outweigh the advantages?",
+        "ideas": [
+          "Economic growth: creates jobs, boosts local businesses, and brings foreign currency.",
+          "Cultural exchange: promotes mutual understanding and preserves local traditions through tourism revenue.",
+          "Environmental damage: leads to pollution, habitat destruction, and excessive carbon emissions from flights.",
+          "Social strain: causes overcrowding, increases the cost of living for locals, and degrades cultural heritage sites."
+        ],
+        "usefulLanguage": [
+          "from an economic perspective",
+          "act as a double-edged sword",
+          "put immense pressure on local infrastructure",
+          "drive sustainable tourism initiatives",
+          "preserve cultural authenticity",
+          "the influx of foreign visitors"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,217 @@
+{
+  "id": "lt-09",
+  "title": "Language Exchange Event Registration",
+  "difficulty": "Trung bình",
+  "durationMinutes": 8,
+  "topics": [
+    "Education",
+    "Language Learning",
+    "Social Events"
+  ],
+  "sections": [
+    {
+      "number": 1,
+      "title": "Language Exchange Registration",
+      "context": "A student is inquiring about a weekly language exchange event at the University's Student Services office.",
+      "audioSrc": "/audio/lt-09-s1.mp3",
+      "voices": {
+        "Sarah": "en-GB-SoniaNeural",
+        "Liam": "en-AU-WilliamNeural"
+      },
+      "transcript": [
+        {
+          "speaker": "Sarah",
+          "text": "Good morning! Welcome to the Student Services desk. How can I assist you today?"
+        },
+        {
+          "speaker": "Liam",
+          "text": "Hi there. I saw a poster about the 'Polyglot Hub' language exchange event. I'm really keen on improving my speaking skills, so I'd like to sign up for that."
+        },
+        {
+          "speaker": "Sarah",
+          "text": "That's great! It's one of our most popular programs. I just need to take down some details first. Can I have your full name, please?"
+        },
+        {
+          "speaker": "Liam",
+          "text": "Sure, it's Liam Hennessey."
+        },
+        {
+          "speaker": "Sarah",
+          "text": "Could you spell your surname for me, Liam?"
+        },
+        {
+          "speaker": "Liam",
+          "text": "Yes, it's H-E-double N-E-double S-E-Y."
+        },
+        {
+          "speaker": "Sarah",
+          "text": "Thank you. And do you have your student ID number handy?"
+        },
+        {
+          "speaker": "Liam",
+          "text": "Yes, it's right here... let me see... it is LH9982."
+        },
+        {
+          "speaker": "Sarah",
+          "text": "Got it. Now, which language is your native one? We need to know so we can pair you with the right partners."
+        },
+        {
+          "speaker": "Liam",
+          "text": "My mother is from Madrid, so Spanish is my first language, though I've lived in Australia for a few years now."
+        },
+        {
+          "speaker": "Sarah",
+          "text": "Perfect. And which language are you looking to practice? I assume it's English?"
+        },
+        {
+          "speaker": "Liam",
+          "text": "Actually, I'm quite comfortable with English. I'm currently studying French for my degree. I’d say I’m at an Intermediate level... oh, wait, I actually just received my results for the proficiency test last week and I've moved up to the Upper-Intermediate level. So please put that down instead."
+        },
+        {
+          "speaker": "Sarah",
+          "text": "Well done! That's impressive. Now, we have two sessions running. One is on Tuesday afternoons and the other is on Thursday evenings. Which one would you prefer?"
+        },
+        {
+          "speaker": "Liam",
+          "text": "Tuesday would usually be better... but I've just realized I have a football match every Tuesday for the rest of the term. So, I'll have to go with Thursday."
+        },
+        {
+          "speaker": "Sarah",
+          "text": "Thursday it is. Now, let me give you some information about the venue. It used to be held in the Student Union building, but because of the renovations, we've moved it to the Central Library. It's on the second floor in the quiet study zone, which we've reserved for the event."
+        },
+        {
+          "speaker": "Liam",
+          "text": "Okay, the Central Library. And what time does it start? I finish my last lecture at 6:00 PM."
+        },
+        {
+          "speaker": "Sarah",
+          "text": "The doors open at 6:00, but the structured conversation sessions don't actually begin until 6:30 PM. That gives everyone half an hour to grab a drink and settle in."
+        },
+        {
+          "speaker": "Liam",
+          "text": "That's perfect. Do I need to bring anything specific? A dictionary, perhaps?"
+        },
+        {
+          "speaker": "Sarah",
+          "text": "A dictionary isn't necessary because we provide vocabulary sheets. However, we do recommend that students bring a notebook to jot down new phrases or idioms they learn during the evening."
+        },
+        {
+          "speaker": "Liam",
+          "text": "Right, I'll make sure to bring one. Are there any rules I should be aware of?"
+        },
+        {
+          "speaker": "Sarah",
+          "text": "Just one major one to ensure everyone focuses on speaking: we ask all participants to put away their smartphones during the 45-minute speaking block. It really helps with the immersion."
+        },
+        {
+          "speaker": "Liam",
+          "text": "That makes sense. It's too easy to just look up a word on a phone instead of trying to explain it. Is there any cost?"
+        },
+        {
+          "speaker": "Sarah",
+          "text": "It's free for all students! In fact, we actually have a loyalty scheme. If you attend five sessions in a row, we give out vouchers that you can use for free coffee at the campus cafe."
+        },
+        {
+          "speaker": "Liam",
+          "text": "That's a great incentive! Thanks for the help, Sarah."
+        },
+        {
+          "speaker": "Sarah",
+          "text": "You're very welcome, Liam. See you on Thursday!"
+        }
+      ],
+      "groups": [
+        {
+          "id": "g1",
+          "type": "form_completion",
+          "range": "Questions 1-5",
+          "instruction": "Complete the form below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+          "wordLimit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "intro": "Polyglot Hub Registration Form",
+          "questions": [
+            {
+              "id": 1,
+              "type": "form_completion",
+              "prompt": "Surname: ",
+              "answer": "Hennessey",
+              "explanation": "Liam đánh vần họ của mình là H-E-double N-E-double S-E-Y."
+            },
+            {
+              "id": 2,
+              "type": "form_completion",
+              "prompt": "Student ID: ",
+              "answer": "LH9982",
+              "explanation": "Liam đọc mã số sinh viên là LH9982."
+            },
+            {
+              "id": 3,
+              "type": "form_completion",
+              "prompt": "Native language: ",
+              "answer": "Spanish",
+              "explanation": "Liam nói rằng mẹ anh ấy đến từ Madrid và tiếng Tây Ban Nha là ngôn ngữ mẹ đẻ."
+            },
+            {
+              "id": 4,
+              "type": "form_completion",
+              "prompt": "Current French level: ",
+              "answer": "Upper-Intermediate",
+              "explanation": "Liam ban đầu nói là Intermediate nhưng sau đó đính chính lại là Upper-Intermediate dựa trên kết quả bài kiểm tra tuần trước."
+            },
+            {
+              "id": 5,
+              "type": "form_completion",
+              "prompt": "Preferred day: ",
+              "answer": "Thursday",
+              "explanation": "Liam muốn chọn thứ Ba nhưng bận đá bóng nên đã chọn thứ Năm."
+            }
+          ]
+        },
+        {
+          "id": "g2",
+          "type": "note_completion",
+          "range": "Questions 6-10",
+          "instruction": "Complete the notes below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+          "wordLimit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "intro": "Event Details",
+          "questions": [
+            {
+              "id": 6,
+              "type": "note_completion",
+              "prompt": "Location: ",
+              "answer": "Central Library",
+              "explanation": "Sarah nói địa điểm đã chuyển từ Student Union sang Central Library."
+            },
+            {
+              "id": 7,
+              "type": "note_completion",
+              "prompt": "The session starts at: ",
+              "answer": "6:30",
+              "explanation": "Cửa mở lúc 6:00 nhưng buổi thảo luận bắt đầu lúc 6:30 PM."
+            },
+            {
+              "id": 8,
+              "type": "note_completion",
+              "prompt": "Requirement: Students should bring a ",
+              "answer": "notebook",
+              "explanation": "Sarah khuyên sinh viên nên mang theo một cuốn sổ tay (notebook) để ghi chép."
+            },
+            {
+              "id": 9,
+              "type": "note_completion",
+              "prompt": "Rule: Use of ______ is forbidden during the speaking block.",
+              "answer": "smartphones",
+              "explanation": "Quy định quan trọng là không được sử dụng điện thoại thông minh trong 45 phút thảo luận."
+            },
+            {
+              "id": 10,
+              "type": "note_completion",
+              "prompt": "Attendance reward: Free ______ for coffee.",
+              "answer": "vouchers",
+              "explanation": "Nếu tham gia 5 buổi liên tiếp, sinh viên sẽ nhận được phiếu đổi đồ uống (vouchers)."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

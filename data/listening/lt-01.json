@@ -1,0 +1,1093 @@
+{
+  "id": "lt-01",
+  "title": "Listening · Đề 1",
+  "difficulty": "Trung bình",
+  "durationMinutes": 30,
+  "topics": [
+    "Đời sống",
+    "Du lịch",
+    "Học thuật"
+  ],
+  "sections": [
+    {
+      "number": 1,
+      "title": "Riverbank Community Sports Centre",
+      "context": "Daniel vừa chuyển đến khu Riverbank và gọi điện tới trung tâm thể thao cộng đồng để hỏi thủ tục đăng ký thẻ hội viên.",
+      "audioSrc": "/audio/lt-01-s1.mp3",
+      "voices": {
+        "Kirsty": "en-GB-SoniaNeural",
+        "Daniel": "en-AU-WilliamNeural"
+      },
+      "transcript": [
+        {
+          "speaker": "Kirsty",
+          "text": "Good morning, Riverbank Community Sports Centre, Kirsty speaking. How can I help you?"
+        },
+        {
+          "speaker": "Daniel",
+          "text": "Oh, hello. I've just moved to Riverbank and a neighbour said I should ring about joining the centre."
+        },
+        {
+          "speaker": "Kirsty",
+          "text": "Of course. I can take your details over the phone now and start a provisional record, and then you simply finish it off when you come in for the first time."
+        },
+        {
+          "speaker": "Daniel",
+          "text": "That sounds easy enough. Go ahead."
+        },
+        {
+          "speaker": "Kirsty",
+          "text": "Right. Could I take your full name first?"
+        },
+        {
+          "speaker": "Daniel",
+          "text": "Yes, it's Daniel Whitfield."
+        },
+        {
+          "speaker": "Kirsty",
+          "text": "Daniel, lovely. And how do you spell the surname? Is that W-H-I-T-E?"
+        },
+        {
+          "speaker": "Daniel",
+          "text": "No, there's no E in the middle. It's W-H-I-T-F-I-E-L-D. Whitfield."
+        },
+        {
+          "speaker": "Kirsty",
+          "text": "Whitfield, thank you. And what's your address here in Riverbank?"
+        },
+        {
+          "speaker": "Daniel",
+          "text": "Well, I was at 12 Marlow Street until last month, but the new place is 42 Harlow Road."
+        },
+        {
+          "speaker": "Kirsty",
+          "text": "Sorry, did you say Marlow Road?"
+        },
+        {
+          "speaker": "Daniel",
+          "text": "No, Harlow. H-A-R-L-O-W. Harlow Road, and the number is 42."
+        },
+        {
+          "speaker": "Kirsty",
+          "text": "Got it, 42 Harlow Road. And the best number to reach you on during the day?"
+        },
+        {
+          "speaker": "Daniel",
+          "text": "The landline isn't connected yet, so you'd better take my mobile. It's 07862 445109 — oh, hang on, I always turn those last digits round. It's 07862 445190."
+        },
+        {
+          "speaker": "Kirsty",
+          "text": "07862 445190. That's on the record. Now, would you like me to run through the three levels of membership?"
+        },
+        {
+          "speaker": "Daniel",
+          "text": "Yes, please, because the website confused me slightly."
+        },
+        {
+          "speaker": "Kirsty",
+          "text": "It confuses everybody. Bronze is weekends only, and that's twenty-two pounds a month. Silver gives you the gym, the pool and the running track on weekday afternoons before four o'clock, as well as the whole weekend. Gold is unlimited access at any hour, plus all the fitness classes."
+        },
+        {
+          "speaker": "Daniel",
+          "text": "Hmm. Gold sounds tempting, but I start work at half past eight and I'm rarely home before six, so I'd never use the daytime... Actually, no, hold on. I work from home on Mondays and Fridays, so weekday afternoons would suit me perfectly. Let's say Silver."
+        },
+        {
+          "speaker": "Kirsty",
+          "text": "Silver it is. That works out at £36.50 a month by direct debit. It was £34.50 last year, but all our prices went up in April, I'm afraid."
+        },
+        {
+          "speaker": "Daniel",
+          "text": "£36.50 is still cheaper than the gym I left behind."
+        },
+        {
+          "speaker": "Kirsty",
+          "text": "And when would you like the membership to begin? I can start you from 30 September, but then you'd pay for a part month, so most people prefer to wait for the billing run."
+        },
+        {
+          "speaker": "Daniel",
+          "text": "When is the next one?"
+        },
+        {
+          "speaker": "Kirsty",
+          "text": "The next one goes through on 14 October."
+        },
+        {
+          "speaker": "Daniel",
+          "text": "Then let's make it 14 October. There's no rush."
+        },
+        {
+          "speaker": "Kirsty",
+          "text": "Lovely. Now, two things to note before your first session. Every new member is entitled to a free induction. It used to be run by a volunteer, but these days one of our instructors takes you round the gym and writes a programme for you. It lasts about forty minutes."
+        },
+        {
+          "speaker": "Daniel",
+          "text": "Do I have to book that in advance?"
+        },
+        {
+          "speaker": "Kirsty",
+          "text": "No, you can arrange it on the day. The other thing is the lockers. We do sell padlocks at reception for two pounds, but they run out constantly, so if you can, bring a padlock of your own."
+        },
+        {
+          "speaker": "Daniel",
+          "text": "A padlock. I'm writing that down."
+        },
+        {
+          "speaker": "Kirsty",
+          "text": "May I ask what made you decide to join? It's for our funding report, so you can say anything you like."
+        },
+        {
+          "speaker": "Daniel",
+          "text": "Well, several people have told me a sports centre is a good way to meet people in a new town, and of course I'd like to be fitter in general. But the honest answer is my knee. I had an operation on it in June and the physiotherapist wants me in the pool three times a week."
+        },
+        {
+          "speaker": "Kirsty",
+          "text": "Then the early swim will suit you. The pool is quietest between seven and eight in the morning, before the school groups arrive."
+        },
+        {
+          "speaker": "Daniel",
+          "text": "Good to know. Is there anything I need to do before I turn up?"
+        },
+        {
+          "speaker": "Kirsty",
+          "text": "You can download our app, and the class timetable lives on the website. You don't need proof of address, by the way — the postcode is enough for us. But the one essential thing is to call in at reception, because we have to take your photograph for the membership card."
+        },
+        {
+          "speaker": "Daniel",
+          "text": "Can't I send one in by email?"
+        },
+        {
+          "speaker": "Kirsty",
+          "text": "I'm afraid not. The barriers read the photo card, so nobody gets through the gate without one, and people are caught out by that every single week."
+        },
+        {
+          "speaker": "Daniel",
+          "text": "So, photograph first, everything else afterwards."
+        },
+        {
+          "speaker": "Kirsty",
+          "text": "Exactly. Reception is open from seven in the morning until nine at night, seven days a week."
+        },
+        {
+          "speaker": "Daniel",
+          "text": "Brilliant. Thank you for your help, Kirsty."
+        },
+        {
+          "speaker": "Kirsty",
+          "text": "You're very welcome, Daniel. We'll see you on the fourteenth."
+        }
+      ],
+      "groups": [
+        {
+          "id": "s1g1",
+          "type": "form_completion",
+          "range": "Questions 1-6",
+          "instruction": "Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "wordLimit": "ONE WORD AND/OR A NUMBER",
+          "intro": "MEMBERSHIP ENQUIRY FORM\n\nFirst name: Daniel\nSurname: ______ (1)\nAddress: 42 ______ (2) Road, Riverbank\nMobile number: ______ (3)\nMembership chosen: ______ (4)\nMonthly fee: £______ (5)\nMembership starts on: ______ (6)",
+          "questions": [
+            {
+              "id": 1,
+              "type": "form_completion",
+              "prompt": "Họ của khách gọi điện",
+              "answer": [
+                "Whitfield"
+              ],
+              "explanation": "Daniel đánh vần rõ: 'There's no E in the middle. It's W-H-I-T-F-I-E-L-D.' Đáp án là Whitfield, không phải White."
+            },
+            {
+              "id": 2,
+              "type": "form_completion",
+              "prompt": "Tên đường trong địa chỉ mới",
+              "answer": [
+                "Harlow"
+              ],
+              "explanation": "Địa chỉ cũ là Marlow Street (bẫy), còn địa chỉ mới được đánh vần 'H-A-R-L-O-W. Harlow Road, and the number is 42.'"
+            },
+            {
+              "id": 3,
+              "type": "form_completion",
+              "prompt": "Số điện thoại di động",
+              "answer": [
+                "07862 445190",
+                "07862445190"
+              ],
+              "explanation": "Daniel đọc nhầm 07862 445109 rồi tự sửa: 'I always turn those last digits round. It's 07862 445190.'"
+            },
+            {
+              "id": 4,
+              "type": "form_completion",
+              "prompt": "Hạng thẻ hội viên khách chọn",
+              "answer": [
+                "Silver",
+                "silver"
+              ],
+              "explanation": "Anh ấy cân nhắc Gold nhưng đổi ý: 'I work from home on Mondays and Fridays... Let's say Silver.'"
+            },
+            {
+              "id": 5,
+              "type": "form_completion",
+              "prompt": "Phí hội viên mỗi tháng (bảng Anh)",
+              "answer": [
+                "36.50",
+                "£36.50"
+              ],
+              "explanation": "Lễ tân nói: 'That works out at £36.50 a month by direct debit.' Mức £34.50 là giá năm ngoái nên là bẫy."
+            },
+            {
+              "id": 6,
+              "type": "form_completion",
+              "prompt": "Ngày bắt đầu thẻ hội viên",
+              "answer": [
+                "14 October",
+                "October 14",
+                "14th October"
+              ],
+              "explanation": "Có thể bắt đầu từ 30 September nhưng Daniel chọn đợt thu phí kế tiếp: 'The next one goes through on 14 October.' – 'Then let's make it 14 October.'"
+            }
+          ]
+        },
+        {
+          "id": "s1g2",
+          "type": "note_completion",
+          "range": "Questions 7-8",
+          "instruction": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+          "wordLimit": "ONE WORD ONLY",
+          "intro": "BEFORE THE FIRST SESSION\n\n• The free induction is now given by an ______ (7) and takes about 40 minutes.\n• Members should bring their own ______ (8) for the lockers.",
+          "questions": [
+            {
+              "id": 7,
+              "type": "note_completion",
+              "prompt": "The free induction is now given by an ______.",
+              "answer": [
+                "instructor"
+              ],
+              "explanation": "'It used to be run by a volunteer, but these days one of our instructors takes you round the gym.' Người tình nguyện là thông tin cũ."
+            },
+            {
+              "id": 8,
+              "type": "note_completion",
+              "prompt": "Members should bring their own ______ for the lockers.",
+              "answer": [
+                "padlock"
+              ],
+              "explanation": "Lễ tân khuyên: 'if you can, bring a padlock of your own', vì khóa bán tại quầy thường hết hàng."
+            }
+          ]
+        },
+        {
+          "id": "s1g3",
+          "type": "multiple_choice",
+          "range": "Questions 9-10",
+          "instruction": "Choose the correct letter, A, B or C.",
+          "questions": [
+            {
+              "id": 9,
+              "type": "multiple_choice",
+              "prompt": "What is Daniel's main reason for joining the centre?",
+              "options": [
+                "to meet people in the area",
+                "to recover from a knee injury",
+                "to train for a competition"
+              ],
+              "answer": "to recover from a knee injury",
+              "explanation": "Anh ấy nhắc tới việc gặp gỡ mọi người và muốn khỏe hơn, nhưng khẳng định 'the honest answer is my knee... the physiotherapist wants me in the pool three times a week.'"
+            },
+            {
+              "id": 10,
+              "type": "multiple_choice",
+              "prompt": "What must Daniel do before he can use the centre?",
+              "options": [
+                "book his induction on the app",
+                "come in to have his photo taken",
+                "bring proof of his address"
+              ],
+              "answer": "come in to have his photo taken",
+              "explanation": "'the one essential thing is to call in at reception, because we have to take your photograph for the membership card.' Giấy tờ địa chỉ thì không cần."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Hollow Hill Botanic Garden",
+      "context": "Một hướng dẫn viên giới thiệu với nhóm khách tham quan về lịch sử, các khu vườn và thông tin thực tế của vườn thực vật Hollow Hill.",
+      "audioSrc": "/audio/lt-01-s2.mp3",
+      "voices": {
+        "Alison": "en-AU-NatashaNeural"
+      },
+      "transcript": [
+        {
+          "speaker": "Alison",
+          "text": "Good morning everybody, and welcome to Hollow Hill Botanic Garden. My name is Alison and I train the volunteer guides here, so I'll give you a short introduction and then set you free to explore on your own."
+        },
+        {
+          "speaker": "Alison",
+          "text": "Almost every visitor says the same thing at the gate: that the garden looks as though it has been growing here for centuries."
+        },
+        {
+          "speaker": "Alison",
+          "text": "In fact, until 1890 the entire site was a working limestone quarry, and that pale cliff behind the café is not a natural feature at all. It is the old quarry face, cut by hand."
+        },
+        {
+          "speaker": "Alison",
+          "text": "The Hollow family, who farmed the land above us, bought the pit in 1891 and planted trees in it as a private hobby. It passed to the city council, and to the public, in 1954."
+        },
+        {
+          "speaker": "Alison",
+          "text": "You will all have come in through our new visitor centre. We're extremely proud of it, although I have to admit it caused us a good deal of trouble."
+        },
+        {
+          "speaker": "Alison",
+          "text": "Most of the money came from a lottery grant, about a fifth was raised by donations, and the roof timber came from our own storm-damaged beech trees."
+        },
+        {
+          "speaker": "Alison",
+          "text": "We had hoped to welcome you into it last spring, but the wettest winter anyone remembers flooded the foundations twice, and the doors did not open until September."
+        },
+        {
+          "speaker": "Alison",
+          "text": "A word now for those of you who have brought young children with you today."
+        },
+        {
+          "speaker": "Alison",
+          "text": "The lake path looks tempting, I know, but it is narrow, it has no fence on the water side and the boards are slippery for small feet."
+        },
+        {
+          "speaker": "Alison",
+          "text": "I'd send you instead to the play trail in the north field, which has climbing logs and a gate at each end. The two o'clock tour lasts ninety minutes and is really designed for adults."
+        },
+        {
+          "speaker": "Alison",
+          "text": "Now, if you only have time for one building, make it the Glasshouse, which dates from 1912."
+        },
+        {
+          "speaker": "Alison",
+          "text": "The plants inside are lovely, but what is remarkable is the heating. There is no boiler anywhere on the site."
+        },
+        {
+          "speaker": "Alison",
+          "text": "Warm water rises from a spring underneath the hill and is piped along the benches, exactly as the Edwardian gardeners arranged it."
+        },
+        {
+          "speaker": "Alison",
+          "text": "Let me take you quickly round four areas, because each has something you need to know before you set off."
+        },
+        {
+          "speaker": "Alison",
+          "text": "First, Fern Gully, the narrowest part of the old quarry, with steps cut into the rock and a stream beside them."
+        },
+        {
+          "speaker": "Alison",
+          "text": "The ferns love it, but the stone turns dangerously slippery, so after heavy rain we simply close the gully and lock the top gate. Do check the board at the entrance."
+        },
+        {
+          "speaker": "Alison",
+          "text": "Second, the Walled Herb Garden, which was the quarry manager's vegetable plot long before it grew lavender and thyme."
+        },
+        {
+          "speaker": "Alison",
+          "text": "Every Thursday our chef cuts whatever he needs there for the cookery classes we run in the visitor centre, so please don't help yourselves on the way past."
+        },
+        {
+          "speaker": "Alison",
+          "text": "Third, the Rock Terrace, where the alpine collection sits on the sunny side of the valley."
+        },
+        {
+          "speaker": "Alison",
+          "text": "People tell me the terrace has the finest view, but it doesn't; the view belongs to the Lookout, further up. What the terrace has is exhausted soil, so from November the whole bed is being lifted and replanted."
+        },
+        {
+          "speaker": "Alison",
+          "text": "And fourth, the Willow Maze, designed for us by pupils from the village primary school, and far harder than it looks."
+        },
+        {
+          "speaker": "Alison",
+          "text": "Finally, a few practical points that will save you asking at the desk."
+        },
+        {
+          "speaker": "Alison",
+          "text": "Free tours run twice a day. The old leaflet says they start at the shop; they don't any more. They now leave from the gatehouse, at eleven in the morning and at two."
+        },
+        {
+          "speaker": "Alison",
+          "text": "There is a plant sale in the courtyard every Saturday. We used to hold it on Sunday, but Saturday proved far busier. Everything is grown by our volunteers."
+        },
+        {
+          "speaker": "Alison",
+          "text": "And if you join as a member today you get evening access in summer: the public gates close at seven, but members may stay in the garden until 8.30."
+        },
+        {
+          "speaker": "Alison",
+          "text": "That's enough from me. Maps are in the rack behind you, and I shall be at the gatehouse if you have questions. Do enjoy your morning."
+        }
+      ],
+      "groups": [
+        {
+          "id": "s2g1",
+          "type": "multiple_choice",
+          "range": "Questions 11-14",
+          "instruction": "Choose the correct letter, A, B or C.",
+          "questions": [
+            {
+              "id": 11,
+              "type": "multiple_choice",
+              "prompt": "How was the site of the garden used before 1890?",
+              "options": [
+                "as a quarry",
+                "as a private estate",
+                "as farmland"
+              ],
+              "answer": "as a quarry",
+              "explanation": "'Until 1890 the entire site was a working limestone quarry.' Trang trại và khu vườn riêng của gia đình Hollow chỉ có sau năm 1891."
+            },
+            {
+              "id": 12,
+              "type": "multiple_choice",
+              "prompt": "What does the guide say about the visitor centre?",
+              "options": [
+                "It opened later than planned.",
+                "It was paid for entirely by donations.",
+                "It is built from imported timber."
+              ],
+              "answer": "It opened later than planned.",
+              "explanation": "'We had hoped to welcome you into it last spring... the doors did not open until September.' Tiền chủ yếu từ quỹ xổ số và gỗ lấy từ cây trong vườn."
+            },
+            {
+              "id": 13,
+              "type": "multiple_choice",
+              "prompt": "What does the guide advise visitors with young children to do?",
+              "options": [
+                "take the lake path",
+                "use the play trail in the north field",
+                "join the two o'clock tour"
+              ],
+              "answer": "use the play trail in the north field",
+              "explanation": "'I'd send you instead to the play trail in the north field', vì lối đi ven hồ trơn và không có rào."
+            },
+            {
+              "id": 14,
+              "type": "multiple_choice",
+              "prompt": "What is unusual about the Glasshouse?",
+              "options": [
+                "It is heated by water from a spring.",
+                "It has no glass in the roof.",
+                "It contains plants from only one country."
+              ],
+              "answer": "It is heated by water from a spring.",
+              "explanation": "'Warm water rises from a spring underneath the hill, and it is piped along the benches', và cả khu vườn không có nồi hơi nào."
+            }
+          ]
+        },
+        {
+          "id": "s2g2",
+          "type": "matching_features",
+          "range": "Questions 15-17",
+          "instruction": "What does the guide say about each area of the garden? Choose the correct answer for each area from the list below.",
+          "options": [
+            "It is closed after heavy rain.",
+            "It was designed by local schoolchildren.",
+            "It has the best view of the valley.",
+            "Many of its plants are used in cooking classes.",
+            "It is being replanted this winter.",
+            "It is open only to members."
+          ],
+          "questions": [
+            {
+              "id": 15,
+              "type": "matching_features",
+              "prompt": "Fern Gully",
+              "answer": "It is closed after heavy rain.",
+              "explanation": "'the stone turns dangerously slippery, so after heavy rain we simply close the gully and lock the top gate.'"
+            },
+            {
+              "id": 16,
+              "type": "matching_features",
+              "prompt": "Walled Herb Garden",
+              "answer": "Many of its plants are used in cooking classes.",
+              "explanation": "'Every Thursday morning our chef goes in with a basket and cuts whatever he needs for the cookery classes.'"
+            },
+            {
+              "id": 17,
+              "type": "matching_features",
+              "prompt": "Rock Terrace",
+              "answer": "It is being replanted this winter.",
+              "explanation": "'from November the whole thing is being lifted, refreshed and replanted'. Khu có tầm nhìn đẹp nhất là Lookout chứ không phải Rock Terrace."
+            }
+          ]
+        },
+        {
+          "id": "s2g3",
+          "type": "note_completion",
+          "range": "Questions 18-20",
+          "instruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "wordLimit": "ONE WORD AND/OR A NUMBER",
+          "intro": "PRACTICAL INFORMATION\n\n• Free guided tours leave from the ______ (18) at 11 a.m.\n• A plant sale is held in the courtyard every ______ (19).\n• In summer, members may stay in the garden until ______ (20).",
+          "questions": [
+            {
+              "id": 18,
+              "type": "note_completion",
+              "prompt": "Free guided tours leave from the ______ at 11 a.m.",
+              "answer": [
+                "gatehouse"
+              ],
+              "explanation": "'The old leaflet says they start at the shop; they don't any more. They now leave from the gatehouse.'"
+            },
+            {
+              "id": 19,
+              "type": "note_completion",
+              "prompt": "A plant sale is held in the courtyard every ______.",
+              "answer": [
+                "Saturday",
+                "saturday"
+              ],
+              "explanation": "'There is a plant sale in the courtyard every Saturday. We used to hold it on Sunday' – Chủ nhật là thông tin cũ."
+            },
+            {
+              "id": 20,
+              "type": "note_completion",
+              "prompt": "In summer, members may stay in the garden until ______.",
+              "answer": [
+                "8.30",
+                "8:30",
+                "half past eight"
+              ],
+              "explanation": "'the public gates close at seven, but members may stay in the garden until 8.30.'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Tutorial: a research project on urban noise pollution",
+      "context": "Hai sinh viên Priya và Tom gặp giảng viên để báo cáo tiến độ dự án nghiên cứu về ô nhiễm tiếng ồn đô thị và bàn về báo cáo cuối kỳ.",
+      "audioSrc": "/audio/lt-01-s3.mp3",
+      "voices": {
+        "Dr Nolan": "en-GB-RyanNeural",
+        "Priya": "en-CA-ClaraNeural",
+        "Tom": "en-US-GuyNeural"
+      },
+      "transcript": [
+        {
+          "speaker": "Dr Nolan",
+          "text": "Come in, both of you. So, the noise pollution project. Where have you got to since we last met?"
+        },
+        {
+          "speaker": "Priya",
+          "text": "Further than we expected, actually, although we had to change the whole design in the first week."
+        },
+        {
+          "speaker": "Dr Nolan",
+          "text": "Oh? What went wrong?"
+        },
+        {
+          "speaker": "Priya",
+          "text": "We planned to run all three sites at once with the Class One sound level meters from the lab, but the acoustics module had booked both of them for a fortnight, so there was nothing available."
+        },
+        {
+          "speaker": "Dr Nolan",
+          "text": "Ah. I did wonder whether the council would be the obstacle."
+        },
+        {
+          "speaker": "Tom",
+          "text": "No, the council were helpful. They gave permission for all three locations in two days, and residents were keen to take part — nineteen questionnaires back out of twenty-five."
+        },
+        {
+          "speaker": "Priya",
+          "text": "So the equipment was the only real problem. In the end we borrowed one meter from the engineering department and moved it from site to site."
+        },
+        {
+          "speaker": "Dr Nolan",
+          "text": "Sensible. And your recording times — morning, afternoon and night, wasn't it?"
+        },
+        {
+          "speaker": "Tom",
+          "text": "Yes, and that's the second thing we changed. We started in late July and the readings looked wrong — the morning peak had almost disappeared."
+        },
+        {
+          "speaker": "Priya",
+          "text": "It was the school holidays. The traffic was unusually light, and the whole picture was atypical, so we repeated everything in September once term had started."
+        },
+        {
+          "speaker": "Dr Nolan",
+          "text": "Good. That's exactly the sort of judgement I want to see written up in the methodology, by the way. Don't hide it."
+        },
+        {
+          "speaker": "Tom",
+          "text": "We wondered whether it made us look disorganised."
+        },
+        {
+          "speaker": "Dr Nolan",
+          "text": "On the contrary. Now, the thing that concerns me slightly is the size of your sample. You have three sites, and how long at each?"
+        },
+        {
+          "speaker": "Priya",
+          "text": "Twenty minutes in each period, so an hour per site per day."
+        },
+        {
+          "speaker": "Dr Nolan",
+          "text": "That's thin. I wouldn't add a fourth site — three is plenty, and a fourth would dilute your attention. And I certainly wouldn't repeat it in winter. What I would do is record for longer at each site: a continuous hour in each period rather than twenty minutes, and your averages become defensible."
+        },
+        {
+          "speaker": "Tom",
+          "text": "That's manageable. We can do that over two weekends."
+        },
+        {
+          "speaker": "Dr Nolan",
+          "text": "Then do. Now tell me what the data actually showed."
+        },
+        {
+          "speaker": "Priya",
+          "text": "Shall I take the sites one by one? Market Street first. That's the pedestrianised shopping street with the delivery bay at the end."
+        },
+        {
+          "speaker": "Dr Nolan",
+          "text": "I'd have expected it to be quiet, being pedestrianised."
+        },
+        {
+          "speaker": "Priya",
+          "text": "So did we. On average it was moderate, but it produced the highest peak noise level of anywhere — a hundred and four decibels, when a refuse lorry reversed with its alarm going."
+        },
+        {
+          "speaker": "Dr Nolan",
+          "text": "A single event, though."
+        },
+        {
+          "speaker": "Priya",
+          "text": "Yes, and we say so. But it is the figure residents remember."
+        },
+        {
+          "speaker": "Dr Nolan",
+          "text": "Fair. And Canal Bridge?"
+        },
+        {
+          "speaker": "Tom",
+          "text": "Canal Bridge was a disappointment. It's exposed, and the wind came straight down the water at the microphone; the foam shield wasn't enough and we lost three night recordings."
+        },
+        {
+          "speaker": "Priya",
+          "text": "We've kept the figures in, but flagged them. It's easily our least reliable data, and I don't think we can draw much from it."
+        },
+        {
+          "speaker": "Dr Nolan",
+          "text": "Be honest about that in the write-up and it costs you nothing. And the third — Riverside Estate, was it?"
+        },
+        {
+          "speaker": "Tom",
+          "text": "Riverside Estate, beside the ring road. Its daytime average wasn't the highest and its night average wasn't the lowest, but the gap between the two was enormous — twenty-six decibels between the afternoon and three in the morning."
+        },
+        {
+          "speaker": "Dr Nolan",
+          "text": "Which is far bigger than either of the other sites."
+        },
+        {
+          "speaker": "Tom",
+          "text": "By a long way. The ring road empties completely after midnight."
+        },
+        {
+          "speaker": "Dr Nolan",
+          "text": "Now, you also ran a questionnaire. Did anything there surprise you?"
+        },
+        {
+          "speaker": "Tom",
+          "text": "One thing did. I'd assumed the older residents would complain most, as they're at home more. In fact they complained least, by a clear margin; the loudest complaints came from people in their twenties and thirties."
+        },
+        {
+          "speaker": "Priya",
+          "text": "Tom thinks it's hearing loss. I think it's expectation — the younger residents are newer to the area and had imagined it would be quiet."
+        },
+        {
+          "speaker": "Dr Nolan",
+          "text": "Both are plausible, and there's a literature on the second. Don't try to settle it with nineteen questionnaires, though. Report it and discuss it."
+        },
+        {
+          "speaker": "Tom",
+          "text": "Understood."
+        },
+        {
+          "speaker": "Dr Nolan",
+          "text": "Right, the presentation. How are you planning to show the results?"
+        },
+        {
+          "speaker": "Priya",
+          "text": "We discussed a bar chart per site, but it hides where the sites are in relation to each other, so instead we're colouring the readings onto a map of the city centre."
+        },
+        {
+          "speaker": "Dr Nolan",
+          "text": "Much better. A map tells the story in one slide."
+        },
+        {
+          "speaker": "Dr Nolan",
+          "text": "For the literature review, have you come across the Dutch work? There's a very good longitudinal study of noise complaints in Rotterdam — not Amsterdam, everybody cites the Amsterdam one — and it's the Rotterdam study that deals with exactly your age question."
+        },
+        {
+          "speaker": "Priya",
+          "text": "Rotterdam. I'll find it this afternoon."
+        },
+        {
+          "speaker": "Dr Nolan",
+          "text": "One last warning. Every year somebody hands me a two-page summary at the front. Your abstract must not be longer than 300 words, or I send it back unread."
+        },
+        {
+          "speaker": "Tom",
+          "text": "Three hundred. Noted."
+        },
+        {
+          "speaker": "Dr Nolan",
+          "text": "Good. Send me the revised methodology by the end of next week and we'll meet again once you've done the longer recordings."
+        }
+      ],
+      "groups": [
+        {
+          "id": "s3g1",
+          "type": "multiple_choice",
+          "range": "Questions 21-24",
+          "instruction": "Choose the correct letter, A, B or C.",
+          "questions": [
+            {
+              "id": 21,
+              "type": "multiple_choice",
+              "prompt": "Why did the students have to change their original research design?",
+              "options": [
+                "The equipment they needed was already booked.",
+                "The council refused permission for one site.",
+                "Too few residents agreed to take part."
+              ],
+              "answer": "The equipment they needed was already booked.",
+              "explanation": "'the acoustics module had booked both of them for a fortnight, so there was simply nothing available.' Hội đồng thành phố và cư dân đều hợp tác tốt."
+            },
+            {
+              "id": 22,
+              "type": "multiple_choice",
+              "prompt": "Why did the students repeat their recordings in September?",
+              "options": [
+                "The night recordings were spoiled by wind.",
+                "Traffic was unusually light during the school holidays.",
+                "They could not enter the buildings at weekends."
+              ],
+              "answer": "Traffic was unusually light during the school holidays.",
+              "explanation": "'It was the school holidays... the traffic was unusually light, and we realised the whole picture was atypical.'"
+            },
+            {
+              "id": 23,
+              "type": "multiple_choice",
+              "prompt": "What does Dr Nolan advise the students to do about their sample?",
+              "options": [
+                "add a fourth site",
+                "record for longer at each site",
+                "repeat the study in winter"
+              ],
+              "answer": "record for longer at each site",
+              "explanation": "Ông loại bỏ hai phương án kia và nói: 'What I would do is record for longer at each site. Give me a continuous hour in each period.'"
+            },
+            {
+              "id": 24,
+              "type": "multiple_choice",
+              "prompt": "What surprised Tom about the questionnaire results?",
+              "options": [
+                "Older residents complained least.",
+                "People guessed the noise levels accurately.",
+                "Most complaints concerned night deliveries."
+              ],
+              "answer": "Older residents complained least.",
+              "explanation": "'I'd assumed that the older residents would complain most... In fact they complained least — by a clear margin.'"
+            }
+          ]
+        },
+        {
+          "id": "s3g2",
+          "type": "matching_features",
+          "range": "Questions 25-27",
+          "instruction": "What did the students find at each location? Choose the correct finding for each location from the list below.",
+          "options": [
+            "the highest peak noise level",
+            "the biggest difference between day and night",
+            "the least reliable data",
+            "the lowest average noise level",
+            "the largest number of complaints"
+          ],
+          "questions": [
+            {
+              "id": 25,
+              "type": "matching_features",
+              "prompt": "Market Street",
+              "answer": "the highest peak noise level",
+              "explanation": "'it produced the highest peak noise level of anywhere — a hundred and four decibels' khi xe rác lùi."
+            },
+            {
+              "id": 26,
+              "type": "matching_features",
+              "prompt": "Canal Bridge",
+              "answer": "the least reliable data",
+              "explanation": "Gió làm hỏng ba bản ghi ban đêm: 'It's easily our least reliable data.'"
+            },
+            {
+              "id": 27,
+              "type": "matching_features",
+              "prompt": "Riverside Estate",
+              "answer": "the biggest difference between day and night",
+              "explanation": "'the gap between the two was enormous — twenty-six decibels between the afternoon and three in the morning', lớn hơn hẳn hai địa điểm còn lại."
+            }
+          ]
+        },
+        {
+          "id": "s3g3",
+          "type": "sentence_completion",
+          "range": "Questions 28-30",
+          "instruction": "Complete the sentences below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "wordLimit": "ONE WORD AND/OR A NUMBER",
+          "questions": [
+            {
+              "id": 28,
+              "type": "sentence_completion",
+              "prompt": "In the presentation, the readings will be shown in colour on a ______ of the city centre.",
+              "answer": [
+                "map"
+              ],
+              "explanation": "'instead we're colouring the readings onto a map of the city centre' – họ bỏ ý tưởng biểu đồ cột."
+            },
+            {
+              "id": 29,
+              "type": "sentence_completion",
+              "prompt": "For the literature review, Dr Nolan recommends a study of noise complaints carried out in ______.",
+              "answer": [
+                "Rotterdam"
+              ],
+              "explanation": "'it's the Rotterdam study that deals with exactly your age question' – nghiên cứu ở Amsterdam là bẫy."
+            },
+            {
+              "id": 30,
+              "type": "sentence_completion",
+              "prompt": "The abstract of the report must be no more than ______ words long.",
+              "answer": [
+                "300",
+                "three hundred"
+              ],
+              "explanation": "'Your abstract must not be longer than 300 words. If it is, I send it back.'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "A short history of lighthouse engineering",
+      "context": "Bài giảng học thuật về lịch sử kỹ thuật xây dựng hải đăng, từ ngọn lửa cổ đại tới thời kỳ tự động hóa.",
+      "audioSrc": "/audio/lt-01-s4.mp3",
+      "voices": {
+        "Lecturer": "en-GB-LibbyNeural"
+      },
+      "transcript": [
+        {
+          "speaker": "Lecturer",
+          "text": "Good afternoon. Today I want to trace the engineering of the lighthouse, because it is one of those rare structures where every improvement was paid for in lives."
+        },
+        {
+          "speaker": "Lecturer",
+          "text": "We begin with the Pharos, built on an island outside the harbour of Alexandria in the third century BC and standing, by most estimates, well over a hundred metres."
+        },
+        {
+          "speaker": "Lecturer",
+          "text": "At the very top the keepers kept an open fire burning all night. There is a persistent story that they burned oil, but the fuel available in that quantity was wood, brought across by boat and carried up an internal ramp."
+        },
+        {
+          "speaker": "Lecturer",
+          "text": "The light was thrown out to sea by a mirror. Ancient accounts describe it as polished bronze; later writers claimed glass, but glass of that size did not exist then."
+        },
+        {
+          "speaker": "Lecturer",
+          "text": "Move forward to medieval northern Europe and the fuel changes. Wood burns fast and unevenly, so the towers of Britain, the Netherlands and the Baltic burned coal instead, piled in an open iron basket called a chauffer."
+        },
+        {
+          "speaker": "Lecturer",
+          "text": "Coal is dense and burns hot, but the disadvantages were considerable."
+        },
+        {
+          "speaker": "Lecturer",
+          "text": "A single tower burned three or four hundred tonnes a year, hauled up the stairs by hand. And the greatest weakness of all of these fires was the smoke, which drifted across the flame and hid the light just when a ship close inshore most needed it."
+        },
+        {
+          "speaker": "Lecturer",
+          "text": "So the eighteenth century inherits a problem: how do you put a reliable light not on a headland but on a rock in open sea, where ships are actually lost?"
+        },
+        {
+          "speaker": "Lecturer",
+          "text": "The Eddystone reef, off southern England, is the classic case study: four towers were built there and each taught the next."
+        },
+        {
+          "speaker": "Lecturer",
+          "text": "The first, completed in 1698, was Henry Winstanley's: a highly decorated structure built of timber, bolted to the rock. He said he wished to be inside it during the greatest storm there ever was. In November 1703 he got his wish, and neither the tower nor Winstanley was seen again."
+        },
+        {
+          "speaker": "Lecturer",
+          "text": "The second, by John Rudyerd, was also largely timber but plainer and better shaped. It lasted almost fifty years, until the lantern caught fire in 1755."
+        },
+        {
+          "speaker": "Lecturer",
+          "text": "Two lessons were now clear: water destroys wood, and so does fire. The third tower would have to be stone."
+        },
+        {
+          "speaker": "Lecturer",
+          "text": "That tower, finished in 1759, was designed by John Smeaton, and it is the most important building in this story. He solved three problems at once."
+        },
+        {
+          "speaker": "Lecturer",
+          "text": "First, the shape. He wanted a natural form that resisted being pushed over, and he took the trunk of an oak, broad and curved at the base and tapering above. Every rock lighthouse since has that profile."
+        },
+        {
+          "speaker": "Lecturer",
+          "text": "Second, the fixing. Waves lift as well as push, so Smeaton cut each granite block so that it locked into its neighbours with dovetail joints, pinned with marble plugs. The tower behaves as one piece of rock rather than a pile of stones."
+        },
+        {
+          "speaker": "Lecturer",
+          "text": "Third, the mortar. Ordinary lime dissolves in the sea, so Smeaton experimented until he produced a lime containing a high proportion of clay, which would set hard under water. It is the direct ancestor of modern cement."
+        },
+        {
+          "speaker": "Lecturer",
+          "text": "It worked so well that when the rock beneath it began to fail in the eighteen-seventies, the Victorians rebuilt the upper part on shore, where you can still climb it."
+        },
+        {
+          "speaker": "Lecturer",
+          "text": "With the building problem solved, attention moved to the light, and the decisive figure is the French physicist Augustin Fresnel, in the eighteen-twenties."
+        },
+        {
+          "speaker": "Lecturer",
+          "text": "Until then lighthouses used metal reflectors behind an oil lamp, and most of the light was wasted. A conventional lens of the necessary size would have been impossibly heavy."
+        },
+        {
+          "speaker": "Lecturer",
+          "text": "Fresnel kept only the curved surface that does the work. His lens is a set of concentric rings of glass prisms, stepped like a beehive, which catch light escaping at wide angles and bend it into a single horizontal beam. It was up to four times brighter, and could be floated on mercury and turned by clockwork to give each station its own pattern of flashes."
+        },
+        {
+          "speaker": "Lecturer",
+          "text": "The lamp changed too. Vegetable oil gave way to mineral oil, and from the eighteen-seventies the brightest stations burned vaporised paraffin under pressure, which survived in remote places well into the twentieth century."
+        },
+        {
+          "speaker": "Lecturer",
+          "text": "Finally, electrification made a permanent human presence unnecessary, and from the nineteen-eighties the authorities automated station after station."
+        },
+        {
+          "speaker": "Lecturer",
+          "text": "In Britain, the final keepers came ashore from North Foreland in 1998, and every light in the country has been monitored remotely ever since."
+        },
+        {
+          "speaker": "Lecturer",
+          "text": "Next week we'll ask what satellite navigation has done to the argument for keeping these towers lit at all. Do read the Smeaton chapter first."
+        }
+      ],
+      "groups": [
+        {
+          "id": "s4g1",
+          "type": "note_completion",
+          "range": "Questions 31-35",
+          "instruction": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+          "wordLimit": "ONE WORD ONLY",
+          "intro": "EARLY LIGHTHOUSES\n\nThe Pharos of Alexandria (3rd century BC)\n• The fire at the top of the tower burned ______ (31).\n• The light was reflected out to sea by a mirror made of ______ (32).\n\nMedieval towers in northern Europe\n• The fire basket was filled with ______ (33).\n• The main weakness of all open fires was the ______ (34), which hid the light.\n\nThe Eddystone reef\n• The first tower, finished in 1698, was built of ______ (35) and was lost in a storm.",
+          "questions": [
+            {
+              "id": 31,
+              "type": "note_completion",
+              "prompt": "The fire at the top of the Pharos burned ______.",
+              "answer": [
+                "wood"
+              ],
+              "explanation": "'There is a persistent story that they burned oil, but the fuel almost certainly available in that quantity was wood' – dầu là thông tin sai bị bác bỏ."
+            },
+            {
+              "id": 32,
+              "type": "note_completion",
+              "prompt": "The light of the Pharos was reflected by a mirror made of ______.",
+              "answer": [
+                "bronze"
+              ],
+              "explanation": "'Ancient accounts describe it as polished bronze', còn giả thuyết gương thủy tinh bị loại vì thời đó chưa làm được."
+            },
+            {
+              "id": 33,
+              "type": "note_completion",
+              "prompt": "Medieval towers in northern Europe burned ______ in an open iron basket.",
+              "answer": [
+                "coal"
+              ],
+              "explanation": "'The towers built along the coasts of Britain, the Netherlands and the Baltic burned coal instead, piled in an iron basket.'"
+            },
+            {
+              "id": 34,
+              "type": "note_completion",
+              "prompt": "The greatest weakness of all these open fires was the ______.",
+              "answer": [
+                "smoke"
+              ],
+              "explanation": "'the greatest weakness of all of these fires... was the smoke, which drifted across the flame and hid the light.'"
+            },
+            {
+              "id": 35,
+              "type": "note_completion",
+              "prompt": "The first Eddystone tower of 1698 was built of ______.",
+              "answer": [
+                "timber",
+                "wood"
+              ],
+              "explanation": "'it was a highly decorated structure built of timber, bolted to the rock', và bị bão cuốn đi năm 1703."
+            }
+          ]
+        },
+        {
+          "id": "s4g2",
+          "type": "sentence_completion",
+          "range": "Questions 36-40",
+          "instruction": "Complete the sentences below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "wordLimit": "ONE WORD AND/OR A NUMBER",
+          "questions": [
+            {
+              "id": 36,
+              "type": "sentence_completion",
+              "prompt": "For the shape of his tower, Smeaton copied the trunk of an ______.",
+              "answer": [
+                "oak"
+              ],
+              "explanation": "'he took the trunk of an oak, broad and curved at the base and tapering above it.'"
+            },
+            {
+              "id": 37,
+              "type": "sentence_completion",
+              "prompt": "The granite blocks were locked into one another using ______ joints.",
+              "answer": [
+                "dovetail"
+              ],
+              "explanation": "'Smeaton cut each granite block so that it locked into its neighbours with dovetail joints.'"
+            },
+            {
+              "id": 38,
+              "type": "sentence_completion",
+              "prompt": "Smeaton created a lime mortar containing clay that would set hard under ______.",
+              "answer": [
+                "water"
+              ],
+              "explanation": "'he produced a lime containing a high proportion of clay, which would set hard under water.'"
+            },
+            {
+              "id": 39,
+              "type": "sentence_completion",
+              "prompt": "Fresnel's lens was built from rings of glass ______ that bent the light into one beam.",
+              "answer": [
+                "prisms"
+              ],
+              "explanation": "'His lens is a set of concentric rings of glass prisms... which... bend it into a single horizontal beam.'"
+            },
+            {
+              "id": 40,
+              "type": "sentence_completion",
+              "prompt": "The last lighthouse keepers in Britain came ashore in ______.",
+              "answer": [
+                "1998"
+              ],
+              "explanation": "'In Britain, the final keepers came ashore from North Foreland in 1998.'"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

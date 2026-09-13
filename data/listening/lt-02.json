@@ -1,0 +1,256 @@
+{
+  "id": "lt-02",
+  "title": "Listening Mini Test · Thư viện thành phố",
+  "difficulty": "Dễ",
+  "durationMinutes": 8,
+  "topics": [
+    "Đời sống",
+    "Thư viện"
+  ],
+  "sections": [
+    {
+      "number": 1,
+      "title": "Joining the city library",
+      "context": "Marco đến quầy hỗ trợ của thư viện thành phố để đăng ký thẻ và hỏi về quy định mượn tài liệu.",
+      "audioSrc": "/audio/lt-02-s1.mp3",
+      "voices": {
+        "Nadia": "en-CA-ClaraNeural",
+        "Marco": "en-US-GuyNeural"
+      },
+      "transcript": [
+        {
+          "speaker": "Nadia",
+          "text": "Good afternoon. Are you waiting to be served, or just sheltering from the rain?"
+        },
+        {
+          "speaker": "Marco",
+          "text": "A bit of both, honestly. I'd like to join the library, if it isn't too complicated."
+        },
+        {
+          "speaker": "Nadia",
+          "text": "Not complicated at all. It takes about five minutes. I'll fill the form in on the screen and you can check it at the end. Your first name?"
+        },
+        {
+          "speaker": "Marco",
+          "text": "Marco. And the surname is Delgado."
+        },
+        {
+          "speaker": "Nadia",
+          "text": "Could you spell that for me? I've had Delgardo and Delagado this week already."
+        },
+        {
+          "speaker": "Marco",
+          "text": "Of course. D-E-L-G-A-D-O. Delgado, no R."
+        },
+        {
+          "speaker": "Nadia",
+          "text": "Thank you. And your address?"
+        },
+        {
+          "speaker": "Marco",
+          "text": "Flat 6, 28 Kingsley Street. That's K-I-N-G-S-L-E-Y."
+        },
+        {
+          "speaker": "Nadia",
+          "text": "Kingsley Street, lovely. Not Kingsway — we have both, and the post gets muddled constantly. A telephone number?"
+        },
+        {
+          "speaker": "Marco",
+          "text": "My mobile is 07700 918442."
+        },
+        {
+          "speaker": "Nadia",
+          "text": "07700 918442. And the last thing I need is proof that you live at that address."
+        },
+        {
+          "speaker": "Marco",
+          "text": "Ah. I've got my passport with me, but nothing else."
+        },
+        {
+          "speaker": "Nadia",
+          "text": "The passport proves who you are, which is half of it, but for the address we need something dated in the last three months. A bank statement used to be fine and people still expect it, but head office changed the rules in January. What we want now is a recent electricity bill."
+        },
+        {
+          "speaker": "Marco",
+          "text": "An electricity bill. I can bring one tomorrow — it came last week."
+        },
+        {
+          "speaker": "Nadia",
+          "text": "Perfect. I'll save the form as provisional and print your card once I've seen it. Cards go off to be printed on Fridays, so yours will be ready to collect on 16 May."
+        },
+        {
+          "speaker": "Marco",
+          "text": "The sixteenth. I'll write that down."
+        },
+        {
+          "speaker": "Nadia",
+          "text": "Now, borrowing. You can take up to twelve items at a time. Books are three weeks, and so are audiobooks. DVDs are different, though — they go out for seven days only, because there's a waiting list for most of them."
+        },
+        {
+          "speaker": "Marco",
+          "text": "Seven days for DVDs. And what if I want something the library hasn't got on the shelf?"
+        },
+        {
+          "speaker": "Nadia",
+          "text": "Then you reserve it, and we'll bring it in from another branch. There's a charge for that: it's £1.50 per item. It went up from ninety pence in the spring, I'm afraid, but it's still cheaper than buying the book."
+        },
+        {
+          "speaker": "Marco",
+          "text": "That's fair enough. Can I ask about the study rooms upstairs? A friend told me they're expensive."
+        },
+        {
+          "speaker": "Nadia",
+          "text": "Your friend is thinking of the conference room, which businesses hire. The four small study rooms are free for members — you just need your card. They're open all day, not only in the evening, and you book them on the website rather than coming to the desk."
+        },
+        {
+          "speaker": "Marco",
+          "text": "Free. That's better news than I expected. And if I can't finish a book in three weeks?"
+        },
+        {
+          "speaker": "Nadia",
+          "text": "You renew it. You can do it online, up to three times, as long as nobody else has reserved it. After the third renewal you do have to bring it back in, and please don't ring us to renew — we stopped taking renewals by telephone two years ago."
+        },
+        {
+          "speaker": "Marco",
+          "text": "Online, three times. Got it. Is there anything else I ought to know?"
+        },
+        {
+          "speaker": "Nadia",
+          "text": "There's an app for e-books and audiobooks, which you might download eventually, and our local history team on the second floor is excellent if you ever need them. But what I'd really suggest for a new member is the tour. One of the volunteers takes a group round every Saturday at ten, and it lasts half an hour. People always tell me afterwards that they had no idea half of this building existed."
+        },
+        {
+          "speaker": "Marco",
+          "text": "Saturday at ten. I'll come with my electricity bill on my way in."
+        },
+        {
+          "speaker": "Nadia",
+          "text": "Even better — then you can collect the card and do the tour in one trip. See you on Saturday, Mr Delgado."
+        }
+      ],
+      "groups": [
+        {
+          "id": "m1g1",
+          "type": "form_completion",
+          "range": "Questions 1-7",
+          "instruction": "Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "wordLimit": "ONE WORD AND/OR A NUMBER",
+          "intro": "CITY LIBRARY — NEW MEMBER FORM\n\nFirst name: Marco\nSurname: ______ (1)\nAddress: Flat 6, 28 ______ (2) Street\nTelephone: ______ (3)\nProof of address: a recent ______ (4) bill\nCard ready to collect on: ______ (5)\n\nBorrowing\nDVDs may be kept for ______ (6) days\nCharge to reserve an item: £______ (7)",
+          "questions": [
+            {
+              "id": 1,
+              "type": "form_completion",
+              "prompt": "Họ của người đăng ký",
+              "answer": [
+                "Delgado"
+              ],
+              "explanation": "Marco đánh vần: 'D-E-L-G-A-D-O. Delgado, no R.' – các cách viết Delgardo/Delagado là bẫy."
+            },
+            {
+              "id": 2,
+              "type": "form_completion",
+              "prompt": "Tên phố trong địa chỉ",
+              "answer": [
+                "Kingsley"
+              ],
+              "explanation": "'Flat 6, 28 Kingsley Street. That's K-I-N-G-S-L-E-Y.' Thủ thư nhắc thêm rằng không phải Kingsway."
+            },
+            {
+              "id": 3,
+              "type": "form_completion",
+              "prompt": "Số điện thoại di động",
+              "answer": [
+                "07700 918442",
+                "07700918442"
+              ],
+              "explanation": "'My mobile is 07700 918442', và thủ thư nhắc lại đúng số này."
+            },
+            {
+              "id": 4,
+              "type": "form_completion",
+              "prompt": "Loại hóa đơn dùng làm giấy tờ chứng minh địa chỉ",
+              "answer": [
+                "electricity"
+              ],
+              "explanation": "'A bank statement used to be fine... What we want now is a recent electricity bill.' Sao kê ngân hàng là quy định cũ."
+            },
+            {
+              "id": 5,
+              "type": "form_completion",
+              "prompt": "Ngày có thể đến lấy thẻ",
+              "answer": [
+                "16 May",
+                "May 16",
+                "16th May"
+              ],
+              "explanation": "'Cards go off to be printed on Fridays, so yours will be ready to collect on 16 May.'"
+            },
+            {
+              "id": 6,
+              "type": "form_completion",
+              "prompt": "Số ngày được mượn đĩa DVD",
+              "answer": [
+                "7",
+                "seven"
+              ],
+              "explanation": "'Books are three weeks... DVDs are different, though — they go out for seven days only.'"
+            },
+            {
+              "id": 7,
+              "type": "form_completion",
+              "prompt": "Phí đặt mượn một tài liệu (bảng Anh)",
+              "answer": [
+                "1.50",
+                "£1.50"
+              ],
+              "explanation": "'There's a charge for that: it's £1.50 per item. It went up from ninety pence in the spring.'"
+            }
+          ]
+        },
+        {
+          "id": "m1g2",
+          "type": "multiple_choice",
+          "range": "Questions 8-10",
+          "instruction": "Choose the correct letter, A, B or C.",
+          "questions": [
+            {
+              "id": 8,
+              "type": "multiple_choice",
+              "prompt": "What does Nadia say about the small study rooms?",
+              "options": [
+                "They are free for members.",
+                "They must be booked at the desk.",
+                "They are only available in the evening."
+              ],
+              "answer": "They are free for members.",
+              "explanation": "'The four small study rooms are free for members — you just need your card', và phải đặt chỗ trên website chứ không phải tại quầy."
+            },
+            {
+              "id": 9,
+              "type": "multiple_choice",
+              "prompt": "How can Marco renew a book?",
+              "options": [
+                "by telephone",
+                "online, up to three times",
+                "only by returning to the library"
+              ],
+              "answer": "online, up to three times",
+              "explanation": "'You can do it online, up to three times, as long as nobody else has reserved it', và thư viện đã ngừng gia hạn qua điện thoại."
+            },
+            {
+              "id": 10,
+              "type": "multiple_choice",
+              "prompt": "What does Nadia suggest that Marco does as a new member?",
+              "options": [
+                "join the Saturday tour",
+                "download the e-book app",
+                "speak to the local history team"
+              ],
+              "answer": "join the Saturday tour",
+              "explanation": "'what I'd really suggest for a new member is the tour. One of the volunteers takes a group round every Saturday at ten.'"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

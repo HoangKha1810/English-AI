@@ -1,0 +1,228 @@
+{
+  "id": "lt-06",
+  "title": "Train Journey Modification",
+  "difficulty": "Trung bình",
+  "durationMinutes": 8,
+  "topics": [
+    "Transport",
+    "Customer Service",
+    "Travel"
+  ],
+  "sections": [
+    {
+      "number": 1,
+      "title": "Train Ticket Amendment",
+      "context": "A customer is calling a rail service agent to change his travel details due to engineering works.",
+      "audioSrc": "/audio/lt-06-s1.mp3",
+      "voices": {
+        "Alice": "en-GB-SoniaNeural",
+        "Paul": "en-AU-WilliamNeural"
+      },
+      "transcript": [
+        {
+          "speaker": "Alice",
+          "text": "Good morning, North-Western Railway customer service, Alice speaking. How can I help you today?"
+        },
+        {
+          "speaker": "Paul",
+          "text": "Hello Alice. I'm calling because I received an automated alert on my phone about some major disruption on my journey this Friday. I'm quite concerned and I think I need to change my booking to a different day to avoid the mess."
+        },
+        {
+          "speaker": "Alice",
+          "text": "I'm very sorry to hear that you've been affected. There are indeed some significant scheduled works this weekend. Let's look into your options and see how we can fix this. May I start with your full name, please?"
+        },
+        {
+          "speaker": "Paul",
+          "text": "Yes, of course. It’s Paul Henderson. That’s H-E-N-D-E-R-S-O-N."
+        },
+        {
+          "speaker": "Alice",
+          "text": "Thank you, Mr. Henderson. I've got that. And can you provide your booking reference number? It should be at the top of your confirmation email, usually a mix of five letters and numbers."
+        },
+        {
+          "speaker": "Paul",
+          "text": "Right, let me just pull that up on my screen. I have it here. It’s X-J-4-5-9... No, wait, I’m so sorry, I’m looking at the wrong document. That was my reference from my trip to Birmingham last month. The one for this specific trip is X-J-4-5-0."
+        },
+        {
+          "speaker": "Alice",
+          "text": "No problem at all. Let me search for X-J-4-5-0. Ah, yes, I see it here. You are currently booked to travel from London Euston to Edinburgh this Friday, the 13th."
+        },
+        {
+          "speaker": "Paul",
+          "text": "That’s right. I was supposed to take the 14:00 service, which is a direct train."
+        },
+        {
+          "speaker": "Alice",
+          "text": "Well, the alert you received is regarding engineering works between Wigan and Carlisle. The main line will be closed for safety upgrades, and there's a replacement bus service for that section, which unfortunately adds about two hours to the total journey time."
+        },
+        {
+          "speaker": "Paul",
+          "text": "Oh, that definitely won't work for me. I have a dinner meeting in Edinburgh that I simply cannot be late for. What if I move the entire trip to Saturday the 14th? Are the express trains running normally then?"
+        },
+        {
+          "speaker": "Alice",
+          "text": "Let me check the schedule for Saturday. On Saturday the 14th... yes, the express lines are open again after 6:00 AM. We have several morning slots available. There is a departure at 08:00 and another one at 09:30."
+        },
+        {
+          "speaker": "Paul",
+          "text": "The 08:00 is probably a bit too early for me to get to Euston. I think I'll go for the 10:00... actually, looking at my schedule again, the 09:30 would be much better. It gives me more breathing room to get to the hotel before the check-in desk gets busy."
+        },
+        {
+          "speaker": "Alice",
+          "text": "I've noted that down: 09:30 on Saturday. Now, regarding your seating preferences. Your original booking was for a standard aisle seat in Coach C. Would you like to keep that same configuration?"
+        },
+        {
+          "speaker": "Paul",
+          "text": "Since I'll be traveling during the day now, I’d actually prefer a window seat if there's one available. I've heard the route through the Lake District is beautiful and I'd like to see the scenery."
+        },
+        {
+          "speaker": "Alice",
+          "text": "Let me see... Yes, I can get you a window seat in Coach F. It's a very quiet carriage as well. Now, because Saturday is considered a peak travel day, there is a slight fare difference. Your original ticket was a discounted weekday 'Advance' fare."
+        },
+        {
+          "speaker": "Paul",
+          "text": "I see. How much extra will that cost me?"
+        },
+        {
+          "speaker": "Alice",
+          "text": "The difference in price between the two tickets is £12.50. Ordinarily, there would also be a ten-pound administration fee for changing a booking, but because this change is due to our service disruption, we will waive that fee. So you just pay the fare gap."
+        },
+        {
+          "speaker": "Paul",
+          "text": "That seems very fair. I'm happy to pay that now. I was worried it would be much more expensive."
+        },
+        {
+          "speaker": "Alice",
+          "text": "Excellent. Just to clarify for our records, the reason for the change on our system will be recorded as 'maintenance works'. This is important for our internal reporting and to ensure you aren't charged the usual change fee by mistake."
+        },
+        {
+          "speaker": "Paul",
+          "text": "I appreciate that. Just a quick question out of curiosity, I heard from a colleague that the disruption was due to a signaling failure at Lancaster?"
+        },
+        {
+          "speaker": "Alice",
+          "text": "There was a signaling issue earlier in the week, yes, but the closure this Friday is specifically for planned track maintenance works. They are replacing several miles of old cabling."
+        },
+        {
+          "speaker": "Paul",
+          "text": "I see. And if I hadn't changed my ticket, where would I have had to catch that shuttle bus you mentioned?"
+        },
+        {
+          "speaker": "Alice",
+          "text": "Passengers traveling on Friday have to disembark the train and switch to the bus at Preston station. But since you are moving your trip to Saturday, you'll be able to stay on the train the entire way through to Edinburgh."
+        },
+        {
+          "speaker": "Paul",
+          "text": "That’s a huge relief. I really dislike coach travel. One last thing, how will I receive the new tickets? Do I need to go to the station office?"
+        },
+        {
+          "speaker": "Alice",
+          "text": "No need for that. I will send an email confirmation to you immediately. You can simply use the digital barcode on your phone to pass through the gates, or you can print it out at home if you prefer a paper copy."
+        },
+        {
+          "speaker": "Paul",
+          "text": "That’s perfect. You've been very helpful, Alice. Thank you."
+        },
+        {
+          "speaker": "Alice",
+          "text": "You're very welcome, Mr. Henderson. I'll process that payment and send the email now. Have a lovely trip on Saturday!"
+        }
+      ],
+      "groups": [
+        {
+          "id": "g1",
+          "type": "form_completion",
+          "range": "Questions 1-6",
+          "instruction": "Complete the form below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+          "wordLimit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "intro": "NORTH-WESTERN RAILWAY - BOOKING AMENDMENT FORM",
+          "questions": [
+            {
+              "id": 1,
+              "type": "form_completion",
+              "prompt": "Customer Name: Paul",
+              "answer": "Henderson",
+              "explanation": "Người đàn ông đánh vần tên mình là H-E-N-D-E-R-S-O-N."
+            },
+            {
+              "id": 2,
+              "type": "form_completion",
+              "prompt": "Booking Reference Number:",
+              "answer": "XJ450",
+              "explanation": "Ban đầu anh ấy đọc nhầm là XJ459, nhưng sau đó tự sửa lại thành XJ450."
+            },
+            {
+              "id": 3,
+              "type": "form_completion",
+              "prompt": "Original Departure Point:",
+              "answer": "London",
+              "explanation": "Alice đề cập hành trình hiện tại là từ London Euston đến Edinburgh."
+            },
+            {
+              "id": 4,
+              "type": "form_completion",
+              "prompt": "New Travel Date:",
+              "answer": "Saturday",
+              "explanation": "Paul chọn chuyển chuyến đi sang thứ Bảy (Saturday) để tránh sự cố."
+            },
+            {
+              "id": 5,
+              "type": "form_completion",
+              "prompt": "Selected Departure Time:",
+              "answer": "09:30",
+              "explanation": "Paul cân nhắc giữa 08:00, 10:00 và cuối cùng chọn 09:30."
+            },
+            {
+              "id": 6,
+              "type": "form_completion",
+              "prompt": "New Seat Preference:",
+              "answer": "window",
+              "explanation": "Paul muốn đổi từ ghế cạnh lối đi (aisle) sang ghế cạnh cửa sổ (window) để ngắm cảnh."
+            }
+          ]
+        },
+        {
+          "id": "g2",
+          "type": "note_completion",
+          "range": "Questions 7-10",
+          "instruction": "Complete the notes below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+          "wordLimit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "intro": "Additional Details regarding the change:",
+          "questions": [
+            {
+              "id": 7,
+              "type": "note_completion",
+              "prompt": "The fare difference to be paid is £",
+              "answer": [
+                "12.50",
+                "12.5"
+              ],
+              "explanation": "Alice nói mức chênh lệch giá vé là £12.50 và không tính phí quản lý."
+            },
+            {
+              "id": 8,
+              "type": "note_completion",
+              "prompt": "System reason for change: planned",
+              "answer": "maintenance",
+              "explanation": "Lý do được ghi nhận trên hệ thống là 'maintenance works' (công tác bảo trì)."
+            },
+            {
+              "id": 9,
+              "type": "note_completion",
+              "prompt": "Location of bus transfer for Friday travelers:",
+              "answer": "Preston",
+              "explanation": "Alice cho biết hành khách đi thứ Sáu sẽ phải đổi sang xe buýt tại ga Preston."
+            },
+            {
+              "id": 10,
+              "type": "note_completion",
+              "prompt": "The new tickets will be sent via",
+              "answer": "email",
+              "explanation": "Alice sẽ gửi xác nhận và vé mới qua email ngay lập tức."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

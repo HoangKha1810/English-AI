@@ -1,0 +1,188 @@
+{
+  "id": "rt-07",
+  "title": "Sustainable Architecture and the Future of Urban Living",
+  "module": "Academic",
+  "difficulty": "Khó",
+  "durationMinutes": 20,
+  "topics": [
+    "Architecture",
+    "Environment",
+    "Sustainability",
+    "Technology"
+  ],
+  "passages": [
+    {
+      "number": 1,
+      "title": "The Evolution of Sustainable Architecture: Building for a Greener Future",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "Sustainable architecture, often referred to as green building, is a philosophy of design that seeks to minimize the negative environmental impact of buildings by efficiency and moderation in the use of materials, energy, and development space. As the global population continues to urbanize at an unprecedented rate, the construction industry has come under intense scrutiny for its significant contribution to greenhouse gas emissions and resource depletion. Architects today are no longer just focused on aesthetics; they are increasingly tasked with creating structures that coexist harmoniously with the natural world while providing healthy environments for their occupants."
+        },
+        {
+          "label": "B",
+          "text": "One of the primary pillars of sustainable design is energy efficiency. Traditional buildings are notorious for their high energy consumption, primarily due to heating, cooling, and lighting systems. In contrast, sustainable architecture prioritizes passive design strategies. This involves optimizing the building's orientation to harness natural sunlight and wind. For instance, large south-facing windows in the Northern Hemisphere can maximize solar heat gain during winter months, while strategically placed overhangs provide shade in the summer, reducing the need for air conditioning. Furthermore, high-performance insulation and double or triple-glazed windows ensure that thermal energy is retained within the building envelope, significantly lowering utility costs."
+        },
+        {
+          "label": "C",
+          "text": "The selection of materials plays a crucial role in the lifecycle of a green building. Modern architects are moving away from energy-intensive materials like traditional concrete and steel, which have high embodied carbon—the total energy required to produce and transport them. Instead, there is a resurgence in the use of renewable resources such as bamboo and cross-laminated timber (CLT). Bamboo, known for its rapid growth and strength, serves as an excellent alternative to hardwoods. Additionally, the integration of recycled materials, such as reclaimed wood and pulverized glass, helps reduce the burden on landfills and lowers the overall environmental footprint of the project."
+        },
+        {
+          "label": "D",
+          "text": "Water conservation is another critical aspect of the sustainable architectural movement. In many urban centers, water scarcity is becoming a pressing issue. To combat this, green buildings often incorporate sophisticated rainwater harvesting systems, where runoff from roofs is collected, filtered, and stored for non-potable uses such as irrigation and toilet flushing. Furthermore, greywater systems—which recycle water from sinks and showers—can be treated and reused within the same building. These innovations, combined with low-flow plumbing fixtures, can reduce a building's water consumption by up to 50%, making it far more resilient to drought conditions."
+        },
+        {
+          "label": "E",
+          "text": "Beyond environmental benefits, sustainable architecture significantly enhances Indoor Environmental Quality (IEQ). Research has consistently shown that the health and productivity of occupants are directly linked to their surroundings. Biophilic design, a subset of sustainable architecture, seeks to connect building occupants more closely to nature. This is achieved through the use of living walls, indoor gardens, and maximizing access to natural daylight. Improved ventilation systems that filter out pollutants and ensure a steady supply of fresh air also play a vital role in reducing the 'sick building syndrome' often associated with poorly designed office spaces."
+        },
+        {
+          "label": "F",
+          "text": "The integration of technology has further propelled the capabilities of green buildings. Smart building management systems (BMS) now use sensors and Internet of Things (IoT) devices to monitor and control energy usage in real-time. These systems can automatically dim lights when a room is unoccupied or adjust the thermostat based on the number of people in a room. Moreover, the adoption of renewable energy sources, such as building-integrated photovoltaics (BIPV), allows structures to generate their own electricity, moving closer to the goal of 'net-zero' energy consumption, where the building produces as much energy as it uses."
+        },
+        {
+          "label": "G",
+          "text": "Despite the clear advantages, the transition to sustainable architecture is not without its challenges. The initial capital investment for green technologies and high-quality materials can be higher than that of conventional construction. However, proponents argue that these costs are quickly offset by long-term savings in energy and water bills. Furthermore, as the market for sustainable products grows, prices are gradually decreasing. Governments are also beginning to play a more active role by offering tax incentives and implementing stricter building codes that mandate certain levels of environmental performance, signaling a shift in the global construction paradigm."
+        },
+        {
+          "label": "H",
+          "text": "Looking ahead, the future of architecture lies in the concept of the circular economy. This involves designing buildings that can be easily disassembled at the end of their life, with components that can be reused or repurposed rather than discarded. This 'cradle-to-cradle' approach ensures that the built environment becomes a source of materials for future generations rather than a source of waste. As we face the dual crises of climate change and resource scarcity, sustainable architecture stands as a vital tool in our efforts to build a more resilient and equitable world."
+        }
+      ],
+      "groups": [
+        {
+          "id": "g1",
+          "type": "matching_headings",
+          "range": "Questions 1-5",
+          "instruction": "Choose the correct heading for paragraphs A-E from the list of headings below.",
+          "options": [
+            "i. The importance of liquid resource management",
+            "ii. Innovations in smart technology",
+            "iii. A shift in design philosophy",
+            "iv. Sourcing renewable and recycled components",
+            "v. Enhancing occupant health and well-being",
+            "vi. Maximizing energy efficiency through passive design",
+            "vii. The economic challenges of green building"
+          ],
+          "questions": [
+            {
+              "id": 1,
+              "type": "matching_headings",
+              "prompt": "Paragraph A",
+              "answer": "iii",
+              "explanation": "Đoạn A giới thiệu về triết lý thiết kế bền vững và sự thay đổi trong cách tiếp cận của kiến trúc sư từ thẩm mỹ sang sự hài hòa với thiên nhiên."
+            },
+            {
+              "id": 2,
+              "type": "matching_headings",
+              "prompt": "Paragraph B",
+              "answer": "vi",
+              "explanation": "Đoạn B tập trung vào các chiến lược thiết kế thụ động (passive design) như định hướng tòa nhà và cách nhiệt để tối ưu hóa năng lượng."
+            },
+            {
+              "id": 3,
+              "type": "matching_headings",
+              "prompt": "Paragraph C",
+              "answer": "iv",
+              "explanation": "Đoạn C thảo luận về việc lựa chọn vật liệu, bao gồm tài nguyên tái tạo (tre, gỗ) và vật liệu tái chế."
+            },
+            {
+              "id": 4,
+              "type": "matching_headings",
+              "prompt": "Paragraph D",
+              "answer": "i",
+              "explanation": "Đoạn D nói về quản lý tài nguyên lỏng (nước) thông qua thu gom nước mưa và hệ thống nước xám."
+            },
+            {
+              "id": 5,
+              "type": "matching_headings",
+              "prompt": "Paragraph E",
+              "answer": "v",
+              "explanation": "Đoạn E giải thích cách kiến trúc bền vững cải thiện chất lượng môi trường trong nhà, giúp tăng sức khỏe và năng suất của người ở."
+            }
+          ]
+        },
+        {
+          "id": "g2",
+          "type": "matching_information",
+          "range": "Questions 6-8",
+          "instruction": "Which paragraph contains the following information?",
+          "questions": [
+            {
+              "id": 6,
+              "type": "matching_information",
+              "prompt": "a mention of sensors that adjust energy consumption based on occupancy",
+              "answer": "F",
+              "explanation": "Đoạn F đề cập đến hệ thống quản lý tòa nhà thông minh sử dụng cảm biến để điều chỉnh ánh sáng và nhiệt độ theo số lượng người."
+            },
+            {
+              "id": 7,
+              "type": "matching_information",
+              "prompt": "the argument that high initial costs are balanced by future financial gains",
+              "answer": "G",
+              "explanation": "Đoạn G giải thích rằng chi phí đầu tư ban đầu cao sẽ được bù đắp bằng các khoản tiết kiệm dài hạn cho hóa đơn năng lượng và nước."
+            },
+            {
+              "id": 8,
+              "type": "matching_information",
+              "prompt": "a reference to a design approach where buildings serve as material sources for the future",
+              "answer": "H",
+              "explanation": "Đoạn H thảo luận về nền kinh tế tuần hoàn và phương pháp 'cradle-to-cradle', nơi tòa nhà cũ cung cấp vật liệu cho tương lai."
+            }
+          ]
+        },
+        {
+          "id": "g3",
+          "type": "true_false_notgiven",
+          "range": "Questions 9-11",
+          "instruction": "Do the following statements agree with the information given in the reading passage?",
+          "questions": [
+            {
+              "id": 9,
+              "type": "true_false_notgiven",
+              "prompt": "Traditional concrete and steel are considered to have low embodied carbon.",
+              "answer": "FALSE",
+              "explanation": "Đoạn C khẳng định bê tông và thép truyền thống có 'high embodied carbon' (lượng carbon tích lũy cao)."
+            },
+            {
+              "id": 10,
+              "type": "true_false_notgiven",
+              "prompt": "Greywater systems can help a building reduce its overall water usage by half.",
+              "answer": "TRUE",
+              "explanation": "Đoạn D nói rằng các cải tiến như hệ thống nước xám có thể giảm lượng tiêu thụ nước của tòa nhà lên đến 50%."
+            },
+            {
+              "id": 11,
+              "type": "true_false_notgiven",
+              "prompt": "Most governments currently offer tax exemptions to all sustainable construction projects.",
+              "answer": "NOT GIVEN",
+              "explanation": "Đoạn G có nói chính phủ bắt đầu đưa ra các ưu đãi thuế (tax incentives), nhưng không nói là 'hầu hết chính phủ' hay áp dụng cho 'tất cả' dự án."
+            }
+          ]
+        },
+        {
+          "id": "g4",
+          "type": "sentence_completion",
+          "range": "Questions 12-13",
+          "instruction": "Complete the sentences below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+          "wordLimit": "NO MORE THAN TWO WORDS",
+          "questions": [
+            {
+              "id": 12,
+              "type": "sentence_completion",
+              "prompt": "The concept of ________ aims to strengthen the bond between building occupants and the natural world.",
+              "answer": "biophilic design",
+              "explanation": "Đoạn E đề cập: 'Biophilic design... seeks to connect building occupants more closely to nature.'"
+            },
+            {
+              "id": 13,
+              "type": "sentence_completion",
+              "prompt": "Achieving ________ consumption is possible when a structure generates as much power as it requires.",
+              "answer": "net-zero",
+              "explanation": "Đoạn F định nghĩa 'net-zero energy consumption' là khi tòa nhà sản xuất ra lượng năng lượng bằng với lượng nó tiêu thụ."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

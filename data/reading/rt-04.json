@@ -1,0 +1,189 @@
+{
+  "id": "rt-04",
+  "title": "The Rise of Offshore Wind: Powering a Sustainable Future",
+  "module": "Academic",
+  "difficulty": "Trung bình",
+  "durationMinutes": 20,
+  "topics": [
+    "Renewable Energy",
+    "Environment",
+    "Technology"
+  ],
+  "passages": [
+    {
+      "number": 1,
+      "title": "The Rise of Offshore Wind: Powering a Sustainable Future",
+      "subtitle": "Harnessing the immense power of the oceans to meet global energy demands.",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "The transition to renewable energy sources has become a cornerstone of global environmental policy as nations strive to meet carbon neutrality targets. Among the most promising technologies is offshore wind power. While onshore wind farms have been prevalent for decades, the offshore sector offers distinct advantages. Wind speeds are generally higher and more consistent over the open sea than on land, leading to significantly higher electricity yields. Furthermore, locating turbines far out at sea reduces the aesthetic and noise concerns that often lead to public opposition in terrestrial settings, allowing for the construction of much larger installations."
+        },
+        {
+          "label": "B",
+          "text": "Engineering these massive structures presents unique challenges. Unlike onshore turbines, offshore units must withstand the corrosive effects of saltwater, the physical force of powerful waves, and the logistical difficulties of maritime maintenance. Currently, most offshore wind farms use fixed-bottom foundations, such as monopiles or jacket structures, which are driven into the seabed. However, these are limited to relatively shallow waters. To tap into the vast energy potential of deeper oceans, engineers are developing floating wind turbines. These platforms are anchored to the seabed with mooring lines, allowing for deployment in regions where the seafloor drops off sharply."
+        },
+        {
+          "label": "C",
+          "text": "The economic landscape of offshore wind has shifted dramatically over the last ten years. Initially, high capital expenditures for installation and subsea cabling made it a niche and expensive option. However, as the industry has matured, economies of scale and technological refinements have driven costs down. The development of larger turbines—some with rotors spanning over 200 meters—has been a primary driver of efficiency. A single rotation of a modern offshore turbine can power a household for several days. This increased output, combined with more streamlined supply chains, has made offshore wind increasingly competitive with traditional fossil fuel-based power generation."
+        },
+        {
+          "label": "D",
+          "text": "Environmental considerations remain a focal point of research and regulation. The construction phase, particularly the pile-driving process, generates underwater noise that can disrupt the echolocation of marine mammals like porpoises and dolphins. To mitigate this, developers use 'bubble curtains'—perforated hoses that release a wall of air bubbles around the construction site to dampen sound. On the positive side, the underwater structures can act as artificial reefs, providing new habitats for various marine species. Studies have shown that once operational, wind farms can lead to an increase in biodiversity within their boundaries, as commercial fishing is often restricted for safety reasons."
+        },
+        {
+          "label": "E",
+          "text": "A critical technical hurdle is the transmission of electricity from remote sea locations to the mainland grid. As wind farms move further from the shore, traditional Alternating Current (AC) cables become less efficient due to energy losses. High-Voltage Direct Current (HVDC) technology is increasingly being adopted to solve this. HVDC systems allow for the long-distance transport of power with minimal loss, though they require sophisticated converter stations both offshore and onshore. Integrating this variable energy source into national grids also requires advanced battery storage systems and smart grid management to ensure a stable supply even when the wind isn't blowing."
+        },
+        {
+          "label": "F",
+          "text": "Regionally, Europe has long been the pioneer in this field, with the United Kingdom and Denmark leading in installed capacity. However, the Asia-Pacific region is rapidly catching up, with China now investing heavily in massive offshore projects along its coastline. The United States has also begun to accelerate its offshore wind development, particularly along the Atlantic coast, where shallow waters and high demand from coastal cities create an ideal environment. These global developments are not only contributing to climate goals but also fostering a new 'blue economy,' creating thousands of jobs in manufacturing, vessel operations, and marine engineering."
+        },
+        {
+          "label": "G",
+          "text": "Looking ahead, the synergy between offshore wind and green hydrogen production is a burgeoning area of interest. When wind farms produce more electricity than the grid can handle, the excess power can be used to perform electrolysis, splitting water into oxygen and hydrogen. This hydrogen can then be stored or transported as a clean fuel for heavy industry and shipping, sectors that are difficult to electrify directly. This integrated approach could transform offshore wind farms from simple power plants into comprehensive energy hubs."
+        },
+        {
+          "label": "H",
+          "text": "Despite the optimism, several regulatory and logistical bottlenecks persist. The permitting process for new offshore wind farms can take several years, involving complex environmental impact assessments and negotiations with maritime stakeholders, such as the shipping and fishing industries. Furthermore, the specialized vessels required for installing the latest generation of giant turbines are in short supply globally. Addressing these infrastructure gaps and simplifying regulatory frameworks will be essential if the world is to meet the ambitious offshore wind capacity targets set for 2030 and beyond."
+        }
+      ],
+      "groups": [
+        {
+          "id": "g1",
+          "type": "matching_headings",
+          "range": "Questions 1-5",
+          "instruction": "Choose the correct heading for paragraphs A-E from the list of headings below.",
+          "options": [
+            "i. Technical barriers to energy transmission",
+            "ii. Comparing land-based and sea-based wind power",
+            "iii. The evolution of cost and efficiency",
+            "iv. Overcoming the limitations of shallow water",
+            "v. The impact of wind farms on marine life",
+            "vi. The role of government subsidies",
+            "vii. Advantages of larger turbine designs",
+            "viii. Initial public resistance to wind projects"
+          ],
+          "questions": [
+            {
+              "id": 1,
+              "type": "matching_headings",
+              "prompt": "Paragraph A",
+              "answer": "ii",
+              "explanation": "Đoạn A so sánh giữa điện gió trên bờ (onshore) và ngoài khơi (offshore), nêu bật lợi thế của gió biển."
+            },
+            {
+              "id": 2,
+              "type": "matching_headings",
+              "prompt": "Paragraph B",
+              "answer": "iv",
+              "explanation": "Đoạn B thảo luận về các loại móng và sự phát triển của tuabin nổi để vượt qua giới hạn của vùng nước nông."
+            },
+            {
+              "id": 3,
+              "type": "matching_headings",
+              "prompt": "Paragraph C",
+              "answer": "iii",
+              "explanation": "Đoạn C nói về sự thay đổi kinh tế, giảm chi phí nhờ quy mô và cải tiến công nghệ."
+            },
+            {
+              "id": 4,
+              "type": "matching_headings",
+              "prompt": "Paragraph D",
+              "answer": "v",
+              "explanation": "Đoạn D tập trung vào các vấn đề môi trường như tiếng ồn ảnh hưởng động vật biển và vai trò như rạn san hô nhân tạo."
+            },
+            {
+              "id": 5,
+              "type": "matching_headings",
+              "prompt": "Paragraph E",
+              "answer": "i",
+              "explanation": "Đoạn E giải thích các rào cản kỹ thuật trong việc truyền tải điện từ biển vào đất liền bằng cáp AC và HVDC."
+            }
+          ]
+        },
+        {
+          "id": "g2",
+          "type": "matching_information",
+          "range": "Questions 6-8",
+          "instruction": "Which paragraph contains the following information?",
+          "questions": [
+            {
+              "id": 6,
+              "type": "matching_information",
+              "prompt": "A description of how surplus energy can be converted into another form of fuel.",
+              "answer": "G",
+              "explanation": "Đoạn G mô tả việc sử dụng điện dư thừa để sản xuất 'green hydrogen' thông qua điện phân."
+            },
+            {
+              "id": 7,
+              "type": "matching_information",
+              "prompt": "Mention of specific geographical areas currently expanding their offshore wind capacity.",
+              "answer": "F",
+              "explanation": "Đoạn F liệt kê các khu vực như UK, Đan Mạch, Trung Quốc và Mỹ."
+            },
+            {
+              "id": 8,
+              "type": "matching_information",
+              "prompt": "An explanation of why the availability of certain ships is a problem for the industry.",
+              "answer": "H",
+              "explanation": "Đoạn H đề cập đến việc thiếu hụt 'specialized vessels' cần thiết để lắp đặt các tuabin khổng lồ."
+            }
+          ]
+        },
+        {
+          "id": "g3",
+          "type": "true_false_notgiven",
+          "range": "Questions 9-11",
+          "instruction": "Do the following statements agree with the information given in the reading passage?",
+          "questions": [
+            {
+              "id": 9,
+              "type": "true_false_notgiven",
+              "prompt": "Floating wind turbines are already more common than fixed-bottom models.",
+              "answer": "FALSE",
+              "explanation": "Đoạn B nói rằng hiện tại hầu hết các trang trại gió sử dụng móng cố định (fixed-bottom), tuabin nổi vẫn đang được phát triển."
+            },
+            {
+              "id": 10,
+              "type": "true_false_notgiven",
+              "prompt": "The use of bubble curtains can help reduce the impact of construction noise on marine mammals.",
+              "answer": "TRUE",
+              "explanation": "Đoạn D xác nhận 'bubble curtains' giúp giảm âm thanh ảnh hưởng đến động vật biển."
+            },
+            {
+              "id": 11,
+              "type": "true_false_notgiven",
+              "prompt": "The cost of offshore wind is expected to rise due to the complexity of deep-sea projects.",
+              "answer": "NOT GIVEN",
+              "explanation": "Bài viết nói chi phí đã giảm (Đoạn C), nhưng không khẳng định chi phí sẽ tăng trong tương lai do độ phức tạp của dự án nước sâu."
+            }
+          ]
+        },
+        {
+          "id": "g4",
+          "type": "sentence_completion",
+          "range": "Questions 12-13",
+          "instruction": "Complete the sentences below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+          "wordLimit": "NO MORE THAN TWO WORDS",
+          "questions": [
+            {
+              "id": 12,
+              "type": "sentence_completion",
+              "prompt": "Traditional AC cables are inefficient over long distances because they lead to significant ________.",
+              "answer": "energy losses",
+              "explanation": "Đoạn E đề cập: 'traditional Alternating Current (AC) cables become less efficient due to energy losses'."
+            },
+            {
+              "id": 13,
+              "type": "sentence_completion",
+              "prompt": "Offshore wind installations can help increase ________ by providing new habitats for sea creatures.",
+              "answer": "biodiversity",
+              "explanation": "Đoạn D nói: 'wind farms can lead to an increase in biodiversity within their boundaries'."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

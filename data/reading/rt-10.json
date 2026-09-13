@@ -1,0 +1,190 @@
+{
+  "id": "rt-10",
+  "title": "Global Food Waste: Challenges and Solutions",
+  "module": "Academic",
+  "difficulty": "Trung bình",
+  "durationMinutes": 20,
+  "topics": [
+    "Environment",
+    "Sustainability",
+    "Technology"
+  ],
+  "passages": [
+    {
+      "number": 1,
+      "title": "The Global Challenge of Food Waste",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "Every year, roughly one-third of all food produced for human consumption—approximately 1.3 billion tonnes—is lost or wasted globally. This staggering figure represents not just a moral failure in a world where nearly 800 million people go hungry, but also a catastrophic waste of the energy, water, and land resources used to grow that food. While the issue is universal, the nature of food waste varies significantly between different economic landscapes, requiring tailored solutions to address the root causes at every stage of the supply chain."
+        },
+        {
+          "label": "B",
+          "text": "In developing nations, food loss occurs predominantly during the early stages of the food supply chain. This is often due to technical and managerial constraints in harvesting, storage, and cooling facilities. For example, in sub-Saharan Africa, a lack of refrigerated transport means that perishable goods often rot before they ever reach a marketplace. In contrast, in high-income countries, food is much more likely to be wasted at the retail and consumer levels. Here, the 'throwaway culture' and high aesthetic standards for produce result in perfectly edible food being discarded because it does not meet specific size or shape requirements."
+        },
+        {
+          "label": "C",
+          "text": "The environmental footprint of food waste is immense. If food waste were a country, it would be the third-largest emitter of greenhouse gases in the world, trailing only China and the United States. When food rots in a landfill, it undergoes anaerobic decomposition, producing methane—a gas that is 25 times more potent than carbon dioxide in trapping heat in the atmosphere. Furthermore, the blue water footprint (the consumption of surface and groundwater resources) of food waste is about 250 cubic kilometers, equivalent to three times the volume of Lake Geneva."
+        },
+        {
+          "label": "D",
+          "text": "Retailers have often been blamed for contributing to the problem through marketing strategies. Promotions such as 'buy one get one free' encourage consumers to purchase more than they can realistically consume. Moreover, confusing date labels, such as 'sell by,' 'use by,' and 'best before,' lead many households to throw away food that is still safe to eat. Surveys indicate that a significant percentage of consumers do not understand that 'best before' is an indicator of quality rather than safety, leading to the premature disposal of dry goods and dairy products."
+        },
+        {
+          "label": "E",
+          "text": "Technological innovation is beginning to offer some relief. Engineers are developing smart packaging equipped with chemical sensors that can detect the actual freshness of meat or fish by monitoring the gases released by the food. This provides a more accurate assessment than a printed date on a label. Additionally, Artificial Intelligence (AI) is being utilized by supermarket chains to better predict consumer demand. By analyzing weather patterns, local events, and historical sales data, AI can help managers order the precise amount of inventory needed, thereby reducing the surplus that often ends up in bins."
+        },
+        {
+          "label": "F",
+          "text": "Legislative action has also proven effective. In 2016, France became a pioneer by passing a law that forbids supermarkets from throwing away or destroying unsold food. Instead, they are legally required to donate such items to charities or food banks. Failure to comply can result in heavy fines. Similar initiatives are being considered across Europe, as governments realize that voluntary agreements with the private sector are often insufficient to achieve the radical reductions in waste required by international sustainability goals."
+        },
+        {
+          "label": "G",
+          "text": "On a community level, grassroots movements are gaining momentum. Digital platforms and mobile applications now connect neighbors with each other and with local businesses so that surplus food can be shared rather than discarded. Apps like 'Too Good To Go' allow users to purchase 'magic bags' of unsold food from restaurants and bakeries at a fraction of the original price. These initiatives not only reduce waste but also foster a sense of community resilience and raise awareness about the value of the food we often take for granted."
+        },
+        {
+          "label": "H",
+          "text": "Ultimately, tackling food waste requires a shift in mindset from the farm to the fork. While technological and legislative interventions are crucial, individual behavior remains a primary driver of waste in developed nations. Education campaigns focusing on meal planning, proper storage, and the creative use of leftovers are essential. As the global population continues to rise, the efficiency of our food systems will determine our ability to feed everyone sustainably without further destroying the planet’s fragile ecosystems."
+        }
+      ],
+      "groups": [
+        {
+          "id": "g1",
+          "type": "matching_information",
+          "range": "Questions 1-4",
+          "instruction": "Which paragraph contains the following information? Write the correct letter, A-H, in boxes 1-4 on your answer sheet.",
+          "questions": [
+            {
+              "id": 1,
+              "type": "matching_information",
+              "prompt": "a reference to a specific law designed to curb supermarket waste",
+              "answer": "F",
+              "explanation": "Đoạn F đề cập đến bộ luật tại Pháp năm 2016 cấm các siêu thị vứt bỏ thực phẩm chưa bán hết."
+            },
+            {
+              "id": 2,
+              "type": "matching_information",
+              "prompt": "a comparison of food waste causes in different economic regions",
+              "answer": "B",
+              "explanation": "Đoạn B so sánh nguyên nhân lãng phí ở các nước đang phát triển (do hạ tầng) và các nước thu nhập cao (do thói quen tiêu dùng)."
+            },
+            {
+              "id": 3,
+              "type": "matching_information",
+              "prompt": "the specific volume of water lost due to food waste",
+              "answer": "C",
+              "explanation": "Đoạn C đề cập đến con số 250 km3 nước, tương đương ba lần thể tích hồ Geneva."
+            },
+            {
+              "id": 4,
+              "type": "matching_information",
+              "prompt": "an explanation of how digital tools facilitate food sharing",
+              "answer": "G",
+              "explanation": "Đoạn G nói về các nền tảng kỹ thuật số và ứng dụng di động giúp kết nối mọi người để chia sẻ thực phẩm dư thừa."
+            }
+          ]
+        },
+        {
+          "id": "g2",
+          "type": "true_false_notgiven",
+          "range": "Questions 5-8",
+          "instruction": "Do the following statements agree with the information given in the Reading Passage? In boxes 5-8, write TRUE, FALSE, or NOT GIVEN.",
+          "questions": [
+            {
+              "id": 5,
+              "type": "true_false_notgiven",
+              "prompt": "Food waste in sub-Saharan Africa is mostly caused by consumers buying too much.",
+              "answer": "FALSE",
+              "explanation": "Đoạn B nói rằng lãng phí ở sub-Saharan Africa là do thiếu phương tiện vận chuyển đông lạnh, không phải do người tiêu dùng mua quá nhiều."
+            },
+            {
+              "id": 6,
+              "type": "true_false_notgiven",
+              "prompt": "Methane is more effective at trapping heat than carbon dioxide.",
+              "answer": "TRUE",
+              "explanation": "Đoạn C khẳng định methane mạnh gấp 25 lần CO2 trong việc giữ nhiệt."
+            },
+            {
+              "id": 7,
+              "type": "true_false_notgiven",
+              "prompt": "The 'use by' label is generally more understood by consumers than the 'best before' label.",
+              "answer": "NOT GIVEN",
+              "explanation": "Bài đọc có nói người tiêu dùng hiểu sai nhãn 'best before', nhưng không so sánh mức độ hiểu biết giữa hai loại nhãn này."
+            },
+            {
+              "id": 8,
+              "type": "true_false_notgiven",
+              "prompt": "Technological solutions like smart packaging are currently too expensive for most retailers.",
+              "answer": "NOT GIVEN",
+              "explanation": "Bài đọc đề cập đến công nghệ bao bì thông minh nhưng không nói về chi phí của nó đối với nhà bán lẻ."
+            }
+          ]
+        },
+        {
+          "id": "g3",
+          "type": "sentence_completion",
+          "range": "Questions 9-11",
+          "instruction": "Complete the sentences below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+          "wordLimit": "NO MORE THAN TWO WORDS",
+          "questions": [
+            {
+              "id": 9,
+              "type": "sentence_completion",
+              "prompt": "Smart packaging employs ______ to detect if meat or fish is still fresh.",
+              "answer": "chemical sensors",
+              "explanation": "Đoạn E: 'smart packaging equipped with chemical sensors that can detect the actual freshness...'"
+            },
+            {
+              "id": 10,
+              "type": "sentence_completion",
+              "prompt": "AI helps supermarkets manage their ______ by predicting what customers will buy.",
+              "answer": "inventory",
+              "explanation": "Đoạn E: 'AI can help managers order the precise amount of inventory needed...'"
+            },
+            {
+              "id": 11,
+              "type": "sentence_completion",
+              "prompt": "In France, supermarkets face ______ if they do not donate unsold food to charities.",
+              "answer": "heavy fines",
+              "explanation": "Đoạn F: 'Failure to comply can result in heavy fines.'"
+            }
+          ]
+        },
+        {
+          "id": "g4",
+          "type": "multiple_choice",
+          "range": "Questions 12-13",
+          "instruction": "Choose the correct letter, A, B, C or D.",
+          "questions": [
+            {
+              "id": 12,
+              "type": "multiple_choice",
+              "prompt": "What is the main point made by the author in paragraph H?",
+              "options": [
+                "Technology is the only way to solve the food waste crisis.",
+                "Changing individual habits is a vital part of the solution.",
+                "Governments must take full responsibility for food efficiency.",
+                "The global population should be reduced to save the planet."
+              ],
+              "answer": "B",
+              "explanation": "Đoạn H nhấn mạnh rằng dù công nghệ và luật pháp quan trọng, hành vi cá nhân vẫn là động lực chính của lãng phí."
+            },
+            {
+              "id": 13,
+              "type": "multiple_choice",
+              "prompt": "Which of the following best describes the author's purpose in writing the passage?",
+              "options": [
+                "To argue that developing nations are responsible for most global food loss.",
+                "To promote a specific mobile application for food sharing.",
+                "To highlight the multi-faceted nature of food waste and potential ways to reduce it.",
+                "To criticize supermarkets for their marketing tactics."
+              ],
+              "answer": "C",
+              "explanation": "Toàn bộ bài viết đề cập đến nhiều khía cạnh (môi trường, kinh tế, công nghệ, luật pháp) của lãng phí thực phẩm và các giải pháp tương ứng."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

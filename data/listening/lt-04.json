@@ -1,0 +1,209 @@
+{
+  "id": "lt-04",
+  "title": "University Library Orientation",
+  "difficulty": "Dễ",
+  "durationMinutes": 8,
+  "topics": [
+    "Education",
+    "University Facilities",
+    "Student Life"
+  ],
+  "sections": [
+    {
+      "number": 1,
+      "title": "Library Membership Registration",
+      "context": "A student is talking to a library assistant about registering for a library card and learning about the facilities.",
+      "audioSrc": "/audio/lt-04-s1.mp3",
+      "voices": {
+        "Mr. Henderson": "en-GB-RyanNeural",
+        "Maya": "en-AU-NatashaNeural"
+      },
+      "transcript": [
+        {
+          "speaker": "Mr. Henderson",
+          "text": "Good morning! Welcome to the Central Library. How can I help you today?"
+        },
+        {
+          "speaker": "Maya",
+          "text": "Hi there. I'm a first-year student and I’d like to register for a library membership card. I was told I need one to access the digital archives."
+        },
+        {
+          "speaker": "Mr. Henderson",
+          "text": "That’s correct. You’ll need it for the physical books and the online databases. Let’s get your details down. Can I have your full name, please?"
+        },
+        {
+          "speaker": "Maya",
+          "text": "It’s Maya Goldberg. That’s G-O-L-D-B-E-R-G."
+        },
+        {
+          "speaker": "Mr. Henderson",
+          "text": "Got it. And your student identification number?"
+        },
+        {
+          "speaker": "Maya",
+          "text": "Let me see... it’s 99210... oh, wait, sorry! I'm looking at my old gym locker code. My actual student ID is 99201."
+        },
+        {
+          "speaker": "Mr. Henderson",
+          "text": "No problem, 99201. And which department are you in?"
+        },
+        {
+          "speaker": "Maya",
+          "text": "I’m studying in the Faculty of Social Sciences, specifically the Psychology department."
+        },
+        {
+          "speaker": "Mr. Henderson",
+          "text": "Excellent. Now, for undergraduates, we have two membership tiers: Bronze and Silver. Bronze is free but limited. The Silver tier allows you to borrow more items and use the inter-library loan service. Most students go for Silver."
+        },
+        {
+          "speaker": "Maya",
+          "text": "I think I'll need the extra resources, so let's go with Silver."
+        },
+        {
+          "speaker": "Mr. Henderson",
+          "text": "Perfect. I’ll process that now. You can come back to collect the physical card on Thursday. We usually have them ready by Wednesday afternoon, but Thursday is safer."
+        },
+        {
+          "speaker": "Maya",
+          "text": "Thursday sounds good. While I'm here, could you explain some of the rules? How long can I keep the books for?"
+        },
+        {
+          "speaker": "Mr. Henderson",
+          "text": "For the Silver membership, the standard loan period for most books is 14 days. You can renew them online up to three times if no one else has reserved them."
+        },
+        {
+          "speaker": "Maya",
+          "text": "And what happens if I’m late returning them? Is there a fine?"
+        },
+        {
+          "speaker": "Mr. Henderson",
+          "text": "Yes, we do have a late fee. It’s 2.50 pounds per day for each overdue item, so it can add up quite quickly."
+        },
+        {
+          "speaker": "Maya",
+          "text": "I’ll make sure to be on time! What about the study areas? I prefer working in total silence."
+        },
+        {
+          "speaker": "Mr. Henderson",
+          "text": "In that case, you should head to the Third floor. The ground and first floors are for group work and can get a bit noisy, but the entire top floor is a designated quiet zone."
+        },
+        {
+          "speaker": "Maya",
+          "text": "That’s perfect. Do you have any scanners available?"
+        },
+        {
+          "speaker": "Mr. Henderson",
+          "text": "Yes, we have high-speed scanners. Those are located in the Basement, right next to the computer lab. They are free to use, but you need to bring your own USB drive."
+        },
+        {
+          "speaker": "Maya",
+          "text": "One last thing—is there somewhere I can grab a coffee? I usually spend long hours studying."
+        },
+        {
+          "speaker": "Mr. Henderson",
+          "text": "We don’t allow drinks in the stacks, but we have a lovely cafe called The Atrium on the ground floor. It has a great selection of snacks too."
+        },
+        {
+          "speaker": "Maya",
+          "text": "The Atrium. Great, I'll check it out. Thanks for all your help!"
+        },
+        {
+          "speaker": "Mr. Henderson",
+          "text": "You're very welcome. Enjoy your studies!"
+        }
+      ],
+      "groups": [
+        {
+          "id": "g1",
+          "type": "form_completion",
+          "range": "Questions 1-5",
+          "instruction": "Complete the form below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+          "wordLimit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "intro": "Library Membership Application",
+          "questions": [
+            {
+              "id": 1,
+              "type": "form_completion",
+              "prompt": "Surname: ",
+              "answer": "Goldberg",
+              "explanation": "Maya đánh vần họ của mình là G-O-L-D-B-E-R-G."
+            },
+            {
+              "id": 2,
+              "type": "form_completion",
+              "prompt": "Student ID: ",
+              "answer": "99201",
+              "explanation": "Maya nhầm với mã tủ đồ (99210) trước khi đính chính số ID đúng là 99201."
+            },
+            {
+              "id": 3,
+              "type": "form_completion",
+              "prompt": "Subject: ",
+              "answer": "Psychology",
+              "explanation": "Maya học tại khoa Khoa học xã hội, nhưng chuyên ngành cụ thể là Tâm lý học (Psychology)."
+            },
+            {
+              "id": 4,
+              "type": "form_completion",
+              "prompt": "Membership level: ",
+              "answer": "Silver",
+              "explanation": "Maya chọn cấp độ Silver thay vì Bronze để có nhiều quyền lợi hơn."
+            },
+            {
+              "id": 5,
+              "type": "form_completion",
+              "prompt": "Card collection day: ",
+              "answer": "Thursday",
+              "explanation": "Nhân viên bảo cô ấy nên quay lại vào thứ Năm để lấy thẻ cho chắc chắn."
+            }
+          ]
+        },
+        {
+          "id": "g2",
+          "type": "note_completion",
+          "range": "Questions 6-10",
+          "instruction": "Complete the notes below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+          "wordLimit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "intro": "Library Rules and Facilities",
+          "questions": [
+            {
+              "id": 6,
+              "type": "note_completion",
+              "prompt": "Maximum loan period for books: ",
+              "answer": "14",
+              "explanation": "Thời gian mượn sách tiêu chuẩn cho thẻ Silver là 14 ngày."
+            },
+            {
+              "id": 7,
+              "type": "note_completion",
+              "prompt": "Overdue fine per day: £ ",
+              "answer": "2.50",
+              "explanation": "Phí phạt trả muộn là 2.50 bảng mỗi ngày."
+            },
+            {
+              "id": 8,
+              "type": "note_completion",
+              "prompt": "Quiet study area: ",
+              "answer": "Third",
+              "explanation": "Khu vực yên tĩnh nằm ở tầng 3 (Third floor)."
+            },
+            {
+              "id": 9,
+              "type": "note_completion",
+              "prompt": "Scanning equipment location: ",
+              "answer": "Basement",
+              "explanation": "Máy quét (scanners) nằm ở tầng hầm (Basement)."
+            },
+            {
+              "id": 10,
+              "type": "note_completion",
+              "prompt": "Name of the library cafe: ",
+              "answer": "The Atrium",
+              "explanation": "Tên của quán cà phê trong thư viện là The Atrium."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

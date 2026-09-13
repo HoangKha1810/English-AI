@@ -1,0 +1,600 @@
+{
+  "id": "rt-01",
+  "title": "Academic Reading · Đề 1",
+  "module": "Academic",
+  "difficulty": "Trung bình",
+  "durationMinutes": 60,
+  "topics": [
+    "Môi trường",
+    "Khoa học vật liệu",
+    "Kinh tế lao động"
+  ],
+  "passages": [
+    {
+      "number": 1,
+      "title": "Bringing back the bison",
+      "subtitle": "Hành trình đưa bò rừng châu Âu trở lại những cánh rừng của lục địa sau khi loài này từng biến mất ngoài tự nhiên.",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "On a cold morning in eastern Poland, a herd of dark shapes moves through birch scrub, pausing to strip bark from a young willow. The animals are European bison, or wisent, the continent's heaviest surviving land mammal. A full-grown bull can weigh close to a tonne, yet for most of the twentieth century the species existed only behind fences. Its return to the wild is now cited as one of conservation's clearest successes, and as a test case for a broader idea: that large herbivores are not merely passengers in a forest but engineers of it. Where bison walk, ecologists argue, the shape of the woodland itself begins to change."
+        },
+        {
+          "label": "B",
+          "text": "That argument would have seemed academic a century ago. European bison once ranged from France to the Caucasus, but centuries of forest clearance and hunting pushed them into a handful of royal hunting reserves. The last free-living animal in the Bialowieza Forest was killed in 1919, and the final wild individual anywhere, a cow in the Western Caucasus, was shot in 1927. What saved the species was an accident of aristocratic taste. Roughly fifty bison survived in private parks and zoos, and of these only twelve proved capable of founding a new line. Every European bison alive today descends from that dozen animals."
+        },
+        {
+          "label": "C",
+          "text": "The rescue was unusually well organised for its time. In 1932 a group of breeders published a studbook, a register recording the parentage of every captive animal, which allowed keepers scattered across different countries to plan pairings that spread the limited genetic material as widely as possible. Calves were moved between collections by rail. The first animals were returned to the Bialowieza Forest in 1952, and although early releases were small and closely supervised, the population grew steadily. Today the global total exceeds nine thousand, roughly two-thirds of them living outside enclosures, and in 2020 the species was reclassified from Vulnerable to Near Threatened."
+        },
+        {
+          "label": "D",
+          "text": "What interests ecologists is less the number of bison than what they do. A bison is a bulk feeder that copes with coarse material other grazers refuse, and in winter it strips bark, killing some saplings outright. It rolls in bare soil to dislodge parasites, scouring hollows that fill with rainwater and are colonised by insects and amphibians. Its dense, curly coat carries seeds for kilometres. Its dung feeds beetles, which in turn feed birds. None of these effects is dramatic on its own, but together they interrupt the slow closing-over of the canopy that otherwise turns mixed woodland into uniform shade."
+        },
+        {
+          "label": "E",
+          "text": "Measuring that interruption is harder than describing it. One approach compares fenced plots that bison cannot enter with neighbouring ground the animals use freely. In a study running in the Carpathians, researchers recorded the light reaching the forest floor, counted flowering plants and trapped insects across both kinds of plot over five summers. Grazed ground carried fewer tree seedlings, as expected, but supported a greater variety of herbs and a noticeably larger population of pollinating insects. Critics point out that such plots are small, that five years is short in woodland terms, and that the weather in any single summer can swamp the signal the researchers are looking for."
+        },
+        {
+          "label": "F",
+          "text": "Outside Poland the most ambitious project is in the Tarcu Mountains of southern Romania, where bison brought from breeding centres across Europe have been released in stages since 2014. The herd there is free-ranging and largely unmanaged, and a study published in 2024 attracted attention by arguing that the grazing of a few hundred animals helped the surrounding grassland and woodland lock away substantially more carbon than it otherwise would. The figure was contested almost immediately. What is less disputed is the economic effect: guided tracking trips now employ local guides, and several villages that had been losing residents report a modest rise in visitor spending."
+        },
+        {
+          "label": "G",
+          "text": "Britain's experiment is smaller and stranger. In 2022 a handful of bison were released into a commercial pine plantation near Canterbury, in the county of Kent, with the aim of breaking up dense rows of conifers planted decades earlier. Because British law at the time classified the animals in a way that made public contact with them difficult, footpaths had to be rerouted and bridges built so that walkers could cross the site without sharing a track with the herd. The rangers appointed to look after them had no previous experience of bison and were trained by colleagues in the Netherlands."
+        },
+        {
+          "label": "H",
+          "text": "None of this makes the species secure. Descent from twelve founders has left European bison with very little genetic variation, and herds show high rates of certain inherited and infectious disorders. Most populations remain small and isolated, separated by roads and farmland, so managers still move animals between them by lorry to imitate the gene flow that the landscape once provided. There is also the question of tolerance: a bull that wanders into a wheat field is not a symbol of restoration to the farmer who owns it. The bison's future, in other words, depends less on biology than on whether people are willing to make room."
+        }
+      ],
+      "groups": [
+        {
+          "id": "p1g1",
+          "type": "matching_headings",
+          "range": "Questions 1-6",
+          "instruction": "The passage has eight paragraphs A-H. Choose the correct heading for paragraphs B-G from the list of headings below.",
+          "options": [
+            "i  Rules and practicalities in an unlikely setting",
+            "ii  A large animal reshaping its surroundings",
+            "iii  A diet that changes with the seasons",
+            "iv  How close the species came to disappearing",
+            "v  A disputed claim and a local benefit",
+            "vi  Competition with domestic livestock",
+            "vii  Careful record-keeping and a slow recovery",
+            "viii  The rising cost of moving animals by road",
+            "ix  Testing the claims, and doubts about the tests"
+          ],
+          "questions": [
+            {
+              "id": 1,
+              "type": "matching_headings",
+              "prompt": "Đoạn B",
+              "answer": "iv  How close the species came to disappearing",
+              "explanation": "Đoạn B kể lại việc bò rừng bị săn đến mức cá thể hoang dã cuối cùng bị bắn năm 1927 và chỉ còn mười hai con đủ khả năng làm giống, tức là loài này đã suýt biến mất."
+            },
+            {
+              "id": 2,
+              "type": "matching_headings",
+              "prompt": "Đoạn C",
+              "answer": "vii  Careful record-keeping and a slow recovery",
+              "explanation": "Đoạn C nói về cuốn studbook năm 1932 ghi chép lai lịch từng con vật và quá trình phục hồi chậm nhưng ổn định của quần thể."
+            },
+            {
+              "id": 3,
+              "type": "matching_headings",
+              "prompt": "Đoạn D",
+              "answer": "ii  A large animal reshaping its surroundings",
+              "explanation": "Đoạn D mô tả các tác động của bò rừng lên rừng: bóc vỏ cây, lăn đất tạo vũng trũng, phát tán hạt giống, tức là làm thay đổi môi trường xung quanh."
+            },
+            {
+              "id": 4,
+              "type": "matching_headings",
+              "prompt": "Đoạn E",
+              "answer": "ix  Testing the claims, and doubts about the tests",
+              "explanation": "Đoạn E trình bày cách đo lường tác động bằng các ô thí nghiệm có rào và những phê bình nhắm vào chính phương pháp đó."
+            },
+            {
+              "id": 5,
+              "type": "matching_headings",
+              "prompt": "Đoạn F",
+              "answer": "v  A disputed claim and a local benefit",
+              "explanation": "Đoạn F nói về con số carbon gây tranh cãi ở Romania và lợi ích kinh tế mà du lịch mang lại cho các làng địa phương."
+            },
+            {
+              "id": 6,
+              "type": "matching_headings",
+              "prompt": "Đoạn G",
+              "answer": "i  Rules and practicalities in an unlikely setting",
+              "explanation": "Đoạn G kể về quy định pháp luật của Anh và những giải pháp thực tế như đổi lối mòn, xây cầu trong một rừng thông thương mại."
+            }
+          ]
+        },
+        {
+          "id": "p1g2",
+          "type": "true_false_notgiven",
+          "range": "Questions 7-10",
+          "instruction": "Do the following statements agree with the information given in the passage? Write TRUE, FALSE or NOT GIVEN.",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "questions": [
+            {
+              "id": 7,
+              "type": "true_false_notgiven",
+              "prompt": "Every European bison living today is descended from fewer than twenty animals.",
+              "answer": "TRUE",
+              "explanation": "Đoạn B ghi rõ chỉ có mười hai cá thể đủ khả năng làm giống và mọi con bò rừng châu Âu ngày nay đều là hậu duệ của mười hai con đó, tức ít hơn hai mươi."
+            },
+            {
+              "id": 8,
+              "type": "true_false_notgiven",
+              "prompt": "The studbook published in 1932 was the first register of its kind for any species.",
+              "answer": "NOT GIVEN",
+              "explanation": "Đoạn C chỉ nói cuốn studbook được xuất bản năm 1932 và công dụng của nó, không hề nói đây là cuốn đầu tiên cho bất kỳ loài nào."
+            },
+            {
+              "id": 9,
+              "type": "true_false_notgiven",
+              "prompt": "More European bison now live in enclosures than outside them.",
+              "answer": "FALSE",
+              "explanation": "Đoạn C cho biết khoảng hai phần ba tổng số bò rừng hiện sống bên ngoài khu vây, nên số sống trong khu vây ít hơn chứ không nhiều hơn."
+            },
+            {
+              "id": 10,
+              "type": "true_false_notgiven",
+              "prompt": "The rangers hired for the project in Kent had worked with bison before.",
+              "answer": "FALSE",
+              "explanation": "Đoạn G nói các kiểm lâm được bổ nhiệm chưa từng có kinh nghiệm với bò rừng và phải được đồng nghiệp Hà Lan đào tạo."
+            }
+          ]
+        },
+        {
+          "id": "p1g3",
+          "type": "sentence_completion",
+          "range": "Questions 11-13",
+          "instruction": "Complete the sentences below. Choose NO MORE THAN TWO WORDS FROM THE PASSAGE for each answer.",
+          "wordLimit": "NO MORE THAN TWO WORDS FROM THE PASSAGE",
+          "questions": [
+            {
+              "id": 11,
+              "type": "sentence_completion",
+              "prompt": "In winter, bison strip ______ from trees, which kills some young trees outright.",
+              "answer": [
+                "bark"
+              ],
+              "explanation": "Đoạn D viết rằng vào mùa đông bò rừng bóc vỏ cây (strips bark), làm chết hẳn một số cây non."
+            },
+            {
+              "id": 12,
+              "type": "sentence_completion",
+              "prompt": "Bison roll in bare soil in order to remove ______, and the hollows they make fill with rainwater.",
+              "answer": [
+                "parasites"
+              ],
+              "explanation": "Đoạn D nói bò rừng lăn trong đất trần để loại bỏ ký sinh trùng (parasites), tạo ra những hố trũng đọng nước mưa."
+            },
+            {
+              "id": 13,
+              "type": "sentence_completion",
+              "prompt": "To imitate natural gene flow, managers move bison between herds by ______.",
+              "answer": [
+                "lorry"
+              ],
+              "explanation": "Đoạn H cho biết người quản lý vận chuyển bò rừng giữa các đàn bằng xe tải (by lorry) để bắt chước dòng chảy gen tự nhiên."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "The concrete that heals itself",
+      "subtitle": "Vì sao bê tông La Mã bền hơn bê tông hiện đại, và nghiên cứu mới về khả năng tự vá vết nứt.",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "The dome of the Pantheon in Rome has stood for roughly nineteen centuries. It contains no steel, no fibres and no joints, and it remains the largest unreinforced concrete dome ever built. Harbour walls poured by Roman engineers into the Bay of Naples are still there too, battered twice daily by waves that would have reduced most modern piers to rubble long ago. This durability is not a curiosity for historians alone. Concrete is the most used manufactured material on earth, and making the cement inside it accounts for a substantial share of global carbon dioxide emissions. A recipe that lasts three times longer would cut those emissions simply by postponing the day a structure has to be rebuilt."
+        },
+        {
+          "label": "B",
+          "text": "Modern concrete is not a weak material; it is an ambitious one. Since the nineteenth century, builders have relied on Portland cement, made by heating limestone and clay in a kiln to around 1,450 degrees Celsius, and on steel bars embedded in the mix to carry the tension that concrete itself cannot. The combination allows thin floors and long spans, but it also builds in a weakness. Concrete cracks; water and dissolved salts travel along the cracks; the steel inside rusts, expands and splits the concrete further. Many structures put up after the Second World War were designed with a service life of fifty to a hundred years, and a good number are reaching the end of it early."
+        },
+        {
+          "label": "C",
+          "text": "Roman builders had no steel and no kiln hot enough for Portland cement. Their mixture, opus caementicium, combined lime with volcanic ash and lumps of rubble ranging from gravel to broken brick. The best ash came from deposits near Pozzuoli, on the Bay of Naples, and Roman writers recorded that it produced a mortar which hardened even under water. That property mattered: it let engineers build piers and breakwaters directly in the sea, pouring the mix into wooden forms sunk offshore. The same material was used inland for vaults, aqueduct channels and the enormous market halls that still stand above the Roman forum. Roman engineers also varied the aggregate with height: the lower walls of the Pantheon use heavy basalt, while the upper dome is lightened with porous volcanic pumice, reducing the load the structure has to carry."
+        },
+        {
+          "label": "D",
+          "text": "For most of the twentieth century the explanation seemed settled. Volcanic ash is rich in reactive silica and alumina, which combine with lime and water to form binding compounds tougher and less soluble than those produced by lime alone. In the 1990s and 2000s researchers examining cores drilled from Roman sea walls added a second mechanism: seawater percolating through the concrete had slowly dissolved parts of the ash and grown new crystalline minerals inside the voids, among them a rare form of a mineral called tobermorite. Crucially, the new minerals grew in cracks and pores, filling gaps rather than opening them. Far from decaying, the marine concrete appeared to have been strengthening itself for two thousand years. Laboratory attempts to reproduce the process quickly proved difficult, since the reactions involved appear to take centuries rather than months."
+        },
+        {
+          "label": "E",
+          "text": "Neither explanation, however, accounted for something visible to the naked eye in almost every Roman sample: small white lumps of lime, a millimetre or two across, scattered through the mortar. Scholars had noticed them for decades and had generally treated them as evidence of careless work, the sign of a mix that had not been stirred long enough or of poor-quality raw material. A team based at the Massachusetts Institute of Technology, working with colleagues in Italy and Switzerland, took the opposite view. If the lumps appeared in samples from sites hundreds of kilometres and several centuries apart, they argued, they were unlikely to be a mistake."
+        },
+        {
+          "label": "F",
+          "text": "Analysing mortar from the town walls of Privernum, south of Rome, the team concluded that the lumps, which they called lime clasts, formed because the Romans mixed quicklime directly into the ash and water rather than slaking it into a paste first. This hot mixing produced brief, intense heat and left pockets of reactive calcium behind. To test what those pockets did, the researchers cast two slabs of concrete, one following the hot-mixed recipe and one made conventionally, deliberately cracked both, and ran water through the cracks. In the hot-mixed slab, calcium dissolving from the clasts was carried into the crack and recrystallised there, sealing it within two weeks. Water continued to flow freely through the control slab for the length of the experiment."
+        },
+        {
+          "label": "G",
+          "text": "The finding is suggestive rather than transformative. Roman concrete gains strength slowly, is comparatively weak in tension and would be useless for the slender, heavily loaded structures modern engineers are asked to design. Suitable volcanic ash is not available everywhere, and quicklime is itself made by burning limestone, so the carbon saving is not automatic. Cost is another obstacle: a mix that is cheap in materials can still be expensive if contractors must be retrained and national standards rewritten before it may be used. What the work does offer is a principle: that a building material can be designed to repair small damage before it becomes large, and that the repair mechanism can be a cheap mineral rather than an expensive additive. Several laboratories are now testing hot-mixed formulations in coastal defences and tunnel linings, where cracks are hard to reach and replacement is expensive."
+        }
+      ],
+      "groups": [
+        {
+          "id": "p2g1",
+          "type": "matching_information",
+          "range": "Questions 14-19",
+          "instruction": "Which paragraph contains the following information? Write the correct letter A-G.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "questions": [
+            {
+              "id": 14,
+              "type": "matching_information",
+              "prompt": "a description of an experiment in which two samples were compared",
+              "answer": "F",
+              "explanation": "Đoạn F mô tả việc đúc hai tấm bê tông, một theo công thức trộn nóng và một theo cách thông thường, rồi làm nứt và cho nước chảy qua."
+            },
+            {
+              "id": 15,
+              "type": "matching_information",
+              "prompt": "a reference to the temperature needed to manufacture a modern building material",
+              "answer": "B",
+              "explanation": "Đoạn B nêu xi măng Portland được sản xuất bằng cách nung đá vôi và đất sét ở khoảng 1.450 độ C."
+            },
+            {
+              "id": 16,
+              "type": "matching_information",
+              "prompt": "an explanation of why researchers doubted that a feature was an error",
+              "answer": "E",
+              "explanation": "Đoạn E cho biết nhóm nghiên cứu lập luận rằng các cục vôi trắng xuất hiện ở những di chỉ cách nhau hàng trăm kilômét và nhiều thế kỷ thì khó có thể là sai sót."
+            },
+            {
+              "id": 17,
+              "type": "matching_information",
+              "prompt": "mention of an obstacle involving training and regulations",
+              "answer": "G",
+              "explanation": "Đoạn G nói chi phí vẫn có thể cao nếu nhà thầu phải được đào tạo lại và các tiêu chuẩn quốc gia phải được viết lại."
+            },
+            {
+              "id": 18,
+              "type": "matching_information",
+              "prompt": "a claim that a material grew stronger over a very long period",
+              "answer": "D",
+              "explanation": "Đoạn D kết luận bê tông biển của La Mã dường như đã tự mạnh lên trong suốt hai nghìn năm thay vì mục nát."
+            },
+            {
+              "id": 19,
+              "type": "matching_information",
+              "prompt": "the location of the volcanic material that Roman builders preferred",
+              "answer": "C",
+              "explanation": "Đoạn C nói loại tro núi lửa tốt nhất đến từ các mỏ gần Pozzuoli, bên vịnh Naples."
+            }
+          ]
+        },
+        {
+          "id": "p2g2",
+          "type": "summary_completion",
+          "range": "Questions 20-24",
+          "instruction": "Complete the summary below. Choose NO MORE THAN TWO WORDS FROM THE PASSAGE for each answer.",
+          "wordLimit": "NO MORE THAN TWO WORDS FROM THE PASSAGE",
+          "intro": "Small white lumps in Roman mortar were once thought to show that the mix had been prepared carelessly, but a team at the Massachusetts Institute of Technology disagreed. Studying mortar taken from the town walls of 20______, they decided that the lumps, which they named 21______, appeared because quicklime had been added directly to the other ingredients instead of being turned into a 22______ beforehand. This method, known as 23______, generated sudden heat and left reactive calcium in the mortar. When the team cracked two slabs and passed water through them, calcium moving out of the lumps 24______ inside the crack of the hot-mixed slab and closed it in a fortnight.",
+          "questions": [
+            {
+              "id": 20,
+              "type": "summary_completion",
+              "prompt": "Câu 20",
+              "answer": [
+                "Privernum"
+              ],
+              "explanation": "Đoạn F nói nhóm nghiên cứu phân tích vữa lấy từ tường thành Privernum ở phía nam Rome."
+            },
+            {
+              "id": 21,
+              "type": "summary_completion",
+              "prompt": "Câu 21",
+              "answer": [
+                "lime clasts",
+                "lime clast"
+              ],
+              "explanation": "Đoạn F cho biết nhóm nghiên cứu gọi các cục vôi trắng đó là lime clasts."
+            },
+            {
+              "id": 22,
+              "type": "summary_completion",
+              "prompt": "Câu 22",
+              "answer": [
+                "paste",
+                "a paste"
+              ],
+              "explanation": "Đoạn F viết người La Mã trộn thẳng vôi sống vào hỗn hợp thay vì tôi nó thành dạng nhão (a paste) trước."
+            },
+            {
+              "id": 23,
+              "type": "summary_completion",
+              "prompt": "Câu 23",
+              "answer": [
+                "hot mixing",
+                "hot-mixing"
+              ],
+              "explanation": "Đoạn F gọi cách làm này là hot mixing, tạo ra nhiệt mạnh trong thời gian ngắn."
+            },
+            {
+              "id": 24,
+              "type": "summary_completion",
+              "prompt": "Câu 24",
+              "answer": [
+                "recrystallised",
+                "recrystallized"
+              ],
+              "explanation": "Đoạn F kể rằng canxi tan ra từ các cục vôi được nước mang vào vết nứt và kết tinh lại (recrystallised) tại đó."
+            }
+          ]
+        },
+        {
+          "id": "p2g3",
+          "type": "multiple_choice",
+          "range": "Questions 25-26",
+          "instruction": "Choose the correct answer for each question.",
+          "questions": [
+            {
+              "id": 25,
+              "type": "multiple_choice",
+              "prompt": "According to the writer, why would a longer-lasting concrete reduce carbon emissions?",
+              "options": [
+                "Because structures would not have to be replaced as often.",
+                "Because less steel would be needed in every building.",
+                "Because cement kilns could be operated at lower temperatures.",
+                "Because volcanic ash absorbs carbon dioxide as it hardens."
+              ],
+              "answer": "Because structures would not have to be replaced as often.",
+              "explanation": "Đoạn A nói một công thức bền gấp ba lần sẽ cắt giảm khí thải đơn giản bằng cách trì hoãn ngày phải xây lại công trình."
+            },
+            {
+              "id": 26,
+              "type": "multiple_choice",
+              "prompt": "What does the writer suggest is the main value of the research described in the passage?",
+              "options": [
+                "It shows that Roman concrete should replace Portland cement in most buildings.",
+                "It demonstrates a principle that damage can be repaired before it becomes serious.",
+                "It proves that volcanic ash can now be manufactured artificially.",
+                "It explains why the dome of the Pantheon has never needed repair."
+              ],
+              "answer": "It demonstrates a principle that damage can be repaired before it becomes serious.",
+              "explanation": "Đoạn G nói điều mà nghiên cứu mang lại là một nguyên tắc: vật liệu xây dựng có thể được thiết kế để tự sửa hư hỏng nhỏ trước khi nó trở nên lớn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Four days, same pay",
+      "subtitle": "Các cuộc thử nghiệm tuần làm việc bốn ngày: bằng chứng về năng suất và những lời chỉ trích.",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "The proposition sounds too generous to survive contact with an accountant: staff work one day a week less, keep the whole of their salary, and the organisation produces as much as it did before. Advocates call it the hundred-eighty-hundred model, a hundred per cent of pay for eighty per cent of the time in exchange for a hundred per cent of the output. Over the past decade the idea has moved from the fringes of management writing into government pilot schemes in Iceland, Spain, Portugal, Japan and the United Kingdom. Whether the evidence those pilots produced is strong enough to justify the enthusiasm is a separate question, and a contested one."
+        },
+        {
+          "label": "B",
+          "text": "It helps to remember that the working week we have is not a natural unit. Through the nineteenth century a six-day week was normal in industrial Europe, and the modern pattern spread only after employers such as the Ford Motor Company concluded, in the 1920s, that rested workers made fewer mistakes and bought more of what they built. In 1930 the economist John Maynard Keynes predicted that rising productivity would bring his grandchildren a fifteen-hour week. Output per hour did rise, dramatically, but after about 1980 the reduction in hours in most wealthy countries slowed almost to a stop, and the extra productivity was taken in pay, profit and consumption instead."
+        },
+        {
+          "label": "C",
+          "text": "The trials most often cited as a turning point ran in Iceland between 2015 and 2019, involving council offices, hospitals, preschools and social services in Reykjavik and elsewhere. Participants moved from forty hours a week to thirty-five or thirty-six without a cut in wages. Researchers tracking the sites reported that measures of stress and burnout fell, that staff described home life as easier to manage, and that service levels were broadly maintained. The trials themselves were modest in scale, covering a little over two thousand workers, but their real significance was what followed: Icelandic unions used the findings in national bargaining, and shorter hours were subsequently negotiated for a large majority of the country's workforce."
+        },
+        {
+          "label": "D",
+          "text": "The largest coordinated experiment so far took place in Britain in 2022, when sixty-one organisations, among them software firms, a fish-and-chip shop, charities and a local council, gave around 2,900 employees a paid day off each week for six months while academics collected data. At the end, company revenue was on average slightly higher than in the same period a year earlier. Resignations fell sharply, and the number of days lost to sickness dropped by roughly two-thirds. Fifty-six of the sixty-one organisations said they would carry on, and a smaller group announced the change permanently. Participants reported better sleep and less anxiety, and most said no amount of money would persuade them back to five days."
+        },
+        {
+          "label": "E",
+          "text": "Why should a week with less time in it produce as much? The most common explanation is that a great deal of office time is not productive to begin with. Faced with a hard deadline, participating firms attacked the obvious targets: they shortened or abolished recurring meetings, restricted the hours in which colleagues could interrupt one another, and set aside protected blocks for concentrated work. Several introduced a simple rule that any meeting must have a written purpose circulated in advance. Managers who expected to lose a fifth of their capacity often found instead that they had removed a fifth of their waste, at least in the first months."
+        },
+        {
+          "label": "F",
+          "text": "Sceptics are unimpressed, and their objections are methodological rather than ideological. The companies in these pilots volunteered; a firm that expects the experiment to fail does not apply. There is rarely a control group working normally alongside them, so improvements cannot be separated from the enthusiasm that any new arrangement generates. Much of the evidence on wellbeing comes from questionnaires filled in by the people who wanted the policy in the first place. Six months is also short: a novelty effect can carry a workplace a long way, and the interesting question is what a trial looks like in its third year, when the easy savings have already been made."
+        },
+        {
+          "label": "G",
+          "text": "Sector matters more than any of this. Where output depends on hours of human presence, such as a hospital ward, a classroom, a shop floor or a machine that must be watched, a day removed from the week cannot be recovered by running better meetings. An employer in those settings has two choices: hire additional staff to cover the missing day, which raises costs directly, or ask the remaining workers to do the same volume of work in less time. The Icelandic sites managed the shift partly because they were allowed to reorganise shifts and drop tasks judged unnecessary, and partly because the reduction there was four or five hours rather than a full day."
+        },
+        {
+          "label": "H",
+          "text": "That second option worries trade unionists as much as it worries economists. If a four-day week simply compresses five days of work into four, it delivers a longer weekend at the price of a more punishing one, and evidence from some pilots does show that people work faster and take fewer breaks. A number of firms that adopted the model have since abandoned it, usually citing the difficulty of covering customers rather than any fall in output. Yet the underlying argument is older than the pilots and is unlikely to go away. It concerns who receives the benefit when the same work can be done in less time: the people doing it, or the people paying for it."
+        }
+      ],
+      "groups": [
+        {
+          "id": "p3g1",
+          "type": "yes_no_notgiven",
+          "range": "Questions 27-32",
+          "instruction": "Do the following statements agree with the claims of the writer? Write YES, NO or NOT GIVEN.",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ],
+          "questions": [
+            {
+              "id": 27,
+              "type": "yes_no_notgiven",
+              "prompt": "The pattern of working days used today has existed for as long as industrial work itself.",
+              "answer": "NO",
+              "explanation": "Đoạn B khẳng định tuần làm việc hiện nay không phải là một đơn vị tự nhiên: suốt thế kỷ 19 tuần sáu ngày mới là bình thường ở châu Âu công nghiệp."
+            },
+            {
+              "id": 28,
+              "type": "yes_no_notgiven",
+              "prompt": "Keynes's prediction about future working hours has turned out to be correct.",
+              "answer": "NO",
+              "explanation": "Đoạn B cho thấy năng suất tăng mạnh nhưng sau khoảng năm 1980 giờ làm gần như ngừng giảm, nên dự đoán tuần mười lăm giờ của Keynes đã không thành hiện thực."
+            },
+            {
+              "id": 29,
+              "type": "yes_no_notgiven",
+              "prompt": "The Icelandic trials mattered mainly because of the agreements that came after them.",
+              "answer": "YES",
+              "explanation": "Đoạn C viết ý nghĩa thực sự của các thử nghiệm là những gì diễn ra sau đó: công đoàn dùng kết quả để đàm phán giờ làm ngắn hơn cho phần lớn người lao động."
+            },
+            {
+              "id": 30,
+              "type": "yes_no_notgiven",
+              "prompt": "Employees in the British pilot received extra payments for the productivity they achieved.",
+              "answer": "NOT GIVEN",
+              "explanation": "Đoạn D chỉ nói nhân viên được nghỉ một ngày có lương và liệt kê các kết quả, hoàn toàn không đề cập đến khoản thưởng năng suất nào."
+            },
+            {
+              "id": 31,
+              "type": "yes_no_notgiven",
+              "prompt": "Objections to the pilots concern the way the research was carried out rather than political belief.",
+              "answer": "YES",
+              "explanation": "Đoạn F nói rõ phản đối của những người hoài nghi mang tính phương pháp luận chứ không phải ý thức hệ."
+            },
+            {
+              "id": 32,
+              "type": "yes_no_notgiven",
+              "prompt": "Companies that have given up the four-day week did so mainly because their output fell.",
+              "answer": "NO",
+              "explanation": "Đoạn H nói các công ty từ bỏ mô hình thường viện lý do khó phục vụ khách hàng chứ không phải vì sản lượng sụt giảm."
+            }
+          ]
+        },
+        {
+          "id": "p3g2",
+          "type": "matching_features",
+          "range": "Questions 33-36",
+          "instruction": "Match each statement with the correct organisation or group from the list below.",
+          "options": [
+            "The Ford Motor Company",
+            "The Icelandic public-sector trials",
+            "The British pilot of 2022",
+            "Firms that have abandoned the model"
+          ],
+          "questions": [
+            {
+              "id": 33,
+              "type": "matching_features",
+              "prompt": "It shortened the week by a few hours rather than by a whole day.",
+              "answer": "The Icelandic public-sector trials",
+              "explanation": "Đoạn G giải thích các cơ sở ở Iceland xoay xở được một phần vì mức giảm chỉ là bốn hoặc năm giờ chứ không phải cả một ngày."
+            },
+            {
+              "id": 34,
+              "type": "matching_features",
+              "prompt": "It recorded a steep fall in the number of employees leaving.",
+              "answer": "The British pilot of 2022",
+              "explanation": "Đoạn D cho biết trong thí điểm ở Anh năm 2022, số người xin nghỉ việc giảm mạnh."
+            },
+            {
+              "id": 35,
+              "type": "matching_features",
+              "prompt": "It decided that well-rested staff would also become customers.",
+              "answer": "The Ford Motor Company",
+              "explanation": "Đoạn B kể rằng Ford kết luận trong thập niên 1920 rằng công nhân được nghỉ ngơi ít mắc lỗi hơn và mua nhiều hơn chính sản phẩm họ làm ra."
+            },
+            {
+              "id": 36,
+              "type": "matching_features",
+              "prompt": "It gave difficulty in serving customers as the reason for its decision.",
+              "answer": "Firms that have abandoned the model",
+              "explanation": "Đoạn H nói các công ty đã bỏ mô hình này thường viện lý do khó bao phủ khách hàng."
+            }
+          ]
+        },
+        {
+          "id": "p3g3",
+          "type": "multiple_choice",
+          "range": "Questions 37-38",
+          "instruction": "Choose the correct answer for each question.",
+          "questions": [
+            {
+              "id": 37,
+              "type": "multiple_choice",
+              "prompt": "What does the writer say about the changes the participating firms made?",
+              "options": [
+                "They mostly involved hiring temporary staff to cover the missing day.",
+                "They targeted meetings and interruptions rather than the work itself.",
+                "They were imposed on employees without any consultation.",
+                "They produced no measurable benefit during the first few months."
+              ],
+              "answer": "They targeted meetings and interruptions rather than the work itself.",
+              "explanation": "Đoạn E liệt kê các thay đổi: rút ngắn hoặc bỏ hẳn các cuộc họp định kỳ, hạn chế giờ đồng nghiệp làm phiền nhau và dành riêng những khoảng thời gian tập trung."
+            },
+            {
+              "id": 38,
+              "type": "multiple_choice",
+              "prompt": "Why does the writer refer to the third year of a trial?",
+              "options": [
+                "To argue that most trials are abandoned before they are finished.",
+                "To suggest that early results may simply reflect the appeal of novelty.",
+                "To show that gains in productivity increase steadily over time.",
+                "To recommend a minimum length for government pilot schemes."
+              ],
+              "answer": "To suggest that early results may simply reflect the appeal of novelty.",
+              "explanation": "Đoạn F nói sáu tháng là quá ngắn vì hiệu ứng mới lạ có thể kéo một nơi làm việc đi rất xa, nên câu hỏi đáng quan tâm là năm thứ ba sẽ ra sao."
+            }
+          ]
+        },
+        {
+          "id": "p3g4",
+          "type": "multiple_select",
+          "range": "Questions 39-40",
+          "instruction": "Choose TWO answers for each question.",
+          "questions": [
+            {
+              "id": 39,
+              "type": "multiple_select",
+              "selectCount": 2,
+              "prompt": "Which TWO results of the British pilot of 2022 are mentioned in the passage?",
+              "options": [
+                "a small rise in average company revenue",
+                "a fall of about two-thirds in days lost to sickness",
+                "a reduction in the number of customers served",
+                "an increase in the number of managers employed",
+                "a decision by every participating organisation to continue",
+                "a rise in average salaries"
+              ],
+              "answer": [
+                "a small rise in average company revenue",
+                "a fall of about two-thirds in days lost to sickness"
+              ],
+              "explanation": "Đoạn D nêu doanh thu trung bình cao hơn một chút so với cùng kỳ năm trước và số ngày nghỉ ốm giảm khoảng hai phần ba."
+            },
+            {
+              "id": 40,
+              "type": "multiple_select",
+              "selectCount": 2,
+              "prompt": "Which TWO criticisms of the pilots does the writer mention?",
+              "options": [
+                "The organisations taking part chose to do so themselves.",
+                "Data on wellbeing often comes from people who supported the policy.",
+                "The pilots were paid for by companies that sell software.",
+                "Governments refused to publish the complete results.",
+                "Employees were not told that they were being studied.",
+                "The trials were run only in manufacturing industries."
+              ],
+              "answer": [
+                "The organisations taking part chose to do so themselves.",
+                "Data on wellbeing often comes from people who supported the policy."
+              ],
+              "explanation": "Đoạn F chỉ ra rằng các công ty tham gia đều tự nguyện đăng ký, và phần lớn dữ liệu về sức khỏe tinh thần đến từ bảng hỏi do chính những người ủng hộ chính sách điền."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

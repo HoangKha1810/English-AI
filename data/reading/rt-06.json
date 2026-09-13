@@ -1,0 +1,186 @@
+{
+  "id": "rt-06",
+  "title": "Historical Development of Public Libraries",
+  "module": "Academic",
+  "difficulty": "Trung bình",
+  "durationMinutes": 20,
+  "topics": [
+    "History",
+    "Education",
+    "Sociology"
+  ],
+  "passages": [
+    {
+      "number": 1,
+      "title": "The Evolution of the Public Library: From Private Collections to Community Hubs",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "The history of organized knowledge began long before the invention of the modern book. In ancient Mesopotamia, the earliest libraries consisted of vast archives of clay tablets, used primarily for administrative and religious records. The most famous of these, the Library of Ashurbanipal, established in the 7th century BCE, contained thousands of tablets covering topics from medicine to mythology. These early repositories were not 'public' in the modern sense; they were royal or temple-based collections intended for the use of kings, priests, and elite scribes. The primary goal was preservation and the centralization of power through information."
+        },
+        {
+          "label": "B",
+          "text": "The transition toward a more accessible model of learning began in Classical Antiquity. The Greeks were among the first to establish libraries that, while still largely private or semi-private, served a broader intellectual community. The Great Library of Alexandria in Egypt represented the pinnacle of this era, aiming to house the entire world's knowledge under one roof. However, it was the Romans who pioneered the first truly public libraries. Emperors like Augustus and Trajan commissioned grand buildings where Roman citizens could congregate to read and study. These institutions were symbols of civic pride and imperial generosity, though literacy remained limited to a relatively small segment of the population."
+        },
+        {
+          "label": "C",
+          "text": "Following the collapse of the Roman Empire, the preservation of knowledge in the West shifted to monasteries. During the Middle Ages, monks meticulously hand-copied manuscripts onto parchment, a material made from animal skins that was both durable and expensive. Because of the immense value and scarcity of these texts, libraries employed a unique security measure: chained libraries. Books were physically tethered to desks or shelves with heavy metal chains to prevent theft while still allowing them to be read. These 'chained books' were common in cathedral and university libraries well into the 18th century, reflecting a period where knowledge was guarded as a physical treasure."
+        },
+        {
+          "label": "D",
+          "text": "The 15th-century invention of the printing press by Johannes Gutenberg acted as a catalyst for a radical transformation. The ability to mass-produce texts using movable type drastically lowered the cost of books and fueled the Renaissance and the Reformation. As literacy rates climbed, the demand for access to books grew beyond the walls of religious and academic institutions. This era saw the rise of university libraries and the first 'town libraries' in Europe, supported by wealthy merchants and local governments, although access often required a specific social standing or recommendation."
+        },
+        {
+          "label": "E",
+          "text": "By the 18th and 19th centuries, the concept of the 'subscription library' gained popularity, particularly in Britain and the United States. Individuals like Benjamin Franklin helped establish social libraries where members paid a fee to purchase books and share them among the group. However, the turning point for the modern public library came with the Public Libraries Act of 1850 in the United Kingdom. This landmark legislation allowed local boroughs to use tax revenue to establish and maintain free libraries. It marked a shift in philosophy: the idea that access to information was a right for all citizens, not just a privilege for those who could afford it."
+        },
+        {
+          "label": "F",
+          "text": "The late 19th and early 20th centuries are often called the 'Golden Age' of library development, largely due to the philanthropy of Andrew Carnegie. The Scottish-American industrialist donated over $60 million—a staggering sum at the time—to build more than 2,500 libraries worldwide. Carnegie’s vision was to provide the 'industrious' poor with the tools to improve themselves. His libraries were designed with 'open stacks,' allowing patrons to browse shelves directly rather than requesting books from a clerk. This innovation fostered a sense of independence and discovery among readers of all backgrounds."
+        },
+        {
+          "label": "G",
+          "text": "In the 20th century, libraries became increasingly professionalized. The introduction of the Dewey Decimal System by Melvil Dewey provided a standardized method for classifying and organizing the growing volume of literature. Libraries also expanded their missions to include services for children, community events, and the lending of non-print media like music and films. The focus moved from being static archives to dynamic community centers. The role of the librarian evolved from being a mere guardian of books to an information specialist who helps the public navigate increasingly complex resources."
+        },
+        {
+          "label": "H",
+          "text": "Today, the digital revolution presents both challenges and opportunities for public libraries. The rise of e-books and the internet has led some to question the relevance of physical library buildings. However, modern libraries have adapted by offering high-speed internet access, digital literacy workshops, and makerspaces with 3D printers. They serve as essential 'third places'—social environments separate from home and work where people can gather, learn, and bridge the digital divide. As the 21st century progresses, the library continues to reinvent itself, proving that while the medium of information changes, the human need for shared knowledge remains constant."
+        }
+      ],
+      "groups": [
+        {
+          "id": "g1",
+          "type": "matching_information",
+          "range": "Questions 1-4",
+          "instruction": "Which paragraph contains the following information?",
+          "questions": [
+            {
+              "id": 1,
+              "type": "matching_information",
+              "prompt": "a description of the material used for writing before paper was common",
+              "answer": "C",
+              "explanation": "Đoạn C nhắc đến 'parchment' (da thú), vật liệu bền và đắt tiền được dùng trước khi giấy phổ biến."
+            },
+            {
+              "id": 2,
+              "type": "matching_information",
+              "prompt": "the first instances of truly public reading spaces established by an empire",
+              "answer": "B",
+              "explanation": "Đoạn B đề cập đến người La Mã (Romans) là những người tiên phong xây dựng thư viện công cộng thực sự dưới thời các hoàng đế."
+            },
+            {
+              "id": 3,
+              "type": "matching_information",
+              "prompt": "mention of a legislative act that enabled public funding for libraries",
+              "answer": "E",
+              "explanation": "Đoạn E nhắc đến 'Public Libraries Act of 1850', đạo luật cho phép dùng thuế để duy trì thư viện."
+            },
+            {
+              "id": 4,
+              "type": "matching_information",
+              "prompt": "how a specific individual's wealth accelerated the global library movement",
+              "answer": "F",
+              "explanation": "Đoạn F nói về Andrew Carnegie và khoản quyên góp khổng lồ của ông để xây dựng hơn 2,500 thư viện."
+            }
+          ]
+        },
+        {
+          "id": "g2",
+          "type": "matching_headings",
+          "range": "Questions 5-8",
+          "instruction": "Choose the correct heading for paragraphs B, D, G, and H from the list below.",
+          "options": [
+            "i. The impact of technological mass production",
+            "ii. Organizing and professionalizing the system",
+            "iii. The shift toward digital and social hubs",
+            "iv. Legacy of ancient civilizations",
+            "v. The role of religion in safeguarding texts",
+            "vi. Private clubs for the wealthy"
+          ],
+          "questions": [
+            {
+              "id": 5,
+              "type": "matching_headings",
+              "prompt": "Paragraph B",
+              "answer": "iv",
+              "explanation": "Đoạn B nói về di sản của các nền văn minh cổ đại như Hy Lạp và La Mã trong việc hình thành thư viện."
+            },
+            {
+              "id": 6,
+              "type": "matching_headings",
+              "prompt": "Paragraph D",
+              "answer": "i",
+              "explanation": "Đoạn D tập trung vào tác động của máy in (printing press) - một công nghệ sản xuất hàng loạt thời bấy giờ."
+            },
+            {
+              "id": 7,
+              "type": "matching_headings",
+              "prompt": "Paragraph G",
+              "answer": "ii",
+              "explanation": "Đoạn G nói về việc tiêu chuẩn hóa (hệ thống Dewey) và sự chuyên nghiệp hóa của nghề thủ thư."
+            },
+            {
+              "id": 8,
+              "type": "matching_headings",
+              "prompt": "Paragraph H",
+              "answer": "iii",
+              "explanation": "Đoạn H thảo luận về sự chuyển đổi sang kỹ thuật số và thư viện như một trung tâm cộng đồng (social hub)."
+            }
+          ]
+        },
+        {
+          "id": "g3",
+          "type": "sentence_completion",
+          "range": "Questions 9-11",
+          "instruction": "Complete the sentences below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+          "wordLimit": "NO MORE THAN TWO WORDS",
+          "questions": [
+            {
+              "id": 9,
+              "type": "sentence_completion",
+              "prompt": "In early Mesopotamian archives, the durability of _______ ensured that records like the Library of Ashurbanipal survived.",
+              "answer": "clay tablets",
+              "explanation": "Đoạn A đề cập rằng 'clay tablets' được sử dụng cho các bản ghi chép hành chính và tôn giáo cổ xưa."
+            },
+            {
+              "id": 10,
+              "type": "sentence_completion",
+              "prompt": "During the Middle Ages, libraries used _______ to secure valuable books to their furniture.",
+              "answer": "heavy metal chains",
+              "explanation": "Đoạn C mô tả việc dùng 'heavy metal chains' để xích sách vào bàn hoặc kệ nhằm chống trộm."
+            },
+            {
+              "id": 11,
+              "type": "sentence_completion",
+              "prompt": "Carnegie introduced the concept of _______, which allowed readers to look through books independently.",
+              "answer": "open stacks",
+              "explanation": "Đoạn F cho biết Carnegie đã đổi mới bằng cách thiết kế 'open stacks' (ngăn xếp mở) cho phép bạn đọc tự tìm sách."
+            }
+          ]
+        },
+        {
+          "id": "g4",
+          "type": "true_false_notgiven",
+          "range": "Questions 12-13",
+          "instruction": "Do the following statements agree with the information given in the reading passage?",
+          "questions": [
+            {
+              "id": 12,
+              "type": "true_false_notgiven",
+              "prompt": "The Public Libraries Act of 1850 required all British towns to build libraries immediately.",
+              "answer": "FALSE",
+              "explanation": "Đoạn E nói đạo luật này 'allowed' (cho phép) chứ không phải 'required' (bắt buộc) các khu tự trị xây thư viện."
+            },
+            {
+              "id": 13,
+              "type": "true_false_notgiven",
+              "prompt": "The Dewey Decimal System is no longer used in modern digital libraries.",
+              "answer": "NOT GIVEN",
+              "explanation": "Bài đọc có nhắc đến hệ thống Dewey ở đoạn G nhưng không đề cập liệu nó có còn được dùng trong các thư viện số hiện đại hay không."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

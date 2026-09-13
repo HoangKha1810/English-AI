@@ -1,0 +1,50 @@
+rules_version = '2';
+
+// Quy tac bao mat cho Firestore.
+// Dan noi dung nay vao Firebase Console -> Firestore Database -> Rules -> Publish.
+// Nguyen tac: moi nguoi chi doc va ghi duoc du lieu cua chinh minh.
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function signedIn() {
+      return request.auth != null;
+    }
+
+    function isOwner(uid) {
+      return signedIn() && request.auth.uid == uid;
+    }
+
+    // Ho so nguoi dung
+    match /users/{uid} {
+      allow read: if isOwner(uid);
+      allow create: if isOwner(uid)
+                    && request.resource.data.uid == uid;
+      allow update: if isOwner(uid)
+                    && request.resource.data.uid == uid;
+      allow delete: if isOwner(uid);
+    }
+
+    // Ket qua tung lan lam bai
+    match /attempts/{attemptId} {
+      allow read: if signedIn() && resource.data.uid == request.auth.uid;
+
+      allow create: if signedIn()
+                    && request.resource.data.uid == request.auth.uid
+                    && request.resource.data.skill in ['reading', 'listening', 'writing', 'speaking']
+                    && request.resource.data.band is number
+                    && request.resource.data.band >= 0
+                    && request.resource.data.band <= 9
+                    && request.resource.data.createdAt is number;
+
+      // Ket qua da luu thi khong sua duoc, chi xoa duoc bai cua chinh minh
+      allow update: if false;
+      allow delete: if signedIn() && resource.data.uid == request.auth.uid;
+    }
+
+    // Moi thu khac deu bi chan
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

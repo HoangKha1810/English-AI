@@ -1,0 +1,219 @@
+{
+  "id": "lt-07",
+  "title": "Apartment Maintenance and Repair Request",
+  "difficulty": "Trung bình",
+  "durationMinutes": 8,
+  "topics": [
+    "Housing",
+    "Maintenance",
+    "Customer Service"
+  ],
+  "sections": [
+    {
+      "number": 1,
+      "title": "Maintenance Request Form",
+      "context": "A tenant is calling the apartment maintenance office to report several issues in her flat.",
+      "audioSrc": "/audio/lt-07-s1.mp3",
+      "voices": {
+        "Alex": "en-GB-RyanNeural",
+        "Sarah": "en-GB-SoniaNeural"
+      },
+      "transcript": [
+        {
+          "speaker": "Alex",
+          "text": "Good morning. Oakwood Manor Maintenance Office, Alex speaking. How can I assist you today?"
+        },
+        {
+          "speaker": "Sarah",
+          "text": "Oh, hello. I'm calling because I've got a few things in my apartment that need fixing. I moved in just last month, and a couple of issues have started cropping up."
+        },
+        {
+          "speaker": "Alex",
+          "text": "I'm sorry to hear that. I'll get a work order started for you. First, could I have your full name, please?"
+        },
+        {
+          "speaker": "Sarah",
+          "text": "Yes, it's Sarah Jenkins."
+        },
+        {
+          "speaker": "Alex",
+          "text": "Thank you, Ms. Jenkins. And which apartment are you in?"
+        },
+        {
+          "speaker": "Sarah",
+          "text": "I'm in 42B... oh, wait, I'm so sorry, that was my old unit number in the previous building. I'm actually in 51C now. It's on the fifth floor."
+        },
+        {
+          "speaker": "Alex",
+          "text": "No problem at all. 51C, Oakwood Manor. And do you have a contact number where our technician can reach you if they have trouble finding the place?"
+        },
+        {
+          "speaker": "Sarah",
+          "text": "Yes, my work number is 07700 900 123, but I'm rarely at my desk. You'd better take my mobile. It's 07700 900 546."
+        },
+        {
+          "speaker": "Alex",
+          "text": "Let me just double-check that... 07700 900 546. Is that correct?"
+        },
+        {
+          "speaker": "Sarah",
+          "text": "That's the one. Now, about the repairs. The most urgent thing is in the kitchen. There is a leaking tap under the sink. It's not just a drip; there's actually a small puddle forming every few hours."
+        },
+        {
+          "speaker": "Alex",
+          "text": "A leaking tap, right. That sounds like it might need a new washer or perhaps a whole new fixture. I'll mark that as a priority. Is there anything else?"
+        },
+        {
+          "speaker": "Sarah",
+          "text": "Yes, in the master bedroom, the window latch is broken. I can't seem to lock it properly, which makes me feel a bit uneasy at night, even though I'm on the fifth floor."
+        },
+        {
+          "speaker": "Alex",
+          "text": "I understand. Security is important. I'll make a note of the bedroom window. Any other maintenance concerns?"
+        },
+        {
+          "speaker": "Sarah",
+          "text": "Actually, yes. One of the lights is acting up. The one in the hallway is flickering constantly. It’s quite distracting when I’m moving between rooms."
+        },
+        {
+          "speaker": "Alex",
+          "text": "Hallway light flickering. Got it. It might be a loose connection or just an old bulb. We'll have a look. Now, we need to schedule a time for Mark, our technician, to come over. Would tomorrow morning work for you?"
+        },
+        {
+          "speaker": "Sarah",
+          "text": "I'm afraid I have a meeting all morning tomorrow. Is Wednesday available?"
+        },
+        {
+          "speaker": "Alex",
+          "text": "Let me see... Wednesday morning is quite busy. He has an opening at 9:30, but that might be too early? Or he could come by at 11:15."
+        },
+        {
+          "speaker": "Sarah",
+          "text": "11:15 would be perfect. I should be back from my errands by then."
+        },
+        {
+          "speaker": "Alex",
+          "text": "Great. Now, in case you are delayed, will you be leaving a key for him, or should he come back another time?"
+        },
+        {
+          "speaker": "Sarah",
+          "text": "If I'm not there, I will leave a key with the concierge at the main entrance. He knows me well."
+        },
+        {
+          "speaker": "Alex",
+          "text": "That's very helpful. Just a few more details for the technician. Do you have any pets in the apartment that he should be aware of?"
+        },
+        {
+          "speaker": "Sarah",
+          "text": "I do have a cat. She’s very friendly, but she might try to sneak out if the door is left open for too long. I'll try to keep her in the living room while he works."
+        },
+        {
+          "speaker": "Alex",
+          "text": "Good to know. And finally, I have to inform you that since you've been here less than a year, these repairs are covered, but for future reference, there is usually a service charge of fifteen pounds for non-emergency visits after the first twelve months."
+        },
+        {
+          "speaker": "Sarah",
+          "text": "Oh, I see. A service charge. That's good to know for the future. Hopefully, I won't have too many more problems!"
+        },
+        {
+          "speaker": "Alex",
+          "text": "We hope so too. We'll see you on Wednesday at 11:15, Ms. Jenkins. Have a nice day."
+        },
+        {
+          "speaker": "Sarah",
+          "text": "Thank you, goodbye."
+        }
+      ],
+      "groups": [
+        {
+          "id": "g1",
+          "type": "form_completion",
+          "range": "Questions 1-5",
+          "instruction": "Complete the form below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+          "wordLimit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "questions": [
+            {
+              "id": 1,
+              "type": "form_completion",
+              "prompt": "Apartment Number: ",
+              "answer": "51C",
+              "explanation": "Sarah lúc đầu nói nhầm là 42B nhưng sau đó sửa lại thành 51C."
+            },
+            {
+              "id": 2,
+              "type": "form_completion",
+              "prompt": "Contact Number: ",
+              "answer": "07700 900 546",
+              "explanation": "Số điện thoại di động (mobile) Sarah cung cấp sau khi nhắc tới số điện thoại cơ quan."
+            },
+            {
+              "id": 3,
+              "type": "form_completion",
+              "prompt": "Kitchen issue: ",
+              "answer": "leaking tap",
+              "explanation": "Vấn đề ở nhà bếp là vòi nước bị rò rỉ (leaking tap)."
+            },
+            {
+              "id": 4,
+              "type": "form_completion",
+              "prompt": "Bedroom issue: broken ",
+              "answer": "window latch",
+              "explanation": "Chốt cửa sổ (window latch) ở phòng ngủ bị hỏng."
+            },
+            {
+              "id": 5,
+              "type": "form_completion",
+              "prompt": "Other issue: flickering light in the ",
+              "answer": "hallway",
+              "explanation": "Đèn ở hành lang (hallway) bị nhấp nháy."
+            }
+          ]
+        },
+        {
+          "id": "g2",
+          "type": "note_completion",
+          "range": "Questions 6-10",
+          "instruction": "Complete the notes below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+          "wordLimit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "questions": [
+            {
+              "id": 6,
+              "type": "note_completion",
+              "prompt": "Appointment time: Wednesday at ",
+              "answer": "11:15",
+              "explanation": "Sau khi cân nhắc các khung giờ, Sarah chọn 11:15."
+            },
+            {
+              "id": 7,
+              "type": "note_completion",
+              "prompt": "Technician will need a: ",
+              "answer": "key",
+              "explanation": "Kỹ thuật viên sẽ cần chìa khóa nếu chủ nhà không có nhà."
+            },
+            {
+              "id": 8,
+              "type": "note_completion",
+              "prompt": "Key will be left with the: ",
+              "answer": "concierge",
+              "explanation": "Chìa khóa sẽ được gửi tại chỗ nhân viên quản lý tòa nhà/người gác cổng (concierge)."
+            },
+            {
+              "id": 9,
+              "type": "note_completion",
+              "prompt": "Tenant has a: ",
+              "answer": "cat",
+              "explanation": "Sarah có nuôi một con mèo."
+            },
+            {
+              "id": 10,
+              "type": "note_completion",
+              "prompt": "Future cost for non-emergencies: a ",
+              "answer": "service charge",
+              "explanation": "Khoản phí dịch vụ (service charge) sẽ được áp dụng sau một năm."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

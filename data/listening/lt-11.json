@@ -1,0 +1,217 @@
+{
+  "id": "lt-11",
+  "title": "Eco-Tour Registration",
+  "difficulty": "Dễ",
+  "durationMinutes": 8,
+  "topics": [
+    "Tourism",
+    "Environment",
+    "Customer Service"
+  ],
+  "sections": [
+    {
+      "number": 1,
+      "title": "Green Horizon Eco-Tours Booking",
+      "context": "A customer is calling a travel agency to book a specialized eco-tour for his family.",
+      "audioSrc": "/audio/lt-11-s1.mp3",
+      "voices": {
+        "Sarah": "en-GB-SoniaNeural",
+        "Mark": "en-AU-WilliamNeural"
+      },
+      "transcript": [
+        {
+          "speaker": "Sarah",
+          "text": "Good morning! Green Horizon Eco-Tours, this is Sarah speaking. How can I assist you today?"
+        },
+        {
+          "speaker": "Mark",
+          "text": "Hello Sarah, I’m calling because I saw your advertisement in the Sunday Travel Magazine. I’m interested in booking the 'Amazon Rainforest Adventure' for my family this coming summer."
+        },
+        {
+          "speaker": "Sarah",
+          "text": "That’s a fantastic choice! It’s one of our most popular tours. Before we check the availability, I'll need to take down some of your details. Could I start with your full name, please?"
+        },
+        {
+          "speaker": "Mark",
+          "text": "Yes, it’s Mark Henderson."
+        },
+        {
+          "speaker": "Sarah",
+          "text": "Thank you, Mr. Henderson. And a contact number where we can reach you?"
+        },
+        {
+          "speaker": "Mark",
+          "text": "Sure. It's 0412 555 892... actually, wait, that’s my old work number. My current mobile is 0412 555 982."
+        },
+        {
+          "speaker": "Sarah",
+          "text": "Got it. 0412 555 982. Now, which month were you planning to travel? We have departures in July and August."
+        },
+        {
+          "speaker": "Mark",
+          "text": "We were hoping for the 14th of July if that’s still open."
+        },
+        {
+          "speaker": "Sarah",
+          "text": "Let me check the system... Oh, I'm sorry. The 14th is fully booked. However, we do have spaces left on the 18th of July. Would that work for you?"
+        },
+        {
+          "speaker": "Mark",
+          "text": "The 18th? Let me see... yes, that should be fine. We don't have to be back until the end of the month anyway."
+        },
+        {
+          "speaker": "Sarah",
+          "text": "Excellent. This specific tour lasts for 5 days. It covers the deep jungle exploration and a visit to the macaw sanctuary. How many people will be joining you?"
+        },
+        {
+          "speaker": "Mark",
+          "text": "There will be four of us. My wife, myself, and our two teenage children."
+        },
+        {
+          "speaker": "Sarah",
+          "text": "Perfect. And does anyone in your group have any special dietary requirements? Our jungle lodges need to know in advance."
+        },
+        {
+          "speaker": "Mark",
+          "text": "My wife is a vegetarian. The rest of us eat anything, but please make sure there's a meat-free option for her."
+        },
+        {
+          "speaker": "Sarah",
+          "text": "No problem at all. I've noted that down. Now, regarding the logistics, the tour package includes a shuttle service. Where will you be staying before the tour starts?"
+        },
+        {
+          "speaker": "Mark",
+          "text": "We’ll be at the Central Hotel. Is that a possible pick-up point?"
+        },
+        {
+          "speaker": "Sarah",
+          "text": "Yes, the Central Hotel is on our main route. The shuttle will be there at 7:00 AM on the day of departure. Now, let’s talk about gear. The jungle can be quite muddy."
+        },
+        {
+          "speaker": "Mark",
+          "text": "I was wondering about that. Do we need to bring anything specific?"
+        },
+        {
+          "speaker": "Sarah",
+          "text": "We provide raincoats, but it's essential that everyone brings their own waterproof boots. Sneakers just won't cut it in the rainforest."
+        },
+        {
+          "speaker": "Mark",
+          "text": "Okay, waterproof boots. I'll make sure we buy some this weekend. Anything else?"
+        },
+        {
+          "speaker": "Sarah",
+          "text": "Just a reminder about insurance. We require all participants to have a comprehensive policy. Crucially, it must include medical coverage for emergency evacuations."
+        },
+        {
+          "speaker": "Mark",
+          "text": "That makes sense. We already have travel insurance, but I’ll double-check the medical clauses."
+        },
+        {
+          "speaker": "Sarah",
+          "text": "Great. Lastly, to secure the booking, we require a deposit of $250 per person. Since there are four of you, that would be a total of $1,000."
+        },
+        {
+          "speaker": "Mark",
+          "text": "I can pay that by credit card now if that's easiest?"
+        },
+        {
+          "speaker": "Sarah",
+          "text": "Certainly. If you could just give me the card number..."
+        }
+      ],
+      "groups": [
+        {
+          "id": "g1",
+          "type": "form_completion",
+          "range": "Questions 1-6",
+          "instruction": "Complete the form below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+          "wordLimit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "intro": "Amazon Rainforest Adventure Booking Form",
+          "questions": [
+            {
+              "id": 1,
+              "type": "form_completion",
+              "prompt": "Customer Name:",
+              "answer": "Mark Henderson",
+              "explanation": "Khách hàng tự giới thiệu tên là Mark Henderson ở đầu đoạn hội thoại."
+            },
+            {
+              "id": 2,
+              "type": "form_completion",
+              "prompt": "Contact Number:",
+              "answer": "0412 555 982",
+              "explanation": "Người nói ban đầu đưa ra số cũ (892) sau đó đính chính lại là 0412 555 982."
+            },
+            {
+              "id": 3,
+              "type": "form_completion",
+              "prompt": "Departure Date:",
+              "answer": "18th July",
+              "explanation": "Ngày 14 tháng 7 đã hết chỗ, khách hàng đồng ý chuyển sang ngày 18 tháng 7 (18th July)."
+            },
+            {
+              "id": 4,
+              "type": "form_completion",
+              "prompt": "Tour Duration:",
+              "answer": "5 days",
+              "explanation": "Nhân viên thông báo chuyến tham quan kéo dài 5 ngày."
+            },
+            {
+              "id": 5,
+              "type": "form_completion",
+              "prompt": "Number of People:",
+              "answer": "4",
+              "explanation": "Khách hàng nói có 4 người (vợ chồng và 2 con)."
+            },
+            {
+              "id": 6,
+              "type": "form_completion",
+              "prompt": "Dietary Requirement:",
+              "answer": "vegetarian",
+              "explanation": "Vợ của khách hàng là người ăn chay (vegetarian)."
+            }
+          ]
+        },
+        {
+          "id": "g2",
+          "type": "note_completion",
+          "range": "Questions 7-10",
+          "instruction": "Complete the notes below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+          "wordLimit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "intro": "Logistics and Requirements",
+          "questions": [
+            {
+              "id": 7,
+              "type": "note_completion",
+              "prompt": "Pick-up point: ....................",
+              "answer": "Central Hotel",
+              "explanation": "Khách hàng xác nhận họ sẽ ở khách sạn Central Hotel và đây là điểm đón."
+            },
+            {
+              "id": 8,
+              "type": "note_completion",
+              "prompt": "Required gear: ....................",
+              "answer": "waterproof boots",
+              "explanation": "Nhân viên nhấn mạnh khách hàng phải tự mang theo giày ủng chống thấm nước (waterproof boots)."
+            },
+            {
+              "id": 9,
+              "type": "note_completion",
+              "prompt": "Insurance must include: .................... coverage",
+              "answer": "medical",
+              "explanation": "Bảo hiểm bắt buộc phải bao gồm các điều khoản về y tế (medical coverage)."
+            },
+            {
+              "id": 10,
+              "type": "note_completion",
+              "prompt": "Deposit per person: $....................",
+              "answer": "250",
+              "explanation": "Tiền đặt cọc cho mỗi người là 250 đô la."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

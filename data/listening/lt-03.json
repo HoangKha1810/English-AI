@@ -1,0 +1,228 @@
+{
+  "id": "lt-03",
+  "title": "Community Seminar Registration",
+  "difficulty": "Trung bình",
+  "durationMinutes": 8,
+  "topics": [
+    "Community Events",
+    "Sustainability",
+    "Gardening"
+  ],
+  "sections": [
+    {
+      "number": 1,
+      "title": "Urban Gardening Seminar Registration",
+      "context": "A man is enquiring about a community gardening seminar at a local community center.",
+      "audioSrc": "/audio/lt-03-s1.mp3",
+      "voices": {
+        "Sarah": "en-GB-SoniaNeural",
+        "Mark": "en-AU-WilliamNeural"
+      },
+      "transcript": [
+        {
+          "speaker": "Sarah",
+          "text": "Good morning! Welcome to the Riverside Community Centre. How can I help you today?"
+        },
+        {
+          "speaker": "Mark",
+          "text": "Hello. I saw a flyer outside about the upcoming seminar series on sustainable living. I'm particularly interested in the Urban Gardening session. Is it still possible to register?"
+        },
+        {
+          "speaker": "Sarah",
+          "text": "Yes, absolutely! We still have a few spots left for that one. It's been very popular this year. I just need to take down some details from you to get you registered. Can I start with your full name?"
+        },
+        {
+          "speaker": "Mark",
+          "text": "Sure, it’s Mark Harrison."
+        },
+        {
+          "speaker": "Sarah",
+          "text": "Is that Harrison with one 'r' or two?"
+        },
+        {
+          "speaker": "Mark",
+          "text": "It's double 'r'. H-A-R-R-I-S-O-N."
+        },
+        {
+          "speaker": "Sarah",
+          "text": "Great, thank you. And what is your current occupation, Mr. Harrison? We collect this for our demographic records."
+        },
+        {
+          "speaker": "Mark",
+          "text": "I'm a high school teacher. I actually want to start a small garden project with my students next term."
+        },
+        {
+          "speaker": "Sarah",
+          "text": "That sounds like a wonderful initiative! Now, I'll need a contact email address."
+        },
+        {
+          "speaker": "Mark",
+          "text": "It’s mark.h84@webmail.com. That’s mark dot h eighty-four at webmail dot com."
+        },
+        {
+          "speaker": "Sarah",
+          "text": "Got it. And a phone number please?"
+        },
+        {
+          "speaker": "Mark",
+          "text": "Yes, it’s 0412 555 982... oh, wait, I’m sorry, I just changed my number recently. It’s actually 0412 555 983. I always get that last digit mixed up."
+        },
+        {
+          "speaker": "Sarah",
+          "text": "No problem at all. I’ve updated that to 983 at the end. Now, the Urban Gardening seminar is running on two different days this weekend to accommodate more people. We have a session on Saturday morning and another one on Sunday afternoon. Which one would you prefer?"
+        },
+        {
+          "speaker": "Mark",
+          "text": "I have a faculty meeting on Saturday morning, so Sunday would be much better for me."
+        },
+        {
+          "speaker": "Sarah",
+          "text": "Perfect. Sunday afternoon it is. Now, I should give you some specific details about the event. Usually, our seminars are held in the Central Library, but due to some maintenance work there, this particular session has been moved to the North Community Hall."
+        },
+        {
+          "speaker": "Mark",
+          "text": "North Community Hall? Is that the one near the park?"
+        },
+        {
+          "speaker": "Sarah",
+          "text": "That’s the one. It’s a bit larger, which is good because we’re expecting a big crowd. The main focus of this seminar will be organic fertilizers and composting. The guest speaker is quite an expert on that."
+        },
+        {
+          "speaker": "Mark",
+          "text": "Composting is exactly what I need to learn about for the school project. Is there anything I need to bring along?"
+        },
+        {
+          "speaker": "Sarah",
+          "text": "We provide all the notebooks and pens. However, there is a practical segment where you'll be handling soil, so we suggest all participants bring their own pair of gloves. We have a few spares, but they might not be the right size."
+        },
+        {
+          "speaker": "Mark",
+          "text": "I’ll make a note of that. Gloves. And what about the cost?"
+        },
+        {
+          "speaker": "Sarah",
+          "text": "The standard registration fee is $30. However, since you're a resident in this postcode, you might be eligible for a discount if you have a community membership card."
+        },
+        {
+          "speaker": "Mark",
+          "text": "I do have one! I joined last month."
+        },
+        {
+          "speaker": "Sarah",
+          "text": "In that case, you get a 15% discount. That brings the total down to $25.50."
+        },
+        {
+          "speaker": "Mark",
+          "text": "That’s great. Can I pay by credit card now?"
+        },
+        {
+          "speaker": "Sarah",
+          "text": "I’m terribly sorry, our card terminal is actually down for repairs today. We can only accept cash at the desk, or you can pay online later this evening."
+        },
+        {
+          "speaker": "Mark",
+          "text": "I actually have some cash on me, so I’ll just pay now to get it over with."
+        },
+        {
+          "speaker": "Sarah",
+          "text": "Excellent. Here is your receipt and a small map to the North Community Hall. We look forward to seeing you there on Sunday!"
+        },
+        {
+          "speaker": "Mark",
+          "text": "Thank you very much for your help."
+        }
+      ],
+      "groups": [
+        {
+          "id": "g1",
+          "type": "form_completion",
+          "range": "Questions 1-5",
+          "instruction": "Complete the form below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+          "wordLimit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "questions": [
+            {
+              "id": 1,
+              "type": "form_completion",
+              "prompt": "Surname:",
+              "answer": "Harrison",
+              "explanation": "Người nói đánh vần tên mình là H-A-R-R-I-S-O-N."
+            },
+            {
+              "id": 2,
+              "type": "form_completion",
+              "prompt": "Occupation:",
+              "answer": "Teacher",
+              "explanation": "Mark nói anh ấy là 'high school teacher'."
+            },
+            {
+              "id": 3,
+              "type": "form_completion",
+              "prompt": "Email address:",
+              "answer": "mark.h84@webmail.com",
+              "explanation": "Địa chỉ email được đánh vần rõ ràng trong transcript."
+            },
+            {
+              "id": 4,
+              "type": "form_completion",
+              "prompt": "Phone number:",
+              "answer": "0412555983",
+              "explanation": "Mark ban đầu nói nhầm số cuối là 982 nhưng sau đó sửa lại thành 983."
+            },
+            {
+              "id": 5,
+              "type": "form_completion",
+              "prompt": "Preferred Day:",
+              "answer": "Sunday",
+              "explanation": "Mark chọn ngày Chủ nhật (Sunday) vì bận họp vào sáng Thứ bảy."
+            }
+          ]
+        },
+        {
+          "id": "g2",
+          "type": "note_completion",
+          "range": "Questions 6-10",
+          "instruction": "Complete the notes below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+          "wordLimit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "intro": "Seminar Details:",
+          "questions": [
+            {
+              "id": 6,
+              "type": "note_completion",
+              "prompt": "Venue: 6. ________",
+              "answer": "North Community Hall",
+              "explanation": "Mặc dù thường tổ chức ở Central Library, nhưng lần này chuyển sang North Community Hall."
+            },
+            {
+              "id": 7,
+              "type": "note_completion",
+              "prompt": "Main topic: Organic fertilizers and 7. ________",
+              "answer": "composting",
+              "explanation": "Chủ đề chính của buổi hội thảo là phân bón hữu cơ và ủ phân (composting)."
+            },
+            {
+              "id": 8,
+              "type": "note_completion",
+              "prompt": "Participants should bring: 8. ________",
+              "answer": "Gloves",
+              "explanation": "Người tham gia được khuyên mang theo găng tay (gloves) vì có phần thực hành với đất."
+            },
+            {
+              "id": 9,
+              "type": "note_completion",
+              "prompt": "Member discount: 9. ________",
+              "answer": "15%",
+              "explanation": "Thành viên cộng đồng được giảm giá 15%."
+            },
+            {
+              "id": 10,
+              "type": "note_completion",
+              "prompt": "Payment method: 10. ________",
+              "answer": "Cash",
+              "explanation": "Do máy quẹt thẻ bị hỏng, Mark đã trả bằng tiền mặt (cash)."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

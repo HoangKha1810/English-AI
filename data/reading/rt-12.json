@@ -1,0 +1,200 @@
+{
+  "id": "rt-12",
+  "title": "The Rise of Urban Agriculture",
+  "module": "Academic",
+  "difficulty": "Trung bình",
+  "durationMinutes": 20,
+  "topics": [
+    "Agriculture",
+    "Environment",
+    "Technology"
+  ],
+  "passages": [
+    {
+      "number": 1,
+      "title": "The Vertical Revolution: The Rise of Urban Farming",
+      "subtitle": "Exploring how cities are transforming into the food hubs of the future through innovative agricultural practices.",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "For centuries, the boundary between the city and the countryside was clearly defined. Agriculture was a rural pursuit, requiring vast tracts of land, while cities were hubs of commerce and industry. However, as the global population is projected to reach nearly 10 billion by 2050, with two-thirds residing in urban areas, this traditional divide is dissolving. Urban agriculture, the practice of cultivating, processing, and distributing food within or around a village, town, or city, is no longer a niche hobby for community gardeners. It has evolved into a sophisticated industry using high-tech methods to address food security and environmental sustainability."
+        },
+        {
+          "label": "B",
+          "text": "One of the primary drivers of this movement is the environmental cost of conventional farming. Traditional agriculture accounts for a significant portion of global greenhouse gas emissions, largely due to the 'food miles'—the distance food travels from farm to plate. By growing produce in the heart of the city, these emissions are drastically reduced. Furthermore, vertical farms, which stack crops in layers, use up to 95% less water than soil-based methods. This is achieved through closed-loop systems where water is recycled and nutrients are delivered directly to the roots, minimizing waste and runoff into local ecosystems."
+        },
+        {
+          "label": "C",
+          "text": "The technological backbone of modern urban farming lies in hydroponics and aeroponics. Hydroponics involves growing plants in a nutrient-rich water solution instead of soil, while aeroponics takes this a step further by misting the roots with a nutrient solution in an air or mist environment. These methods allow for precise control over the growing environment. Advanced LED lighting systems now mimic the solar spectrum, allowing plants to photosynthesize 24 hours a day if necessary, regardless of the weather outside. This controlled-environment agriculture (CEA) ensures consistent yields and eliminates the need for chemical pesticides, as the indoor setting acts as a natural barrier to pests."
+        },
+        {
+          "label": "D",
+          "text": "Beyond environmental and technological benefits, urban agriculture fosters social resilience. Community-led projects in cities like Detroit and London have transformed vacant lots into productive green spaces. These gardens do more than just provide fresh produce; they serve as educational hubs where residents learn about nutrition and biology. They also create a sense of community ownership and reduce 'food deserts'—urban areas where residents lack access to affordable, healthy food. By empowering local populations to grow their own food, these initiatives improve public health and social cohesion."
+        },
+        {
+          "label": "E",
+          "text": "However, the path to a fully edible city is not without hurdles. The most significant challenge is the high cost of urban real estate. In cities like New York or Tokyo, the price per square foot makes large-scale farming economically daunting. Additionally, the energy consumption of high-tech vertical farms is a concern. While they save water, the electricity required to power thousands of LED lights and climate control systems can be substantial. To remain sustainable, these operations must increasingly rely on renewable energy sources like solar panels or wind turbines integrated into the building design."
+        },
+        {
+          "label": "F",
+          "text": "Singapore serves as a prime example of urban farming innovation. With limited land available, the city-state imports over 90% of its food. In response, the government has launched the '30 by 30' initiative, aiming to produce 30% of its nutritional needs locally by 2030. This has spurred the development of rooftop farms on top of public housing blocks and multi-story carparks. Using automated systems and AI-driven monitoring, these farms can produce leafy greens at a commercial scale, proving that even the most densely populated regions can move toward self-sufficiency."
+        },
+        {
+          "label": "G",
+          "text": "Artificial Intelligence (AI) and automation are the latest frontiers in this field. Sensors can now monitor individual plant health, detecting nutrient deficiencies or diseases before they become visible to the human eye. Robotic arms can handle delicate tasks like harvesting or transplanting seedlings, reducing labor costs. As these technologies become more affordable, the efficiency of urban farms will continue to rise, potentially making locally grown urban produce cheaper than imported goods from traditional rural farms."
+        },
+        {
+          "label": "H",
+          "text": "As we look to the future, urban agriculture should not be seen as a total replacement for traditional farming, but as a vital supplement. It offers a way to make cities more resilient to climate change and supply chain disruptions. By integrating food production into the urban fabric, we can create a more circular economy where waste is minimized and resources are used efficiently. The transition from 'concrete jungle' to 'productive garden' is well underway, promising a greener and more food-secure world for future generations."
+        }
+      ],
+      "groups": [
+        {
+          "id": "g1",
+          "type": "matching_headings",
+          "range": "Questions 1-5",
+          "instruction": "Choose the correct heading for paragraphs A-E from the list of headings below.",
+          "options": [
+            "i. The environmental impact of food transport",
+            "ii. Financial and energetic obstacles",
+            "iii. The shift from rural to urban food production",
+            "iv. Social benefits and community empowerment",
+            "v. Advanced techniques for indoor cultivation",
+            "vi. The role of government in food security",
+            "vii. Improving public health through diet"
+          ],
+          "questions": [
+            {
+              "id": 1,
+              "type": "matching_headings",
+              "prompt": "Paragraph A",
+              "answer": "iii",
+              "explanation": "Đoạn A nói về việc ranh giới nông thôn - thành thị mờ dần và sự chuyển dịch từ nông nghiệp nông thôn sang đô thị."
+            },
+            {
+              "id": 2,
+              "type": "matching_headings",
+              "prompt": "Paragraph B",
+              "answer": "i",
+              "explanation": "Đoạn B tập trung vào chi phí môi trường, đặc biệt là 'food miles' (dặm thực phẩm) và việc giảm phát thải."
+            },
+            {
+              "id": 3,
+              "type": "matching_headings",
+              "prompt": "Paragraph C",
+              "answer": "v",
+              "explanation": "Đoạn C mô tả các kỹ thuật tiên tiến như hydroponics (thủy canh) và aeroponics (khí canh)."
+            },
+            {
+              "id": 4,
+              "type": "matching_headings",
+              "prompt": "Paragraph D",
+              "answer": "iv",
+              "explanation": "Đoạn D nói về lợi ích xã hội, tính gắn kết cộng đồng và giáo dục."
+            },
+            {
+              "id": 5,
+              "type": "matching_headings",
+              "prompt": "Paragraph E",
+              "answer": "ii",
+              "explanation": "Đoạn E thảo luận về các thách thức tài chính (bất động sản) và năng lượng."
+            }
+          ]
+        },
+        {
+          "id": "g2",
+          "type": "true_false_notgiven",
+          "range": "Questions 6-9",
+          "instruction": "Do the following statements agree with the information given in the reading passage? Write TRUE, FALSE, or NOT GIVEN.",
+          "questions": [
+            {
+              "id": 6,
+              "type": "true_false_notgiven",
+              "prompt": "Vertical farms typically require more water than traditional soil-based farming.",
+              "answer": "FALSE",
+              "explanation": "Đoạn B khẳng định vertical farms sử dụng ít hơn tới 95% nước so với phương pháp truyền thống."
+            },
+            {
+              "id": 7,
+              "type": "true_false_notgiven",
+              "prompt": "Controlled-environment agriculture (CEA) allows for crop production regardless of external weather conditions.",
+              "answer": "TRUE",
+              "explanation": "Đoạn C nói rằng CEA đảm bảo năng suất ổn định bất kể thời tiết bên ngoài."
+            },
+            {
+              "id": 8,
+              "type": "true_false_notgiven",
+              "prompt": "The majority of urban farms in Detroit are funded by private corporations.",
+              "answer": "NOT GIVEN",
+              "explanation": "Đoạn D có nhắc đến Detroit nhưng không cung cấp thông tin về nguồn vốn của đa số các trang trại."
+            },
+            {
+              "id": 9,
+              "type": "true_false_notgiven",
+              "prompt": "Artificial intelligence can assist in identifying plant diseases before they are visible to humans.",
+              "answer": "TRUE",
+              "explanation": "Đoạn G nêu rõ cảm biến có thể phát hiện bệnh trước khi mắt người nhìn thấy."
+            }
+          ]
+        },
+        {
+          "id": "g3",
+          "type": "multiple_choice",
+          "range": "Questions 10-11",
+          "instruction": "Choose the correct letter, A, B, C or D.",
+          "questions": [
+            {
+              "id": 10,
+              "type": "multiple_choice",
+              "prompt": "What is the main goal of Singapore's '30 by 30' initiative?",
+              "options": [
+                "A. To reduce the cost of imported food by 30%.",
+                "B. To produce 30% of its nutritional needs locally by 2030.",
+                "C. To convert 30% of all carparks into urban farms.",
+                "D. To cut carbon emissions from agriculture by 30%."
+              ],
+              "answer": "B",
+              "explanation": "Đoạn F nói rõ mục tiêu của sáng kiến là sản xuất 30% nhu cầu dinh dưỡng tại địa phương vào năm 2030."
+            },
+            {
+              "id": 11,
+              "type": "multiple_choice",
+              "prompt": "According to Paragraph E, how can high-tech vertical farms become more sustainable?",
+              "options": [
+                "A. By moving to rural areas where land is cheaper.",
+                "B. By using chemical pesticides to increase yield.",
+                "C. By integrating renewable energy sources.",
+                "D. By reducing the number of LED lights used."
+              ],
+              "answer": "C",
+              "explanation": "Đoạn E đề cập rằng để bền vững, các hoạt động này phải dựa vào nguồn năng lượng tái tạo."
+            }
+          ]
+        },
+        {
+          "id": "g4",
+          "type": "sentence_completion",
+          "range": "Questions 12-13",
+          "instruction": "Complete the sentences below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+          "wordLimit": "NO MORE THAN TWO WORDS",
+          "questions": [
+            {
+              "id": 12,
+              "type": "sentence_completion",
+              "prompt": "Urban gardens help eliminate ________ where people cannot find healthy, affordable food.",
+              "answer": "food deserts",
+              "explanation": "Đoạn D đề cập đến việc giảm bớt các 'food deserts' (sa mạc thực phẩm)."
+            },
+            {
+              "id": 13,
+              "type": "sentence_completion",
+              "prompt": "Modern urban agriculture should be viewed as a ________ rather than a replacement for rural farming.",
+              "answer": "vital supplement",
+              "explanation": "Đoạn H khẳng định nông nghiệp đô thị là một 'vital supplement' (sự bổ sung thiết yếu)."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

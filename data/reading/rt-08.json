@@ -1,0 +1,188 @@
+{
+  "id": "rt-08",
+  "title": "Abyssal Frontiers: Exploring the Deep Ocean",
+  "module": "Academic",
+  "difficulty": "Khó",
+  "durationMinutes": 20,
+  "topics": [
+    "Marine Biology",
+    "Technology",
+    "Environment"
+  ],
+  "passages": [
+    {
+      "number": 1,
+      "title": "Abyssal Frontiers: Exploring the Deep Ocean",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "The deep ocean remains one of the final frontiers of human discovery. Defined as the area below 200 meters, it encompasses over 90% of the Earth's living space. However, it is an unforgiving landscape characterized by crushing pressures, near-freezing temperatures, and absolute darkness. At the bottom of the Mariana Trench, the pressure is over 1,000 times that at sea level, equivalent to an elephant standing on a person's thumb. Despite these hostile conditions, the deep sea is far from a barren wasteland. It is a vibrant, complex realm that plays a fundamental role in the planet's biological and chemical cycles."
+        },
+        {
+          "label": "B",
+          "text": "The history of deep-sea exploration is marked by significant engineering milestones. Early attempts were limited by the physical constraints of wood and steel. It wasn't until 1960 that the bathyscaphe Trieste, piloted by Jacques Piccard and Don Walsh, reached the Challenger Deep, the lowest known point on Earth. This feat proved that humans could traverse the abyss, but it also highlighted the immense technical challenges. Modern submersibles now use advanced synthetic foam for buoyancy and titanium alloys to withstand the external force, allowing for longer and more frequent missions to the seafloor."
+        },
+        {
+          "label": "C",
+          "text": "One of the most revolutionary discoveries in marine science occurred in 1977 with the identification of hydrothermal vents. These are fissures on the seabed that discharge geothermally heated water. Surrounding these vents, scientists found thriving communities of organisms, including giant tube worms and ghost-white crabs. Unlike life on the surface, which relies on photosynthesis driven by sunlight, these ecosystems are fueled by chemosynthesis. In this process, bacteria convert chemicals such as hydrogen sulfide into organic matter, forming the base of a food web that exists in total isolation from the sun's energy."
+        },
+        {
+          "label": "D",
+          "text": "Mapping the deep sea is a task of monumental proportions. While we have detailed maps of the surfaces of Mars and the Moon, less than 25% of the ocean floor has been mapped with high-resolution sonar. Traditional methods involved dropping weighted lines, but today, researchers utilize multibeam echosounders mounted on ships. Additionally, satellite altimetry is used to detect large-scale features; satellites measure the minute variations in the sea surface height, which reflect the gravitational pull of massive underwater mountains and trenches. These techniques are essential for safe navigation and understanding tectonic activity."
+        },
+        {
+          "label": "E",
+          "text": "As terrestrial resources dwindle, the economic potential of the deep sea has come into focus. The seafloor is rich in polymetallic nodules—potato-sized rocks containing manganese, nickel, and cobalt, which are critical for manufacturing batteries and green technology. However, deep-sea mining poses significant environmental risks. The process could stir up sediment plumes that choke filter-feeding organisms and destroy fragile habitats that take centuries to form. International regulatory bodies are currently debating how to balance economic interests with the preservation of marine biodiversity."
+        },
+        {
+          "label": "F",
+          "text": "The deep ocean also serves as a critical regulator of the Earth's climate. It acts as a massive carbon sink, absorbing approximately a quarter of the carbon dioxide emitted by human activities. Furthermore, it functions as a heat reservoir, soaking up over 90% of the excess heat trapped in the atmosphere by greenhouse gases. Without the buffering capacity of the deep ocean, the rate of global warming would be significantly higher. Understanding the circulation patterns of deep-water currents is therefore vital for predicting future climate scenarios."
+        },
+        {
+          "label": "G",
+          "text": "In recent years, the focus of exploration has shifted toward robotics. Remotely Operated Vehicles (ROVs), connected to surface ships by cables, allow pilots to explore the depths in real-time. In contrast, Autonomous Underwater Vehicles (AUVs) are pre-programmed robots that can operate independently for days, collecting data over vast areas. These robotic systems are more cost-effective and safer than manned submersibles, enabling scientists to reach regions that were previously inaccessible due to extreme risk or cost."
+        },
+        {
+          "label": "H",
+          "text": "Looking ahead, international collaboration is the key to unlocking the secrets of the abyss. Projects like the Seabed 2030 initiative aim to bring together data from around the world to create a definitive, high-resolution map of the entire ocean floor by the end of the decade. As technology advances, we are likely to discover new species and gain a deeper understanding of the processes that sustain life on Earth. The deep sea is not just a distant, dark place; it is a vital part of our global heritage that requires both exploration and protection."
+        }
+      ],
+      "groups": [
+        {
+          "id": "g1",
+          "type": "matching_headings",
+          "range": "Questions 1-5",
+          "instruction": "Choose the correct heading for paragraphs A-E from the list of headings below.",
+          "options": [
+            "i. Advancements in submersible technology",
+            "ii. The promise and peril of mining",
+            "iii. Life fueled by chemistry",
+            "iv. An unforgiving landscape",
+            "v. The role of international law",
+            "vi. Charting the unseen depths",
+            "vii. The impact of surface currents",
+            "viii. Engineering for the future"
+          ],
+          "questions": [
+            {
+              "id": 1,
+              "type": "matching_headings",
+              "prompt": "Paragraph A",
+              "answer": "iv",
+              "explanation": "Đoạn A mô tả về điều kiện khắc nghiệt của biển sâu (crushing pressures, darkness), phù hợp với tiêu đề 'An unforgiving landscape'."
+            },
+            {
+              "id": 2,
+              "type": "matching_headings",
+              "prompt": "Paragraph B",
+              "answer": "i",
+              "explanation": "Đoạn B nói về lịch sử và các cột mốc kỹ thuật của tàu lặn (Trieste, titanium alloys), phù hợp với 'Advancements in submersible technology'."
+            },
+            {
+              "id": 3,
+              "type": "matching_headings",
+              "prompt": "Paragraph C",
+              "answer": "iii",
+              "explanation": "Đoạn C giải thích về hiện tượng hóa tổng hợp (chemosynthesis) giúp duy trì sự sống dưới đáy biển, phù hợp với 'Life fueled by chemistry'."
+            },
+            {
+              "id": 4,
+              "type": "matching_headings",
+              "prompt": "Paragraph D",
+              "answer": "vi",
+              "explanation": "Đoạn D tập trung vào các phương pháp bản đồ hóa đại dương (sonar, satellite altimetry), phù hợp với 'Charting the unseen depths'."
+            },
+            {
+              "id": 5,
+              "type": "matching_headings",
+              "prompt": "Paragraph E",
+              "answer": "ii",
+              "explanation": "Đoạn E thảo luận về tiềm năng kinh tế (polymetallic nodules) và rủi ro môi trường, phù hợp với 'The promise and peril of mining'."
+            }
+          ]
+        },
+        {
+          "id": "g2",
+          "type": "matching_information",
+          "range": "Questions 6-8",
+          "instruction": "Which paragraph contains the following information? Write the correct letter, A-H.",
+          "questions": [
+            {
+              "id": 6,
+              "type": "matching_information",
+              "prompt": "a reference to a project aiming for a complete map of the seafloor",
+              "answer": "H",
+              "explanation": "Đoạn H đề cập đến dự án 'Seabed 2030 initiative' nhằm tạo ra bản đồ hoàn chỉnh."
+            },
+            {
+              "id": 7,
+              "type": "matching_information",
+              "prompt": "the distinction between two types of robotic exploration tools",
+              "answer": "G",
+              "explanation": "Đoạn G phân biệt giữa ROVs (Remotely Operated Vehicles) và AUVs (Autonomous Underwater Vehicles)."
+            },
+            {
+              "id": 8,
+              "type": "matching_information",
+              "prompt": "the role of the deep sea in regulating the planet's temperature",
+              "answer": "F",
+              "explanation": "Đoạn F nói về việc đại dương hấp thụ nhiệt (heat reservoir) giúp điều hòa khí hậu."
+            }
+          ]
+        },
+        {
+          "id": "g3",
+          "type": "true_false_notgiven",
+          "range": "Questions 9-11",
+          "instruction": "Do the following statements agree with the information given in the Reading Passage? Write TRUE, FALSE, or NOT GIVEN.",
+          "questions": [
+            {
+              "id": 9,
+              "type": "true_false_notgiven",
+              "prompt": "The bathyscaphe Trieste reached the Challenger Deep in the mid-20th century.",
+              "answer": "TRUE",
+              "explanation": "Năm 1960 (giữa thế kỷ 20) tàu Trieste đã đạt tới Challenger Deep."
+            },
+            {
+              "id": 10,
+              "type": "true_false_notgiven",
+              "prompt": "Sediment plumes from mining can help deep-sea organisms find nutrients.",
+              "answer": "FALSE",
+              "explanation": "Đoạn E nói rằng các cột trầm tích có thể làm ngạt (choke) các sinh vật lọc thức ăn, chứ không phải giúp chúng."
+            },
+            {
+              "id": 11,
+              "type": "true_false_notgiven",
+              "prompt": "Autonomous Underwater Vehicles (AUVs) require a constant physical connection to a ship.",
+              "answer": "FALSE",
+              "explanation": "Đoạn G ghi AUVs hoạt động độc lập (operate independently), trong khi ROVs mới cần dây cáp nối với tàu."
+            }
+          ]
+        },
+        {
+          "id": "g4",
+          "type": "sentence_completion",
+          "range": "Questions 12-13",
+          "instruction": "Complete the sentences below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+          "wordLimit": "NO MORE THAN TWO WORDS",
+          "questions": [
+            {
+              "id": 12,
+              "type": "sentence_completion",
+              "prompt": "Scientists use satellite _______ to estimate the topography of the seafloor by measuring variations in water height.",
+              "answer": "altimetry",
+              "explanation": "Từ 'altimetry' xuất hiện trong đoạn D để chỉ việc đo đạc độ cao mặt nước nhằm suy ra đặc điểm đáy biển."
+            },
+            {
+              "id": 13,
+              "type": "sentence_completion",
+              "prompt": "The deep ocean functions as a critical _______ for excess atmospheric heat caused by greenhouse gases.",
+              "answer": "heat reservoir",
+              "explanation": "Từ 'heat reservoir' xuất hiện trong đoạn F mô tả vai trò của đại dương trong việc giữ nhiệt."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

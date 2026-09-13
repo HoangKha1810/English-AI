@@ -1,0 +1,576 @@
+[
+  {
+    "id": "st-01",
+    "title": "Speaking · Đề 1",
+    "topic": "Hometown & travel",
+    "difficulty": "Dễ",
+    "parts": [
+      {
+        "part": 1,
+        "title": "Part 1 · Giới thiệu và phỏng vấn",
+        "instruction": "Giám khảo hỏi về bản thân bạn. Trả lời mỗi câu khoảng 20-30 giây, có lý do hoặc ví dụ ngắn.",
+        "questions": [
+          "Where is your hometown?",
+          "What do you like most about the place where you grew up?",
+          "Has your hometown changed much in the last few years?",
+          "Would you like to live there in the future?",
+          "How do you usually get around your town or city?",
+          "Do you prefer travelling by car or by public transport? Why?",
+          "Have you ever travelled to another country?",
+          "What kind of places do you enjoy visiting on holiday?",
+          "Do you prefer short trips or long holidays?"
+        ],
+        "prepSeconds": 0,
+        "speakSeconds": 240
+      },
+      {
+        "part": 2,
+        "title": "Part 2 · Cue card",
+        "instruction": "Bạn có 1 phút chuẩn bị và nói trong 1-2 phút. Hãy bám theo cả bốn gạch đầu dòng.",
+        "cueCard": {
+          "topic": "Describe a journey that did not go as planned.",
+          "bullets": [
+            "where you were going",
+            "who you were with",
+            "what went wrong",
+            "and explain how you felt about it"
+          ]
+        },
+        "questions": [],
+        "prepSeconds": 60,
+        "speakSeconds": 120
+      },
+      {
+        "part": 3,
+        "title": "Part 3 · Thảo luận",
+        "instruction": "Câu hỏi trừu tượng hơn, liên quan tới chủ đề Part 2. Trả lời 40-60 giây mỗi câu và đưa ra lập luận.",
+        "questions": [
+          "Why do you think people enjoy travelling to places they have never been to?",
+          "How has the way people travel changed compared with thirty years ago?",
+          "Does tourism always benefit local communities?",
+          "Some people say that travel broadens the mind. Would you agree?",
+          "What problems can large numbers of tourists cause in popular destinations?",
+          "Do you think people will travel more or less in the future?"
+        ],
+        "prepSeconds": 0,
+        "speakSeconds": 300
+      }
+    ]
+  },
+  {
+    "id": "st-02",
+    "title": "Speaking · Đề 2",
+    "topic": "Food & health",
+    "difficulty": "Dễ",
+    "parts": [
+      {
+        "part": 1,
+        "title": "Part 1 · Giới thiệu và phỏng vấn",
+        "instruction": "Giám khảo hỏi về thói quen ăn uống và sức khoẻ của bạn. Trả lời mỗi câu khoảng 20-30 giây.",
+        "questions": [
+          "What kind of food do you usually eat during the week?",
+          "Do you prefer eating at home or in restaurants?",
+          "Can you cook? Who taught you?",
+          "What would you say is a typical meal in your country?",
+          "Have your eating habits changed since you were a child?",
+          "Do you play any sport or do any kind of exercise?",
+          "How often do you exercise in a normal week?",
+          "Do you think you have a healthy lifestyle?",
+          "How many hours do you usually sleep at night?"
+        ],
+        "prepSeconds": 0,
+        "speakSeconds": 240
+      },
+      {
+        "part": 2,
+        "title": "Part 2 · Cue card",
+        "instruction": "Bạn có 1 phút chuẩn bị và nói trong 1-2 phút. Ghi nhanh từ khoá cho từng ý trước khi nói.",
+        "cueCard": {
+          "topic": "Describe a meal you really enjoyed with other people.",
+          "bullets": [
+            "what the meal was",
+            "where you ate it",
+            "who you were with",
+            "and explain why you enjoyed it so much"
+          ]
+        },
+        "questions": [],
+        "prepSeconds": 60,
+        "speakSeconds": 120
+      },
+      {
+        "part": 3,
+        "title": "Part 3 · Thảo luận",
+        "instruction": "Câu hỏi trừu tượng hơn, liên quan tới chủ đề Part 2. Trả lời 40-60 giây mỗi câu.",
+        "questions": [
+          "Why do families in many countries eat together less often than they used to?",
+          "How important is food in the culture of your country?",
+          "Has fast food changed the way people eat?",
+          "Should governments do more to encourage people to eat healthily?",
+          "Is it better for children to learn to cook at home or at school?",
+          "How do you think the food people eat will change in the next twenty years?"
+        ],
+        "prepSeconds": 0,
+        "speakSeconds": 300
+      }
+    ]
+  },
+  {
+    "id": "st-03",
+    "title": "Speaking · Đề 3",
+    "topic": "Work & study",
+    "difficulty": "Trung bình",
+    "parts": [
+      {
+        "part": 1,
+        "title": "Part 1 · Giới thiệu và phỏng vấn",
+        "instruction": "Giám khảo hỏi về công việc, việc học và thói quen hằng ngày. Trả lời mỗi câu khoảng 20-30 giây.",
+        "questions": [
+          "Do you work, or are you a student?",
+          "What subject are you studying, or what does your job involve?",
+          "Why did you choose that subject or that kind of work?",
+          "What is the most interesting part of your work or your studies?",
+          "Do you prefer working in the morning or in the evening?",
+          "Could you describe a typical day for you?",
+          "Do you usually work and study with other people or on your own?",
+          "Is there a skill you would like to learn in the next few years?",
+          "Do you think you will still be doing the same thing in ten years?"
+        ],
+        "prepSeconds": 0,
+        "speakSeconds": 240
+      },
+      {
+        "part": 2,
+        "title": "Part 2 · Cue card",
+        "instruction": "Bạn có 1 phút chuẩn bị và nói trong 1-2 phút. Kể một câu chuyện cụ thể thay vì nói chung chung.",
+        "cueCard": {
+          "topic": "Describe a time when you had to learn something new very quickly.",
+          "bullets": [
+            "what you had to learn",
+            "why you had so little time",
+            "how you managed to learn it",
+            "and explain what the experience taught you"
+          ]
+        },
+        "questions": [],
+        "prepSeconds": 60,
+        "speakSeconds": 120
+      },
+      {
+        "part": 3,
+        "title": "Part 3 · Thảo luận",
+        "instruction": "Câu hỏi trừu tượng hơn, liên quan tới chủ đề Part 2. Trả lời 40-60 giây mỗi câu, có ví dụ minh hoạ.",
+        "questions": [
+          "Why do some adults find it harder to learn new skills than children do?",
+          "How important is it for employees to keep learning throughout their careers?",
+          "Do universities prepare young people well for the world of work?",
+          "What role should employers play in training their staff?",
+          "How has technology changed the way people learn new skills?",
+          "Are practical skills becoming more valuable than academic qualifications?"
+        ],
+        "prepSeconds": 0,
+        "speakSeconds": 300
+      }
+    ]
+  },
+  {
+    "id": "st-04",
+    "title": "Speaking · Đề 4",
+    "topic": "Technology & communication",
+    "difficulty": "Trung bình",
+    "parts": [
+      {
+        "part": 1,
+        "title": "Part 1 · Giới thiệu và phỏng vấn",
+        "instruction": "Giám khảo hỏi về cách bạn dùng công nghệ và giữ liên lạc. Trả lời mỗi câu khoảng 20-30 giây.",
+        "questions": [
+          "How often do you use your mobile phone?",
+          "What do you use it for most of the time?",
+          "Do you prefer sending messages or making phone calls?",
+          "How do you keep in touch with friends who live far away?",
+          "Do you use social media much these days?",
+          "Can you remember a time when you did not have a smartphone?",
+          "Do you think you spend too much time online?",
+          "Do older people in your family find technology easy to use?",
+          "Is there a new piece of technology you would like to own?"
+        ],
+        "prepSeconds": 0,
+        "speakSeconds": 240
+      },
+      {
+        "part": 2,
+        "title": "Part 2 · Cue card",
+        "instruction": "Bạn có 1 phút chuẩn bị và nói trong 1-2 phút. Dành nhiều thời gian nhất cho ý cuối cùng.",
+        "cueCard": {
+          "topic": "Describe a piece of technology that has changed the way you live or work.",
+          "bullets": [
+            "what the technology is",
+            "when you started using it",
+            "how often you use it",
+            "and explain how it has changed your daily life"
+          ]
+        },
+        "questions": [],
+        "prepSeconds": 60,
+        "speakSeconds": 120
+      },
+      {
+        "part": 3,
+        "title": "Part 3 · Thảo luận",
+        "instruction": "Câu hỏi trừu tượng hơn, liên quan tới chủ đề Part 2. Trả lời 40-60 giây mỗi câu.",
+        "questions": [
+          "Has technology made communication between people better or worse?",
+          "Why do some people feel anxious when they are separated from their phones?",
+          "Should there be limits on how much time children spend in front of screens?",
+          "How might artificial intelligence change the way we communicate every day?",
+          "Are older generations being left behind by new technology?",
+          "What are the risks of relying too heavily on digital devices?"
+        ],
+        "prepSeconds": 0,
+        "speakSeconds": 300
+      }
+    ]
+  },
+  {
+    "id": "st-05",
+    "title": "Speaking · Đề 5",
+    "topic": "Media & entertainment",
+    "difficulty": "Khó",
+    "parts": [
+      {
+        "part": 1,
+        "title": "Part 1 · Giới thiệu và phỏng vấn",
+        "instruction": "Giám khảo hỏi về phim ảnh, âm nhạc và tin tức. Trả lời mỗi câu khoảng 20-30 giây.",
+        "questions": [
+          "What kind of films or television programmes do you enjoy?",
+          "Do you prefer watching films at home or at the cinema?",
+          "How often do you listen to music?",
+          "Has your taste in music changed over the years?",
+          "Do you ever read newspapers or news websites?",
+          "How do you usually find out what is happening in the world?",
+          "Do you trust the news you read online?",
+          "Do you ever watch programmes in English?",
+          "Would you like to work in the media industry?",
+          "What do you usually do to relax at the weekend?"
+        ],
+        "prepSeconds": 0,
+        "speakSeconds": 240
+      },
+      {
+        "part": 2,
+        "title": "Part 2 · Cue card",
+        "instruction": "Bạn có 1 phút chuẩn bị và nói trong 1-2 phút. Ở mức band cao, hãy thêm chi tiết và cảm xúc cụ thể.",
+        "cueCard": {
+          "topic": "Describe a film, series or programme that made a strong impression on you.",
+          "bullets": [
+            "what it was about",
+            "when and where you watched it",
+            "who you watched it with or recommended it to",
+            "and explain why it made such a strong impression on you"
+          ]
+        },
+        "questions": [],
+        "prepSeconds": 60,
+        "speakSeconds": 120
+      },
+      {
+        "part": 3,
+        "title": "Part 3 · Thảo luận",
+        "instruction": "Câu hỏi trừu tượng và mang tính tranh luận. Trả lời 40-60 giây mỗi câu, nêu quan điểm rõ ràng.",
+        "questions": [
+          "Why do you think stories and films have such a powerful effect on people?",
+          "To what extent do films and television shape the values of young people?",
+          "Is it the responsibility of the media to educate as well as to entertain?",
+          "How has streaming changed the way people watch films and series?",
+          "Do you think traditional cinemas and television channels will survive?",
+          "Should governments regulate the content that streaming platforms produce?"
+        ],
+        "prepSeconds": 0,
+        "speakSeconds": 300
+      }
+    ]
+  },
+  {
+    "id": "st-06",
+    "title": "Speaking · Đề 6",
+    "topic": "Environment & city life",
+    "difficulty": "Khó",
+    "parts": [
+      {
+        "part": 1,
+        "title": "Part 1 · Giới thiệu và phỏng vấn",
+        "instruction": "Giám khảo hỏi về nơi bạn sống và môi trường xung quanh. Trả lời mỗi câu khoảng 20-30 giây.",
+        "questions": [
+          "Do you live in a city or in the countryside?",
+          "What do you like about living there?",
+          "Are there many parks or green spaces near your home?",
+          "How often do you spend time outdoors?",
+          "Is air pollution a problem where you live?",
+          "Do you and your family recycle at home?",
+          "Which environmental problems are talked about most in your country?",
+          "Have you ever taken part in an environmental activity or campaign?",
+          "Would you prefer to live somewhere quieter in the future?"
+        ],
+        "prepSeconds": 0,
+        "speakSeconds": 240
+      },
+      {
+        "part": 2,
+        "title": "Part 2 · Cue card",
+        "instruction": "Bạn có 1 phút chuẩn bị và nói trong 1-2 phút. Hãy dùng ví dụ cụ thể về khu vực bạn sống.",
+        "cueCard": {
+          "topic": "Describe a change that would improve the area where you live.",
+          "bullets": [
+            "what the change would be",
+            "why the area needs it",
+            "who would benefit from it",
+            "and explain how it would affect daily life there"
+          ]
+        },
+        "questions": [],
+        "prepSeconds": 60,
+        "speakSeconds": 120
+      },
+      {
+        "part": 3,
+        "title": "Part 3 · Thảo luận",
+        "instruction": "Câu hỏi trừu tượng và mang tính tranh luận. Trả lời 40-60 giây mỗi câu, cân nhắc cả hai phía.",
+        "questions": [
+          "Who should be most responsible for solving environmental problems: individuals, companies or governments?",
+          "Why do many people find it so difficult to change their environmental habits?",
+          "How can cities be designed so that they are more pleasant places to live?",
+          "Can economic growth and environmental protection really go together?",
+          "What role should international agreements play in tackling climate change?",
+          "How do you imagine cities will look fifty years from now?"
+        ],
+        "prepSeconds": 0,
+        "speakSeconds": 300
+      }
+    ]
+  },
+  {
+    "id": "st-07",
+    "title": "Speaking Test: Daily Routines and Productivity",
+    "topic": "Daily routines and productivity",
+    "difficulty": "Trung bình",
+    "parts": [
+      {
+        "part": 1,
+        "title": "Introduction and General Questions",
+        "instruction": "Answer the following questions about your daily habits and how you manage your time.",
+        "questions": [
+          "What does your typical morning routine look like?",
+          "Do you prefer to wake up early or stay up late? Why?",
+          "How do you usually plan your daily schedule?",
+          "Is there anything you would like to change about your daily routine?",
+          "How do you feel when your routine is suddenly disrupted?",
+          "Do you think having a strict routine is important for everyone?",
+          "What part of the day do you feel most productive?",
+          "How do you usually unwind after a busy day?"
+        ],
+        "prepSeconds": 0,
+        "speakSeconds": 240
+      },
+      {
+        "part": 2,
+        "title": "Individual Long Turn",
+        "instruction": "Describe a productive day you once had. You will have 1 minute to prepare and up to 2 minutes to speak.",
+        "cueCard": {
+          "topic": "Describe a productive day you once had",
+          "bullets": [
+            "When this day happened",
+            "What you did on that day",
+            "Why you needed to be productive",
+            "and explain how you felt at the end of the day."
+          ]
+        },
+        "questions": [],
+        "prepSeconds": 60,
+        "speakSeconds": 120
+      },
+      {
+        "part": 3,
+        "title": "Two-way Discussion",
+        "instruction": "Discuss the following abstract questions related to productivity, time management, and modern lifestyles.",
+        "questions": [
+          "Why do some people find it difficult to maintain a consistent daily routine?",
+          "In what ways has modern technology affected our ability to stay productive?",
+          "Do you think working from home makes people more or less productive compared to working in an office?",
+          "How important is it for companies to encourage work-life balance for their employees?",
+          "Do you agree that people nowadays are obsessed with constant productivity?"
+        ],
+        "prepSeconds": 0,
+        "speakSeconds": 300
+      }
+    ]
+  },
+  {
+    "id": "st-08",
+    "title": "Speaking Test: A Useful Piece of Technology",
+    "topic": "Technology and Everyday Life",
+    "difficulty": "Trung bình",
+    "parts": [
+      {
+        "part": 1,
+        "title": "Introduction and Interview",
+        "instruction": "Answer the examiner's questions about your daily routine and technology habits.",
+        "questions": [
+          "What type of electronic device do you use the most every day?",
+          "How often do you buy new gadgets or technology products?",
+          "Is there any piece of technology that you find difficult to use?",
+          "What technology did you use when you were a child?",
+          "Do you think children nowadays spend too much time using electronic devices?",
+          "How has technology changed the way people communicate with each other?",
+          "Do you prefer reading digital books on a screen or traditional printed books?",
+          "Are there any new technological inventions that you are looking forward to trying?"
+        ],
+        "prepSeconds": 0,
+        "speakSeconds": 240
+      },
+      {
+        "part": 2,
+        "title": "Individual Long Turn",
+        "instruction": "Describe a useful piece of technology that you rely on regularly. You have one minute to prepare and up to two minutes to speak.",
+        "cueCard": {
+          "topic": "Describe a useful piece of technology that you rely on regularly.",
+          "bullets": [
+            "what this device is",
+            "how long you have had it",
+            "what you typically use it for",
+            "and explain why it is so useful to you in your daily life"
+          ]
+        },
+        "questions": [],
+        "prepSeconds": 60,
+        "speakSeconds": 120
+      },
+      {
+        "part": 3,
+        "title": "Two-way Discussion",
+        "instruction": "Discuss more abstract questions related to technology, human relationships, and the future.",
+        "questions": [
+          "In what ways has modern technology changed the traditional workplace environment?",
+          "Do you agree that technological advancements make people more isolated rather than more connected?",
+          "How might artificial intelligence influence traditional educational systems in the next few decades?",
+          "Should governments place stricter regulations on how tech companies collect and use personal data?",
+          "Do you think older generations face significant barriers when trying to adapt to modern technology?"
+        ],
+        "prepSeconds": 0,
+        "speakSeconds": 300
+      }
+    ]
+  },
+  {
+    "id": "st-09",
+    "title": "Speaking Test: Public spaces and community life",
+    "topic": "Public spaces and community life",
+    "difficulty": "Trung bình",
+    "parts": [
+      {
+        "part": 1,
+        "title": "Introduction and Interview",
+        "instruction": "Answer the following questions about yourself and your local environment.",
+        "questions": [
+          "What kinds of public spaces are most popular in your hometown?",
+          "Do you prefer visiting parks or indoor shopping malls in your free time?",
+          "How often do you visit public parks or green spaces?",
+          "What do you usually do when you spend time in a park?",
+          "Did you visit public spaces a lot when you were a child?",
+          "How have the public spaces in your city changed over the last ten years?",
+          "Do you think there are enough public spaces in your local area?",
+          "What facilities would you like to see added to public spaces in your neighborhood?"
+        ],
+        "prepSeconds": 0,
+        "speakSeconds": 240
+      },
+      {
+        "part": 2,
+        "title": "Long Turn",
+        "instruction": "Describe a public park or garden in your city that you enjoy visiting. You have one minute to prepare and up to two minutes to speak.",
+        "cueCard": {
+          "topic": "Describe a public park or garden in your city that you enjoy visiting",
+          "bullets": [
+            "where it is located",
+            "what it looks like and what facilities it has",
+            "how often you go there and who you go with",
+            "and explain why this park is important to you and your community."
+          ]
+        },
+        "questions": [],
+        "prepSeconds": 60,
+        "speakSeconds": 120
+      },
+      {
+        "part": 3,
+        "title": "Discussion",
+        "instruction": "Discuss the following deeper questions related to public spaces and community development.",
+        "questions": [
+          "How do public spaces contribute to the overall well-being of city residents?",
+          "To what extent is the design of public spaces important for fostering a sense of community?",
+          "Should governments prioritize funding for public parks over commercial infrastructure? Why?",
+          "How has modern technology changed the way people interact when they are in public spaces?",
+          "What challenges do urban planners face when trying to create green spaces in densely populated cities?",
+          "Do you think private spaces, such as shopping malls, will eventually replace traditional public squares?"
+        ],
+        "prepSeconds": 0,
+        "speakSeconds": 300
+      }
+    ]
+  },
+  {
+    "id": "st-10",
+    "title": "IELTS Speaking Test - Learning from Failure",
+    "topic": "Learning from failure",
+    "difficulty": "Trung bình",
+    "parts": [
+      {
+        "part": 1,
+        "title": "Introduction and Interview",
+        "instruction": "Answer the following questions about your daily life and experiences with mistakes.",
+        "questions": [
+          "Do you easily learn from your mistakes, or do you tend to repeat them?",
+          "How do you usually feel when something you planned does not work out?",
+          "Did your teachers or parents encourage you to make mistakes when you were a child?",
+          "Do you think children nowadays are afraid of making mistakes at school?",
+          "What was the last minor mistake you made recently?",
+          "Do you prefer to plan everything carefully to avoid failure, or just see what happens?",
+          "Is it important for people to talk about their failures publicly?",
+          "Do you think social media makes people hide their failures?"
+        ],
+        "prepSeconds": 0,
+        "speakSeconds": 240
+      },
+      {
+        "part": 2,
+        "title": "Individual Long Turn",
+        "instruction": "Describe a time when you failed at something important. You have 1 minute to prepare and up to 2 minutes to speak.",
+        "cueCard": {
+          "topic": "Describe a time when you failed at something important.",
+          "bullets": [
+            "What the situation was",
+            "Why you failed",
+            "How you reacted to this failure",
+            "and explain what you learned from this experience."
+          ]
+        },
+        "questions": [],
+        "prepSeconds": 60,
+        "speakSeconds": 120
+      },
+      {
+        "part": 3,
+        "title": "Two-way Discussion",
+        "instruction": "Discuss the following abstract questions related to failure and success.",
+        "questions": [
+          "Why do many people view failure as a negative reflection of their character rather than a learning opportunity?",
+          "How can educational systems better prepare students to handle setbacks and disappointments?",
+          "Do you agree that modern society puts too much emphasis on continuous success?",
+          "In what ways can a major corporate failure actually benefit an entire industry in the long run?",
+          "How does cultural background influence the way people perceive and react to personal failure?"
+        ],
+        "prepSeconds": 0,
+        "speakSeconds": 300
+      }
+    ]
+  }
+]

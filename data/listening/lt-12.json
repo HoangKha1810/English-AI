@@ -1,0 +1,230 @@
+{
+  "id": "lt-12",
+  "title": "Riverside Sports Complex Membership",
+  "difficulty": "Trung bình",
+  "durationMinutes": 8,
+  "topics": [
+    "Sports",
+    "Local services",
+    "Health and Fitness"
+  ],
+  "sections": [
+    {
+      "number": 1,
+      "title": "New Member Registration",
+      "context": "A man is talking to a receptionist at a sports centre to inquire about membership options and facilities.",
+      "audioSrc": "/audio/lt-12-s1.mp3",
+      "voices": {
+        "Sarah": "en-GB-SoniaNeural",
+        "Mark": "en-AU-WilliamNeural"
+      },
+      "transcript": [
+        {
+          "speaker": "Sarah",
+          "text": "Good morning! Welcome to the Riverside Sports Complex. How can I help you today?"
+        },
+        {
+          "speaker": "Mark",
+          "text": "Hi there. I’ve just moved to the area and I’m looking to join a local gym or sports centre. I saw your sign outside and thought I'd pop in."
+        },
+        {
+          "speaker": "Sarah",
+          "text": "That’s great to hear. We have a lot of different options depending on what you're looking for. To start, I’ll need to take down some of your personal details for our system."
+        },
+        {
+          "speaker": "Mark",
+          "text": "Sure, no problem."
+        },
+        {
+          "speaker": "Sarah",
+          "text": "First of all, what is your full name?"
+        },
+        {
+          "speaker": "Mark",
+          "text": "It’s Mark Peterson. That’s P-E-T-E-R-S-O-N."
+        },
+        {
+          "speaker": "Sarah",
+          "text": "Thank you, Mark. And what is your current home address?"
+        },
+        {
+          "speaker": "Mark",
+          "text": "I’m staying at 14 Oak Street... Oh, wait, sorry, that was my old apartment. I’m actually at number 41 Oak Street now. I still get them mixed up."
+        },
+        {
+          "speaker": "Sarah",
+          "text": "Haha, I understand. 41 Oak Street. Do you have a contact number we can reach you on?"
+        },
+        {
+          "speaker": "Mark",
+          "text": "Yes, it’s 07700 900 321."
+        },
+        {
+          "speaker": "Sarah",
+          "text": "0-7-7-0-0, 9-0-0, 3-2-1. Perfect. Now, we have three main membership tiers: Basic, Silver, and Premium. The Basic tier covers the gym only, Silver includes the swimming pool, and Premium gives you access to everything including the spa and sauna."
+        },
+        {
+          "speaker": "Mark",
+          "text": "I think the Premium one sounds best. I’ve been training for a marathon and the sauna would be great for recovery."
+        },
+        {
+          "speaker": "Sarah",
+          "text": "Excellent choice. And when would you like the membership to commence? We can start it today if you like."
+        },
+        {
+          "speaker": "Mark",
+          "text": "Today is the 10th of September... I think I'll wait until I get my next paycheck. Let’s set the start date for the 15th September."
+        },
+        {
+          "speaker": "Sarah",
+          "text": "Understood. Starting on the 15th. Now, let me give you a quick overview of our classes and facilities. We have a variety of group sessions. Are you interested in any particular sport?"
+        },
+        {
+          "speaker": "Mark",
+          "text": "I used to do a lot of yoga, but I want to try something that helps with core strength more specifically."
+        },
+        {
+          "speaker": "Sarah",
+          "text": "In that case, I’d highly recommend our Pilates class. It’s held every Tuesday and Thursday evening. It's very popular with our runners."
+        },
+        {
+          "speaker": "Mark",
+          "text": "That sounds perfect. Do I need to bring anything special for that?"
+        },
+        {
+          "speaker": "Sarah",
+          "text": "We provide the mats and any weights required, but for hygiene reasons, every member must bring their own towel to the sessions."
+        },
+        {
+          "speaker": "Mark",
+          "text": "That makes sense. What about storage? Are there lockers available?"
+        },
+        {
+          "speaker": "Sarah",
+          "text": "Yes, we have plenty of lockers in the changing rooms. They aren't free, though. There is a small charge of 2 pounds per use, or you can rent one for the whole month."
+        },
+        {
+          "speaker": "Mark",
+          "text": "I'll probably just pay as I go. What are the opening hours? I usually work late."
+        },
+        {
+          "speaker": "Sarah",
+          "text": "We open at 6:00 am for the early birds. On weekdays, we close at 10:30 pm, which should give you enough time after work. On weekends, we close a bit earlier at 8:00 pm."
+        },
+        {
+          "speaker": "Mark",
+          "text": "10:30 pm is great. One last thing, I noticed a lot of cars outside. Is there dedicated parking for members?"
+        },
+        {
+          "speaker": "Mark",
+          "text": "Yes, we have a large underground parking area. You just need to scan your membership card at the gate to get in for free. Otherwise, it's quite expensive to park on the street."
+        },
+        {
+          "speaker": "Sarah",
+          "text": "That's a relief. Well, I think I'm all set. Should I pay the registration fee now?"
+        },
+        {
+          "speaker": "Mark",
+          "text": "Yes, if you could please follow me to the terminal..."
+        }
+      ],
+      "groups": [
+        {
+          "id": "g1",
+          "type": "form_completion",
+          "range": "Questions 1-5",
+          "instruction": "Complete the form below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+          "wordLimit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "questions": [
+            {
+              "id": 1,
+              "type": "form_completion",
+              "prompt": "Surname:",
+              "answer": "Peterson",
+              "explanation": "Người nói đánh vần tên mình là P-E-T-E-R-S-O-N."
+            },
+            {
+              "id": 2,
+              "type": "form_completion",
+              "prompt": "Address: 41 _______ Street",
+              "answer": "Oak",
+              "explanation": "Mark ban đầu nói nhầm là số 14, sau đó sửa lại thành số 41 đường Oak."
+            },
+            {
+              "id": 3,
+              "type": "form_completion",
+              "prompt": "Phone number:",
+              "answer": "07700 900 321",
+              "explanation": "Số điện thoại được đọc trực tiếp trong transcript."
+            },
+            {
+              "id": 4,
+              "type": "form_completion",
+              "prompt": "Membership type:",
+              "answer": "Premium",
+              "explanation": "Mark chọn gói Premium vì có bao gồm phòng xông hơi (sauna)."
+            },
+            {
+              "id": 5,
+              "type": "form_completion",
+              "prompt": "Start date:",
+              "answer": "15th September",
+              "explanation": "Ngày bắt đầu được dời từ ngày 10 sang ngày 15 tháng 9."
+            }
+          ]
+        },
+        {
+          "id": "g2",
+          "type": "note_completion",
+          "range": "Questions 6-10",
+          "instruction": "Complete the notes below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+          "wordLimit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "intro": "Details of Facilities and Classes",
+          "questions": [
+            {
+              "id": 6,
+              "type": "note_completion",
+              "prompt": "Recommended class for core strength: _______",
+              "answer": "Pilates",
+              "explanation": "Sarah gợi ý lớp Pilates cho những người muốn tập trung vào sức mạnh cốt lõi."
+            },
+            {
+              "id": 7,
+              "type": "note_completion",
+              "prompt": "Must bring your own: _______",
+              "answer": "towel",
+              "explanation": "Trung tâm cung cấp thảm nhưng yêu cầu hội viên tự mang khăn tắm."
+            },
+            {
+              "id": 8,
+              "type": "note_completion",
+              "prompt": "Cost of locker per use: _______",
+              "answer": [
+                "2 pounds",
+                "£2"
+              ],
+              "explanation": "Phí sử dụng tủ đồ mỗi lần là 2 bảng."
+            },
+            {
+              "id": 9,
+              "type": "note_completion",
+              "prompt": "Closing time (weekdays): _______",
+              "answer": [
+                "10:30 pm",
+                "10.30 pm"
+              ],
+              "explanation": "Giờ đóng cửa vào các ngày trong tuần là 10:30 tối."
+            },
+            {
+              "id": 10,
+              "type": "note_completion",
+              "prompt": "Free parking available in the _______ area.",
+              "answer": "underground",
+              "explanation": "Bãi đậu xe miễn phí nằm ở khu vực hầm (underground)."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "id": "lt-05",
+  "title": "Museum Volunteer Program Recruitment",
+  "difficulty": "Trung bình",
+  "durationMinutes": 8,
+  "topics": [
+    "Volunteering",
+    "History",
+    "Community"
+  ],
+  "sections": [
+    {
+      "number": 1,
+      "title": "Museum Volunteer Program Inquiry",
+      "context": "A man named Alex is calling Sarah, the Volunteer Coordinator at the Midtown History Museum, to ask about volunteer opportunities.",
+      "audioSrc": "/audio/lt-05-s1.mp3",
+      "voices": {
+        "Sarah": "en-GB-SoniaNeural",
+        "Alex": "en-AU-WilliamNeural"
+      },
+      "transcript": [
+        {
+          "speaker": "Sarah",
+          "text": "Good morning, Midtown History Museum. This is Sarah, the Volunteer Coordinator, speaking. How can I help you today?"
+        },
+        {
+          "speaker": "Alex",
+          "text": "Hi Sarah, my name is Alex Thompson. I saw an advertisement on your website about the new volunteer program you're starting this spring. I’m very interested in getting involved."
+        },
+        {
+          "speaker": "Sarah",
+          "text": "That’s wonderful to hear, Alex! We are actually looking for several new people to help us out. Before we go into the details, I just need to fill out a quick interest form for our records. Is that okay?"
+        },
+        {
+          "speaker": "Alex",
+          "text": "Yes, of course. Go ahead."
+        },
+        {
+          "speaker": "Sarah",
+          "text": "Perfect. First, I need to know your current employment status or what you do. Are you a student at the university?"
+        },
+        {
+          "speaker": "Alex",
+          "text": "I actually finished my master's degree last year. I was a student for a long time, but right now I am working as a freelance designer. It gives me a bit of flexibility in my schedule."
+        },
+        {
+          "speaker": "Sarah",
+          "text": "A freelance designer, I see. That's a great skill set. Now, we have several departments. We have the Education wing, the Guest Services, and the Archives. Do you have a preference?"
+        },
+        {
+          "speaker": "Alex",
+          "text": "Well, I love interacting with people, but I've always been fascinated by old documents and preservation. I think I would be most useful in the Archives department."
+        },
+        {
+          "speaker": "Sarah",
+          "text": "Excellent. The Archives it is. Now, regarding your availability. We usually ask for one full day or two half-days. Which day would suit you best?"
+        },
+        {
+          "speaker": "Alex",
+          "text": "I thought about coming in on Mondays, but I realized the museum is closed to the public then. Oh, wait, I have a recurring client meeting every Tuesday morning. How about Thursday? Is that day available?"
+        },
+        {
+          "speaker": "Sarah",
+          "text": "Yes, Thursday is perfect for the Archives team. And would you prefer the morning or the afternoon shift?"
+        },
+        {
+          "speaker": "Alex",
+          "text": "I’m quite busy with my design work in the mornings, so the afternoon would be much better for me."
+        },
+        {
+          "speaker": "Sarah",
+          "text": "Understood. Afternoon shift on Thursdays. Now, there are a few administrative things. Because we work with historical artifacts and sometimes children's groups, we require all volunteers to provide two professional references. Do you think you can provide those?"
+        },
+        {
+          "speaker": "Alex",
+          "text": "Yes, I can definitely provide those. I'll email the contact details to you later today."
+        },
+        {
+          "speaker": "Sarah",
+          "text": "Great. Also, as part of our security protocol, you will need to undergo a criminal record check. The museum covers the cost of this, so you don't need to worry about the fee."
+        },
+        {
+          "speaker": "Alex",
+          "text": "That’s standard procedure, I understand. I'm happy to do that. What about the dress code? Do I need to wear a suit?"
+        },
+        {
+          "speaker": "Sarah",
+          "text": "Not at all. We provide a uniform for all our volunteers. It consists of a blue vest with the museum logo on it. You just need to wear comfortable trousers and closed-toe shoes."
+        },
+        {
+          "speaker": "Alex",
+          "text": "A blue vest sounds easy enough. When would the training start?"
+        },
+        {
+          "speaker": "Sarah",
+          "text": "We have two orientation sessions coming up. The first one is on March 5th, but that session is already full. The next available date for the orientation is March 12th. Does that work for you?"
+        },
+        {
+          "speaker": "Alex",
+          "text": "Let me check... March 12th. Yes, I've marked it in my calendar."
+        },
+        {
+          "speaker": "Sarah",
+          "text": "Fantastic. In the Archives, your primary task initially will be scanning old local newspapers from the 1920s so we can digitize them for our online collection."
+        },
+        {
+          "speaker": "Alex",
+          "text": "Scanning documents sounds right up my alley. I'm very comfortable with that kind of technology."
+        },
+        {
+          "speaker": "Sarah",
+          "text": "One last thing, Alex. All volunteers are required to attend a monthly meeting. This is where we discuss upcoming exhibits and any changes in museum policy. It's usually on the first Friday of every month."
+        },
+        {
+          "speaker": "Alex",
+          "text": "That sounds fair. I’ll make sure to keep my Fridays open for that monthly meeting. Thank you so much for the information, Sarah. I'm looking forward to it!"
+        },
+        {
+          "speaker": "Sarah",
+          "text": "You're very welcome, Alex. I'll send you an email with the application link now. Have a great day!"
+        }
+      ],
+      "groups": [
+        {
+          "id": "g1",
+          "type": "form_completion",
+          "range": "Questions 1-5",
+          "instruction": "Complete the form below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+          "wordLimit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "questions": [
+            {
+              "id": 1,
+              "type": "form_completion",
+              "prompt": "Current occupation:",
+              "answer": "freelance designer",
+              "explanation": "Alex nói: 'right now I am working as a freelance designer'."
+            },
+            {
+              "id": 2,
+              "type": "form_completion",
+              "prompt": "Preferred department:",
+              "answer": "Archives",
+              "explanation": "Alex chọn bộ phận Lưu trữ (Archives)."
+            },
+            {
+              "id": 3,
+              "type": "form_completion",
+              "prompt": "Available day:",
+              "answer": "Thursday",
+              "explanation": "Alex cân nhắc Thứ Hai và Thứ Ba nhưng cuối cùng chọn Thứ Năm (Thursday)."
+            },
+            {
+              "id": 4,
+              "type": "form_completion",
+              "prompt": "Available time:",
+              "answer": "afternoon",
+              "explanation": "Alex nói 'the afternoon would be much better for me'."
+            },
+            {
+              "id": 5,
+              "type": "form_completion",
+              "prompt": "Number of references required:",
+              "answer": "two",
+              "explanation": "Sarah yêu cầu 'two professional references'."
+            }
+          ]
+        },
+        {
+          "id": "g2",
+          "type": "note_completion",
+          "range": "Questions 6-10",
+          "instruction": "Complete the notes below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+          "wordLimit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "intro": "Volunteer Requirements and Training",
+          "questions": [
+            {
+              "id": 6,
+              "type": "note_completion",
+              "prompt": "Must undergo a __________ check.",
+              "answer": "criminal record",
+              "explanation": "Sarah đề cập đến 'criminal record check' như một thủ tục an ninh."
+            },
+            {
+              "id": 7,
+              "type": "note_completion",
+              "prompt": "The uniform provided is a __________.",
+              "answer": "blue vest",
+              "explanation": "Đồng phục là một chiếc áo vest màu xanh (blue vest)."
+            },
+            {
+              "id": 8,
+              "type": "note_completion",
+              "prompt": "Date of orientation session: __________.",
+              "answer": "March 12th",
+              "explanation": "Buổi định hướng ngày 5/3 đã đầy, Alex sẽ tham gia buổi ngày 12/3 (March 12th)."
+            },
+            {
+              "id": 9,
+              "type": "note_completion",
+              "prompt": "Main task: __________ old newspapers.",
+              "answer": "scanning",
+              "explanation": "Công việc chính ban đầu là quét (scanning) các tờ báo cũ."
+            },
+            {
+              "id": 10,
+              "type": "note_completion",
+              "prompt": "Must attend a __________ to discuss museum updates.",
+              "answer": "monthly meeting",
+              "explanation": "Tình nguyện viên cần tham gia cuộc họp hàng tháng (monthly meeting)."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

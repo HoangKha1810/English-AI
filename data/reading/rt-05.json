@@ -1,0 +1,190 @@
+{
+  "id": "rt-05",
+  "title": "Pollinating Insects and Biodiversity",
+  "module": "Academic",
+  "difficulty": "Trung bình",
+  "durationMinutes": 20,
+  "topics": [
+    "Environment",
+    "Biology",
+    "Ecology"
+  ],
+  "passages": [
+    {
+      "number": 1,
+      "title": "The Silent Architects: Insect Pollinators and Global Biodiversity",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "Pollination is a fundamental process for the survival of our ecosystems. Nearly 90% of the world’s wild flowering plant species depend, at least in part, on the transfer of pollen by animals. Most of these animals are insects, including bees, butterflies, moths, beetles, and flies. This biological interaction is not merely a natural curiosity; it is a cornerstone of global food security. Experts estimate that the economic value of pollination services provided by insects globally amounts to hundreds of billions of dollars annually, supporting the production of fruits, vegetables, seeds, nuts, and oil crops that provide vital micronutrients for the human diet."
+        },
+        {
+          "label": "B",
+          "text": "The relationship between pollinators and biodiversity extends far beyond the agricultural sector. By facilitating the reproduction of a vast array of plant species, insects help maintain the genetic diversity within plant populations. This diversity is crucial for ecosystem stability, as it allows plant communities to adapt to changing environmental conditions. Furthermore, healthy plant populations provide the necessary structure and food sources for countless other organisms, from soil microbes to birds and mammals. In essence, pollinators act as 'keystone species,' whose presence or absence can trigger a domino effect throughout the entire food web."
+        },
+        {
+          "label": "C",
+          "text": "Despite their critical importance, insect pollinators are facing an unprecedented crisis. Scientific studies indicate a dramatic decline in both the abundance and diversity of these insects worldwide. One of the primary drivers of this trend is habitat loss and fragmentation. As natural landscapes are converted for industrial agriculture and urban development, the flowers that insects rely on for food and the nesting sites they need for reproduction are disappearing. Small, isolated patches of habitat often lack the resources necessary to sustain healthy insect populations over the long term, leading to localized extinctions."
+        },
+        {
+          "label": "D",
+          "text": "The intensive use of agrochemicals is another significant factor. Pesticides, particularly neonicotinoids, have been shown to have devastating effects on non-target insects. These chemicals can impair the nervous systems of bees, affecting their ability to navigate, forage, and communicate with their hive members. Even at sub-lethal doses, the cumulative impact of these toxins weakens the immune systems of pollinators, making them more susceptible to diseases and parasites. The widespread application of herbicides also reduces the availability of wild flowers, further depriving insects of essential nutritional variety."
+        },
+        {
+          "label": "E",
+          "text": "Climate change is adding a new layer of complexity to the challenges faced by pollinators. As global temperatures rise, the timing of life cycle events for both plants and insects is shifting. This can lead to a phenomenon known as 'phenological mismatch,' where flowers bloom before their specific insect pollinators have emerged, or vice versa. Such a lack of synchronicity means that plants may go unpollinated, and insects may face starvation. Additionally, rising temperatures are forcing many species to migrate to higher altitudes or latitudes, but some may not be able to move fast enough to escape the changing conditions."
+        },
+        {
+          "label": "F",
+          "text": "The economic implications of losing these insect workers are profound. Many high-value crops, such as almonds, blueberries, and coffee, are almost entirely dependent on insect pollination. Without these services, the yields of these crops would plummet, leading to increased food prices and potential shortages. While some suggest that human-led mechanical pollination or the use of 'robotic bees' could fill the gap, these technologies are currently expensive, inefficient, and unable to replicate the complex ecological benefits provided by natural pollinators. The preservation of biological systems remains the most cost-effective strategy for food security."
+        },
+        {
+          "label": "G",
+          "text": "Fortunately, there is growing awareness of the need to protect pollinator populations. Conservation initiatives are being implemented at various scales, from international policies to local community projects. In agricultural landscapes, the creation of wildflower strips along the edges of crop fields has proven effective in providing refuge and food for insects. Similarly, in urban areas, the movement to transform private gardens and public parks into 'pollinator-friendly' spaces is gaining momentum. By planting a variety of native flowering plants and reducing the use of domestic pesticides, city dwellers can contribute significantly to the restoration of insect biodiversity."
+        },
+        {
+          "label": "H",
+          "text": "Ultimately, the fate of our pollinators is inextricably linked to our own. Protecting these small but mighty creatures requires a holistic approach that addresses the root causes of their decline. This includes transitioning towards more sustainable agricultural practices, protecting remaining natural habitats, and taking decisive action against climate change. By valuing the services that insects provide and ensuring their survival, we are not only safeguarding biodiversity but also securing the health and prosperity of future generations. The time to act is now, before the silent architects of our world disappear forever."
+        }
+      ],
+      "groups": [
+        {
+          "id": "g1",
+          "type": "matching_information",
+          "range": "Questions 1-4",
+          "instruction": "Which paragraph contains the following information? Write the correct letter, A-H, in boxes 1-4 on your answer sheet.",
+          "questions": [
+            {
+              "id": 1,
+              "type": "matching_information",
+              "prompt": "a reference to the financial worth of pollination services",
+              "answer": "A",
+              "explanation": "Đoạn A đề cập đến 'economic value of pollination services... amounts to hundreds of billions of dollars'."
+            },
+            {
+              "id": 2,
+              "type": "matching_information",
+              "prompt": "an explanation of how insects assist in maintaining plant genetics",
+              "answer": "B",
+              "explanation": "Đoạn B nói về việc côn trùng giúp duy trì 'genetic diversity within plant populations'."
+            },
+            {
+              "id": 3,
+              "type": "matching_information",
+              "prompt": "a mention of the lack of synchronicity between plants and insects due to weather changes",
+              "answer": "E",
+              "explanation": "Đoạn E giải thích về 'phenological mismatch' và sự thiếu đồng bộ (lack of synchronicity)."
+            },
+            {
+              "id": 4,
+              "type": "matching_information",
+              "prompt": "examples of specific agricultural products heavily reliant on insects",
+              "answer": "F",
+              "explanation": "Đoạn F liệt kê các loại cây cụ thể như 'almonds, blueberries, and coffee'."
+            }
+          ]
+        },
+        {
+          "id": "g2",
+          "type": "true_false_notgiven",
+          "range": "Questions 5-8",
+          "instruction": "Do the following statements agree with the information given in the Reading Passage? In boxes 5-8, write TRUE, FALSE, or NOT GIVEN.",
+          "questions": [
+            {
+              "id": 5,
+              "type": "true_false_notgiven",
+              "prompt": "Neonicotinoids can interfere with the way bees communicate with each other.",
+              "answer": "TRUE",
+              "explanation": "Đoạn D xác nhận hóa chất này ảnh hưởng đến khả năng 'navigate, forage, and communicate'."
+            },
+            {
+              "id": 6,
+              "type": "true_false_notgiven",
+              "prompt": "All insect species are equally affected by habitat fragmentation.",
+              "answer": "NOT GIVEN",
+              "explanation": "Bài viết đề cập đến tác động của việc chia cắt môi trường sống nhưng không khẳng định mọi loài bị ảnh hưởng như nhau."
+            },
+            {
+              "id": 7,
+              "type": "true_false_notgiven",
+              "prompt": "Mechanical pollination is currently a cheaper alternative to natural pollination.",
+              "answer": "FALSE",
+              "explanation": "Đoạn F nói rằng các công nghệ này 'expensive, inefficient' (đắt đỏ và kém hiệu quả)."
+            },
+            {
+              "id": 8,
+              "type": "true_false_notgiven",
+              "prompt": "Wildflower strips in farms can help provide necessary resources for insects.",
+              "answer": "TRUE",
+              "explanation": "Đoạn G đề cập 'wildflower strips... providing refuge and food for insects'."
+            }
+          ]
+        },
+        {
+          "id": "g3",
+          "type": "sentence_completion",
+          "range": "Questions 9-11",
+          "instruction": "Complete the sentences below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+          "wordLimit": "NO MORE THAN TWO WORDS",
+          "questions": [
+            {
+              "id": 9,
+              "type": "sentence_completion",
+              "prompt": "Genetic diversity is vital for ________ because it helps plants adapt to environment changes.",
+              "answer": "ecosystem stability",
+              "explanation": "Đoạn B: 'This diversity is crucial for ecosystem stability...'"
+            },
+            {
+              "id": 10,
+              "type": "sentence_completion",
+              "prompt": "The term ________ describes the timing gap between flower blooming and insect activity.",
+              "answer": "phenological mismatch",
+              "explanation": "Đoạn E định nghĩa hiện tượng lệch pha thời gian là 'phenological mismatch'."
+            },
+            {
+              "id": 11,
+              "type": "sentence_completion",
+              "prompt": "Efforts in ________ areas, such as creating small gardens, help support insect life.",
+              "answer": "urban",
+              "explanation": "Đoạn G nói về các nỗ lực ở 'urban areas' (khu vực thành thị)."
+            }
+          ]
+        },
+        {
+          "id": "g4",
+          "type": "multiple_choice",
+          "range": "Questions 12-13",
+          "instruction": "Choose the correct letter, A, B, C or D.",
+          "questions": [
+            {
+              "id": 12,
+              "type": "multiple_choice",
+              "prompt": "What is the main threat mentioned in Paragraph C?",
+              "options": [
+                "The rise of industrial chemicals.",
+                "The loss and fragmentation of habitat.",
+                "The impact of invasive species.",
+                "The lack of genetic diversity."
+              ],
+              "answer": "The loss and fragmentation of habitat.",
+              "explanation": "Đoạn C ghi rõ: 'One of the primary drivers... is habitat loss and fragmentation.'"
+            },
+            {
+              "id": 13,
+              "type": "multiple_choice",
+              "prompt": "What is the author's conclusion about the future of pollination?",
+              "options": [
+                "Technology will soon replace natural insects.",
+                "Food security is not dependent on biodiversity.",
+                "A holistic approach is needed to protect pollinators.",
+                "Urban gardening is the only solution to the crisis."
+              ],
+              "answer": "A holistic approach is needed to protect pollinators.",
+              "explanation": "Đoạn H kết luận: 'Protecting these small but mighty creatures requires a holistic approach'."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "id": "rt-11",
+  "title": "Ancient Maritime Exploration and Technology",
+  "module": "Academic",
+  "difficulty": "Trung bình",
+  "durationMinutes": 20,
+  "topics": [
+    "History",
+    "Maritime",
+    "Archaeology",
+    "Technology"
+  ],
+  "passages": [
+    {
+      "number": 1,
+      "title": "The Seafarers of Antiquity: Navigating the Ancient World",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "For millennia, the vast expanses of the world’s oceans served as both formidable barriers and inviting highways for early civilizations. While land routes were often treacherous and slow, the sea offered a means of transporting heavy goods and connecting distant cultures. The Phoenicians, often heralded as the masters of the Mediterranean, were among the first to establish extensive maritime trade networks. Their prowess was not merely a result of bravery but was underpinned by significant advancements in ship design and an intimate understanding of the natural world. By roughly 1200 BCE, they had moved beyond simple coastal hugging to traversing open waters, reaching as far as the British Isles and the Atlantic coast of Africa."
+        },
+        {
+          "label": "B",
+          "text": "The construction of ancient vessels was an intricate craft that evolved through trial and error. Unlike modern ships built with internal frames first, many ancient Mediterranean shipwrights employed the 'shell-first' method. This involved joining the outer planks of the hull together using mortise-and-tenon joints—a technique where a wooden tongue (the tenon) was inserted into a slot (the mortise) and secured with wooden pegs. This created a remarkably strong and flexible hull capable of withstanding the stresses of the open sea. As technology progressed, the Greeks and Romans refined these methods, eventually incorporating internal ribs to provide additional structural integrity, allowing for the construction of much larger merchant ships and warships."
+        },
+        {
+          "label": "C",
+          "text": "Navigating the featureless horizon of the open sea required more than just sturdy ships; it demanded sophisticated knowledge of the stars and the environment. Ancient mariners relied heavily on 'dead reckoning' and celestial navigation. By day, they observed the position of the sun and the flight patterns of birds to estimate their proximity to land. By night, they looked to the heavens. The Phoenicians are credited with the discovery of the 'Phoenician Star' (now known as Polaris or the North Star), which provided a fixed point for determining latitude. Furthermore, sailors utilized lead sounding weights coated with tallow to measure water depth and collect samples of the seabed, helping them identify their location based on the type of sand or mud retrieved."
+        },
+        {
+          "label": "D",
+          "text": "Maritime trade was the primary engine of economic growth in the Bronze and Iron Ages. Ships were the heavy-lifters of the ancient world, carrying vast quantities of commodities that were too bulky for overland caravans. Egyptian galleys transported cedar wood from Lebanon, while Minoan vessels carried olive oil and wine across the Aegean. One of the most critical resources was tin, essential for producing bronze. Because tin deposits were rare, sailors had to venture to the edges of the known world, such as Cornwall in modern-day Britain, to secure this precious metal. This trade did not just exchange goods; it facilitated the spread of alphabets, religious beliefs, and artistic styles, effectively shrinking the ancient world."
+        },
+        {
+          "label": "E",
+          "text": "The development of naval warfare mirrored the growth of maritime commerce. To protect trade routes from piracy and to project power, ancient states developed specialized warships. The most famous of these was the trireme, a vessel characterized by its three tiers of oars on each side. The trireme was designed for speed and maneuverability, featuring a bronze-sheathed ram at the prow intended to puncture the hulls of enemy ships. Athenian naval dominance in the 5th century BCE was built upon a fleet of these sophisticated machines, manned by highly trained citizens rather than slaves, highlighting the societal importance of maritime strength."
+        },
+        {
+          "label": "F",
+          "text": "Much of what we know about ancient seafaring comes from the field of underwater archaeology. Shipwrecks, such as the famous Uluburun wreck discovered off the coast of Turkey, serve as time capsules. Dating back to the 14th century BCE, the Uluburun ship carried a diverse cargo including ten tons of copper from Cyprus, glass ingots, ebony from Africa, and even Mycenaean pottery. The preservation of such sites allows historians to reconstruct trade patterns and understand the daily lives of sailors. The presence of artifacts from at least seven different cultures on a single ship suggests a highly globalized and interconnected Mediterranean economy long before the rise of the Roman Empire."
+        },
+        {
+          "label": "G",
+          "text": "Despite their ingenuity, ancient sailors faced constant peril. Mediterranean storms could be sudden and violent, and the lack of accurate charts meant that hidden reefs were a constant threat. Piracy was another endemic problem; many coastal communities in Cilicia and Crete turned to raiding merchant vessels as a primary source of income. To mitigate these risks, sailors often traveled in convoys and sought the protection of powerful navies. They also placed great faith in divine intervention, offering sacrifices to deities like Poseidon or Neptune before embarking on a voyage, hoping to appease the unpredictable forces of the sea."
+        },
+        {
+          "label": "H",
+          "text": "The legacy of ancient maritime expertise laid the foundations for the Age of Discovery and modern nautical science. The maps and astronomical observations recorded by scholars like Ptolemy remained influential for over a millennium. While the materials used in shipbuilding have shifted from wood and hemp to steel and fiberglass, the fundamental principles of buoyancy and navigation established by the Phoenicians, Greeks, and Romans continue to resonate. The sea remains, as it was in antiquity, a vital link for global communication and commerce, proving that the human impulse to explore the horizon is timeless."
+        }
+      ],
+      "groups": [
+        {
+          "id": "g1",
+          "type": "matching_information",
+          "range": "Questions 1-4",
+          "instruction": "Which paragraph contains the following information? Write the correct letter, A-H, in boxes 1-4 on your answer sheet.",
+          "questions": [
+            {
+              "id": 1,
+              "type": "matching_information",
+              "prompt": "A description of a specific technique used to join timber in ship construction.",
+              "answer": "B",
+              "explanation": "Đoạn B mô tả kỹ thuật 'mortise-and-tenon joints' để ghép các ván gỗ của thân tàu."
+            },
+            {
+              "id": 2,
+              "type": "matching_information",
+              "prompt": "A mention of how sailors used the seabed to determine their location.",
+              "answer": "C",
+              "explanation": "Đoạn C đề cập đến việc sử dụng quả dọi (sounding weights) để lấy mẫu cát hoặc bùn từ đáy biển nhằm xác định vị trí."
+            },
+            {
+              "id": 3,
+              "type": "matching_information",
+              "prompt": "The idea that ancient maritime trade led to the exchange of non-material culture.",
+              "answer": "D",
+              "explanation": "Đoạn D giải thích rằng thương mại không chỉ trao đổi hàng hóa mà còn thúc đẩy sự lan truyền của bảng chữ cái, tôn giáo và phong cách nghệ thuật."
+            },
+            {
+              "id": 4,
+              "type": "matching_information",
+              "prompt": "Reference to a shipwreck that demonstrates an early form of globalization.",
+              "answer": "F",
+              "explanation": "Đoạn F nói về tàu Uluburun với hàng hóa từ ít nhất 7 nền văn hóa khác nhau, cho thấy một nền kinh tế toàn cầu hóa sớm."
+            }
+          ]
+        },
+        {
+          "id": "g2",
+          "type": "true_false_notgiven",
+          "range": "Questions 5-8",
+          "instruction": "Do the following statements agree with the information given in the reading passage? In boxes 5-8, write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this.",
+          "questions": [
+            {
+              "id": 5,
+              "type": "true_false_notgiven",
+              "prompt": "Early Mediterranean shipbuilders typically constructed the internal frame of the ship before the outer hull.",
+              "answer": "FALSE",
+              "explanation": "Đoạn B nói rằng họ dùng phương pháp 'shell-first', trái ngược với việc xây dựng khung bên trong trước."
+            },
+            {
+              "id": 6,
+              "type": "true_false_notgiven",
+              "prompt": "The North Star was used by Phoenician sailors to help identify their latitude.",
+              "answer": "TRUE",
+              "explanation": "Đoạn C xác nhận người Phoenicia sử dụng 'Phoenician Star' (Polaris) để xác định vĩ độ."
+            },
+            {
+              "id": 7,
+              "type": "true_false_notgiven",
+              "prompt": "Athenian triremes were primarily operated by enslaved people to save on costs.",
+              "answer": "FALSE",
+              "explanation": "Đoạn E nêu rõ trireme được vận hành bởi các công dân được đào tạo bài bản chứ không phải nô lệ (highly trained citizens rather than slaves)."
+            },
+            {
+              "id": 8,
+              "type": "true_false_notgiven",
+              "prompt": "Ancient sailors found it more expensive to transport goods by sea than by land.",
+              "answer": "NOT GIVEN",
+              "explanation": "Bài đọc chỉ nói vận chuyển đường biển hiệu quả hơn cho hàng nặng và đường bộ thường chậm/nguy hiểm, không so sánh cụ thể về chi phí tiền bạc."
+            }
+          ]
+        },
+        {
+          "id": "g3",
+          "type": "sentence_completion",
+          "range": "Questions 9-11",
+          "instruction": "Complete the sentences below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+          "wordLimit": "NO MORE THAN TWO WORDS",
+          "questions": [
+            {
+              "id": 9,
+              "type": "sentence_completion",
+              "prompt": "The discovery of tin in places like ____ was vital for the production of bronze.",
+              "answer": "Cornwall",
+              "explanation": "Đoạn D đề cập đến việc thủy thủ phải đến những nơi như Cornwall để lấy thiếc (tin)."
+            },
+            {
+              "id": 10,
+              "type": "sentence_completion",
+              "prompt": "Ancient warships often used a ____ made of bronze to damage the ships of their enemies.",
+              "answer": "ram",
+              "explanation": "Đoạn E mô tả trireme có một cái 'ram' bọc đồng ở mũi tàu để đâm thủng tàu đối phương."
+            },
+            {
+              "id": 11,
+              "type": "sentence_completion",
+              "prompt": "To avoid the dangers of piracy and weather, merchant ships frequently moved in ____.",
+              "answer": "convoys",
+              "explanation": "Đoạn G nói rằng để giảm thiểu rủi ro, các thủy thủ thường đi theo các đoàn hộ tống (convoys)."
+            }
+          ]
+        },
+        {
+          "id": "g4",
+          "type": "multiple_choice",
+          "range": "Questions 12-13",
+          "instruction": "Choose the correct letter, A, B, C or D.",
+          "questions": [
+            {
+              "id": 12,
+              "type": "multiple_choice",
+              "prompt": "What is the main point the author makes regarding the Uluburun shipwreck in Paragraph F?",
+              "options": [
+                "It proves that ancient ships were larger than previously thought.",
+                "It provides evidence of a highly interconnected ancient economy.",
+                "It shows that copper was the most valuable trade item in the Bronze Age.",
+                "It illustrates the dangerous nature of the Turkish coastline."
+              ],
+              "answer": "It provides evidence of a highly interconnected ancient economy.",
+              "explanation": "Đoạn F kết luận rằng sự hiện diện của hiện vật từ 7 nền văn hóa trên một con tàu cho thấy một nền kinh tế kết nối cao."
+            },
+            {
+              "id": 13,
+              "type": "multiple_choice",
+              "prompt": "According to the passage, how do ancient maritime traditions relate to the modern world?",
+              "options": [
+                "Modern navigation no longer relies on the stars.",
+                "The materials used in shipbuilding have remained unchanged.",
+                "The basic principles of navigation and buoyancy are still relevant today.",
+                "Modern commerce has largely moved away from sea routes."
+              ],
+              "answer": "The basic principles of navigation and buoyancy are still relevant today.",
+              "explanation": "Đoạn H khẳng định rằng mặc dù vật liệu thay đổi, các nguyên tắc cơ bản về độ nổi và định hướng vẫn tiếp tục vang vọng (continue to resonate)."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

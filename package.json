@@ -1,0 +1,30 @@
+{
+  "name": "ielts-luyen-thi",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "gen:tests": "node scripts/generate-tests.mjs",
+    "gen:audio": "python3 scripts/generate_audio.py"
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "dependencies": {
+    "firebase": "^12.19.0",
+    "lucide-react": "^1.45.0",
+    "next": "16.3.5",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^5.9.2"
+  }
+}

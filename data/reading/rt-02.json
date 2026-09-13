@@ -1,0 +1,206 @@
+{
+  "id": "rt-02",
+  "title": "Reading Mini Test · Giọng hót của loài chim",
+  "module": "Academic",
+  "difficulty": "Dễ",
+  "durationMinutes": 20,
+  "topics": [
+    "Sinh học"
+  ],
+  "passages": [
+    {
+      "number": 1,
+      "title": "Why birds have accents",
+      "subtitle": "Phương ngữ trong tiếng hót của chim: cách chim non học hót và điều gì xảy ra ở thành phố.",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "Travel twenty kilometres along a coastal valley in California and the sparrows begin to sound different. The birds are the same species, wearing the same black-and-white striped cap, but the whistles and trills at the end of their songs shift into another pattern, and the change can happen over a distance a person could walk in an afternoon. Ornithologists call these local versions dialects, and, less formally, accents. They are not random noise. A dialect is learned, passed from one generation of birds to the next, and defended by the same social pressures that keep human accents alive in neighbouring towns."
+        },
+        {
+          "label": "B",
+          "text": "The classic study animal is the white-crowned sparrow, whose populations around San Francisco Bay were mapped in detail from the 1960s onwards. Within a single dialect area, males share the shape of the introductory whistle and the order of the trills that follow. Cross an invisible boundary and those elements are replaced, sometimes abruptly, although the underlying structure of the song remains recognisable to any listener who knows the species. Similar patterns have since been described in finches, wrens and parrots. What varies between species is how sharp the boundaries are and how long a given dialect survives: some persist for decades, while others drift noticeably within ten years."
+        },
+        {
+          "label": "C",
+          "text": "The reason a song can have a local accent at all is that it is learned rather than inherited whole. Young males pass through two stages. In the first, lasting a few weeks after they leave the nest, they listen and memorise, storing a template of the songs around them without yet producing anything like them. In the second, which may begin months later, they practise. Early attempts, known as subsong, are quiet, rambling and unstructured, rather like the babbling of a human infant. Gradually the bird narrows its output until it matches the stored template, at which point the song crystallises and changes very little for the rest of its life."
+        },
+        {
+          "label": "D",
+          "text": "Much of what is known about the two stages comes from birds raised in soundproof rooms. A sparrow that hears no adult of its own kind still sings, but produces a simplified song, missing the fine detail of any dialect. A bird played recordings during its first summer learns them, provided the recordings are of its own species; songs of other species are generally ignored, which suggests that the young bird begins with a rough idea of what it should be listening for. Curiously, a live tutor beats a loudspeaker: birds allowed to interact with an adult will copy songs they reject when the same songs arrive from a machine."
+        },
+        {
+          "label": "E",
+          "text": "Dialects persist because of where birds go next. Young males of many songbirds settle within a few kilometres of the place they hatched, so the songs they memorised are still the songs of their neighbours. A male whose song matches those neighbours seems to fare better in disputes over territory: playback experiments show stronger responses to local songs than to foreign ones, which implies that residents treat an outsider's song as less threatening, or at least as less relevant. There is also evidence in some species that females respond more readily to the dialect they grew up with, though this varies and is harder to demonstrate in the field."
+        },
+        {
+          "label": "F",
+          "text": "City life interferes with the whole arrangement. Traffic, machinery and ventilation systems generate a continuous rumble concentrated at low frequencies, exactly the range in which many songs carry their energy. Urban birds respond by shifting upward: populations of great tits and several other species sing at higher pitches in noisy districts than their country relatives, and they often sing louder, faster and for shorter stretches. Some sing before dawn instead, using the brief quiet before the rush hour. These adjustments work, but they are not free. A higher, shorter song may carry less information about the singer's quality, and not every species is flexible enough to make them."
+        },
+        {
+          "label": "G",
+          "text": "A natural experiment in 2020 made the effect unusually clear. When traffic in San Francisco fell sharply during the pandemic lockdowns, researchers recording white-crowned sparrows in the city found that the birds quickly sang more quietly, and at lower frequencies, than they had the previous year, producing songs closer to those of rural populations. Their songs also travelled further. The finding cuts both ways for conservation: it shows that some species can readjust rapidly once the pressure is removed, and it shows how much of their normal communication urban noise had been taking away."
+        }
+      ],
+      "groups": [
+        {
+          "id": "p1g1",
+          "type": "true_false_notgiven",
+          "range": "Questions 1-5",
+          "instruction": "Do the following statements agree with the information given in the passage? Write TRUE, FALSE or NOT GIVEN.",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "questions": [
+            {
+              "id": 1,
+              "type": "true_false_notgiven",
+              "prompt": "Birdsong dialects can change over quite short distances.",
+              "answer": "TRUE",
+              "explanation": "Đoạn A nói chỉ cần đi hai mươi kilômét dọc một thung lũng ven biển California là tiếng chim đã khác, một khoảng cách người ta có thể đi bộ trong một buổi chiều."
+            },
+            {
+              "id": 2,
+              "type": "true_false_notgiven",
+              "prompt": "All bird dialects last for roughly the same length of time.",
+              "answer": "FALSE",
+              "explanation": "Đoạn B cho biết có phương ngữ tồn tại hàng chục năm trong khi phương ngữ khác đã biến đổi rõ rệt chỉ trong mười năm."
+            },
+            {
+              "id": 3,
+              "type": "true_false_notgiven",
+              "prompt": "Parrots have the sharpest dialect boundaries of any group of birds.",
+              "answer": "NOT GIVEN",
+              "explanation": "Đoạn B chỉ nêu vẹt là một trong những nhóm có hiện tượng phương ngữ, chứ không so sánh độ rõ nét của ranh giới giữa các nhóm chim."
+            },
+            {
+              "id": 4,
+              "type": "true_false_notgiven",
+              "prompt": "A young sparrow that never hears adults of its own species produces no song at all.",
+              "answer": "FALSE",
+              "explanation": "Đoạn D nói con chim sẻ đó vẫn hót, nhưng bài hót bị đơn giản hóa và thiếu các chi tiết tinh tế của bất kỳ phương ngữ nào."
+            },
+            {
+              "id": 5,
+              "type": "true_false_notgiven",
+              "prompt": "Young male songbirds usually settle a long way from the place where they hatched.",
+              "answer": "FALSE",
+              "explanation": "Đoạn E khẳng định chim đực non của nhiều loài định cư trong phạm vi vài kilômét quanh nơi chúng nở ra."
+            }
+          ]
+        },
+        {
+          "id": "p1g2",
+          "type": "matching_information",
+          "range": "Questions 6-8",
+          "instruction": "Which paragraph contains the following information? Write the correct letter A-G.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "questions": [
+            {
+              "id": 6,
+              "type": "matching_information",
+              "prompt": "a comparison between a young bird's first singing and the speech of a human baby",
+              "answer": "C",
+              "explanation": "Đoạn C ví subsong, những tiếng hót đầu tiên còn lộn xộn, với tiếng bi bô của em bé."
+            },
+            {
+              "id": 7,
+              "type": "matching_information",
+              "prompt": "an example of birds changing their song when a disturbance was reduced",
+              "answer": "G",
+              "explanation": "Đoạn G kể về việc chim sẻ ở San Francisco hót nhỏ hơn và trầm hơn khi lượng xe cộ giảm mạnh trong thời gian phong tỏa năm 2020."
+            },
+            {
+              "id": 8,
+              "type": "matching_information",
+              "prompt": "a reason for believing that song learning is guided from the beginning",
+              "answer": "D",
+              "explanation": "Đoạn D nói chim non bỏ qua bài hót của loài khác, điều này gợi ý rằng nó đã có sẵn một ý niệm sơ bộ về thứ cần lắng nghe."
+            }
+          ]
+        },
+        {
+          "id": "p1g3",
+          "type": "sentence_completion",
+          "range": "Questions 9-11",
+          "instruction": "Complete the sentences below. Choose NO MORE THAN TWO WORDS FROM THE PASSAGE for each answer.",
+          "wordLimit": "NO MORE THAN TWO WORDS FROM THE PASSAGE",
+          "questions": [
+            {
+              "id": 9,
+              "type": "sentence_completion",
+              "prompt": "A young bird's first quiet and unstructured attempts at singing are called ______.",
+              "answer": [
+                "subsong"
+              ],
+              "explanation": "Đoạn C gọi những nỗ lực hót đầu tiên, nhỏ và không có cấu trúc, là subsong."
+            },
+            {
+              "id": 10,
+              "type": "sentence_completion",
+              "prompt": "When the song finally matches the stored template, it ______ and hardly changes again.",
+              "answer": [
+                "crystallises",
+                "crystallizes"
+              ],
+              "explanation": "Đoạn C viết rằng đến lúc đó bài hót kết tinh (crystallises) và gần như không đổi trong suốt phần đời còn lại."
+            },
+            {
+              "id": 11,
+              "type": "sentence_completion",
+              "prompt": "In cities, low-frequency noise is produced by traffic, machinery and ______ systems.",
+              "answer": [
+                "ventilation"
+              ],
+              "explanation": "Đoạn F liệt kê giao thông, máy móc và hệ thống thông gió (ventilation systems) là nguồn tiếng ồn tần số thấp."
+            }
+          ]
+        },
+        {
+          "id": "p1g4",
+          "type": "multiple_choice",
+          "range": "Questions 12-13",
+          "instruction": "Choose the correct answer for each question.",
+          "questions": [
+            {
+              "id": 12,
+              "type": "multiple_choice",
+              "prompt": "What do experiments involving live tutors show?",
+              "options": [
+                "Young birds will copy songs from a live adult that they refuse to learn from recordings.",
+                "Live tutors teach young birds the songs of several different species.",
+                "Birds learn fastest when several loudspeakers are played at the same time.",
+                "Adult birds stop singing when young birds are present."
+              ],
+              "answer": "Young birds will copy songs from a live adult that they refuse to learn from recordings.",
+              "explanation": "Đoạn D nói chim được tiếp xúc trực tiếp với một con trưởng thành sẽ bắt chước những bài hót mà chúng từ chối học khi nghe qua loa."
+            },
+            {
+              "id": 13,
+              "type": "multiple_choice",
+              "prompt": "What does the writer say about the adjustments that city birds make?",
+              "options": [
+                "They allow urban birds to sing for much longer periods.",
+                "They have a cost and are not possible for every species.",
+                "They are gradually being copied by birds in the countryside.",
+                "They have made dialects unnecessary in urban areas."
+              ],
+              "answer": "They have a cost and are not possible for every species.",
+              "explanation": "Đoạn F nói những điều chỉnh này có hiệu quả nhưng không miễn phí: bài hót cao và ngắn hơn có thể truyền tải ít thông tin hơn, và không phải loài nào cũng đủ linh hoạt để làm vậy."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
