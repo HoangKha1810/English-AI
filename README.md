@@ -165,6 +165,26 @@ npm run gen:audio -- --test lt-01   # chỉ tạo cho một đề
 
 edge-tts dùng giọng neural của Microsoft Edge, miễn phí và không giới hạn.
 
+### Nghe lại đúng đoạn chứa đáp án
+
+Sau khi nộp bài Listening và bấm **Xem lại từng câu**, mỗi câu có nút **Nghe đoạn này**
+để phát lại đúng đoạn ghi âm chứa đáp án của câu đó.
+
+Web tự dò đáp án nằm ở lượt nói nào trong transcript (hiểu được cả khi số được đọc
+bằng chữ, ví dụ đáp án `550` trong câu "five hundred and fifty"), rồi quy ra mốc thời
+gian trong file MP3. Nếu chưa có file mốc thời gian, mốc được ước lượng theo độ dài
+từng lượt nói — vẫn dùng được, chỉ lệch vài giây nên đoạn phát được nới rộng ra hai đầu.
+
+Muốn chính xác tuyệt đối thì chạy lại một lần:
+
+```bash
+npm run gen:audio -- --force
+```
+
+Lần chạy này ghi thêm `public/audio/<đề>-s<n>.timings.json` chứa mốc bắt đầu và kết
+thúc của từng lượt nói. Có file đó rồi thì đoạn phát lại khớp chính xác. Các đề tạo
+mới sau này sẽ tự có file mốc thời gian ngay từ đầu.
+
 ---
 
 ## 6. Thêm đề thi mới

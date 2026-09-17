@@ -33,6 +33,8 @@ OUT = ROOT / "public" / "audio"
 DEFAULT_VOICE = "en-GB-SoniaNeural"
 GAP_SECONDS = 0.55
 HAS_FFMPEG = shutil.which("ffmpeg") is not None
+HAS_FFPROBE = shutil.which("ffprobe") is not None
+BITRATE_KBPS = 48
 
 
 async def say(text: str, voice: str, path: Path) -> None:
@@ -67,14 +69,49 @@ def concat_raw(parts: list[Path], out: Path) -> None:
             f.write(p.read_bytes())
 
 
+def probe_duration(path: Path) -> float:
+    """Thoi luong mot file mp3, tinh bang giay."""
+    if HAS_FFPROBE:
+        try:
+            r = subprocess.run(
+                ["ffprobe", "-v", "error", "-show_entries", "format=duration",
+                 "-of", "default=noprint_wrappers=1:nokey=1", str(path)],
+                capture_output=True, text=True, check=True,
+            )
+            return float(r.stdout.strip())
+        except Exception:
+            pass
+    # Khong co ffprobe: uoc luong theo dung luong.
+    # edge-tts tra ve mp3 mono 24kHz 48kbps nen 6 KB ~ 1 giay.
+    return path.stat().st_size * 8 / (BITRATE_KBPS * 1000)
+
+
+def write_timings(parts: list[Path], out: Path, gap: float) -> Path:
+    """Ghi moc bat dau/ket thuc cua tung luot noi, de web nghe lai dung doan."""
+    timings = []
+    t = 0.0
+    for i, piece in enumerate(parts):
+        d = probe_duration(piece)
+        timings.append({"start": round(t, 3), "end": round(t + d, 3)})
+        t += d
+        if i < len(parts) - 1:
+            t += gap
+    dest = out.parent / (out.stem + ".timings.json")
+    dest.write_text(json.dumps(timings, ensure_ascii=False), encoding="utf-8")
+    return dest
+
+
 async def build_section(test_id: str, section: dict, force: bool) -> None:
     number = section["number"]
     out = ROOT / "public" / section["audioSrc"].lstrip("/")
     out.parent.mkdir(parents=True, exist_ok=True)
 
-    if out.exists() and not force:
+    timings_path = out.parent / (out.stem + ".timings.json")
+    if out.exists() and timings_path.exists() and not force:
         print(f"  bo qua  section {number} (da co {out.name})")
         return
+    if out.exists() and not timings_path.exists() and not force:
+        print(f"  tao lai section {number}: thieu file moc thoi gian")
 
     voices = section.get("voices") or {}
     transcript = section["transcript"]
@@ -105,8 +142,10 @@ async def build_section(test_id: str, section: dict, force: bool) -> None:
         else:
             concat_raw(parts, out)
 
+        timing_file = write_timings(parts, out, GAP_SECONDS if HAS_FFMPEG else 0.0)
+
     size_kb = out.stat().st_size // 1024
-    print(f"  xong    {out.name} ({size_kb} KB)")
+    print(f"  xong    {out.name} ({size_kb} KB) + {timing_file.name}")
 
 
 async def main() -> None:

@@ -12,6 +12,12 @@ import { AnswerPalette } from "@/components/exam/AnswerPalette";
 import { QuestionGroupBlock } from "@/components/exam/QuestionGroupBlock";
 import { ResultPanel } from "@/components/exam/ResultPanel";
 import { ListeningPlayer } from "@/components/exam/ListeningPlayer";
+import {
+  AnswerClip,
+  AnswerClipProvider,
+  useCueMap,
+  useSectionAudio,
+} from "@/components/exam/AnswerClip";
 import { accuracyByType, gradeGroups, isAnswered, type AnswerMap } from "@/lib/grade";
 import { bandFromRaw } from "@/lib/band";
 import { useAuth } from "@/lib/auth-context";
@@ -43,6 +49,10 @@ export function ListeningExam({ test }: { test: ListeningTest }) {
     [allGroups]
   );
   const section = test.sections[sectionIdx];
+
+  /* Moc thoi gian cua section, dung cho nut "nghe doan nay" khi xem lai */
+  const sectionAudio = useSectionAudio(section);
+  const cueMap = useCueMap(section, sectionAudio);
 
   const setAnswer = useCallback(
     (id: number, value: string | string[]) => {
@@ -274,18 +284,28 @@ export function ListeningExam({ test }: { test: ListeningTest }) {
             />
           </GlassCard>
 
-          <div className="space-y-8">
-            {section.groups.map((g) => (
-              <QuestionGroupBlock
-                key={g.id}
-                group={g}
-                answers={answers}
-                onAnswer={setAnswer}
-                disabled={reviewing}
-                review={reviewing ? result?.perQuestion : undefined}
-              />
-            ))}
-          </div>
+          <AnswerClipProvider src={section.audioSrc}>
+            <div className="space-y-8">
+              {section.groups.map((g) => (
+                <QuestionGroupBlock
+                  key={g.id}
+                  group={g}
+                  answers={answers}
+                  onAnswer={setAnswer}
+                  disabled={reviewing}
+                  review={reviewing ? result?.perQuestion : undefined}
+                  questionExtra={
+                    reviewing && sectionAudio.available
+                      ? (q) =>
+                          cueMap[q.id] ? (
+                            <AnswerClip questionId={q.id} cue={cueMap[q.id]} />
+                          ) : null
+                      : undefined
+                  }
+                />
+              ))}
+            </div>
+          </AnswerClipProvider>
 
           {reviewing && (
             <GlassCard className="p-5">

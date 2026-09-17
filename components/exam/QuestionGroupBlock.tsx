@@ -1,5 +1,6 @@
 "use client";
 
+import type { ReactNode } from "react";
 import { Check, X } from "lucide-react";
 import type { Question, QuestionGroup } from "@/lib/types";
 import type { AnswerMap } from "@/lib/grade";
@@ -14,6 +15,8 @@ interface Props {
   disabled?: boolean;
   /** Che do xem lai: map id -> dung/sai */
   review?: Record<number, boolean>;
+  /** Noi dung phu hien duoi moi cau khi xem lai, vi du nut nghe lai doan audio */
+  questionExtra?: (q: Question) => ReactNode;
 }
 
 /** Chip khi option ngan, dropdown khi option dai */
@@ -29,6 +32,7 @@ export function QuestionGroupBlock({
   onAnswer,
   disabled,
   review,
+  questionExtra,
 }: Props) {
   const ids = group.questions.map((q) => q.id);
   const inlineIntro = introHasBlanks(group.intro);
@@ -114,6 +118,7 @@ export function QuestionGroupBlock({
               q={q}
               given={answers[String(q.id)]}
               ok={review[q.id]}
+              extra={questionExtra?.(q)}
             />
           ))}
         </ol>
@@ -132,6 +137,7 @@ export function QuestionGroupBlock({
               onAnswer={onAnswer}
               disabled={disabled}
               state={stateOf(q.id)}
+              extra={questionExtra?.(q)}
             />
           ))}
         </ol>
@@ -148,6 +154,7 @@ function QuestionRow({
   onAnswer,
   disabled,
   state,
+  extra,
 }: {
   q: Question;
   group: QuestionGroup;
@@ -156,6 +163,7 @@ function QuestionRow({
   onAnswer: (id: number, v: string | string[]) => void;
   disabled?: boolean;
   state?: "correct" | "wrong";
+  extra?: ReactNode;
 }) {
   const single = Array.isArray(value) ? (value[0] ?? "") : (value ?? "");
   const multi = Array.isArray(value) ? value : value ? [value] : [];
@@ -363,6 +371,7 @@ function QuestionRow({
                   {q.explanation}
                 </p>
               )}
+              {extra}
             </div>
           )}
         </div>
@@ -376,10 +385,12 @@ function ReviewRow({
   q,
   given,
   ok,
+  extra,
 }: {
   q: Question;
   given: string | string[] | undefined;
   ok: boolean;
+  extra?: ReactNode;
 }) {
   const shown = Array.isArray(given) ? given.join(", ") : (given ?? "");
   return (
@@ -421,6 +432,7 @@ function ReviewRow({
               {q.explanation}
             </p>
           )}
+          {extra}
         </div>
       </div>
     </li>
